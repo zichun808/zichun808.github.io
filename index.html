@@ -3,10 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>井字遊戲</title>
+    <style>
+        html{
+            height: 100%;
+            width: 100%;
+        }
+        body,button,html,input,select{
+            font-family: "Microsoft JhengHei";
+        }
+        .btn:hover{
+            cursor: pointer;
+        }
+        .btn{
+            border-radius: 5px;
+            font-size: 32px;
+            color: #fff;
+            font-weight: normal;
+            padding: 10px 20px;
+            margin: 5px 2px;
+            width: 80px;
+            height: 80px;
+        }
+        .reset{
+            border: 5px;
+            border-radius: 10px;
+            font-size: 24px;
+            color: #eb4034;
+            font-weight: normal;
+            padding: 10px 20px;
+            margin: 5px 2px;
+            width: 120px;
+            height: 60px;
+        }
+        .result{
+            color: #4169e1;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        ol li{
+            font-size: 24px;
+        }
+    </style>
 </head>
 <body>
     <h1>嗨</h1>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sit sint maiores tempore, incidunt dolore dignissimos consequuntur voluptates, dolorem similique odio debitis hic earum nesciunt quis voluptatum doloremque laboriosam dolores!
+    <div class="container">
+        <div class="row-mt-4">
+            <div clas="col-lg-4">
+                <button type="button" id="1" class="btn">&nbsp</button>
+                <button type="button" id="2" class="btn">&nbsp</button>
+                <button type="button" id="3" class="btn">&nbsp</button>
+                <br>
+                <button type="button" id="4" class="btn">&nbsp</button>
+                <button type="button" id="5" class="btn">&nbsp</button>
+                <button type="button" id="6" class="btn">&nbsp</button>
+                <br>
+                <button type="button" id="7" class="btn">&nbsp</button>
+                <button type="button" id="8" class="btn">&nbsp</button>
+                <button type="button" id="9" class="btn">&nbsp</button>
+            </div>
+            <div class="col-lg-4">
+                <p id="result" class="result">Result</p>
+                <button type="button" id="reset" class="reset">重製</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

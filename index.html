@@ -3,72 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>井字遊戲</title>
+    <title>井字遊戲 by zichun</title>
     <style>
-        html{
+        html, body {
             height: 100%;
             width: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        body,button,html,input,select{
+        body, button, html, input, select {
             font-family: "Microsoft JhengHei";
         }
-        .btn:hover{
-            cursor: pointer;
-        }
-        .btn{
+        .btn-ttt {
             border-radius: 5px;
             font-size: 32px;
             color: #fff;
             font-weight: normal;
-            padding: 10px 20px;
-            margin: 5px 2px;
+            padding: 0;
+            margin: 5px; 
             width: 80px;
             height: 80px;
+            background-color: #606060;
+            display: inline-block;
+            text-align: center; 
+            line-height: 80px;
+            vertical-align: top; 
         }
-        .reset{
+        .btn-ttt:focus {
+            outline: none; 
+        }
+        .reset {
             border: 5px;
             border-radius: 10px;
             font-size: 24px;
             color: #eb4034;
             font-weight: normal;
             padding: 10px 20px;
-            margin: 5px 2px;
+            margin: 20px 0; 
             width: 120px;
             height: 60px;
         }
-        .result{
+        .result {
             color: #4169e1;
             font-size: 48px;
             font-weight: bold;
+            margin-top: 20px;
         }
-        ol li{
-            font-size: 24px;
+        .container {
+            text-align: center;
+        }
+        .row-mt-4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .btn-row {
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
 <body>
-    <h1>嗨</h1>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sit sint maiores tempore, incidunt dolore dignissimos consequuntur voluptates, dolorem similique odio debitis hic earum nesciunt quis voluptatum doloremque laboriosam dolores!
     <div class="container">
         <div class="row-mt-4">
-            <div clas="col-lg-4">
-                <button type="button" id="1" class="btn">&nbsp</button>
-                <button type="button" id="2" class="btn">&nbsp</button>
-                <button type="button" id="3" class="btn">&nbsp</button>
-                <br>
-                <button type="button" id="4" class="btn">&nbsp</button>
-                <button type="button" id="5" class="btn">&nbsp</button>
-                <button type="button" id="6" class="btn">&nbsp</button>
-                <br>
-                <button type="button" id="7" class="btn">&nbsp</button>
-                <button type="button" id="8" class="btn">&nbsp</button>
-                <button type="button" id="9" class="btn">&nbsp</button>
+            <div class="col-lg-4">
+                <div class="btn-row">
+                    <button type="button" id="btnN1" class="btn-ttt">&nbsp;</button>
+                    <button type="button" id="btnN2" class="btn-ttt">&nbsp;</button>
+                    <button type="button" id="btnN3" class="btn-ttt">&nbsp;</button>
+                </div>
+                <div class="btn-row">
+                    <button type="button" id="btnN4" class="btn-ttt">&nbsp;</button>
+                    <button type="button" id="btnN5" class="btn-ttt">&nbsp;</button>
+                    <button type="button" id="btnN6" class="btn-ttt">&nbsp;</button>
+                </div>
+                <div class="btn-row">
+                    <button type="button" id="btnN7" class="btn-ttt">&nbsp;</button>
+                    <button type="button" id="btnN8" class="btn-ttt">&nbsp;</button>
+                    <button type="button" id="btnN9" class="btn-ttt">&nbsp;</button>
+                </div>
             </div>
             <div class="col-lg-4">
-                <p id="result" class="result">Result</p>
+                <p id="result" class="result">結果</p>
                 <button type="button" id="reset" class="reset">重製</button>
             </div>
         </div>
     </div>
+    <script>
+        var buttons = document.querySelectorAll('[id^="btnN"]');
+        var ttt = ["", "", "", "", "", "", "", "", ""];
+        var winlines = [
+            [0,1,2], [3,4,5], [6,7,8],
+            [0,3,6], [1,4,7], [2,5,8],
+            [0,4,8], [2,4,6]
+        ];
+        var total = 0;
+        var current = 'O';
+        var endORnot = false;
+        buttons.forEach(function(abtn){
+            abtn.style.backgroundColor = '#606060';
+            abtn.addEventListener('click', function(){ markSpace(abtn.id); });
+        });
+        document.getElementById('reset').addEventListener('click', function(){
+            endORnot = false;
+            current = 'O';
+            total = 0;
+            for(let i = 0; i < 9; i++){
+                ttt[i] = '';
+                let btn = document.getElementById('btnN' + (i + 1));
+                btn.style.backgroundColor = '#606060';
+                btn.innerText = "";
+            }
+            document.getElementById("result").innerHTML = "結果";
+        });
+        function markSpace(btnID){
+            if(endORnot) return;
+            var abtn = document.getElementById(btnID);
+            var pos = parseInt(btnID.substring(4)) - 1;
+            if(ttt[pos] === ""){
+                ttt[pos] = current;
+                abtn.style.backgroundColor = (current === 'O') ? '#57f287' : '#cc4444';
+                abtn.innerText = current;
+                current = (current === 'O') ? 'X' : 'O';
+                total++;
+                check();
+            }
+            if(endORnot || current === 'O') return;
+
+            while(true){
+                pos = randInt(0, 8);
+                if(ttt[pos] === ""){
+                    btnID = "btnN" + (pos + 1);
+                    abtn = document.getElementById(btnID);
+                    ttt[pos] = 'X';
+                    abtn.style.backgroundColor = "#cc4444";
+                    abtn.innerText = 'X';
+                    current = 'O';
+                    total++;
+                    check();
+                    break;
+                }
+            }
+        }
+        function randInt(start, end){
+            return Math.floor(Math.random() * (end - start + 1)) + start;
+        }
+        function check(){
+            for(var i = 0; i < winlines.length; i++){
+                var [a, b, c] = winlines[i];
+                if(ttt[a] && ttt[a] === ttt[b] && ttt[a] === ttt[c]){
+                    document.getElementById("result").innerHTML = (ttt[a] === 'O') ? "You win" : "You lose";
+                    endORnot = true;
+                    return;
+                }
+            }
+            if(total === 9){
+                document.getElementById("result").innerHTML = "It's a tie";
+                endORnot = true;
+            }
+        }
+      </script>
 </body>
 </html>

@@ -132,7 +132,13 @@
             }
             if(endORnot || current === 'O') return;
 
-            let bestMove = findBestMove(ttt);
+            // 75% 機率選擇最佳位置，25% 機率隨機選擇
+            let bestMove;
+            if (Math.random() < 0.75) {
+                bestMove = findBestMove(ttt);
+            } else {
+                bestMove = findRandomMove(ttt);
+            }
             pos = bestMove.index;
             btnID = "btnN" + (pos + 1);
             abtn = document.getElementById(btnID);
@@ -172,6 +178,17 @@
                 }
             }
             return bestMove;
+        }
+
+        function findRandomMove(board) {
+            let emptySpots = [];
+            for (let i = 0; i < board.length; i++) {
+                if (board[i] === "") {
+                    emptySpots.push(i);
+                }
+            }
+            let randomIndex = Math.floor(Math.random() * emptySpots.length);
+            return { index: emptySpots[randomIndex], score: 0 };
         }
 
         function minimax(board, depth, isMaximizing) {

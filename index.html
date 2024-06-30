@@ -3,238 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>井字遊戲 by zichun</title>
+    <title>學期成績計算</title>
     <style>
-        html, body {
-            height: 100%;
-            width: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        body, button, html, input, select {
-            font-family: "Microsoft JhengHei";
-        }
-        .btn-ttt {
-            border-radius: 5px;
-            font-size: 32px;
-            color: #fff;
-            font-weight: normal;
-            padding: 0;
-            margin: 5px; 
-            width: 80px;
-            height: 80px;
-            background-color: #606060;
-            display: inline-block;
-            text-align: center; 
-            line-height: 80px;
-            vertical-align: top; 
-        }
-        .btn-ttt:focus {
-            outline: none; 
-        }
-        .reset {
-            border: 5px;
-            border-radius: 10px;
-            font-size: 24px;
-            color: #eb4034;
-            font-weight: normal;
-            padding: 10px 20px;
-            margin: 20px 0; 
-            width: 120px;
-            height: 60px;
-        }
-        .result {
-            color: #4169e1;
-            font-size: 48px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .container {
-            text-align: center;
-        }
-        .row-mt-4 {
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
             display: flex;
             flex-direction: column;
             align-items: center;
-        }
-        .btn-row {
-            display: flex;
             justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        h1, h2 {
+            color: #001eff;
+            text-align: center;
+        }
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            margin: 20px 0;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+        input {
+            width: calc(100% - 16px);
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input::placeholder {
+            color: #888;
+            opacity: 0.7;
+        }
+        button {
+            width: 100%;
+            background-color: #001eff;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056ff;
+        }
+        p {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            margin: 20px 0;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            form, p {
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row-mt-4">
-            <div class="col-lg-4">
-                <div class="btn-row">
-                    <button type="button" id="btnN1" class="btn-ttt">&nbsp;</button>
-                    <button type="button" id="btnN2" class="btn-ttt">&nbsp;</button>
-                    <button type="button" id="btnN3" class="btn-ttt">&nbsp;</button>
-                </div>
-                <div class="btn-row">
-                    <button type="button" id="btnN4" class="btn-ttt">&nbsp;</button>
-                    <button type="button" id="btnN5" class="btn-ttt">&nbsp;</button>
-                    <button type="button" id="btnN6" class="btn-ttt">&nbsp;</button>
-                </div>
-                <div class="btn-row">
-                    <button type="button" id="btnN7" class="btn-ttt">&nbsp;</button>
-                    <button type="button" id="btnN8" class="btn-ttt">&nbsp;</button>
-                    <button type="button" id="btnN9" class="btn-ttt">&nbsp;</button>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <p id="result" class="result">結果</p>
-                <button type="button" id="reset" class="reset">重製</button>
-            </div>
-        </div>
-    </div>
+    <h1>計算學期成績</h1>
+    <form id="score-form">
+        <label for="score1">第一次段考成績:</label>
+        <input type="number" id="score1" name="score1" placeholder="必填" required>
+
+        <label for="score2">第二次段考成績:</label>
+        <input type="number" id="score2" name="score2" placeholder="必填" required>
+
+        <label for="score3">第三次段考成績:</label>
+        <input type="number" id="score3" name="score3" placeholder="選填">
+
+        <label for="score4">平時成績:</label>
+        <input type="number" id="score4" name="score4" placeholder="選填">
+
+        <label for="previous_score">上學期成績:</label>
+        <input type="number" id="previous_score" name="previous_score" placeholder="選填">
+
+        <button type="submit">計算</button>
+    </form>
+
+    <h2>計算結果</h2>
+    <p id="result"></p>
+
     <script>
-        var buttons = document.querySelectorAll('[id^="btnN"]');
-        var ttt = ["", "", "", "", "", "", "", "", ""];
-        var winlines = [
-            [0,1,2], [3,4,5], [6,7,8],
-            [0,3,6], [1,4,7], [2,5,8],
-            [0,4,8], [2,4,6]
-        ];
-        var total = 0;
-        var current = 'O';
-        var endORnot = false;
-        buttons.forEach(function(abtn){
-            abtn.style.backgroundColor = '#606060';
-            abtn.addEventListener('click', function(){ markSpace(abtn.id); });
+        document.getElementById('score-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const score1 = parseFloat(document.getElementById('score1').value);
+            const score2 = parseFloat(document.getElementById('score2').value);
+            const score3 = parseFloat(document.getElementById('score3').value);
+            const score4 = parseFloat(document.getElementById('score4').value);
+            const previous_score = parseFloat(document.getElementById('previous_score').value);
+            
+            const weighted_score1 = score1 * 0.2;
+            const weighted_score2 = score2 * 0.2;
+            let weighted_score3 = isNaN(score3) ? 0 : score3 * 0.3;
+            let weighted_score4 = isNaN(score4) ? 0 : score4 * 0.3;
+            const total_score = weighted_score1 + weighted_score2 + weighted_score3 + weighted_score4;
+            let response_message = "";
+
+            if (isNaN(score3) && isNaN(score4) && isNaN(previous_score)) {
+                response_message = "請至少填入一項選填成績。";
+            } else if (!isNaN(score3) && isNaN(score4) && isNaN(previous_score)) {
+                const required_score4 = Math.ceil((60 - (weighted_score1 + weighted_score2 + weighted_score3)) / 0.3);
+                response_message = `平時成績至少為 ${required_score4} 分。`;
+            } else if (isNaN(score3) && !isNaN(score4) && isNaN(previous_score)) {
+                const required_score3 = Math.ceil((60 - (weighted_score1 + weighted_score2 + weighted_score4)) / 0.3);
+                response_message = `第三次段考至少為 ${required_score3} 分。`;
+            } else if (isNaN(score3) && isNaN(score4) && !isNaN(previous_score)) {
+                const required_score_this_semester = Math.ceil((60 - (weighted_score1 + weighted_score2)) / 0.6);
+                const required_score_both_semesters = Math.ceil((120 - previous_score - (weighted_score1 + weighted_score2)) / 0.6);
+                response_message = `本學期要通過總分至少為 ${required_score_this_semester} 分。\n兩學期皆通過總分至少為 ${required_score_both_semesters} 分。`;
+            } else if (!isNaN(score3) && !isNaN(score4) && isNaN(previous_score)) {
+                if (total_score >= 60) {
+                    response_message = "恭喜本學期通過";
+                } else {
+                    response_message = "本學期未通過";
+                }
+            } else if (!isNaN(score3) && isNaN(score4) && !isNaN(previous_score)) {
+                const required_score4_this_semester = Math.ceil((60 - (weighted_score1 + weighted_score2 + weighted_score3)) / 0.3);
+                const required_score4_both_semesters = Math.ceil((120 - previous_score - (weighted_score1 + weighted_score2 + weighted_score3)) / 0.3);
+                response_message = `本學期要通過，平時成績至少為 ${required_score4_this_semester} 分。\n兩學期皆通過，平時成績至少為 ${required_score4_both_semesters} 分。`;
+            } else if (isNaN(score3) && !isNaN(score4) && !isNaN(previous_score)) {
+                const required_score3_this_semester = Math.ceil((60 - (weighted_score1 + weighted_score2 + weighted_score4)) / 0.3);
+                const required_score3_both_semesters = Math.ceil((120 - previous_score - (weighted_score1 + weighted_score2 + weighted_score4)) / 0.3);
+                response_message = `本學期要通過，第三次段考至少為 ${required_score3_this_semester} 分。\n兩學期皆通過，第三次段考至少為 ${required_score3_both_semesters} 分。`;
+            } else if (!isNaN(score3) && !isNaN(score4) && !isNaN(previous_score)) {
+                if (total_score >= 60 && (total_score + previous_score) >= 120) {
+                    response_message = "恭喜兩學期皆通過";
+                } else if (total_score >= 60) {
+                    response_message = "僅有本學期通過";
+                } else if (previous_score >= 60) {
+                    response_message = "僅有上學期通過";
+                } else {
+                    response_message = "本學期及上學期皆未通過";
+                }
+            }
+
+            document.getElementById('result').innerText = response_message;
         });
-        document.getElementById('reset').addEventListener('click', function(){
-            endORnot = false;
-            current = 'O';
-            total = 0;
-            for(let i = 0; i < 9; i++){
-                ttt[i] = '';
-                let btn = document.getElementById('btnN' + (i + 1));
-                btn.style.backgroundColor = '#606060';
-                btn.innerText = "";
-            }
-            document.getElementById("result").innerHTML = "結果";
-        });
-        function markSpace(btnID){
-            if(endORnot) return;
-            var abtn = document.getElementById(btnID);
-            var pos = parseInt(btnID.substring(4)) - 1;
-            if(ttt[pos] === ""){
-                ttt[pos] = current;
-                abtn.style.backgroundColor = (current === 'O') ? '#57f287' : '#cc4444';
-                abtn.innerText = current;
-                current = (current === 'O') ? 'X' : 'O';
-                total++;
-                check();
-            }
-            if(endORnot || current === 'O') return;
-
-            // 75% 機率選擇最佳位置，25% 機率隨機選擇
-            let bestMove;
-            if (Math.random() < 0.75) {
-                bestMove = findBestMove(ttt);
-            } else {
-                bestMove = findRandomMove(ttt);
-            }
-            pos = bestMove.index;
-            btnID = "btnN" + (pos + 1);
-            abtn = document.getElementById(btnID);
-            ttt[pos] = 'X';
-            abtn.style.backgroundColor = "#cc4444";
-            abtn.innerText = 'X';
-            current = 'O';
-            total++;
-            check();
-        }
-
-        function check(){
-            for(var i = 0; i < winlines.length; i++){
-                var [a, b, c] = winlines[i];
-                if(ttt[a] && ttt[a] === ttt[b] && ttt[a] === ttt[c]){
-                    document.getElementById("result").innerHTML = (ttt[a] === 'O') ? "You win" : "You lose";
-                    endORnot = true;
-                    return;
-                }
-            }
-            if(total === 9){
-                document.getElementById("result").innerHTML = "It's a tie";
-                endORnot = true;
-            }
-        }
-
-        function findBestMove(board) {
-            let bestMove = { index: -1, score: -Infinity };
-            for (let i = 0; i < board.length; i++) {
-                if (board[i] === "") {
-                    board[i] = 'X';
-                    let score = minimax(board, 0, false);
-                    board[i] = "";
-                    if (score > bestMove.score) {
-                        bestMove = { index: i, score: score };
-                    }
-                }
-            }
-            return bestMove;
-        }
-
-        function findRandomMove(board) {
-            let emptySpots = [];
-            for (let i = 0; i < board.length; i++) {
-                if (board[i] === "") {
-                    emptySpots.push(i);
-                }
-            }
-            let randomIndex = Math.floor(Math.random() * emptySpots.length);
-            return { index: emptySpots[randomIndex], score: 0 };
-        }
-
-        function minimax(board, depth, isMaximizing) {
-            let scores = { 'X': 1, 'O': -1, 'tie': 0 };
-            let result = checkWinner(board);
-            if (result !== null) {
-                return scores[result];
-            }
-
-            if (isMaximizing) {
-                let bestScore = -Infinity;
-                for (let i = 0; i < board.length; i++) {
-                    if (board[i] === "") {
-                        board[i] = 'X';
-                        let score = minimax(board, depth + 1, false);
-                        board[i] = "";
-                        bestScore = Math.max(score, bestScore);
-                    }
-                }
-                return bestScore;
-            } else {
-                let bestScore = Infinity;
-                for (let i = 0; i < board.length; i++) {
-                    if (board[i] === "") {
-                        board[i] = 'O';
-                        let score = minimax(board, depth + 1, true);
-                        board[i] = "";
-                        bestScore = Math.min(score, bestScore);
-                    }
-                }
-                return bestScore;
-            }
-        }
-
-        function checkWinner(board) {
-            for (let i = 0; i < winlines.length; i++) {
-                let [a, b, c] = winlines[i];
-                if (board[a] && board[a] === board[b] && board[a] === board[c]) {
-                    return board[a];
-                }
-            }
-            if (board.every(cell => cell !== "")) {
-                return 'tie';
-            }
-            return null;
-        }
-      </script>
+    </script>
 </body>
 </html>

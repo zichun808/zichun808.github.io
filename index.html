@@ -15,11 +15,15 @@
             justify-content: center;
             min-height: 100vh;
             margin: 0;
+            padding: 10px; /* 添加 padding 以確保在所有裝置上有一些內邊距 */
+            box-sizing: border-box; /* 確保 padding 和 border 被計算在內 */
         }
+
         h1, h2 {
             color: #001eff;
             text-align: center;
         }
+
         form {
             background-color: #ffffff;
             padding: 20px;
@@ -28,24 +32,29 @@
             max-width: 500px;
             width: 100%;
             margin: 20px 0;
+            box-sizing: border-box; /* 確保 padding 和 border 被計算在內 */
         }
+
         label {
             font-weight: bold;
             margin-bottom: 5px;
             display: block;
         }
+
         input {
             width: calc(100% - 16px);
             padding: 8px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 4px;
-            box-sizing: border-box;
+            box-sizing: border-box; /* 確保 padding 和 border 被計算在內 */
         }
+
         input::placeholder {
             color: #888;
             opacity: 0.7;
         }
+
         button {
             width: 100%;
             background-color: #001eff;
@@ -56,9 +65,11 @@
             cursor: pointer;
             font-size: 16px;
         }
+
         button:hover {
             background-color: #0056ff;
         }
+
         p {
             background-color: #ffffff;
             padding: 20px;
@@ -68,13 +79,27 @@
             width: 100%;
             margin: 20px 0;
             text-align: center;
+            box-sizing: border-box; /* 確保 padding 和 border 被計算在內 */
         }
-        @media (max-width: 59.50px) {
-            body {
-                padding: 10px;
-            }
+
+        /* 媒體查詢：小型設備（手機） */
+        @media (max-width: 767px) {
             form, p {
-                padding: 15px;
+            padding: 15px;
+            }
+        }
+
+        /* 媒體查詢：中型設備（平板） */
+        @media (min-width: 768px) and (max-width: 991px) {
+            body {
+                padding: 20px; /* 增加一些內邊距 */
+            }
+        }       
+
+        /* 媒體查詢：大屏設備（桌面） */
+        @media (min-width: 992px) {
+            body {
+                padding: 30px; /* 增加內邊距以便在大螢幕上顯示更好 */
             }
         }
     </style>
@@ -104,9 +129,6 @@
     <p id="result"></p>
 
     <script>
-        window.onload = function() {
-            alert("本網頁計算出之成績僅供參考，祝段考順利!!");
-        }
         document.getElementById('score-form').addEventListener('submit', function(event) {
         event.preventDefault();
     

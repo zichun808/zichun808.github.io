@@ -147,13 +147,13 @@
                 response_message = `本學期要通過，第三次段考至少為 ${required_score3_this_semester} 分。\n兩學期皆通過，第三次段考至少為 ${required_score3_both_semesters} 分。`;
             } else if (!isNaN(score3) && !isNaN(score4) && !isNaN(previous_score)) {
                 if (total_score >= 60 && (total_score + previous_score) >= 120) {
-                    response_message = "恭喜兩學期皆通過";
+                    response_message = `恭喜兩學期皆通過\n(本學期成績 ${total_score}分，上學期成績 ${previous_score}分)`;
                 } else if (total_score >= 60) {
-                    response_message = "僅有本學期通過";
+                    response_message = `僅有本學期通過\n(本學期成績 ${total_score}分，上學期成績 ${previous_score}分)`;
                 } else if (previous_score >= 60) {
-                    response_message = "僅有上學期通過";
+                    response_message = `僅有上學期通過\n(本學期成績 ${total_score}分，上學期成績 ${previous_score}分)`;
                 } else {
-                    response_message = "本學期及上學期皆未通過";
+                    response_message = `本學期及上學期皆未通過\n(本學期成績 ${total_score}分，上學期成績 ${previous_score}分)`;
                 }
             }
 

@@ -13,104 +13,86 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh; /* 設定高度為整個視窗高度，避免滾動 */
+            min-height: 100vh;
             margin: 0;
-            padding: 10px;
+            padding: 20px; 
             box-sizing: border-box;
-            overflow: hidden; /* 防止溢出 */
         }
-
         h1, h2 {
             color: #001eff;
             text-align: center;
-            margin: 10px 0; /* 減少標題的上下間距 */
         }
-
         form {
             background-color: #ffffff;
-            padding: 15px; /* 減少 padding 以適應小螢幕 */
+            padding: 30px; 
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 100%; /* 讓表單自適應螢幕寬度 */
+            max-width: 500px;
             width: 100%;
-            margin: 10px 0; /* 減少上下間距 */
+            margin: 20px 0;
             box-sizing: border-box;
         }
-
         label {
             font-weight: bold;
-            margin-bottom: 5px; /* 減少 label 與輸入框的間距 */
+            margin-bottom: 10px; 
             display: block;
         }
-
         input, button {
-            width: 100%; /* 確保表單元素自適應 */
-            padding: 10px; /* 減少 padding */
-            margin-bottom: 15px; /* 減少間距 */
+            width: 100%;
+            padding: 12px; 
+            margin-bottom: 20px; 
             border: 1px solid #ccc;
             border-radius: 6px;
             box-sizing: border-box;
             font-size: 16px;
         }
-
         input::placeholder {
             color: #888;
             opacity: 0.7;
         }
-
         button {
             background-color: #001eff;
             color: white;
             border: none;
             cursor: pointer;
         }
-
         button:hover {
             background-color: #0056ff;
         }
-
         p {
             background-color: #ffffff;
-            padding: 15px; /* 減少 padding */
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 100%; /* 讓段落自適應螢幕寬度 */
+            max-width: 500px;
             width: 100%;
-            margin: 10px 0; /* 減少間距 */
+            margin: 20px 0;
             text-align: center;
             box-sizing: border-box;
         }
-
         @media (max-width: 767px) {
             form, p {
-                padding: 10px;
-            }
-            input, button {
-                padding: 8px; /* 縮小手機上的 input 和按鈕 */
-            }
-            h1, h2 {
-                margin: 5px 0; /* 減少標題的間距 */
-            }
-        }
-
-        @media (min-width: 768px) and (max-width: 991px) {
-            body {
-                padding: 10px;
-            }
-            form {
                 padding: 15px;
             }
         }
-
-        @media (min-width: 992px) {
+        @media (min-width: 768px) and (max-width: 991px) {
             body {
-                padding: 20px;
+                padding: 30px;
             }
             form {
-                padding: 20px;
+                padding: 25px;
+            }
+        }
+        @media (min-width: 992px) {
+            body {
+                padding: 40px; 
+            }
+            form {
+                padding: 40px; 
             }
         }
     </style>
+    
 </head>
 <body>
     <h1>學期成績計算</h1>

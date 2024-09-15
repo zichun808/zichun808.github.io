@@ -6,6 +6,8 @@
     <updated>2024-09-14T16:00:00.000Z</updated>
     <category term="標籤1" />
     <category term="標籤2" />
+    <category term="特殊選才" />
+    <category term="面試" />
     <entry>
         <id>http://example.com/2024/09/15/hello-world/</id>
         <title>Hello World</title>

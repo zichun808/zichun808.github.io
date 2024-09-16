@@ -1,18 +1,20 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "一位就讀資訊工程學系的學生",
-    "subtitle": "日常紀錄 & 學習心得",
+    "title": "My Blog",
+    "subtitle": "日常紀錄 & 學習筆記",
     "icon": "http://example.com/images/favicon.ico",
-    "description": "",
+    "description": "一位熱衷於資訊領域的學生",
     "home_page_url": "http://example.com",
     "items": [
         {
             "id": "http://example.com/hello-world/",
             "url": "http://example.com/hello-world/",
             "title": "Hello World",
-            "date_published": "2013-12-24T09:49:32.000Z",
+            "date_published": "2024-09-15T16:00:00.000Z",
             "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cDovL3plc3BpYS50dy9oZXhv\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cDovL3plc3BpYS50dy9oZXhvL2RvY3M=\">documentation</span> to learn how to use.</p>\n",
-            "tags": []
+            "tags": [
+                "測試"
+            ]
         }
     ]
 }

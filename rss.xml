@@ -1,22 +1,23 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>一位就讀資訊工程學系的學生</title>
-        <subtitle>日常紀錄 &amp; 學習心得</subtitle>
+        <title>My Blog</title>
+        <subtitle>日常紀錄 &amp; 學習筆記</subtitle>
         <icon>http://example.com/images/favicon.ico</icon>
         <link>http://example.com</link>
         <author>
           <name>zichun</name>
         </author>
-        <description></description>
+        <description>一位熱衷於資訊領域的學生</description>
         <language>zh-TW</language>
-        <pubDate>Tue, 24 Dec 2013 17:49:32 +0800</pubDate>
-        <lastBuildDate>Tue, 24 Dec 2013 17:49:32 +0800</lastBuildDate>
+        <pubDate>Mon, 16 Sep 2024 00:00:00 +0800</pubDate>
+        <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">http://example.com/hello-world/</guid>
             <title>Hello World</title>
             <link>http://example.com/hello-world/</link>
-            <pubDate>Tue, 24 Dec 2013 17:49:32 +0800</pubDate>
+            <category term="測試" scheme="http://example.com/tags/%E6%B8%AC%E8%A9%A6/" />
+            <pubDate>Mon, 16 Sep 2024 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhv&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhvL2RvY3M=&#34;&gt;documentation&lt;/span&gt; to learn how to use.&lt;/p&gt;
  ]]></description>
         </item>

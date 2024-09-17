@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>My Blog • Posts by &#34;特殊選才&#34; category</title>
+    <link href="http://example.com" />
+    <updated>2024-09-15T16:00:00.000Z</updated>
+    <category term="測試" />
+    <category term="大學面試" />
+    <category term="Foo" />
+    <category term="Bar" />
+    <category term="Baz" />
+    <entry>
+        <id>http://example.com/hello-world/</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="http://example.com/hello-world/"/>
+        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhv&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhvL2RvY3M=&#34;&gt;documentation&lt;/span&gt; to learn how to use.&lt;/p&gt;
+</content>
+        <category term="測試" />
+        <category term="大學面試" />
+        <updated>2024-09-15T16:00:00.000Z</updated>
+    </entry>
+</feed>

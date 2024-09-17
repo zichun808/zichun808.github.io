@@ -4,8 +4,6 @@
     <title>My Blog</title>
     <link href="http://example.com" />
     <updated>2024-09-17T07:52:47.265Z</updated>
-    <category term="Foo" />
-    <category term="Bar" />
     <entry>
         <id>http://example.com/calculator/</id>
         <title>學期成績計算</title>
@@ -109,7 +107,7 @@ input::placeholder {
     &lt;/form&gt;
 
     &lt;h2&gt;計算結果&lt;/h2&gt;
-    &lt;p id=&#34;result&#34;&gt;計算結果僅供參考，祝段考順利!!&lt;/p&gt;
+    &lt;p id=&#34;result&#34;&gt;計算結果僅供參考，祝段考順利！&lt;/p&gt;
 
     &lt;script&gt;
         document.getElementById(&#39;score-form&#39;).addEventListener(&#39;submit&#39;, function(event) {
@@ -175,64 +173,38 @@ input::placeholder {
 &lt;/html&gt;
 
 &lt;details&gt;&lt;summary&gt;成績計算方式及說明&lt;/summary&gt;&lt;div&gt;
-&lt;h2 id=&#34;成績計算方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#成績計算方式&#34;&gt;#&lt;/a&gt; 成績計算方式&lt;/h2&gt;
+&lt;h1 id=&#34;成績計算方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#成績計算方式&#34;&gt;#&lt;/a&gt; 成績計算方式&lt;/h1&gt;
 &lt;h3 id=&#34;學期成績計算&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#學期成績計算&#34;&gt;#&lt;/a&gt; 學期成績計算&lt;/h3&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;第一、二次段考：各佔 20%&lt;/li&gt;
 &lt;li&gt;三段、平時成績：各佔 30%&lt;/li&gt;
-&lt;li&gt;學期成績採四捨五入至整數位&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;ins&gt;學期成績採四捨五入至整數位&lt;/ins&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;學年成績計算需輸入上學期成績&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#學年成績計算需輸入上學期成績&#34;&gt;#&lt;/a&gt; 學年成績計算（需輸入上學期成績）&lt;/h3&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;上、下學期成績：各佔 50%&lt;/li&gt;
-&lt;li&gt;學年成績採四捨五入至小數點後第一位&lt;br&gt;
+&lt;li&gt;&lt;ins&gt;學年成績採四捨五入至小數點後第一位&lt;/ins&gt;&lt;br&gt;
 &lt;/br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;輸出內容說明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#輸出內容說明&#34;&gt;#&lt;/a&gt; 輸出內容說明&lt;/h2&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;輸出內容說明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#輸出內容說明&#34;&gt;#&lt;/a&gt; 輸出內容說明&lt;/h1&gt;
 &lt;h3 id=&#34;若僅輸入第一-二次段考成績&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#若僅輸入第一-二次段考成績&#34;&gt;#&lt;/a&gt; 若僅輸入第一、二次段考成績&lt;/h3&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。&lt;/li&gt;
 &lt;li&gt;若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;若輸入兩次段考成績及三段或平時成績其中一項&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#若輸入兩次段考成績及三段或平時成績其中一項&#34;&gt;#&lt;/a&gt; 若輸入兩次段考成績及三段或平時成績其中一項&lt;/h3&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;若無上學期成績：輸出本學期通過 另一項 最低所需的分數。&lt;/li&gt;
 &lt;li&gt;若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;若輸入所有成績&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#若輸入所有成績&#34;&gt;#&lt;/a&gt; 若輸入所有成績&lt;/h3&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;若無上學期成績：輸出本學期是否通過。&lt;/li&gt;
 &lt;li&gt;若有上學期成績：輸出兩學期通過情況。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;/div&gt;&lt;/details&gt;
 </content>
         <updated>2024-09-17T07:52:47.265Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/about/</id>
-        <title>關於</title>
-        <link rel="alternate" href="http://example.com/about/"/>
-        <content type="html">&lt;div class=&#34;note default&#34;&gt;
-&lt;p&gt;此頁面正在建置中～&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;個人簡介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#個人簡介&#34;&gt;#&lt;/a&gt; 個人簡介&lt;/h2&gt;
-&lt;p&gt;一位熱衷於學習資訊相關知識的高中生。除了參與許多課程外，也經常參加實體活動與同樣對資訊領域有熱忱的同儕交流。&lt;/p&gt;
-&lt;h2 id=&#34;活動參與&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#活動參與&#34;&gt;#&lt;/a&gt; 活動參與&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2023/12 TOI 新手同好會&lt;/li&gt;
-&lt;li&gt;2024/03 SITCON 學生計算機年會&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;課程學習&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#課程學習&#34;&gt;#&lt;/a&gt; 課程學習&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2023/08  AIS3 Junior 資安人才培育計畫&lt;/li&gt;
-&lt;li&gt;2023/12  中興大學 機器學習高中先修課程&lt;/li&gt;
-&lt;li&gt;2024/06  AIGO AI 人才淬煉計畫&lt;/li&gt;
-&lt;li&gt;2024/07  臺積電 半導體雲端學院&lt;/li&gt;
-&lt;li&gt;2024/07  資訊安全暑訓營&lt;/li&gt;
-&lt;li&gt;2024/08  AIS3 Junior 資安人才培育計畫&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        <updated>2024-09-17T03:08:15.443Z</updated>
     </entry>
     <entry>
         <id>http://example.com/markdown/</id>
@@ -459,8 +431,14 @@ alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; borde
 &lt;p&gt;Pure markdown version:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ARted4RniaU&#34;&gt;&lt;img data-src=&#34;https://img.youtube.com/vi/ARted4RniaU/0.jpg&#34; alt=&#34;IMAGE ALT TEXT HERE&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="Foo" />
-        <category term="Bar" />
         <updated>2018-07-24T15:31:06.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/hello-world/</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="http://example.com/hello-world/"/>
+        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhv&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhvL2RvY3M=&#34;&gt;documentation&lt;/span&gt; to learn how to use.&lt;/p&gt;
+</content>
+        <updated>2013-12-24T09:49:32.000Z</updated>
     </entry>
 </feed>

@@ -1,22 +1,14 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>My Blog • Posts by &#34;foo&#34; tag</title>
-        <link>http://example.com</link>
-        <description>對資訊領域充滿熱忱的學生</description>
-        <language>zh-TW</language>
-        <pubDate>Tue, 24 Jul 2018 23:31:06 +0800</pubDate>
-        <lastBuildDate>Tue, 24 Jul 2018 23:31:06 +0800</lastBuildDate>
-        <category>Foo</category>
-        <category>Bar</category>
-        <item>
-            <guid isPermalink="true">http://example.com/markdown/</guid>
-            <title>Markdown Style test</title>
-            <link>http://example.com/markdown/</link>
-            <category>Foo</category>
-            <category>Bar</category>
-            <pubDate>Tue, 24 Jul 2018 23:31:06 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;This post is originated from &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vYXBhY2tlZXIvNDE1OTI2OA==&#34;&gt;here&lt;/span&gt; and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>My Blog • Posts by &#34;測試&#34; category</title>
+    <link href="http://example.com" />
+    <updated>2018-07-24T15:31:06.000Z</updated>
+    <entry>
+        <id>http://example.com/markdown/</id>
+        <title>Markdown Style test</title>
+        <link rel="alternate" href="http://example.com/markdown/"/>
+        <content type="html">&lt;p&gt;This post is originated from &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vYXBhY2tlZXIvNDE1OTI2OA==&#34;&gt;here&lt;/span&gt; and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;headers&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#headers&#34;&gt;#&lt;/a&gt; Headers&lt;/h2&gt;
@@ -236,7 +228,15 @@ This line is only separated by a single newline, so it’s a separate line in th
 alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; border=&#34;10&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Pure markdown version:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ARted4RniaU&#34;&gt;&lt;img data-src=&#34;https://img.youtube.com/vi/ARted4RniaU/0.jpg&#34; alt=&#34;IMAGE ALT TEXT HERE&#34;&gt;&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <updated>2018-07-24T15:31:06.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/hello-world/</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="http://example.com/hello-world/"/>
+        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhv&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhvL2RvY3M=&#34;&gt;documentation&lt;/span&gt; to learn how to use.&lt;/p&gt;
+</content>
+        <updated>2013-12-24T09:49:32.000Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>My Blog • Posts by &#34;小工具&#34; category</title>
+    <link href="http://example.com" />
+    <updated>2024-09-17T07:52:47.265Z</updated>
+    <category term="Foo" />
+    <category term="Bar" />
+    <entry>
+        <id>http://example.com/calculator/</id>
+        <title>學期成績計算</title>
+        <link rel="alternate" href="http://example.com/calculator/"/>
+        <content type="html">&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;此頁面目前僅支援深色背景模式；淺色模式可能導致渲染錯誤，但不影響計算結果。&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+    &lt;style&gt;
+/* 全局樣式，針對深色和淺色模式進行調整 */
+input, button {
+    font-family: Arial, sans-serif; /* 調整字體 */
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px; /* 圓弧效果 */
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* 增加過渡效果 */
+}
+
+input::placeholder {
+    color: #888; /* 調整佔位符字體顏色 */
+}
+
+/* 系統淺色模式 */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #f7f7f7; /* 淺灰背景 */
+        color: #333;
+    }
+    input {
+        background-color: #ffffff; /* 白色輸入框 */
+        color: #333;
+        border: 1px solid #ddd; /* 淺灰邊框 */
+    }
+    button {
+        background-color: #007bff; /* 藍色按鈕 */
+        color: white;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+        cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+    }
+    button:hover {
+        background-color: #0056b3; /* 深藍色按鈕懸停效果 */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
+        cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+    }
+}
+
+/* 系統深色模式 */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e; /* 深灰背景 */
+        color: #e0e0e0;
+    }
+    input {
+        background-color: #333333; /* 深灰色輸入框 */
+        color: #e0e0e0;
+        border: 1px solid #444;
+    }
+    button {
+        background-color: #555; /* 灰色按鈕 */
+        color: white;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+        cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+    }
+    button:hover {
+        background-color: #777; /* 按鈕懸停時變亮 */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
+        cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+    }
+}
+
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;form id=&#34;score-form&#34;&gt;
+        &lt;label for=&#34;score1&#34;&gt;第一次段考成績:&lt;/label&gt;
+        &lt;input type=&#34;number&#34; id=&#34;score1&#34; name=&#34;score1&#34; placeholder=&#34;必填&#34; min=&#34;0&#34; max=&#34;100&#34; required&gt;
+
+        &lt;label for=&#34;score2&#34;&gt;第二次段考成績:&lt;/label&gt;
+        &lt;input type=&#34;number&#34; id=&#34;score2&#34; name=&#34;score2&#34; placeholder=&#34;必填&#34; min=&#34;0&#34; max=&#34;100&#34; required&gt;
+
+        &lt;label for=&#34;score3&#34;&gt;第三次段考成績:&lt;/label&gt;
+        &lt;input type=&#34;number&#34; id=&#34;score3&#34; name=&#34;score3&#34; placeholder=&#34;選填&#34; min=&#34;0&#34; max=&#34;100&#34;&gt;
+
+        &lt;label for=&#34;score4&#34;&gt;平時成績:&lt;/label&gt;
+        &lt;input type=&#34;number&#34; id=&#34;score4&#34; name=&#34;score4&#34; placeholder=&#34;選填&#34; min=&#34;0&#34; max=&#34;100&#34;&gt;
+
+        &lt;label for=&#34;previous_score&#34;&gt;上學期成績:&lt;/label&gt;
+        &lt;input type=&#34;number&#34; id=&#34;previous_score&#34; name=&#34;previous_score&#34; placeholder=&#34;選填&#34; min=&#34;0&#34; max=&#34;100&#34;&gt;
+
+        &lt;button type=&#34;submit&#34;&gt;計算&lt;/button&gt;
+    &lt;/form&gt;
+
+    &lt;h2&gt;計算結果&lt;/h2&gt;
+    &lt;p id=&#34;result&#34;&gt;計算結果僅供參考，祝段考順利!!&lt;/p&gt;
+
+    &lt;script&gt;
+        document.getElementById(&#39;score-form&#39;).addEventListener(&#39;submit&#39;, function(event) {
+            event.preventDefault();
+
+            const getInputValue = (id) =&gt; parseFloat(document.getElementById(id).value);
+            const roundToOneDecimal = (num) =&gt; parseFloat(num.toFixed(1));
+
+            const score1 = getInputValue(&#39;score1&#39;);
+            const score2 = getInputValue(&#39;score2&#39;);
+            const score3 = getInputValue(&#39;score3&#39;);
+            const score4 = getInputValue(&#39;score4&#39;);
+            const previousScore = getInputValue(&#39;previous_score&#39;);
+
+            const weightedScore1 = roundToOneDecimal(score1 * 0.2);
+            const weightedScore2 = roundToOneDecimal(score2 * 0.2);
+            const weightedScore3 = isNaN(score3) ? 0 : roundToOneDecimal(score3 * 0.3);
+            const weightedScore4 = isNaN(score4) ? 0 : roundToOneDecimal(score4 * 0.3);
+            const totalScore = roundToOneDecimal(weightedScore1 + weightedScore2 + weightedScore3 + weightedScore4);
+
+            let responseMessage = &#34;&#34;;
+
+            const calculateRequiredScore = (currentTotal, weight) =&gt; roundToOneDecimal((59.5 - currentTotal) / weight);
+            const calculateRequiredBothSemesters = (currentTotal, weight) =&gt; roundToOneDecimal((120 - previousScore - currentTotal) / weight);
+
+            if (isNaN(score3) &amp;&amp; isNaN(score4) &amp;&amp; isNaN(previousScore)) {
+                responseMessage = `總分(三段+平時)至少為 ${calculateRequiredScore(weightedScore1 + weightedScore2, 0.6)*2} 分。`;
+            } else if (!isNaN(score3) &amp;&amp; isNaN(score4) &amp;&amp; isNaN(previousScore)) {
+                const requiredScore4 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                responseMessage = `平時成績至少為 ${requiredScore4} 分。`;
+            } else if (isNaN(score3) &amp;&amp; !isNaN(score4) &amp;&amp; isNaN(previousScore)) {
+                const requiredScore3 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                responseMessage = `第三次段考至少為 ${requiredScore3} 分。`;
+            } else if (isNaN(score3) &amp;&amp; isNaN(score4) &amp;&amp; !isNaN(previousScore)) {
+                const requiredScoreThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2, 0.6);
+                const requiredScoreBothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2, 0.6);
+                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters} 分。`;
+            } else if (!isNaN(score3) &amp;&amp; !isNaN(score4) &amp;&amp; isNaN(previousScore)) {
+                responseMessage = totalScore &gt;= 59.5 ? `恭喜本學期通過\n(本學期成績 ${totalScore} 分)` : `本學期未通過\n(本學期成績 ${totalScore} 分)`;
+            } else if (!isNaN(score3) &amp;&amp; isNaN(score4) &amp;&amp; !isNaN(previousScore)) {
+                const requiredScore4ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                const requiredScore4BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                responseMessage = `本學期要通過，平時成績至少為 ${requiredScore4ThisSemester} 分。\n兩學期皆通過，平時成績至少為 ${requiredScore4BothSemesters} 分。`;
+            } else if (isNaN(score3) &amp;&amp; !isNaN(score4) &amp;&amp; !isNaN(previousScore)) {
+                const requiredScore3ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                const requiredScore3BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                responseMessage = `本學期要通過，第三次段考至少為 ${requiredScore3ThisSemester} 分。\n兩學期皆通過，第三次段考至少為 ${requiredScore3BothSemesters} 分。`;
+            } else if (!isNaN(score3) &amp;&amp; !isNaN(score4) &amp;&amp; !isNaN(previousScore)) {
+                if ((totalScore + previousScore) &gt;= 119.5) {
+                    responseMessage = `恭喜兩學期皆通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else if (totalScore &gt;= 59.5) {
+                    responseMessage = `僅有本學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else if (previousScore &gt;= 60) {
+                    responseMessage = `僅有上學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else {
+                    responseMessage = `本學期及上學期皆未通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                }
+            }
+            document.getElementById(&#39;result&#39;).innerText = responseMessage;
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;details&gt;&lt;summary&gt;成績計算方式及說明&lt;/summary&gt;&lt;div&gt;
+&lt;h2 id=&#34;成績計算方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#成績計算方式&#34;&gt;#&lt;/a&gt; 成績計算方式&lt;/h2&gt;
+&lt;h3 id=&#34;學期成績計算&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#學期成績計算&#34;&gt;#&lt;/a&gt; 學期成績計算&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;第一、二次段考：各佔 20%&lt;/li&gt;
+&lt;li&gt;三段、平時成績：各佔 30%&lt;/li&gt;
+&lt;li&gt;學期成績採四捨五入至整數位&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;學年成績計算需輸入上學期成績&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#學年成績計算需輸入上學期成績&#34;&gt;#&lt;/a&gt; 學年成績計算（需輸入上學期成績）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;上、下學期成績：各佔 50%&lt;/li&gt;
+&lt;li&gt;學年成績採四捨五入至小數點後第一位&lt;br&gt;
+&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;輸出內容說明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#輸出內容說明&#34;&gt;#&lt;/a&gt; 輸出內容說明&lt;/h2&gt;
+&lt;h3 id=&#34;若僅輸入第一-二次段考成績&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#若僅輸入第一-二次段考成績&#34;&gt;#&lt;/a&gt; 若僅輸入第一、二次段考成績&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。&lt;/li&gt;
+&lt;li&gt;若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;若輸入兩次段考成績及三段或平時成績其中一項&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#若輸入兩次段考成績及三段或平時成績其中一項&#34;&gt;#&lt;/a&gt; 若輸入兩次段考成績及三段或平時成績其中一項&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;若無上學期成績：輸出本學期通過 另一項 最低所需的分數。&lt;/li&gt;
+&lt;li&gt;若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;若輸入所有成績&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#若輸入所有成績&#34;&gt;#&lt;/a&gt; 若輸入所有成績&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;若無上學期成績：輸出本學期是否通過。&lt;/li&gt;
+&lt;li&gt;若有上學期成績：輸出兩學期通過情況。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/details&gt;
+</content>
+        <updated>2024-09-17T07:52:47.265Z</updated>
+    </entry>
+</feed>

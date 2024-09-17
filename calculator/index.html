@@ -1,0 +1,579 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="My Blog" href="http://example.com/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="My Blog" href="http://example.com/atom.xml" />
+<link rel="alternate" type="application/json" title="My Blog" href="http://example.com/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+
+<link rel="canonical" href="http://example.com/calculator/">
+
+
+
+  <title>
+學期成績計算 - 小工具 |
+zichun = My Blog = 日常紀錄 & 學習筆記</title>
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">學期成績計算
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="創建時間：2024-09-17 15:52:47">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">發表於</span>
+    <time itemprop="dateCreated datePublished" datetime="2024-09-17T15:52:47+08:00">2024-09-17</time>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="切換導航欄">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">zichun</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+          <img src="https://balloontaiwan.taitung.gov.tw/image/31210/1024x768">
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">首頁</a></span><i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/tools/" itemprop="item" rel="index" title="分類於 小工具"><span itemprop="name">小工具</span></a>
+<meta itemprop="position" content="1" /></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-TW">
+  <link itemprop="mainEntityOfPage" href="http://example.com/calculator/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/kabo.png">
+    <meta itemprop="name" content="zichun">
+    <meta itemprop="description" content="日常紀錄 & 學習筆記, 對資訊領域充滿熱忱的學生">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="My Blog">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <div class="note warning">
+<p>此頁面目前僅支援深色背景模式；淺色模式可能導致渲染錯誤，但不影響計算結果。</p>
+</div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+/* 全局樣式，針對深色和淺色模式進行調整 */
+input, button {
+    font-family: Arial, sans-serif; /* 調整字體 */
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px; /* 圓弧效果 */
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* 增加過渡效果 */
+}
+
+input::placeholder {
+    color: #888; /* 調整佔位符字體顏色 */
+}
+
+/* 系統淺色模式 */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #f7f7f7; /* 淺灰背景 */
+        color: #333;
+    }
+    input {
+        background-color: #ffffff; /* 白色輸入框 */
+        color: #333;
+        border: 1px solid #ddd; /* 淺灰邊框 */
+    }
+    button {
+        background-color: #007bff; /* 藍色按鈕 */
+        color: white;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+        cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+    }
+    button:hover {
+        background-color: #0056b3; /* 深藍色按鈕懸停效果 */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
+        cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+    }
+}
+
+/* 系統深色模式 */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e; /* 深灰背景 */
+        color: #e0e0e0;
+    }
+    input {
+        background-color: #333333; /* 深灰色輸入框 */
+        color: #e0e0e0;
+        border: 1px solid #444;
+    }
+    button {
+        background-color: #555; /* 灰色按鈕 */
+        color: white;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+        cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+    }
+    button:hover {
+        background-color: #777; /* 按鈕懸停時變亮 */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
+        cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+    }
+}
+
+    </style>
+</head>
+<body>
+    <form id="score-form">
+        <label for="score1">第一次段考成績:</label>
+        <input type="number" id="score1" name="score1" placeholder="必填" min="0" max="100" required>
+
+        <label for="score2">第二次段考成績:</label>
+        <input type="number" id="score2" name="score2" placeholder="必填" min="0" max="100" required>
+
+        <label for="score3">第三次段考成績:</label>
+        <input type="number" id="score3" name="score3" placeholder="選填" min="0" max="100">
+
+        <label for="score4">平時成績:</label>
+        <input type="number" id="score4" name="score4" placeholder="選填" min="0" max="100">
+
+        <label for="previous_score">上學期成績:</label>
+        <input type="number" id="previous_score" name="previous_score" placeholder="選填" min="0" max="100">
+
+        <button type="submit">計算</button>
+    </form>
+
+    <h2>計算結果</h2>
+    <p id="result">計算結果僅供參考，祝段考順利!!</p>
+
+    <script>
+        document.getElementById('score-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const getInputValue = (id) => parseFloat(document.getElementById(id).value);
+            const roundToOneDecimal = (num) => parseFloat(num.toFixed(1));
+
+            const score1 = getInputValue('score1');
+            const score2 = getInputValue('score2');
+            const score3 = getInputValue('score3');
+            const score4 = getInputValue('score4');
+            const previousScore = getInputValue('previous_score');
+
+            const weightedScore1 = roundToOneDecimal(score1 * 0.2);
+            const weightedScore2 = roundToOneDecimal(score2 * 0.2);
+            const weightedScore3 = isNaN(score3) ? 0 : roundToOneDecimal(score3 * 0.3);
+            const weightedScore4 = isNaN(score4) ? 0 : roundToOneDecimal(score4 * 0.3);
+            const totalScore = roundToOneDecimal(weightedScore1 + weightedScore2 + weightedScore3 + weightedScore4);
+
+            let responseMessage = "";
+
+            const calculateRequiredScore = (currentTotal, weight) => roundToOneDecimal((59.5 - currentTotal) / weight);
+            const calculateRequiredBothSemesters = (currentTotal, weight) => roundToOneDecimal((120 - previousScore - currentTotal) / weight);
+
+            if (isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
+                responseMessage = `總分(三段+平時)至少為 ${calculateRequiredScore(weightedScore1 + weightedScore2, 0.6)*2} 分。`;
+            } else if (!isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
+                const requiredScore4 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                responseMessage = `平時成績至少為 ${requiredScore4} 分。`;
+            } else if (isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
+                const requiredScore3 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                responseMessage = `第三次段考至少為 ${requiredScore3} 分。`;
+            } else if (isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
+                const requiredScoreThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2, 0.6);
+                const requiredScoreBothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2, 0.6);
+                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters} 分。`;
+            } else if (!isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
+                responseMessage = totalScore >= 59.5 ? `恭喜本學期通過\n(本學期成績 ${totalScore} 分)` : `本學期未通過\n(本學期成績 ${totalScore} 分)`;
+            } else if (!isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
+                const requiredScore4ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                const requiredScore4BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                responseMessage = `本學期要通過，平時成績至少為 ${requiredScore4ThisSemester} 分。\n兩學期皆通過，平時成績至少為 ${requiredScore4BothSemesters} 分。`;
+            } else if (isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
+                const requiredScore3ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                const requiredScore3BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                responseMessage = `本學期要通過，第三次段考至少為 ${requiredScore3ThisSemester} 分。\n兩學期皆通過，第三次段考至少為 ${requiredScore3BothSemesters} 分。`;
+            } else if (!isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
+                if ((totalScore + previousScore) >= 119.5) {
+                    responseMessage = `恭喜兩學期皆通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else if (totalScore >= 59.5) {
+                    responseMessage = `僅有本學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else if (previousScore >= 60) {
+                    responseMessage = `僅有上學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else {
+                    responseMessage = `本學期及上學期皆未通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                }
+            }
+            document.getElementById('result').innerText = responseMessage;
+        });
+    </script>
+</body>
+</html>
+
+<details><summary>成績計算方式及說明</summary><div>
+<h2 id="成績計算方式"><a class="markdownIt-Anchor" href="#成績計算方式">#</a> 成績計算方式</h2>
+<h3 id="學期成績計算"><a class="markdownIt-Anchor" href="#學期成績計算">#</a> 學期成績計算</h3>
+<ul>
+<li>第一、二次段考：各佔 20%</li>
+<li>三段、平時成績：各佔 30%</li>
+<li>學期成績採四捨五入至整數位</li>
+</ul>
+<h3 id="學年成績計算需輸入上學期成績"><a class="markdownIt-Anchor" href="#學年成績計算需輸入上學期成績">#</a> 學年成績計算（需輸入上學期成績）</h3>
+<ul>
+<li>上、下學期成績：各佔 50%</li>
+<li>學年成績採四捨五入至小數點後第一位<br>
+</br></li>
+</ul>
+<h2 id="輸出內容說明"><a class="markdownIt-Anchor" href="#輸出內容說明">#</a> 輸出內容說明</h2>
+<h3 id="若僅輸入第一-二次段考成績"><a class="markdownIt-Anchor" href="#若僅輸入第一-二次段考成績">#</a> 若僅輸入第一、二次段考成績</h3>
+<ul>
+<li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li>
+<li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li>
+</ul>
+<h3 id="若輸入兩次段考成績及三段或平時成績其中一項"><a class="markdownIt-Anchor" href="#若輸入兩次段考成績及三段或平時成績其中一項">#</a> 若輸入兩次段考成績及三段或平時成績其中一項</h3>
+<ul>
+<li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li>
+<li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li>
+</ul>
+<h3 id="若輸入所有成績"><a class="markdownIt-Anchor" href="#若輸入所有成績">#</a> 若輸入所有成績</h3>
+<ul>
+<li>若無上學期成績：輸出本學期是否通過。</li>
+<li>若有上學期成績：輸出兩學期通過情況。</li>
+</ul>
+</div></details>
+
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新於</span>
+    <time title="修改時間：2024-09-17 20:46:08" itemprop="dateModified" datetime="2024-09-17T20:46:08+08:00">2024-09-17</time>
+  </span>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>作者： </strong>zichun <i class="ic i-at"><em>@</em></i>My Blog
+  </li>
+  <li class="link">
+    <strong>文章連結：</strong>
+    <a href="http://example.com/calculator/" title="學期成績計算">http://example.com/calculator/</a>
+  </li>
+  <li class="license">
+    <strong>版權聲明： </strong>本網頁所有文章除特別聲明外，均採用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 許可協議。轉載請註明出處！
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/about/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;www.pjhs.tyc.edu.tw&#x2F;CK_Files&#x2F;003.jpg" title="關於">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>關於</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="文章目錄">
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">計算結果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97%E6%96%B9%E5%BC%8F"><span class="toc-number">2.</span> <span class="toc-text"> 成績計算方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%B8%E6%9C%9F%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97"><span class="toc-number">2.1.</span> <span class="toc-text"> 學期成績計算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%B8%E5%B9%B4%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97%E9%9C%80%E8%BC%B8%E5%85%A5%E4%B8%8A%E5%AD%B8%E6%9C%9F%E6%88%90%E7%B8%BE"><span class="toc-number">2.2.</span> <span class="toc-text"> 學年成績計算（需輸入上學期成績）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BC%B8%E5%87%BA%E5%85%A7%E5%AE%B9%E8%AA%AA%E6%98%8E"><span class="toc-number">3.</span> <span class="toc-text"> 輸出內容說明</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%A5%E5%83%85%E8%BC%B8%E5%85%A5%E7%AC%AC%E4%B8%80-%E4%BA%8C%E6%AC%A1%E6%AE%B5%E8%80%83%E6%88%90%E7%B8%BE"><span class="toc-number">3.1.</span> <span class="toc-text"> 若僅輸入第一、二次段考成績</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%A5%E8%BC%B8%E5%85%A5%E5%85%A9%E6%AC%A1%E6%AE%B5%E8%80%83%E6%88%90%E7%B8%BE%E5%8F%8A%E4%B8%89%E6%AE%B5%E6%88%96%E5%B9%B3%E6%99%82%E6%88%90%E7%B8%BE%E5%85%B6%E4%B8%AD%E4%B8%80%E9%A0%85"><span class="toc-number">3.2.</span> <span class="toc-text"> 若輸入兩次段考成績及三段或平時成績其中一項</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%A5%E8%BC%B8%E5%85%A5%E6%89%80%E6%9C%89%E6%88%90%E7%B8%BE"><span class="toc-number">3.3.</span> <span class="toc-text"> 若輸入所有成績</span></a></li></ol></li></ol>
+      </div>
+      <div class="related panel pjax" data-title="系列文章">
+        <ul>
+          <li class="active"><a href="/calculator/" rel="bookmark" title="學期成績計算">學期成績計算</a></li>
+        </ul>
+      </div>
+      <div class="overview panel" data-title="本站概要">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="zichun"
+      data-src="/images/kabo.png">
+  <p class="name" itemprop="name">zichun</p>
+  <div class="description" itemprop="description">對資訊領域充滿熱忱的學生</div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">3</span>
+        <span class="name">文章</span>
+      </a>
+    </div>
+    <div class="item categories">
+      <a href="/categories/">
+        <span class="count">1</span>
+        <span class="name">分類</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">2</span>
+        <span class="name">標籤</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL3ppY2h1bjgwOA==" title="https:&#x2F;&#x2F;github.com&#x2F;zichun808"><i class="ic i-github"></i></span>
+      <span class="exturl item email" data-url="bWFpbHRvOnppY2h1bjgwOEBtYWlsLmNvbQ==" title="mailto:zichun808@mail.com"><i class="ic i-envelope"></i></span>
+      <span class="exturl item youtube" data-url="aHR0cHM6Ly95b3V0dWJlLmNvbQ==" title="https:&#x2F;&#x2F;youtube.com"><i class="ic i-youtube"></i></span>
+      <span class="exturl item instagram" data-url="aHR0cHM6Ly9pbnN0YWdyYW0uY29tL3ppY2h1bl8yOA==" title="https:&#x2F;&#x2F;instagram.com&#x2F;zichun_28"><i class="ic i-instagram"></i></span>
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>首頁</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/about/" rel="section"><i class="ic i-user"></i>關於</a>
+  </li>
+
+        
+  <li class="item dropdown">
+      <a href="javascript:void(0);"><i class="ic i-feather"></i>文章</a>
+    <ul class="submenu">
+
+        
+  <li class="item">
+    <a href="/archives/" rel="section"><i class="ic i-list-alt"></i>歸檔</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/categories/" rel="section"><i class="ic i-th"></i>分類</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>標籤</a>
+  </li>
+
+  </ul>
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">zichun @ zichun</span>
+  </div>
+  <div class="count">
+    <span class="post-meta-item-icon">
+      <i class="ic i-chart-area"></i>
+    </span>
+    <span title="總字數">12k 字</span>
+
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="ic i-coffee"></i>
+    </span>
+    <span title="所需總閱讀時間">11 分鐘</span>
+  </div>
+  <div class="powered-by">
+    基於 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: 'calculator/',
+    favicon: {
+      show: "(●'3'●) 連線成功",
+      hide: "(´Д｀) 連線失敗"
+    },
+    search : {
+      placeholder: "文章搜尋",
+      empty: "關於 「 ${query} 」 ，什麼也沒搜到",
+      stats: "${time} ms 內找到 ${hits} 條結果"
+    },
+    valine: true,fancybox: true,
+    copyright: '複製成功，轉載請遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 協議。',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>

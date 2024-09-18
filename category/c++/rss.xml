@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>My Blog • Posts by &#34;c++&#34; category</title>
+        <link>http://example.com</link>
+        <description>一位對資訊領域充滿熱忱的學生</description>
+        <language>zh-TW</language>
+        <pubDate>Wed, 18 Sep 2024 23:13:05 +0800</pubDate>
+        <lastBuildDate>Wed, 18 Sep 2024 23:13:05 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/C++/third/</guid>
+            <title>測試文章3</title>
+            <link>http://example.com/C++/third/</link>
+            <pubDate>Wed, 18 Sep 2024 23:13:05 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;C++ 是 3&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/C++/secon/</guid>
+            <title>測試文章2</title>
+            <link>http://example.com/C++/secon/</link>
+            <pubDate>Wed, 18 Sep 2024 23:12:51 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;C++ 是 2&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/C++/first/</guid>
+            <title>測試文章</title>
+            <link>http://example.com/C++/first/</link>
+            <pubDate>Wed, 18 Sep 2024 23:09:31 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;C++ 是&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

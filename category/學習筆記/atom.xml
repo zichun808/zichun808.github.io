@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>My Blog • Posts by &#34;學習筆記&#34; category</title>
+    <link href="http://example.com" />
+    <updated>2024-09-18T15:13:05.176Z</updated>
+    <entry>
+        <id>http://example.com/C++/third/</id>
+        <title>測試文章3</title>
+        <link rel="alternate" href="http://example.com/C++/third/"/>
+        <content type="html">&lt;ol&gt;
+&lt;li&gt;C++ 是 3&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <updated>2024-09-18T15:13:05.176Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/C++/secon/</id>
+        <title>測試文章2</title>
+        <link rel="alternate" href="http://example.com/C++/secon/"/>
+        <content type="html">&lt;ol&gt;
+&lt;li&gt;C++ 是 2&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <updated>2024-09-18T15:12:51.228Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/C++/first/</id>
+        <title>測試文章</title>
+        <link rel="alternate" href="http://example.com/C++/first/"/>
+        <content type="html">&lt;ol&gt;
+&lt;li&gt;C++ 是&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <updated>2024-09-18T15:09:31.292Z</updated>
+    </entry>
+</feed>

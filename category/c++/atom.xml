@@ -3,35 +3,32 @@
     <id>http://example.com</id>
     <title>My Blog • Posts by &#34;c++&#34; category</title>
     <link href="http://example.com" />
-    <updated>2024-09-18T15:13:05.176Z</updated>
+    <updated>2024-09-18T16:24:52.000Z</updated>
     <entry>
-        <id>http://example.com/C++/third/</id>
-        <title>測試文章3</title>
-        <link rel="alternate" href="http://example.com/C++/third/"/>
-        <content type="html">&lt;ol&gt;
-&lt;li&gt;C++ 是 3&lt;/li&gt;
-&lt;/ol&gt;
+        <id>http://example.com/programming/cpp/cpp1/</id>
+        <title>開始寫程式</title>
+        <link rel="alternate" href="http://example.com/programming/cpp/cpp1/"/>
+        <content type="html">&lt;p&gt;123456&lt;/p&gt;
 </content>
-        <updated>2024-09-18T15:13:05.176Z</updated>
+        <updated>2024-09-18T16:24:52.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/C++/secon/</id>
-        <title>測試文章2</title>
-        <link rel="alternate" href="http://example.com/C++/secon/"/>
-        <content type="html">&lt;ol&gt;
-&lt;li&gt;C++ 是 2&lt;/li&gt;
-&lt;/ol&gt;
+        <id>http://example.com/programming/cpp/cpp0/</id>
+        <title>開始coding前，需要知道的幾件事</title>
+        <link rel="alternate" href="http://example.com/programming/cpp/cpp0/"/>
+        <content type="html">&lt;h3 id=&#34;編譯器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#編譯器&#34;&gt;#&lt;/a&gt; 編譯器&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cub25saW5lZ2RiLmNvbS9vbmxpbmVfYysrX2NvbXBpbGVyIw==&#34;&gt;線上編譯器&lt;/span&gt;&lt;br&gt;
+編譯器是用於將高階語言（如 C++、Java、Python 等）的代碼轉換成低階語言（通常是機器碼），以便電腦執行。這個過程被稱為編譯，而執行編譯的工具就是編譯器。&lt;/p&gt;
+&lt;h2 id=&#34;基本架構及知識&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本架構及知識&#34;&gt;#&lt;/a&gt; 基本架構及知識&lt;/h2&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs cpp&#34;&gt;&lt;span class=&#34;hljs-meta&#34;&gt;#&lt;span class=&#34;hljs-keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;   &lt;span class=&#34;hljs-comment&#34;&gt;//引入iostream標頭檔&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;namespace&lt;/span&gt; std; &lt;span class=&#34;hljs-comment&#34;&gt;//std命名空間&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&#34;hljs-function&#34;&gt;&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;hljs-title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;br&gt;                    &lt;span class=&#34;hljs-comment&#34;&gt;//程式碼主體&lt;/span&gt;&lt;br&gt;    &lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;;       &lt;span class=&#34;hljs-comment&#34;&gt;//跟編譯器說程式結束(雖然不影響結果，但通常會加)&lt;/span&gt;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;1-標頭檔&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-標頭檔&#34;&gt;#&lt;/a&gt; 1. 標頭檔&lt;/h3&gt;
+&lt;p&gt;簡單來說，是存放你要使用的功能的地方。&lt;/p&gt;
+&lt;p&gt;例如，假如你想要使用 cout 這個功能，便需要在程式的開頭加上這行，因為 cout 是 iostream 裡的功能，所以必須 include 後才能使用。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9lbWFubGFpY2Vwc2EuZ2l0aHViLmlvLzIwMjAvMTAvMjEvMC0wLw==&#34;&gt;(by. 從零開始的演算法競賽)&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-命名空間&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-命名空間&#34;&gt;#&lt;/a&gt; 2. 命名空間&lt;/h3&gt;
+&lt;p&gt;若有兩個人同名，我們不知道要如何分辨時，我們可能會說：X 年 X 班的 XXX…&lt;/p&gt;
+&lt;p&gt;在這裡概念是類似的！using namespace std 就是跟程式說，我接下來叫的人，是在 std 這個班級裡，這樣就不用每次叫人都加上班級了！&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9lbWFubGFpY2Vwc2EuZ2l0aHViLmlvLzIwMjAvMTAvMjEvMC0wLw==&#34;&gt;(by. 從零開始的演算法競賽)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;若沒加此行，在使用 &lt;code&gt;cin、cout&lt;/code&gt;  時，需寫成 &lt;code&gt;std::cin、std::cout&lt;/code&gt; ，非常麻煩。&lt;/p&gt;
 </content>
-        <updated>2024-09-18T15:12:51.228Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/C++/first/</id>
-        <title>測試文章</title>
-        <link rel="alternate" href="http://example.com/C++/first/"/>
-        <content type="html">&lt;ol&gt;
-&lt;li&gt;C++ 是&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-        <updated>2024-09-18T15:09:31.292Z</updated>
+        <updated>2024-09-18T16:00:00.000Z</updated>
     </entry>
 </feed>

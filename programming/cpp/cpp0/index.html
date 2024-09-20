@@ -30,7 +30,7 @@
 
 
   <title>
-開始coding前，需要知道的幾件事 - C++ - 程式設計 |
+111 - C++ - 程式設計 |
 zichun = My Blog = 日常紀錄 & 學習筆記</title>
 <meta name="generator" content="Hexo 7.3.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -58,7 +58,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">開始coding前，需要知道的幾件事
+  <h1 itemprop="name headline">111
   </h1>
   
 <div class="meta">
@@ -74,7 +74,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">文章字數</span>
-    <span>515</span>
+    <span>482</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="所需閱讀時間">
@@ -115,12 +115,12 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipeyonbf9j20zk0m8e81.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclxfdlttj20zk0m8npd.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclil3m4ej20zk0m8tn8.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclj9410cj20zk0m8h12.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipewkhf1zj20zk0m81kx.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclwrdwyaj20zk0m8are.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclwuom7cj20zk0m8dvn.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclxp31goj20zk0m8qv5.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipev1x5e4j20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipet4bz0yj20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giciundwu5j20zk0m8n9e.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclh0m9pdj20zk0m8hdt.jpg"></li>
         </ul>
       </div>
     </header>
@@ -173,7 +173,12 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cub25saW5lZ2RiLmNvbS9vbmxpbmVfYysrX2NvbXBpbGVyIw==">線上編譯器</span><br>
 編譯器是用於將高階語言（如 C++、Java、Python 等）的代碼轉換成低階語言（通常是機器碼），以便電腦執行。這個過程被稱為編譯，而執行編譯的工具就是編譯器。</p>
 <h2 id="基本架構及知識"><a class="markdownIt-Anchor" href="#基本架構及知識">#</a> 基本架構及知識</h2>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;iostream&gt;</span>   <span class="hljs-comment">//引入iostream標頭檔</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std; <span class="hljs-comment">//std命名空間</span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br>                    <span class="hljs-comment">//程式碼主體</span><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;       <span class="hljs-comment">//跟編譯器說程式結束(雖然不影響結果，但通常會加)</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p>#include<iostream>   // 引入 iostream 標頭檔<br>
+ using namespace std; //std 命名空間</p>
+<p>int main(){<br>
+// 程式碼主體<br>
+ return 0;       // 跟編譯器說程式結束 (雖然不影響結果，但通常會加)<br>
+}</p>
 <h3 id="1-標頭檔"><a class="markdownIt-Anchor" href="#1-標頭檔">#</a> 1. 標頭檔</h3>
 <p>簡單來說，是存放你要使用的功能的地方。</p>
 <p>例如，假如你想要使用 cout 這個功能，便需要在程式的開頭加上這行，因為 cout 是 iostream 裡的功能，所以必須 include 後才能使用。<span class="exturl" data-url="aHR0cHM6Ly9lbWFubGFpY2Vwc2EuZ2l0aHViLmlvLzIwMjAvMTAvMjEvMC0wLw==">(by. 從零開始的演算法競賽)</span></p>
@@ -192,7 +197,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新於</span>
-    <time title="修改時間：2024-09-19 20:12:23" itemprop="dateModified" datetime="2024-09-19T20:12:23+08:00">2024-09-19</time>
+    <time title="修改時間：2024-09-20 20:19:15" itemprop="dateModified" datetime="2024-09-20T20:19:15+08:00">2024-09-20</time>
   </span>
 </div>
 
@@ -205,7 +210,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
   </li>
   <li class="link">
     <strong>文章連結：</strong>
-    <a href="http://example.com/programming/cpp/cpp0/" title="開始coding前，需要知道的幾件事">http://example.com/programming/cpp/cpp0/</a>
+    <a href="http://example.com/programming/cpp/cpp0/" title="111">http://example.com/programming/cpp/cpp0/</a>
   </li>
   <li class="license">
     <strong>版權聲明： </strong>本網頁所有文章除特別聲明外，均採用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 許可協議。轉載請註明出處！
@@ -234,10 +239,10 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <div class="item right">
       
 
-  <a href="/programming/cpp/cpp1/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicis081o9j20zk0m8dmr.jpg" title="開始寫程式">
+  <a href="/programming/cpp/cpp1/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclffsa1cj20zk0m811l.jpg" title="222">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> C++</span>
-  <h3>開始寫程式</h3>
+  <h3>222</h3>
   </a>
 
     </div>
@@ -260,7 +265,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
-          <li class="active"><a href="/programming/cpp/cpp0/" rel="bookmark" title="開始coding前，需要知道的幾件事">開始coding前，需要知道的幾件事</a></li><li><a href="/programming/cpp/cpp1/" rel="bookmark" title="開始寫程式">開始寫程式</a></li>
+          <li class="active"><a href="/programming/cpp/cpp0/" rel="bookmark" title="111">111</a></li><li><a href="/programming/cpp/cpp1/" rel="bookmark" title="222">222</a></li>
         </ul>
       </div>
       <div class="overview panel" data-title="本站概要">

@@ -32,6 +32,10 @@
   <title>
 111 - C++ - 程式設計 |
 zichun = My Blog = 日常紀錄 & 學習筆記</title>
+  <!-- 引入 Prism 的 CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/prismjs/themes/prism-okaidia.css">
+  <link href="themes/prism.css" rel="stylesheet" />
+
 <meta name="generator" content="Hexo 7.3.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
   <div id="loading">
@@ -74,7 +78,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">文章字數</span>
-    <span>482</span>
+    <span>505</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="所需閱讀時間">
@@ -115,12 +119,12 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclwuom7cj20zk0m8dvn.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclxp31goj20zk0m8qv5.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipev1x5e4j20zk0m8b29.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipet4bz0yj20zk0m8e81.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giciundwu5j20zk0m8n9e.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclh0m9pdj20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclhtuo6nj20zk0m8ttm.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipey84bjtj20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclhfehz7j20zk0m8u0x.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gicm07ih54j20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giciuv0socj20zk0m8qes.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gicm0n457cj20zk0m8e81.jpg"></li>
         </ul>
       </div>
     </header>
@@ -159,7 +163,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/kabo.png">
     <meta itemprop="name" content="zichun">
-    <meta itemprop="description" content="日常紀錄 & 學習筆記, 一位對資訊領域充滿熱忱的學生">
+    <meta itemprop="description" content="日常紀錄 & 學習筆記, 一位熱衷於資訊領域的學生">
   </span>
 
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -173,12 +177,13 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
 <p><span class="exturl" data-url="aHR0cHM6Ly93d3cub25saW5lZ2RiLmNvbS9vbmxpbmVfYysrX2NvbXBpbGVyIw==">線上編譯器</span><br>
 編譯器是用於將高階語言（如 C++、Java、Python 等）的代碼轉換成低階語言（通常是機器碼），以便電腦執行。這個過程被稱為編譯，而執行編譯的工具就是編譯器。</p>
 <h2 id="基本架構及知識"><a class="markdownIt-Anchor" href="#基本架構及知識">#</a> 基本架構及知識</h2>
-<p>#include<iostream>   // 引入 iostream 標頭檔<br>
- using namespace std; //std 命名空間</p>
-<p>int main(){<br>
-// 程式碼主體<br>
- return 0;       // 跟編譯器說程式結束 (雖然不影響結果，但通常會加)<br>
-}</p>
+<pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;iostream></span>   <span class="token comment">// 引入 iostream 標頭檔</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span> <span class="token comment">//std 命名空間</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+                    <span class="token comment">// 程式碼主體</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>       <span class="token comment">// 跟編譯器說程式結束 (雖然不影響結果，但通常會加)</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h3 id="1-標頭檔"><a class="markdownIt-Anchor" href="#1-標頭檔">#</a> 1. 標頭檔</h3>
 <p>簡單來說，是存放你要使用的功能的地方。</p>
 <p>例如，假如你想要使用 cout 這個功能，便需要在程式的開頭加上這行，因為 cout 是 iostream 裡的功能，所以必須 include 後才能使用。<span class="exturl" data-url="aHR0cHM6Ly9lbWFubGFpY2Vwc2EuZ2l0aHViLmlvLzIwMjAvMTAvMjEvMC0wLw==">(by. 從零開始的演算法競賽)</span></p>
@@ -197,7 +202,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新於</span>
-    <time title="修改時間：2024-09-20 20:19:15" itemprop="dateModified" datetime="2024-09-20T20:19:15+08:00">2024-09-20</time>
+    <time title="修改時間：2024-09-20 23:15:07" itemprop="dateModified" datetime="2024-09-20T23:15:07+08:00">2024-09-20</time>
   </span>
 </div>
 
@@ -239,7 +244,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <div class="item right">
       
 
-  <a href="/programming/cpp/cpp1/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclffsa1cj20zk0m811l.jpg" title="222">
+  <a href="/programming/cpp/cpp1/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicljgocqbj20zk0m8e81.jpg" title="222">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> C++</span>
   <h3>222</h3>
@@ -273,7 +278,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
   <img class="image" itemprop="image" alt="zichun"
       data-src="/images/kabo.png">
   <p class="name" itemprop="name">zichun</p>
-  <div class="description" itemprop="description">一位對資訊領域充滿熱忱的學生</div>
+  <div class="description" itemprop="description">一位熱衷於資訊領域的學生</div>
 </div>
 
 <nav class="state">
@@ -376,13 +381,13 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="總字數">10k 字</span>
+    <span title="總字數">9k 字</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="所需總閱讀時間">9 分鐘</span>
+    <span title="所需總閱讀時間">8 分鐘</span>
   </div>
   <div class="powered-by">
     基於 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
@@ -425,6 +430,9 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
 
 
 
+  <!-- 引入 Prism 的 JavaScript -->
+  <script src="https://unpkg.com/prismjs/prism.js"></script>
+  <script src="prism.js"></script>
 
 </body>
 </html>

@@ -31,7 +31,7 @@
         }
     
         input::placeholder {
-            color: #888; /* 調整字體顏色 */
+            color: #888; /* 調整佔位符字體顏色 */
         }
     
         /* 淺色模式 */
@@ -55,35 +55,34 @@
         }
     
         button:hover {
-            background-color: #777; /* 按鈕懸停時變亮 */
+            background-color: #818181; /* 按鈕懸停時變亮 */
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
             cursor: pointer; /* 鼠標懸停時顯示手形光標 */
         }
     
-        /* 深色模式 */
-        body.dark-mode {
-            background-color: #1e1e1e; /* 深灰背景 */
-            color: #e0e0e0;
-        }
-    
-        body.dark-mode input {
-            background-color: #333333; /* 深灰色輸入框 */
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-    
-        body.dark-mode button {
-            background-color: #555; /* 灰色按鈕 */
-            color: white;
-            border: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
-            cursor: pointer; /* 鼠標懸停時顯示手形光標 */
-        }
-    
-        body.dark-mode button:hover {
-            background-color: #777; /* 按鈕懸停時變亮 */
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
-            cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+        /* 系統深色模式 */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1e1e1e; /* 深灰背景 */
+                color: #e0e0e0;
+            }
+            input {
+                background-color: #333333; /* 深灰色輸入框 */
+                color: #e0e0e0;
+                border: 1px solid #444;
+            }
+            button {
+                background-color: #555; /* 灰色按鈕 */
+                color: white;
+                border: none;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+                cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+            }
+            button:hover {
+                background-color: #777; /* 按鈕懸停時變亮 */
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
+                cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+            }
         }
     &lt;/style&gt;
 &lt;/head&gt;

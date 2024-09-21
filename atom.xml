@@ -3,15 +3,7 @@
     <id>http://example.com</id>
     <title>My Blog</title>
     <link href="http://example.com" />
-    <updated>2024-09-18T16:24:52.000Z</updated>
-    <entry>
-        <id>http://example.com/programming/cpp/cpp1/</id>
-        <title>222</title>
-        <link rel="alternate" href="http://example.com/programming/cpp/cpp1/"/>
-        <content type="html">&lt;p&gt;22222&lt;/p&gt;
-</content>
-        <updated>2024-09-18T16:24:52.000Z</updated>
-    </entry>
+    <updated>2024-09-18T16:00:00.000Z</updated>
     <entry>
         <id>http://example.com/programming/cpp/cpp0/</id>
         <title>111</title>
@@ -38,6 +30,13 @@
         <updated>2024-09-18T16:00:00.000Z</updated>
     </entry>
     <entry>
+        <id>http://example.com/test/</id>
+        <title>test</title>
+        <link rel="alternate" href="http://example.com/test/"/>
+        <content type="html"></content>
+        <updated>2024-09-17T14:43:39.298Z</updated>
+    </entry>
+    <entry>
         <id>http://example.com/calculator/</id>
         <title>學期成績計算</title>
         <link rel="alternate" href="http://example.com/calculator/"/>
@@ -58,34 +57,61 @@
             box-sizing: border-box;
             transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* 增加過渡效果 */
         }
-
+    
         input::placeholder {
-            color: #888; /* 調整佔位符字體顏色 */
+            color: #888; /* 調整字體顏色 */
         }
-
-        /* 系統深色模式 */
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #1e1e1e; /* 深灰背景 */
-                color: #e0e0e0;
-            }
-            input {
-                background-color: #333333; /* 深灰色輸入框 */
-                color: #e0e0e0;
-                border: 1px solid #444;
-            }
-            button {
-                background-color: #555; /* 灰色按鈕 */
-                color: white;
-                border: none;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
-                cursor: pointer; /* 鼠標懸停時顯示手形光標 */
-            }
-            button:hover {
-                background-color: #777; /* 按鈕懸停時變亮 */
-                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
-                cursor: pointer; /* 鼠標懸停時顯示手形光標 */
-            }
+    
+        /* 淺色模式 */
+        body {
+            background-color: #f9f9f9; /* 淺灰背景 */
+            color: #333; /* 深色文字 */
+        }
+    
+        input {
+            background-color: #fff; /* 白色輸入框 */
+            color: #333; /* 深色文字 */
+            border: 1px solid #ccc; /* 淺色邊框 */
+        }
+    
+        button {
+            background-color: #888; /* 灰色按鈕 */
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+            cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+        }
+    
+        button:hover {
+            background-color: #777; /* 按鈕懸停時變亮 */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
+            cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+        }
+    
+        /* 深色模式 */
+        body.dark-mode {
+            background-color: #1e1e1e; /* 深灰背景 */
+            color: #e0e0e0;
+        }
+    
+        body.dark-mode input {
+            background-color: #333333; /* 深灰色輸入框 */
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+    
+        body.dark-mode button {
+            background-color: #555; /* 灰色按鈕 */
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+            cursor: pointer; /* 鼠標懸停時顯示手形光標 */
+        }
+    
+        body.dark-mode button:hover {
+            background-color: #777; /* 按鈕懸停時變亮 */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增強陰影效果 */
+            cursor: pointer; /* 鼠標懸停時顯示手形光標 */
         }
     &lt;/style&gt;
 &lt;/head&gt;
@@ -442,13 +468,5 @@ a description&#34;
 &lt;span class=&#34;token key attr-name&#34;&gt;counter&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token value attr-value&#34;&gt;1_000&lt;/span&gt;&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
         <updated>2019-07-25T08:43:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/hello-world/</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="http://example.com/hello-world/"/>
-        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhv&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhvL2RvY3M=&#34;&gt;documentation&lt;/span&gt; to learn how to use.&lt;/p&gt;
-</content>
-        <updated>2013-12-24T09:49:32.000Z</updated>
     </entry>
 </feed>

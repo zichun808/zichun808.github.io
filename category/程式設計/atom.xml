@@ -3,15 +3,7 @@
     <id>http://example.com</id>
     <title>My Blog • Posts by &#34;程式設計&#34; category</title>
     <link href="http://example.com" />
-    <updated>2024-09-18T16:24:52.000Z</updated>
-    <entry>
-        <id>http://example.com/programming/cpp/cpp1/</id>
-        <title>222</title>
-        <link rel="alternate" href="http://example.com/programming/cpp/cpp1/"/>
-        <content type="html">&lt;p&gt;22222&lt;/p&gt;
-</content>
-        <updated>2024-09-18T16:24:52.000Z</updated>
-    </entry>
+    <updated>2024-09-18T16:00:00.000Z</updated>
     <entry>
         <id>http://example.com/programming/cpp/cpp0/</id>
         <title>111</title>

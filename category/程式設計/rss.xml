@@ -5,16 +5,8 @@
         <link>http://example.com</link>
         <description>一位熱衷於資訊領域的學生</description>
         <language>zh-TW</language>
-        <pubDate>Thu, 19 Sep 2024 00:24:52 +0800</pubDate>
-        <lastBuildDate>Thu, 19 Sep 2024 00:24:52 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">http://example.com/programming/cpp/cpp1/</guid>
-            <title>222</title>
-            <link>http://example.com/programming/cpp/cpp1/</link>
-            <pubDate>Thu, 19 Sep 2024 00:24:52 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;22222&lt;/p&gt;
- ]]></description>
-        </item>
+        <pubDate>Thu, 19 Sep 2024 00:00:00 +0800</pubDate>
+        <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">http://example.com/programming/cpp/cpp0/</guid>
             <title>111</title>

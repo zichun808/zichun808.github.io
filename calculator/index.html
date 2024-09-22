@@ -295,7 +295,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
             } else if (isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
                 const requiredScoreThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2, 0.6);
                 const requiredScoreBothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2, 0.6);
-                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters} 分。`;
+                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester*2} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters*2} 分。`;
             } else if (!isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
                 responseMessage = totalScore >= 59.5 ? `恭喜本學期通過\n(本學期成績 ${totalScore} 分)` : `本學期未通過\n(本學期成績 ${totalScore} 分)`;
             } else if (!isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
@@ -331,10 +331,10 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
 <li>三段、平時成績：各佔 30%</li>
 <li><ins>學期成績採四捨五入至整數位</ins></li>
 </ol>
-<h3 id="學年成績計算需輸入上學期成績"><a class="markdownIt-Anchor" href="#學年成績計算需輸入上學期成績">#</a> 學年成績計算（需輸入上學期成績）</h3>
+<h3 id="學年成績計算"><a class="markdownIt-Anchor" href="#學年成績計算">#</a> 學年成績計算</h3>
 <ol>
 <li>上、下學期成績：各佔 50%</li>
-<li><ins>學年成績採四捨五入至小數點後第一位</ins><br>
+<li><ins>學年成績採四捨五入至十分位</ins><br>
 </br></li>
 </ol>
 <h1 id="輸出內容說明"><a class="markdownIt-Anchor" href="#輸出內容說明">#</a> 輸出內容說明</h1>
@@ -365,7 +365,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新於</span>
-    <time title="修改時間：2024-09-22 01:01:08" itemprop="dateModified" datetime="2024-09-22T01:01:08+08:00">2024-09-22</time>
+    <time title="修改時間：2024-09-22 21:19:47" itemprop="dateModified" datetime="2024-09-22T21:19:47+08:00">2024-09-22</time>
   </span>
 </div>
 
@@ -397,7 +397,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <div class="item left">
       
 
-  <a href="/code-highlight/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipewf5l51j20zk0m8b29.jpg" title="Code Highlight Style test">
+  <a href="/code-highlight/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giph4wqtg4j20zk0m8x6p.jpg" title="Code Highlight Style test">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>Code Highlight Style test</h3>
@@ -407,7 +407,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <div class="item right">
       
 
-  <a href="/test/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclhnx9glj20zk0m8npd.jpg" title="test">
+  <a href="/test/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipeyvx1d4j20zk0m8hdt.jpg" title="test">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>test</h3>
@@ -429,7 +429,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目錄">
-          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">計算結果</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97%E6%96%B9%E5%BC%8F"><span class="toc-number"></span> <span class="toc-text"> 成績計算方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%B8%E6%9C%9F%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97"><span class="toc-number">0.1.</span> <span class="toc-text"> 學期成績計算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%B8%E5%B9%B4%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97%E9%9C%80%E8%BC%B8%E5%85%A5%E4%B8%8A%E5%AD%B8%E6%9C%9F%E6%88%90%E7%B8%BE"><span class="toc-number">0.2.</span> <span class="toc-text"> 學年成績計算（需輸入上學期成績）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BC%B8%E5%87%BA%E5%85%A7%E5%AE%B9%E8%AA%AA%E6%98%8E"><span class="toc-number"></span> <span class="toc-text"> 輸出內容說明</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%A5%E5%83%85%E8%BC%B8%E5%85%A5%E7%AC%AC%E4%B8%80-%E4%BA%8C%E6%AC%A1%E6%AE%B5%E8%80%83%E6%88%90%E7%B8%BE"><span class="toc-number">0.1.</span> <span class="toc-text"> 若僅輸入第一、二次段考成績</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%A5%E8%BC%B8%E5%85%A5%E5%85%A9%E6%AC%A1%E6%AE%B5%E8%80%83%E6%88%90%E7%B8%BE%E5%8F%8A%E4%B8%89%E6%AE%B5%E6%88%96%E5%B9%B3%E6%99%82%E6%88%90%E7%B8%BE%E5%85%B6%E4%B8%AD%E4%B8%80%E9%A0%85"><span class="toc-number">0.2.</span> <span class="toc-text"> 若輸入兩次段考成績及三段或平時成績其中一項</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%A5%E8%BC%B8%E5%85%A5%E6%89%80%E6%9C%89%E6%88%90%E7%B8%BE"><span class="toc-number">0.3.</span> <span class="toc-text"> 若輸入所有成績</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">計算結果</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97%E6%96%B9%E5%BC%8F"><span class="toc-number"></span> <span class="toc-text"> 成績計算方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%B8%E6%9C%9F%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97"><span class="toc-number">0.1.</span> <span class="toc-text"> 學期成績計算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%B8%E5%B9%B4%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97"><span class="toc-number">0.2.</span> <span class="toc-text"> 學年成績計算</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BC%B8%E5%87%BA%E5%85%A7%E5%AE%B9%E8%AA%AA%E6%98%8E"><span class="toc-number"></span> <span class="toc-text"> 輸出內容說明</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%A5%E5%83%85%E8%BC%B8%E5%85%A5%E7%AC%AC%E4%B8%80-%E4%BA%8C%E6%AC%A1%E6%AE%B5%E8%80%83%E6%88%90%E7%B8%BE"><span class="toc-number">0.1.</span> <span class="toc-text"> 若僅輸入第一、二次段考成績</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%A5%E8%BC%B8%E5%85%A5%E5%85%A9%E6%AC%A1%E6%AE%B5%E8%80%83%E6%88%90%E7%B8%BE%E5%8F%8A%E4%B8%89%E6%AE%B5%E6%88%96%E5%B9%B3%E6%99%82%E6%88%90%E7%B8%BE%E5%85%B6%E4%B8%AD%E4%B8%80%E9%A0%85"><span class="toc-number">0.2.</span> <span class="toc-text"> 若輸入兩次段考成績及三段或平時成績其中一項</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%A5%E8%BC%B8%E5%85%A5%E6%89%80%E6%9C%89%E6%88%90%E7%B8%BE"><span class="toc-number">0.3.</span> <span class="toc-text"> 若輸入所有成績</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>

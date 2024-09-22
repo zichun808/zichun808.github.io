@@ -176,7 +176,7 @@
             } else if (isNaN(score3) &amp;&amp; isNaN(score4) &amp;&amp; !isNaN(previousScore)) {
                 const requiredScoreThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2, 0.6);
                 const requiredScoreBothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2, 0.6);
-                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters} 分。`;
+                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester*2} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters*2} 分。`;
             } else if (!isNaN(score3) &amp;&amp; !isNaN(score4) &amp;&amp; isNaN(previousScore)) {
                 responseMessage = totalScore &gt;= 59.5 ? `恭喜本學期通過\n(本學期成績 ${totalScore} 分)` : `本學期未通過\n(本學期成績 ${totalScore} 分)`;
             } else if (!isNaN(score3) &amp;&amp; isNaN(score4) &amp;&amp; !isNaN(previousScore)) {
@@ -212,10 +212,10 @@
 &lt;li&gt;三段、平時成績：各佔 30%&lt;/li&gt;
 &lt;li&gt;&lt;ins&gt;學期成績採四捨五入至整數位&lt;/ins&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;學年成績計算需輸入上學期成績&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#學年成績計算需輸入上學期成績&#34;&gt;#&lt;/a&gt; 學年成績計算（需輸入上學期成績）&lt;/h3&gt;
+&lt;h3 id=&#34;學年成績計算&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#學年成績計算&#34;&gt;#&lt;/a&gt; 學年成績計算&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;上、下學期成績：各佔 50%&lt;/li&gt;
-&lt;li&gt;&lt;ins&gt;學年成績採四捨五入至小數點後第一位&lt;/ins&gt;&lt;br&gt;
+&lt;li&gt;&lt;ins&gt;學年成績採四捨五入至十分位&lt;/ins&gt;&lt;br&gt;
 &lt;/br&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;輸出內容說明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#輸出內容說明&#34;&gt;#&lt;/a&gt; 輸出內容說明&lt;/h1&gt;

@@ -2,15 +2,15 @@
 <rss version="2.0">
     <channel>
         <title>My Blog</title>
-        <link>http://example.com</link>
+        <link>https://zichun808.github.io</link>
         <description>一位熱衷於資訊領域的學生</description>
         <language>zh-TW</language>
         <pubDate>Thu, 19 Sep 2024 00:00:00 +0800</pubDate>
         <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/programming/cpp/cpp0/</guid>
+            <guid isPermalink="true">https://zichun808.github.io/programming/cpp/cpp/cpp0/</guid>
             <title>111</title>
-            <link>http://example.com/programming/cpp/cpp0/</link>
+            <link>https://zichun808.github.io/programming/cpp/cpp/cpp0/</link>
             <pubDate>Thu, 19 Sep 2024 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;編譯器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#編譯器&#34;&gt;#&lt;/a&gt; 編譯器&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cub25saW5lZ2RiLmNvbS9vbmxpbmVfYysrX2NvbXBpbGVyIw==&#34;&gt;線上編譯器&lt;/span&gt;&lt;br&gt;
@@ -33,16 +33,16 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/test/</guid>
+            <guid isPermalink="true">https://zichun808.github.io/test/</guid>
             <title>test</title>
-            <link>http://example.com/test/</link>
+            <link>https://zichun808.github.io/test/</link>
             <pubDate>Tue, 17 Sep 2024 22:43:39 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/calculator/</guid>
+            <guid isPermalink="true">https://zichun808.github.io/calculator/</guid>
             <title>學期成績計算</title>
-            <link>http://example.com/calculator/</link>
+            <link>https://zichun808.github.io/calculator/</link>
             <pubDate>Tue, 17 Sep 2024 15:52:47 +0800</pubDate>
             <description><![CDATA[ 
 &lt;!DOCTYPE html&gt;
@@ -238,9 +238,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/code-highlight/</guid>
+            <guid isPermalink="true">https://zichun808.github.io/code-highlight/</guid>
             <title>Code Highlight Style test</title>
-            <link>http://example.com/code-highlight/</link>
+            <link>https://zichun808.github.io/code-highlight/</link>
             <pubDate>Thu, 25 Jul 2019 16:43:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oaWdobGlnaHRqcy5vcmc=&#34;&gt;https://highlightjs.org&lt;/span&gt;&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://zichun808.github.io</id>
     <title>My Blog • Posts by &#34;c++&#34; category</title>
-    <link href="http://example.com" />
+    <link href="https://zichun808.github.io" />
     <updated>2024-09-18T16:00:00.000Z</updated>
     <entry>
-        <id>http://example.com/programming/cpp/cpp0/</id>
+        <id>https://zichun808.github.io/programming/cpp/cpp/cpp0/</id>
         <title>111</title>
-        <link rel="alternate" href="http://example.com/programming/cpp/cpp0/"/>
+        <link rel="alternate" href="https://zichun808.github.io/programming/cpp/cpp/cpp0/"/>
         <content type="html">&lt;h3 id=&#34;編譯器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#編譯器&#34;&gt;#&lt;/a&gt; 編譯器&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cub25saW5lZ2RiLmNvbS9vbmxpbmVfYysrX2NvbXBpbGVyIw==&#34;&gt;線上編譯器&lt;/span&gt;&lt;br&gt;
 編譯器是用於將高階語言（如 C++、Java、Python 等）的代碼轉換成低階語言（通常是機器碼），以便電腦執行。這個過程被稱為編譯，而執行編譯的工具就是編譯器。&lt;/p&gt;

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://zichun808.github.io</id>
     <title>My Blog • Posts by &#34;小工具&#34; category</title>
-    <link href="http://example.com" />
+    <link href="https://zichun808.github.io" />
     <updated>2024-09-17T07:52:47.265Z</updated>
     <entry>
-        <id>http://example.com/calculator/</id>
+        <id>https://zichun808.github.io/calculator/</id>
         <title>學期成績計算</title>
-        <link rel="alternate" href="http://example.com/calculator/"/>
+        <link rel="alternate" href="https://zichun808.github.io/calculator/"/>
         <content type="html">
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;

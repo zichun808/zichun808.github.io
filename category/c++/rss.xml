@@ -2,15 +2,15 @@
 <rss version="2.0">
     <channel>
         <title>My Blog • Posts by &#34;c++&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://zichun808.github.io</link>
         <description>一位熱衷於資訊領域的學生</description>
         <language>zh-TW</language>
         <pubDate>Thu, 19 Sep 2024 00:00:00 +0800</pubDate>
         <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/programming/cpp/cpp0/</guid>
+            <guid isPermalink="true">https://zichun808.github.io/programming/cpp/cpp/cpp0/</guid>
             <title>111</title>
-            <link>http://example.com/programming/cpp/cpp0/</link>
+            <link>https://zichun808.github.io/programming/cpp/cpp/cpp0/</link>
             <pubDate>Thu, 19 Sep 2024 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;編譯器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#編譯器&#34;&gt;#&lt;/a&gt; 編譯器&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cub25saW5lZ2RiLmNvbS9vbmxpbmVfYysrX2NvbXBpbGVyIw==&#34;&gt;線上編譯器&lt;/span&gt;&lt;br&gt;

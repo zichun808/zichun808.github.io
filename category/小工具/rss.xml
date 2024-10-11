@@ -2,15 +2,15 @@
 <rss version="2.0">
     <channel>
         <title>My Blog • Posts by &#34;小工具&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://zichun808.github.io</link>
         <description>一位熱衷於資訊領域的學生</description>
         <language>zh-TW</language>
         <pubDate>Tue, 17 Sep 2024 15:52:47 +0800</pubDate>
         <lastBuildDate>Tue, 17 Sep 2024 15:52:47 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/calculator/</guid>
+            <guid isPermalink="true">https://zichun808.github.io/calculator/</guid>
             <title>學期成績計算</title>
-            <link>http://example.com/calculator/</link>
+            <link>https://zichun808.github.io/calculator/</link>
             <pubDate>Tue, 17 Sep 2024 15:52:47 +0800</pubDate>
             <description><![CDATA[ 
 &lt;!DOCTYPE html&gt;

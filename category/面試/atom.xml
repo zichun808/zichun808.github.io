@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zichun808.github.io</id>
+    <title>My Blog • Posts by &#34;面試&#34; category</title>
+    <link href="https://zichun808.github.io" />
+    <updated>2024-09-18T16:00:00.000Z</updated>
+    <category term="特殊選才" />
+    <entry>
+        <id>https://zichun808.github.io/interview/prepare/</id>
+        <title>面試準備</title>
+        <link rel="alternate" href="https://zichun808.github.io/interview/prepare/"/>
+        <content type="html">&lt;p&gt;1223&lt;/p&gt;
+</content>
+        <category term="特殊選才" />
+        <updated>2024-09-18T16:00:00.000Z</updated>
+    </entry>
+</feed>

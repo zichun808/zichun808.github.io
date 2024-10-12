@@ -5,6 +5,16 @@
     "home_page_url": "https://zichun808.github.io",
     "items": [
         {
+            "id": "https://zichun808.github.io/interview/prepare/",
+            "url": "https://zichun808.github.io/interview/prepare/",
+            "title": "面試準備",
+            "date_published": "2024-09-18T16:00:00.000Z",
+            "content_html": "<p>1223</p>\n",
+            "tags": [
+                "特殊選才"
+            ]
+        },
+        {
             "id": "https://zichun808.github.io/programming/cpp/cpp/cpp0/",
             "url": "https://zichun808.github.io/programming/cpp/cpp/cpp0/",
             "title": "111",

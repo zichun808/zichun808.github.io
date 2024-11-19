@@ -24,15 +24,13 @@
 <link rel="stylesheet" href="/css/app.css?v=0.2.5">
 
   
-  <meta name="keywords" content="特殊選才" />
 
-
-<link rel="canonical" href="https://zichun808.github.io/interview/prepare/">
+<link rel="canonical" href="https://zichun808.github.io/tools/words/">
 
 
 
   <title>
-面試準備 - 面試 |
+字數計算 - 小工具 |
 zichun = My Blog = 日常紀錄 & 學習筆記</title>
   <!-- 引入 Prism 的 CSS -->
   <link rel="stylesheet" href="https://unpkg.com/prismjs/themes/prism-okaidia.css">
@@ -64,23 +62,23 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">面試準備
+  <h1 itemprop="name headline">字數計算
   </h1>
   
 <div class="meta">
-  <span class="item" title="創建時間：2024-09-19 00:00:00">
+  <span class="item" title="創建時間：2024-11-19 23:44:04">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">發表於</span>
-    <time itemprop="dateCreated datePublished" datetime="2024-09-19T00:00:00+08:00">2024-09-19</time>
+    <time itemprop="dateCreated datePublished" datetime="2024-11-19T23:44:04+08:00">2024-11-19</time>
   </span>
   <span class="item" title="文章字數">
     <span class="icon">
       <i class="ic i-pen"></i>
     </span>
     <span class="text">文章字數</span>
-    <span>4</span>
+    <span>2.4k</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="所需閱讀時間">
@@ -88,7 +86,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <i class="ic i-clock"></i>
     </span>
     <span class="text">所需閱讀時間</span>
-    <span>1 分鐘</span>
+    <span>2 分鐘</span>
   </span>
 </div>
 
@@ -120,14 +118,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
 
       </div>
       <div id="imgs" class="pjax">
-        <ul>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicit31ffoj20zk0m8naf.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclx29mstj20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipexw3o58j20zk0m8e81.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicli9lfebj20zk0m84qp.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclhnx9glj20zk0m8npd.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipeudstjqj20zk0m8k3r.jpg"></li>
-        </ul>
+          <img src="/image/calculator0.jpg">
       </div>
     </header>
     <div id="waves">
@@ -152,12 +143,12 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
 <div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
 <i class="ic i-home"></i>
 <span><a href="/">首頁</a></span><i class="ic i-angle-right"></i>
-<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/interview/" itemprop="item" rel="index" title="分類於 面試"><span itemprop="name">面試</span></a>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/tools/" itemprop="item" rel="index" title="分類於 小工具"><span itemprop="name">小工具</span></a>
 <meta itemprop="position" content="1" /></span>
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-TW">
-  <link itemprop="mainEntityOfPage" href="https://zichun808.github.io/interview/prepare/">
+  <link itemprop="mainEntityOfPage" href="https://zichun808.github.io/tools/words/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/kabo.png">
@@ -172,11 +163,121 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <p>1223</p>
+    
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            resize: vertical; /* 限定垂直調整 */
+            box-sizing: border-box;
+            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+        }
+        /* 淺色模式 */
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
 
-      <div class="tags">
-          <a href="/tags/special-admission/" rel="tag"><i class="ic i-tag"></i> 特殊選才</a>
-      </div>
+        textarea {
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+        }
+
+        /* 深色模式 */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1e1e1e;
+                color: #e0e0e0;
+            }
+
+            textarea {
+                background-color: #333333;
+                color: #e0e0e0;
+                border: 1px solid #444;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
+    
+    <div class="result">
+        <div class="group">
+            <span>文章字數: </span><span id="charCount" class="value">0</span> | 
+            <span>總字元數: </span><span id="weightedCharCount" class="value">0</span>
+        </div>
+        <div class="group">
+            <span>文字段落: </span><span id="lineCount" class="value">0</span> | 
+            <span>總單字數: </span><span id="englishWordCount" class="value">0</span>
+        </div>
+        <div class="group">
+            <span>中文字數: </span><span id="chineseCount" class="value">0</span> | 
+            <span>英文字數: </span><span id="englishCharCount" class="value">0</span> | 
+            <span>標點符號: </span><span id="punctCount" class="value">0</span>
+        </div>
+        <div class="group">
+            <span>空格數量: </span><span id="spaceCount" class="value">0</span> | 
+            <span>數字數量: </span><span id="numberCount" class="value">0</span> | 
+            <span>Emoji😵: </span><span id="emojiCount" class="value">0</span>
+        </div>
+    </div>
+</div>
+
+<script>
+    function analyzeText() {
+        const text = document.getElementById('textInput').value;
+
+        const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
+        const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+        const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
+        const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
+        const numberCount = (text.match(/\d/g) || []).length;
+        const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
+        const emojiCount = Math.floor(emojiMatches.length / 2);
+        const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
+        const spaceCount = (text.match(/\s/g) || []).length;
+
+        const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
+        const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
+
+        document.getElementById('charCount').textContent = formatNumber(totalCharCount);
+        document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
+        document.getElementById('lineCount').textContent = formatNumber(lineCount);
+        document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
+        document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
+        document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
+        document.getElementById('punctCount').textContent = formatNumber(punctCount);
+        document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
+        document.getElementById('numberCount').textContent = formatNumber(numberCount);
+        document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
+    }
+
+    function formatNumber(num) {
+        if (num < 10000) {
+            return num.toString().padStart(5, '⠀'); 
+        }
+        return num;
+    }
+    window.onload = analyzeText;
+</script>
+
+</body>
+</html>
+
+
+
   </div>
 
    <footer>
@@ -187,7 +288,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新於</span>
-    <time title="修改時間：2024-10-13 03:51:29" itemprop="dateModified" datetime="2024-10-13T03:51:29+08:00">2024-10-13</time>
+    <time title="修改時間：2024-11-20 00:59:04" itemprop="dateModified" datetime="2024-11-20T00:59:04+08:00">2024-11-20</time>
   </span>
 </div>
 
@@ -200,7 +301,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
   </li>
   <li class="link">
     <strong>文章連結：</strong>
-    <a href="https://zichun808.github.io/interview/prepare/" title="面試準備">https://zichun808.github.io/interview/prepare/</a>
+    <a href="https://zichun808.github.io/tools/words/" title="字數計算">https://zichun808.github.io/tools/words/</a>
   </li>
   <li class="license">
     <strong>版權聲明： </strong>本網頁所有文章除特別聲明外，均採用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 許可協議。轉載請註明出處！
@@ -219,10 +320,10 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <div class="item left">
       
 
-  <a href="/programming/cpp/cpp/cpp0/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicitcxhpij20zk0m8hdt.jpg" title="111">
+  <a href="/tools/calculator/" itemprop="url" rel="prev" data-background-image="&#x2F;image&#x2F;calculator0.jpg" title="學期成績計算">
   <span class="type">上一篇</span>
-  <span class="category"><i class="ic i-flag"></i> C++</span>
-  <h3>111</h3>
+  <span class="category"><i class="ic i-flag"></i> 小工具</span>
+  <h3>學期成績計算</h3>
   </a>
 
     </div>
@@ -246,7 +347,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
-          <li class="active"><a href="/interview/prepare/" rel="bookmark" title="面試準備">面試準備</a></li>
+          <li><a href="/tools/calculator/" rel="bookmark" title="學期成績計算">學期成績計算</a></li><li class="active"><a href="/tools/words/" rel="bookmark" title="字數計算">字數計算</a></li>
         </ul>
       </div>
       <div class="overview panel" data-title="本站概要">
@@ -266,14 +367,8 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     </div>
     <div class="item categories">
       <a href="/categories/">
-        <span class="count">4</span>
+        <span class="count">3</span>
         <span class="name">分類</span>
-      </a>
-    </div>
-    <div class="item tags">
-      <a href="/tags/">
-        <span class="count">1</span>
-        <span class="name">標籤</span>
       </a>
     </div>
 </nav>
@@ -361,13 +456,13 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="總字數">9k 字</span>
+    <span title="總字數">12k 字</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="所需總閱讀時間">8 分鐘</span>
+    <span title="所需總閱讀時間">10 分鐘</span>
   </div>
   <div class="powered-by">
     基於 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
@@ -379,7 +474,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: 'interview/prepare/',
+    path: 'tools/words/',
     favicon: {
       show: "(●'3'●) 連線成功",
       hide: "(´Д｀) 連線失敗"

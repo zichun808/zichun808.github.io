@@ -1,7 +1,7 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "My Blog",
-    "description": "一位熱衷於資訊領域的學生",
+    "description": "程式設計 | 資訊安全",
     "home_page_url": "https://zichun808.github.io",
     "items": [
         {

@@ -75,7 +75,7 @@
         &lt;div class=&#34;group&#34;&gt;
             &lt;span&gt;空格數量: &lt;/span&gt;&lt;span id=&#34;spaceCount&#34; class=&#34;value&#34;&gt;0&lt;/span&gt; | 
             &lt;span&gt;數字數量: &lt;/span&gt;&lt;span id=&#34;numberCount&#34; class=&#34;value&#34;&gt;0&lt;/span&gt; | 
-            &lt;span&gt;Emoji😵: &lt;/span&gt;&lt;span id=&#34;emojiCount&#34; class=&#34;value&#34;&gt;0&lt;/span&gt;
+            &lt;span&gt;Emoji🙂: &lt;/span&gt;&lt;span id=&#34;emojiCount&#34; class=&#34;value&#34;&gt;0&lt;/span&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -110,8 +110,8 @@
     }
 
     function formatNumber(num) {
-        if (num &lt; 10000) {
-            return num.toString().padStart(5, &#39;⠀&#39;); 
+        if (num &lt; 1000) {
+            return num.toString().padStart(4, &#39;⠀&#39;); 
         }
         return num;
     }
@@ -325,7 +325,7 @@
     </entry>
     <entry>
         <id>https://zichun808.github.io/programming/cpp/cpp/cpp0/</id>
-        <title>111</title>
+        <title>start</title>
         <link rel="alternate" href="https://zichun808.github.io/programming/cpp/cpp/cpp0/"/>
         <content type="html">&lt;h3 id=&#34;編譯器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#編譯器&#34;&gt;#&lt;/a&gt; 編譯器&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cub25saW5lZ2RiLmNvbS9vbmxpbmVfYysrX2NvbXBpbGVyIw==&#34;&gt;線上編譯器&lt;/span&gt;&lt;br&gt;

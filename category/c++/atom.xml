@@ -10,7 +10,7 @@
         <link rel="alternate" href="https://zichun808.github.io/programming/cpp/cpp/cpp0/"/>
         <content type="html">&lt;h3 id=&#34;編譯器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#編譯器&#34;&gt;#&lt;/a&gt; 編譯器&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cub25saW5lZ2RiLmNvbS9vbmxpbmVfYysrX2NvbXBpbGVyIw==&#34;&gt;線上編譯器&lt;/span&gt;&lt;br&gt;
-編譯器是用於將高階語言（如 C++、Java、Python 等）的代碼轉換成低階語言（通常是機器碼），以便電腦執行。這個過程被稱為編譯，而執行編譯的工具就是編譯器。&lt;/p&gt;
+編譯器可以於將高階語言 (如 C++、Java、Python 等) 代碼轉換成低階語言 (通常是機器碼)，以便電腦執行。這個過程被稱為編譯，而執行編譯的工具就是編譯器。&lt;/p&gt;
 &lt;h2 id=&#34;基本架構及知識&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本架構及知識&#34;&gt;#&lt;/a&gt; 基本架構及知識&lt;/h2&gt;
 &lt;pre class=&#34;line-numbers language-cpp&#34; data-language=&#34;cpp&#34;&gt;&lt;code class=&#34;language-cpp&#34;&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 引入 iostream 標頭檔&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 使用 std 命名空間&lt;/span&gt;

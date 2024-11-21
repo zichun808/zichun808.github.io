@@ -30,7 +30,7 @@
 
 
   <title>
-start - C++ - 程式設計 |
+Hello World! - C++ - 程式設計 |
 zichun = My Blog = 日常紀錄 & 學習筆記</title>
   <!-- 引入 Prism 的 CSS -->
   <link rel="stylesheet" href="https://unpkg.com/prismjs/themes/prism-okaidia.css">
@@ -62,7 +62,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">start
+  <h1 itemprop="name headline">Hello World!
   </h1>
   
 <div class="meta">
@@ -78,7 +78,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">文章字數</span>
-    <span>505</span>
+    <span>241</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="所需閱讀時間">
@@ -119,12 +119,12 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giph47e9vtj20zk0m8x6l.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipeuibk9fj20zk0m8ay2.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclil3m4ej20zk0m8tn8.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giph4lm9i7j20zk0m84qp.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipew8gmvyj20zk0m87wh.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicitht3xtj20zk0m8k5v.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeu1usa7j20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclh5u05ej20zk0m87df.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclhnx9glj20zk0m8npd.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclj9410cj20zk0m8h12.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipewf5l51j20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipesrnqv3j20zk0m8ava.jpg"></li>
         </ul>
       </div>
     </header>
@@ -178,20 +178,12 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
 編譯器是用於將高階語言（如 C++、Java、Python 等）的代碼轉換成低階語言（通常是機器碼），以便電腦執行。這個過程被稱為編譯，而執行編譯的工具就是編譯器。</p>
 <h2 id="基本架構及知識"><a class="markdownIt-Anchor" href="#基本架構及知識">#</a> 基本架構及知識</h2>
 <pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;iostream></span>   <span class="token comment">// 引入 iostream 標頭檔</span></span>
-<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span> <span class="token comment">//std 命名空間</span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span> <span class="token comment">// 使用 std 命名空間</span>
 
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-                    <span class="token comment">// 程式碼主體</span>
-    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>       <span class="token comment">// 跟編譯器說程式結束 (雖然不影響結果，但通常會加)</span>
+    cout<span class="token operator">&lt;&lt;</span><span class="token string">"Hello World!\n"</span><span class="token punctuation">;</span>       <span class="token comment">// 程式碼主體</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>       <span class="token comment">// 表示程式執行完成，運行結束</span>
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="1-標頭檔"><a class="markdownIt-Anchor" href="#1-標頭檔">#</a> 1. 標頭檔</h3>
-<p>簡單來說，是存放你要使用的功能的地方。</p>
-<p>例如，假如你想要使用 cout 這個功能，便需要在程式的開頭加上這行，因為 cout 是 iostream 裡的功能，所以必須 include 後才能使用。<span class="exturl" data-url="aHR0cHM6Ly9lbWFubGFpY2Vwc2EuZ2l0aHViLmlvLzIwMjAvMTAvMjEvMC0wLw==">(by. 從零開始的演算法競賽)</span></p>
-<h3 id="2-命名空間"><a class="markdownIt-Anchor" href="#2-命名空間">#</a> 2. 命名空間</h3>
-<p>若有兩個人同名，我們不知道要如何分辨時，我們可能會說：X 年 X 班的 XXX…</p>
-<p>在這裡概念是類似的！using namespace std 就是跟程式說，我接下來叫的人，是在 std 這個班級裡，這樣就不用每次叫人都加上班級了！<span class="exturl" data-url="aHR0cHM6Ly9lbWFubGFpY2Vwc2EuZ2l0aHViLmlvLzIwMjAvMTAvMjEvMC0wLw==">(by. 從零開始的演算法競賽)</span></p>
-<p>若沒加此行，在使用 <code>cin、cout</code>  時，需寫成 <code>std::cin、std::cout</code> ，非常麻煩。</p>
-
   </div>
 
    <footer>
@@ -202,7 +194,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新於</span>
-    <time title="修改時間：2024-11-20 21:40:07" itemprop="dateModified" datetime="2024-11-20T21:40:07+08:00">2024-11-20</time>
+    <time title="修改時間：2024-11-21 21:26:43" itemprop="dateModified" datetime="2024-11-21T21:26:43+08:00">2024-11-21</time>
   </span>
 </div>
 
@@ -215,7 +207,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
   </li>
   <li class="link">
     <strong>文章連結：</strong>
-    <a href="https://zichun808.github.io/programming/cpp/cpp/cpp0/" title="start">https://zichun808.github.io/programming/cpp/cpp/cpp0/</a>
+    <a href="https://zichun808.github.io/programming/cpp/cpp/cpp0/" title="Hello World!">https://zichun808.github.io/programming/cpp/cpp/cpp0/</a>
   </li>
   <li class="license">
     <strong>版權聲明： </strong>本網頁所有文章除特別聲明外，均採用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 許可協議。轉載請註明出處！
@@ -234,7 +226,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <div class="item left">
       
 
-  <a href="/test/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giph4baakhj20zk0m8h5q.jpg" title="test">
+  <a href="/test/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicit31ffoj20zk0m8naf.jpg" title="test">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>test</h3>
@@ -244,7 +236,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <div class="item right">
       
 
-  <a href="/tools/calculator/" itemprop="url" rel="next" data-background-image="&#x2F;image&#x2F;calculator0.jpg" title="學期成績計算">
+  <a href="/tools/calculator/" itemprop="url" rel="next" data-background-image="&#x2F;image&#x2F;balloon.jpg" title="學期成績計算">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> 小工具</span>
   <h3>學期成績計算</h3>
@@ -266,11 +258,11 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目錄">
-          <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B7%A8%E8%AD%AF%E5%99%A8"><span class="toc-number">1.</span> <span class="toc-text"> 編譯器</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%A7%8B%E5%8F%8A%E7%9F%A5%E8%AD%98"><span class="toc-number"></span> <span class="toc-text"> 基本架構及知識</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%A8%99%E9%A0%AD%E6%AA%94"><span class="toc-number">1.</span> <span class="toc-text"> 1. 標頭檔</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%91%BD%E5%90%8D%E7%A9%BA%E9%96%93"><span class="toc-number">2.</span> <span class="toc-text"> 2. 命名空間</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B7%A8%E8%AD%AF%E5%99%A8"><span class="toc-number">1.</span> <span class="toc-text"> 編譯器</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%A7%8B%E5%8F%8A%E7%9F%A5%E8%AD%98"><span class="toc-number"></span> <span class="toc-text"> 基本架構及知識</span></a>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
-          <li class="active"><a href="/programming/cpp/cpp/cpp0/" rel="bookmark" title="start">start</a></li>
+          <li class="active"><a href="/programming/cpp/cpp/cpp0/" rel="bookmark" title="Hello World!">Hello World!</a></li>
         </ul>
       </div>
       <div class="overview panel" data-title="本站概要">
@@ -300,7 +292,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
       <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL3ppY2h1bjgwOA==" title="https:&#x2F;&#x2F;github.com&#x2F;zichun808"><i class="ic i-github"></i></span>
       <span class="exturl item email" data-url="bWFpbHRvOnppY2h1bjgwOEBtYWlsLmNvbQ==" title="mailto:zichun808@mail.com"><i class="ic i-envelope"></i></span>
       <span class="exturl item youtube" data-url="aHR0cHM6Ly95b3V0dWJlLmNvbQ==" title="https:&#x2F;&#x2F;youtube.com"><i class="ic i-youtube"></i></span>
-      <span class="exturl item instagram" data-url="aHR0cHM6Ly9pbnN0YWdyYW0uY29tL3ppY2h1bl8yOA==" title="https:&#x2F;&#x2F;instagram.com&#x2F;zichun_28"><i class="ic i-instagram"></i></span>
+      <span class="exturl item instagram" data-url="aHR0cHM6Ly9pbnN0YWdyYW0uY29tL3ppY2h1bjgwOA==" title="https:&#x2F;&#x2F;instagram.com&#x2F;zichun808"><i class="ic i-instagram"></i></span>
 </div>
 
 <ul class="menu">
@@ -381,7 +373,7 @@ zichun = My Blog = 日常紀錄 & 學習筆記</title>
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="總字數">12k 字</span>
+    <span title="總字數">11k 字</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">

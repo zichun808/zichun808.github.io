@@ -245,18 +245,6 @@
       </tags>
   </entry>
   <entry>
-    <title>測試</title>
-    <url>/test/</url>
-    <content><![CDATA[
-  <div class="note p-4 mb-4 rounded-small icon-padding">
-    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有在測試任何東西 </p>
-
-  </div>]]></content>
-      <tags>
-        <tag>測試</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>文章字數統計</title>
     <url>/words/</url>
     <content><![CDATA[
@@ -420,5 +408,17 @@
       <categories>
         <category>小工具</category>
       </categories>
+  </entry>
+  <entry>
+    <title>測試</title>
+    <url>/test/</url>
+    <content><![CDATA[
+  <div class="note p-4 mb-4 rounded-small icon-padding">
+    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有在測試任何東西 </p>
+
+  </div>]]></content>
+      <tags>
+        <tag>測試</tag>
+      </tags>
   </entry>
 </search>

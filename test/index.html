@@ -26,7 +26,7 @@
 <meta property="og:description" content="這個是用來測試的文章">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-08-31T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-11-22T18:27:32.999Z">
+<meta property="article:modified_time" content="2024-11-23T04:03:37.578Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="測試">
 <meta name="twitter:card" content="summary">
@@ -513,7 +513,7 @@
         <div class="label text-third-text-color text-sm">Categories</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">6</div>
         <div class="label text-third-text-color text-sm">Posts</div>
     </a>
 </div>
@@ -562,8 +562,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-11-23 02:27:32</span>
-            <span class="mobile">2024-11-23 02:27:32</span>
+            <span class="desktop">2024-11-23 12:03:37</span>
+            <span class="mobile">2024-11-23 12:03:37</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -608,93 +608,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+    body {
+        background-color: #f9f9f9;
+        color: #333;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .result {
+        display: flex;
+        flex-direction: column; /* 垂直排列 */
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .group {
+        display: flex;
+        justify-content: space-between; /* 每一對數據左右對齊 */
+        align-items: center; /* 保持垂直對齊 */
+    }
+
+    .group span {
+        padding: 5px 10px;
+        text-align: right;
+    }
+
+    .value {
+        min-width: 10ch; /* 至少顯示 10 個字符的寬度，保證空格對齊 */
+        text-align: right;
+    }
+
+    textarea {
+        width: 100%;
+        min-height: 150px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+        background-color: #fff;
+        color: #333;
+    }
+
+    /* 深色模式 */
+    @media (prefers-color-scheme: dark) {
         body {
-            background-color: #f9f9f9;
-            color: #333;
-            font-family: Arial, sans-serif;
-            padding: 20px;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .result {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        .group {
-            flex: 1;
-            min-width: 250px;
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-
-        .group span {
-            display: inline-block;
+        .result span {
+            color: #e0e0e0; /* 更好的對比度 */
         }
 
         .value {
-            text-align: right;
-            width: 50px;
-            padding-right: 20px;
+            color: #e0e0e0; /* 深色模式下的數字顏色 */
         }
 
         textarea {
-            width: 100%;
-            min-height: 150px;
-            padding: 10px;
-            font-size: 16px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-            background-color: #fff; 
-            color: #333; 
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
         }
-
-        /* 淺色模式 */
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-        }
-
-        .result {
-            background-color: #fff;
-            color: #333;
-            border: 1px solid #ccc;
-            padding: 10px;
-            border-radius: 4px;
-        }
-
-        /* 深色模式 */
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #1e1e1e;
-                color: #e0e0e0;
-            }
-
-            .result {
-                background-color: #333;
-                color: #e0e0e0;
-                border: 1px solid #444;
-            }
-
-            .value {
-                color: #e0e0e0;
-            }
-
-            textarea {
-                background-color: #333333;
-                color: #e0e0e0;
-                border: 1px solid #444;
-            }
-        }
+    }
     </style>
 </head>
 <body>
@@ -704,22 +686,22 @@
     
     <div class="result">
         <div class="group">
-            <span>文章字數: </span><span id="charCount" class="value">0</span> | 
-            <span>總字元數: </span><span id="weightedCharCount" class="value">0</span>
+            <span>文章字數: </span><span id="charCount" class="value">⠀⠀⠀0</span> | 
+            <span>總字元數: </span><span id="weightedCharCount" class="value">⠀⠀⠀0</span>
         </div>
         <div class="group">
-            <span>文字段落: </span><span id="lineCount" class="value">0</span> | 
-            <span>總單字數: </span><span id="englishWordCount" class="value">0</span>
+            <span>文字段落: </span><span id="lineCount" class="value">⠀⠀⠀0</span> | 
+            <span>總單字數: </span><span id="englishWordCount" class="value">⠀⠀⠀0</span>
         </div>
         <div class="group">
-            <span>中文字數: </span><span id="chineseCount" class="value">0</span> | 
-            <span>英文字數: </span><span id="englishCharCount" class="value">0</span> | 
-            <span>標點符號: </span><span id="punctCount" class="value">0</span>
+            <span>中文字數: </span><span id="chineseCount" class="value">⠀⠀⠀0</span> | 
+            <span>英文字數: </span><span id="englishCharCount" class="value">⠀⠀⠀0</span> | 
+            <span>標點符號: </span><span id="punctCount" class="value">⠀⠀⠀0</span>
         </div>
         <div class="group">
-            <span>空格數量: </span><span id="spaceCount" class="value">0</span> | 
-            <span>數字數量: </span><span id="numberCount" class="value">0</span> | 
-            <span>Emoji🙂: </span><span id="emojiCount" class="value">0</span>
+            <span>空格數量: </span><span id="spaceCount" class="value">⠀⠀⠀0</span> | 
+            <span>數字數量: </span><span id="numberCount" class="value">⠀⠀⠀0</span> | 
+            <span>Emoji🙂: </span><span id="emojiCount" class="value">⠀⠀⠀0</span>
         </div>
     </div>
 </div>
@@ -755,9 +737,9 @@
 
     function formatNumber(num) {
         if (num < 1000) {
-            return num.toString().padStart(4, '⠀'); 
+            return '⠀⠀⠀' + num.toString().padStart(5, '0'); // 每個數字前加上 5 個空格
         }
-        return num;
+        return num.toString().padStart(5, '⠀'); // 同樣保持 5 個空格的對齊
     }
     window.onload = analyzeText;
 </script>
@@ -786,12 +768,12 @@
     <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>推薦文章</span>
     </div>
-    <div class="recommended-article-group"><a class="recommended-article-item" href="/words/" title="文章字數統計" rel="bookmark">
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/test2/" title="測試" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="測試" class="!max-w-none">
+  <span class="title">測試</span>
+</a><a class="recommended-article-item" href="/words/" title="文章字數統計" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="文章字數統計" class="!max-w-none">
   <span class="title">文章字數統計</span>
-</a><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight Test" rel="bookmark">
-  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight Test" class="!max-w-none">
-  <span class="title">Code Highlight Test</span>
 </a><a class="recommended-article-item" href="/calculator/" title="學期成績計算" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="學期成績計算" class="!max-w-none">
   <span class="title">學期成績計算</span>
@@ -801,12 +783,12 @@
    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>推薦文章</span>
    </div>
-   <div class="recommended-article-group"><a class="recommended-article-item" href="/words/" title="文章字數統計" rel="bookmark">
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/test2/" title="測試" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="測試" class="!max-w-none">
+  <span class="title">測試</span>
+</a><a class="recommended-article-item" href="/words/" title="文章字數統計" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="文章字數統計" class="!max-w-none">
   <span class="title">文章字數統計</span>
-</a><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight Test" rel="bookmark">
-  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight Test" class="!max-w-none">
-  <span class="title">Code Highlight Test</span>
 </a></div>
    </div>
   </div>
@@ -826,6 +808,18 @@
 				</a>
 			</div>
 			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/test2/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">測試</span>
+						<span class="post-nav-item">Next posts</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
 			
 		</div>
 		
@@ -867,11 +861,11 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        5 posts in total
+                        6 posts in total
                     </span>
                     
                         <span>
-                            2.8k words in total
+                            3.2k words in total
                         </span>
                     
                 </p>

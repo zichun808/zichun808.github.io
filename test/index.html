@@ -26,7 +26,7 @@
 <meta property="og:description" content="這個是用來測試的文章">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-08-31T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-11-23T04:03:37.578Z">
+<meta property="article:modified_time" content="2024-11-23T04:19:24.228Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="測試">
 <meta name="twitter:card" content="summary">
@@ -562,8 +562,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-11-23 12:03:37</span>
-            <span class="mobile">2024-11-23 12:03:37</span>
+            <span class="desktop">2024-11-23 12:19:24</span>
+            <span class="mobile">2024-11-23 12:19:24</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -622,15 +622,16 @@
 
     .result {
         display: flex;
-        flex-direction: column; /* 垂直排列 */
+        flex-direction: column;
         gap: 10px;
         margin-top: 10px;
     }
 
     .group {
         display: flex;
-        justify-content: space-between; /* 每一對數據左右對齊 */
-        align-items: center; /* 保持垂直對齊 */
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap; /* 保證數字與文字在一行內顯示 */
     }
 
     .group span {
@@ -639,7 +640,7 @@
     }
 
     .value {
-        min-width: 10ch; /* 至少顯示 10 個字符的寬度，保證空格對齊 */
+        min-width: 6ch; /* 顯示最多 4 個數字的寬度 (約6個字元寬度) */
         text-align: right;
     }
 
@@ -664,17 +665,28 @@
         }
 
         .result span {
-            color: #e0e0e0; /* 更好的對比度 */
+            color: #e0e0e0;
         }
 
         .value {
-            color: #e0e0e0; /* 深色模式下的數字顏色 */
+            color: #e0e0e0;
         }
 
         textarea {
             background-color: #333333;
             color: #e0e0e0;
             border: 1px solid #444;
+        }
+    }
+
+    /* 針對手機螢幕調整 */
+    @media (max-width: 600px) {
+        .group {
+            flex-wrap: wrap; /* 如果手機螢幕太小，允許換行 */
+            gap: 5px;
+        }
+        .value {
+            min-width: 4ch; /* 在手機上，縮小顯示寬度 */
         }
     }
     </style>
@@ -686,22 +698,22 @@
     
     <div class="result">
         <div class="group">
-            <span>文章字數: </span><span id="charCount" class="value">⠀⠀⠀0</span> | 
-            <span>總字元數: </span><span id="weightedCharCount" class="value">⠀⠀⠀0</span>
+            <span>文章字數</span><span id="charCount" class="value">0</span> 
+            <span>總字元數</span><span id="weightedCharCount" class="value">0</span>
         </div>
         <div class="group">
-            <span>文字段落: </span><span id="lineCount" class="value">⠀⠀⠀0</span> | 
-            <span>總單字數: </span><span id="englishWordCount" class="value">⠀⠀⠀0</span>
+            <span>文字段落</span><span id="lineCount" class="value">0</span> 
+            <span>總單字數</span><span id="englishWordCount" class="value">0</span>
         </div>
         <div class="group">
-            <span>中文字數: </span><span id="chineseCount" class="value">⠀⠀⠀0</span> | 
-            <span>英文字數: </span><span id="englishCharCount" class="value">⠀⠀⠀0</span> | 
-            <span>標點符號: </span><span id="punctCount" class="value">⠀⠀⠀0</span>
+            <span>中文字數</span><span id="chineseCount" class="value">0</span> 
+            <span>英文字數</span><span id="englishCharCount" class="value">0</span> 
+            <span>標點符號</span><span id="punctCount" class="value">0</span>
         </div>
         <div class="group">
-            <span>空格數量: </span><span id="spaceCount" class="value">⠀⠀⠀0</span> | 
-            <span>數字數量: </span><span id="numberCount" class="value">⠀⠀⠀0</span> | 
-            <span>Emoji🙂: </span><span id="emojiCount" class="value">⠀⠀⠀0</span>
+            <span>空格數量</span><span id="spaceCount" class="value">0</span> 
+            <span>數字數量</span><span id="numberCount" class="value">0</span> 
+            <span>Emoji🙂</span><span id="emojiCount" class="value">0</span>
         </div>
     </div>
 </div>
@@ -736,10 +748,10 @@
     }
 
     function formatNumber(num) {
-        if (num < 1000) {
-            return '⠀⠀⠀' + num.toString().padStart(5, '0'); // 每個數字前加上 5 個空格
+        if (num === 0) {
+            return '0';
         }
-        return num.toString().padStart(5, '⠀'); // 同樣保持 5 個空格的對齊
+        return num.toString().replace(/^0+/, ''); // 移除多餘的前置零
     }
     window.onload = analyzeText;
 </script>
@@ -774,9 +786,9 @@
 </a><a class="recommended-article-item" href="/words/" title="文章字數統計" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="文章字數統計" class="!max-w-none">
   <span class="title">文章字數統計</span>
-</a><a class="recommended-article-item" href="/calculator/" title="學期成績計算" rel="bookmark">
-  <img src="/images/wallhaven-wqery6-light.webp" alt="學期成績計算" class="!max-w-none">
-  <span class="title">學期成績計算</span>
+</a><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight Test" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight Test" class="!max-w-none">
+  <span class="title">Code Highlight Test</span>
 </a></div>
    </div>
    <div class="recommended-mobile">

@@ -183,7 +183,7 @@
     <title>Code Highlight Test</title>
     <url>/code-highlight/</url>
     <content><![CDATA[<p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of <a class="link"   href="https://highlightjs.org/" >https://highlightjs.org<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<span id="more"></span>
+<!-- more -->
 
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br></pre></td></tr></table></figure></div>
 

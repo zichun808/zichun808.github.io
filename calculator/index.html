@@ -605,7 +605,7 @@
 
 
 		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-			
+			<h5 id="請輸入以下成績並按下按鈕，計算結果顯示在按鈕下方。"><a href="#請輸入以下成績並按下按鈕，計算結果顯示在按鈕下方。" class="headerlink" title="請輸入以下成績並按下按鈕，計算結果顯示在按鈕下方。"></a>請輸入以下成績並按下按鈕，計算結果顯示在按鈕下方。</h5>
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -630,21 +630,22 @@
         input::placeholder {
             color: #888; 
         }
-    
-        /* 淺色模式 */
+
         body {
-            background-color: #f9f9f9; /* 淺灰背景 */
-            color: #333; /* 深色文字 */
+            background-color: #f9f9f9; 
+            color: #333; 
+            font-family: Arial, sans-serif;
+            padding: 20px;
         }
     
         input {
-            background-color: #fff; /* 白色輸入框 */
-            color: #333; /* 深色文字 */
-            border: 1px solid #ccc; /* 淺色邊框 */
+            background-color: #fff; 
+            color: #333;
+            border: 1px solid #ccc; 
         }
     
         button {
-            background-color: #888; /* 灰色按鈕 */
+            background-color: #888; 
             color: white;
             border: none;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -657,19 +658,19 @@
             cursor: pointer;
         }
     
-        /* 系統深色模式 */
+        /* 深色模式 */
         @media (prefers-color-scheme: dark) {
             body {
-                background-color: #1e1e1e; /* 深灰背景 */
+                background-color: #1e1e1e;
                 color: #e0e0e0;
             }
             input {
-                background-color: #333333; /* 深灰色輸入框 */
+                background-color: #333333; 
                 color: #e0e0e0;
                 border: 1px solid #444;
             }
             button {
-                background-color: #555; /* 灰色按鈕 */
+                background-color: #555; 
                 color: white;
                 border: none;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -684,8 +685,7 @@
     </style>
 </head>
 <body>
-    <p>請輸入以下成績並按下按鈕。<br/>（成績計算結果在按鈕下方）</p>
-    <hr>
+    <hr/>
     <form id="score-form">
         <label for="score1">第一次段考成績:</label>
         <input type="number" id="score1" name="score1" placeholder="必填" min="0" max="100" required>
@@ -774,7 +774,7 @@
 
 <details class="cyan" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>成績計算方式及說明 </summary>
               <div class='content'>
-              <p class='h4' id="成績計算方式"><a href="#成績計算方式" class="headerlink" title="成績計算方式"></a>成績計算方式</h4><p class='h5' id="學期成績計算"><a href="#學期成績計算" class="headerlink" title="學期成績計算"></a>學期成績計算</h5><ol><li>第一、二次段考：各佔 20%</li><li>三段、平時成績：各佔 30%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 2px;">學期成績採四捨五入至整數位</p></li></ol><h5 id="學年成績計算"><a href="#學年成績計算" class="headerlink" title="學年成績計算"></a>學年成績計算</h5><ol><li>上、下學期成績：各佔 50%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 2px;">學年成績採四捨五入至十分位</p></br></li></ol><h4 id="輸出內容說明"><a href="#輸出內容說明" class="headerlink" title="輸出內容說明"></a>輸出內容說明</h4><h5 id="若僅輸入第一、二次段考成績"><a href="#若僅輸入第一、二次段考成績" class="headerlink" title="若僅輸入第一、二次段考成績"></a>若僅輸入第一、二次段考成績</h5><ol><li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li></ol><h5 id="若輸入兩次段考成績及三段或平時成績其中一項"><a href="#若輸入兩次段考成績及三段或平時成績其中一項" class="headerlink" title="若輸入兩次段考成績及三段或平時成績其中一項"></a>若輸入兩次段考成績及三段或平時成績其中一項</h5><ol><li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li></ol><h5 id="若輸入所有成績"><a href="#若輸入所有成績" class="headerlink" title="若輸入所有成績"></a>若輸入所有成績</h5><ol><li>若無上學期成績：輸出本學期是否通過。</li><li>若有上學期成績：輸出兩學期通過情況。</li></ol>
+              <p class='h4' id="成績計算方式"><a href="#成績計算方式" class="headerlink" title="成績計算方式"></a>成績計算方式</h4><p class='h5' id="學期成績計算"><a href="#學期成績計算" class="headerlink" title="學期成績計算"></a>學期成績計算</h5><ol><li>第一、二次段考：各佔 20%</li><li>三段、平時成績：各佔 30%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 1.5px;">學期成績採四捨五入至整數位</p></li></ol><h5 id="學年成績計算"><a href="#學年成績計算" class="headerlink" title="學年成績計算"></a>學年成績計算</h5><ol><li>上、下學期成績：各佔 50%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 1.5px;">學年成績採四捨五入至十分位</p></br></li></ol><h4 id="輸出內容說明"><a href="#輸出內容說明" class="headerlink" title="輸出內容說明"></a>輸出內容說明</h4><h5 id="若僅輸入第一、二次段考成績"><a href="#若僅輸入第一、二次段考成績" class="headerlink" title="若僅輸入第一、二次段考成績"></a>若僅輸入第一、二次段考成績</h5><ol><li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li></ol><h5 id="若輸入兩次段考成績及三段或平時成績其中一項"><a href="#若輸入兩次段考成績及三段或平時成績其中一項" class="headerlink" title="若輸入兩次段考成績及三段或平時成績其中一項"></a>若輸入兩次段考成績及三段或平時成績其中一項</h5><ol><li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li></ol><h5 id="若輸入所有成績"><a href="#若輸入所有成績" class="headerlink" title="若輸入所有成績"></a>若輸入所有成績</h5><ol><li>若無上學期成績：輸出本學期是否通過。</li><li>若有上學期成績：輸出兩學期通過情況。</li></ol>
               </div>
             </details>
 		</div>
@@ -792,9 +792,9 @@
     <div class="recommended-article-group"><a class="recommended-article-item" href="/words/" title="文章字數統計" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="文章字數統計" class="!max-w-none">
   <span class="title">文章字數統計</span>
-</a><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight Test" rel="bookmark">
-  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight Test" class="!max-w-none">
-  <span class="title">Code Highlight Test</span>
+</a><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight" class="!max-w-none">
+  <span class="title">Code Highlight</span>
 </a><a class="recommended-article-item" href="/test/" title="測試" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="測試" class="!max-w-none">
   <span class="title">測試</span>
@@ -807,9 +807,9 @@
    <div class="recommended-article-group"><a class="recommended-article-item" href="/words/" title="文章字數統計" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="文章字數統計" class="!max-w-none">
   <span class="title">文章字數統計</span>
-</a><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight Test" rel="bookmark">
-  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight Test" class="!max-w-none">
-  <span class="title">Code Highlight Test</span>
+</a><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight" class="!max-w-none">
+  <span class="title">Code Highlight</span>
 </a></div>
    </div>
   </div>
@@ -833,7 +833,7 @@
 			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
 				<a class="next" rel="next" href="/code-highlight/">
 					<span class="title flex justify-center items-center">
-						<span class="post-nav-title-item">Code Highlight Test</span>
+						<span class="post-nav-title-item">Code Highlight</span>
 						<span class="post-nav-item">Next posts</span>
 					</span>
 					<span class="right arrow-icon flex justify-center items-center">
@@ -886,7 +886,7 @@
                     </span>
                     
                         <span>
-                            2.4k words in total
+                            2.3k words in total
                         </span>
                     
                 </p>

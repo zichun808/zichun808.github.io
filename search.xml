@@ -3,7 +3,7 @@
   <entry>
     <title>學期成績計算</title>
     <url>/calculator/</url>
-    <content><![CDATA[
+    <content><![CDATA[<h5 id="請輸入以下成績並按下按鈕，計算結果顯示在按鈕下方。"><a href="#請輸入以下成績並按下按鈕，計算結果顯示在按鈕下方。" class="headerlink" title="請輸入以下成績並按下按鈕，計算結果顯示在按鈕下方。"></a>請輸入以下成績並按下按鈕，計算結果顯示在按鈕下方。</h5>
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -28,21 +28,22 @@
         input::placeholder {
             color: #888; 
         }
-    
-        /* 淺色模式 */
+
         body {
-            background-color: #f9f9f9; /* 淺灰背景 */
-            color: #333; /* 深色文字 */
+            background-color: #f9f9f9; 
+            color: #333; 
+            font-family: Arial, sans-serif;
+            padding: 20px;
         }
     
         input {
-            background-color: #fff; /* 白色輸入框 */
-            color: #333; /* 深色文字 */
-            border: 1px solid #ccc; /* 淺色邊框 */
+            background-color: #fff; 
+            color: #333;
+            border: 1px solid #ccc; 
         }
     
         button {
-            background-color: #888; /* 灰色按鈕 */
+            background-color: #888; 
             color: white;
             border: none;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -55,19 +56,19 @@
             cursor: pointer;
         }
     
-        /* 系統深色模式 */
+        /* 深色模式 */
         @media (prefers-color-scheme: dark) {
             body {
-                background-color: #1e1e1e; /* 深灰背景 */
+                background-color: #1e1e1e;
                 color: #e0e0e0;
             }
             input {
-                background-color: #333333; /* 深灰色輸入框 */
+                background-color: #333333; 
                 color: #e0e0e0;
                 border: 1px solid #444;
             }
             button {
-                background-color: #555; /* 灰色按鈕 */
+                background-color: #555; 
                 color: white;
                 border: none;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -82,8 +83,7 @@
     </style>
 </head>
 <body>
-    <p>請輸入以下成績並按下按鈕。<br/>（成績計算結果在按鈕下方）</p>
-    <hr>
+    <hr/>
     <form id="score-form">
         <label for="score1">第一次段考成績:</label>
         <input type="number" id="score1" name="score1" placeholder="必填" min="0" max="100" required>
@@ -172,7 +172,7 @@
 
 <details class="cyan" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>成績計算方式及說明 </summary>
               <div class='content'>
-              <p class='h4' id="成績計算方式"><a href="#成績計算方式" class="headerlink" title="成績計算方式"></a>成績計算方式</h4><p class='h5' id="學期成績計算"><a href="#學期成績計算" class="headerlink" title="學期成績計算"></a>學期成績計算</h5><ol><li>第一、二次段考：各佔 20%</li><li>三段、平時成績：各佔 30%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 2px;">學期成績採四捨五入至整數位</p></li></ol><h5 id="學年成績計算"><a href="#學年成績計算" class="headerlink" title="學年成績計算"></a>學年成績計算</h5><ol><li>上、下學期成績：各佔 50%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 2px;">學年成績採四捨五入至十分位</p></br></li></ol><h4 id="輸出內容說明"><a href="#輸出內容說明" class="headerlink" title="輸出內容說明"></a>輸出內容說明</h4><h5 id="若僅輸入第一、二次段考成績"><a href="#若僅輸入第一、二次段考成績" class="headerlink" title="若僅輸入第一、二次段考成績"></a>若僅輸入第一、二次段考成績</h5><ol><li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li></ol><h5 id="若輸入兩次段考成績及三段或平時成績其中一項"><a href="#若輸入兩次段考成績及三段或平時成績其中一項" class="headerlink" title="若輸入兩次段考成績及三段或平時成績其中一項"></a>若輸入兩次段考成績及三段或平時成績其中一項</h5><ol><li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li></ol><h5 id="若輸入所有成績"><a href="#若輸入所有成績" class="headerlink" title="若輸入所有成績"></a>若輸入所有成績</h5><ol><li>若無上學期成績：輸出本學期是否通過。</li><li>若有上學期成績：輸出兩學期通過情況。</li></ol>
+              <p class='h4' id="成績計算方式"><a href="#成績計算方式" class="headerlink" title="成績計算方式"></a>成績計算方式</h4><p class='h5' id="學期成績計算"><a href="#學期成績計算" class="headerlink" title="學期成績計算"></a>學期成績計算</h5><ol><li>第一、二次段考：各佔 20%</li><li>三段、平時成績：各佔 30%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 1.5px;">學期成績採四捨五入至整數位</p></li></ol><h5 id="學年成績計算"><a href="#學年成績計算" class="headerlink" title="學年成績計算"></a>學年成績計算</h5><ol><li>上、下學期成績：各佔 50%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 1.5px;">學年成績採四捨五入至十分位</p></br></li></ol><h4 id="輸出內容說明"><a href="#輸出內容說明" class="headerlink" title="輸出內容說明"></a>輸出內容說明</h4><h5 id="若僅輸入第一、二次段考成績"><a href="#若僅輸入第一、二次段考成績" class="headerlink" title="若僅輸入第一、二次段考成績"></a>若僅輸入第一、二次段考成績</h5><ol><li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li></ol><h5 id="若輸入兩次段考成績及三段或平時成績其中一項"><a href="#若輸入兩次段考成績及三段或平時成績其中一項" class="headerlink" title="若輸入兩次段考成績及三段或平時成績其中一項"></a>若輸入兩次段考成績及三段或平時成績其中一項</h5><ol><li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li></ol><h5 id="若輸入所有成績"><a href="#若輸入所有成績" class="headerlink" title="若輸入所有成績"></a>若輸入所有成績</h5><ol><li>若無上學期成績：輸出本學期是否通過。</li><li>若有上學期成績：輸出兩學期通過情況。</li></ol>
               </div>
             </details>]]></content>
       <categories>
@@ -180,7 +180,7 @@
       </categories>
   </entry>
   <entry>
-    <title>Code Highlight Test</title>
+    <title>Code Highlight</title>
     <url>/code-highlight/</url>
     <content><![CDATA[<p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of <a class="link"   href="https://highlightjs.org/" >https://highlightjs.org<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 <!-- more -->
@@ -245,6 +245,18 @@
       </tags>
   </entry>
   <entry>
+    <title>測試</title>
+    <url>/test/</url>
+    <content><![CDATA[
+  <div class="note p-4 mb-4 rounded-small icon-padding">
+    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有在測試任何東西 </p>
+
+  </div>]]></content>
+      <tags>
+        <tag>測試</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>文章字數統計</title>
     <url>/words/</url>
     <content><![CDATA[
@@ -277,7 +289,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: nowrap; /* 保證數字與文字在一行內顯示 */
+        flex-wrap: nowrap;
     }
 
     .group span {
@@ -286,7 +298,7 @@
     }
 
     .value {
-        min-width: 6ch; /* 顯示最多 4 個數字的寬度 (約6個字元寬度) */
+        min-width: 6ch;
         text-align: right;
     }
 
@@ -325,14 +337,14 @@
         }
     }
 
-    /* 針對手機螢幕調整 */
+    /* 螢幕調整 */
     @media (max-width: 600px) {
         .group {
-            flex-wrap: wrap; /* 如果手機螢幕太小，允許換行 */
+            flex-wrap: wrap;
             gap: 5px;
         }
         .value {
-            min-width: 4ch; /* 在手機上，縮小顯示寬度 */
+            min-width: 4ch;
         }
     }
     </style>
@@ -397,7 +409,7 @@
         if (num === 0) {
             return '0';
         }
-        return num.toString().replace(/^0+/, ''); // 移除多餘的前置零
+        return num.toString().replace(/^0+/, ''); 
     }
     window.onload = analyzeText;
 </script>
@@ -408,17 +420,5 @@
       <categories>
         <category>小工具</category>
       </categories>
-  </entry>
-  <entry>
-    <title>測試</title>
-    <url>/test/</url>
-    <content><![CDATA[
-  <div class="note p-4 mb-4 rounded-small icon-padding">
-    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有在測試任何東西 </p>
-
-  </div>]]></content>
-      <tags>
-        <tag>測試</tag>
-      </tags>
   </entry>
 </search>

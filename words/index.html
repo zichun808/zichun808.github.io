@@ -635,7 +635,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: nowrap; /* 保證數字與文字在一行內顯示 */
+        flex-wrap: nowrap;
     }
 
     .group span {
@@ -644,7 +644,7 @@
     }
 
     .value {
-        min-width: 6ch; /* 顯示最多 4 個數字的寬度 (約6個字元寬度) */
+        min-width: 6ch;
         text-align: right;
     }
 
@@ -683,14 +683,14 @@
         }
     }
 
-    /* 針對手機螢幕調整 */
+    /* 螢幕調整 */
     @media (max-width: 600px) {
         .group {
-            flex-wrap: wrap; /* 如果手機螢幕太小，允許換行 */
+            flex-wrap: wrap;
             gap: 5px;
         }
         .value {
-            min-width: 4ch; /* 在手機上，縮小顯示寬度 */
+            min-width: 4ch;
         }
     }
     </style>
@@ -755,7 +755,7 @@
         if (num === 0) {
             return '0';
         }
-        return num.toString().replace(/^0+/, ''); // 移除多餘的前置零
+        return num.toString().replace(/^0+/, ''); 
     }
     window.onload = analyzeText;
 </script>
@@ -775,9 +775,9 @@
     <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>推薦文章</span>
     </div>
-    <div class="recommended-article-group"><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight Test" rel="bookmark">
-  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight Test" class="!max-w-none">
-  <span class="title">Code Highlight Test</span>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight" class="!max-w-none">
+  <span class="title">Code Highlight</span>
 </a><a class="recommended-article-item" href="/calculator/" title="學期成績計算" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="學期成績計算" class="!max-w-none">
   <span class="title">學期成績計算</span>
@@ -790,9 +790,9 @@
    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>推薦文章</span>
    </div>
-   <div class="recommended-article-group"><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight Test" rel="bookmark">
-  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight Test" class="!max-w-none">
-  <span class="title">Code Highlight Test</span>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/code-highlight/" title="Code Highlight" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="Code Highlight" class="!max-w-none">
+  <span class="title">Code Highlight</span>
 </a><a class="recommended-article-item" href="/calculator/" title="學期成績計算" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="學期成績計算" class="!max-w-none">
   <span class="title">學期成績計算</span>
@@ -860,7 +860,7 @@
                     </span>
                     
                         <span>
-                            2.4k words in total
+                            2.3k words in total
                         </span>
                     
                 </p>

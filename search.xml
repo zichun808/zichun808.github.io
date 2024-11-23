@@ -171,7 +171,7 @@
 </html>
 
 
-<details class="white" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>成績計算方式及說明 </summary>
+<details class="cyan" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>成績計算方式及說明 </summary>
               <div class='content'>
               <p class='h4' id="成績計算方式"><a href="#成績計算方式" class="headerlink" title="成績計算方式"></a>成績計算方式</h4><p class='h5' id="學期成績計算"><a href="#學期成績計算" class="headerlink" title="學期成績計算"></a>學期成績計算</h5><ol><li>第一、二次段考：各佔 20%</li><li>三段、平時成績：各佔 30%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 1.5px;">學期成績採四捨五入至整數位</p></li></ol><h5 id="學年成績計算"><a href="#學年成績計算" class="headerlink" title="學年成績計算"></a>學年成績計算</h5><ol><li>上、下學期成績：各佔 50%</li><li><p style="text-decoration: underline; text-decoration-color: #e67386; text-decoration-thickness: 1.5px;">學年成績採四捨五入至十分位</p></br></li></ol><h4 id="輸出內容說明"><a href="#輸出內容說明" class="headerlink" title="輸出內容說明"></a>輸出內容說明</h4><h5 id="若僅輸入第一、二次段考成績"><a href="#若僅輸入第一、二次段考成績" class="headerlink" title="若僅輸入第一、二次段考成績"></a>若僅輸入第一、二次段考成績</h5><ol><li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li></ol><h5 id="若輸入兩次段考成績及三段或平時成績其中一項"><a href="#若輸入兩次段考成績及三段或平時成績其中一項" class="headerlink" title="若輸入兩次段考成績及三段或平時成績其中一項"></a>若輸入兩次段考成績及三段或平時成績其中一項</h5><ol><li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li></ol><h5 id="若輸入所有成績"><a href="#若輸入所有成績" class="headerlink" title="若輸入所有成績"></a>若輸入所有成績</h5><ol><li>若無上學期成績：輸出本學期是否通過。</li><li>若有上學期成績：輸出兩學期通過情況。</li></ol>
               </div>
@@ -250,7 +250,7 @@
     <url>/test/</url>
     <content><![CDATA[
   <div class="note p-4 mb-4 rounded-small icon-padding">
-    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有在測試任何東西 </p>
+    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有任何東西證在測試 </p>
 
   </div>]]></content>
       <tags>

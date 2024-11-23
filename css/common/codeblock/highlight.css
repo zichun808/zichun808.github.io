@@ -189,24 +189,24 @@
   :root {
     --inline-code-foreground: #c9d1d9;
     --inline-code-background: #313131;
-    --highlight-background: #23241f;
-    --highlight-foreground: #f8f8f2;
-    --highlight-keyword: #f92672;
-    --highlight-link: #ae81ff;
-    --highlight-built-in: #e6db74;
-    --highlight-number: #ae81ff;
-    --highlight-string: #e6db74;
-    --highlight-regexp: #ae81ff;
-    --highlight-subst: #f8f8f2;
-    --highlight-comment: #75715e;
-    --highlight-doctag: #f92672;
-    --highlight-meta: #75715e;
-    --highlight-variable: #e6db74;
-    --highlight-attr: #f92672;
-    --highlight-section: #a6e22e;
-    --highlight-bullet: #ae81ff;
-    --highlight-addition: #e6db74;
-    --highlight-deletion: #75715e;
+    --highlight-background: #282c34;
+    --highlight-foreground: #abb2bf;
+    --highlight-keyword: #c678dd;
+    --highlight-link: #61aeee;
+    --highlight-built-in: #e6c07b;
+    --highlight-number: #d19a66;
+    --highlight-string: #98c379;
+    --highlight-regexp: #98c379;
+    --highlight-subst: #e06c75;
+    --highlight-comment: #5c6370;
+    --highlight-doctag: #c678dd;
+    --highlight-meta: #61aeee;
+    --highlight-variable: #d19a66;
+    --highlight-attr: #d19a66;
+    --highlight-section: #e06c75;
+    --highlight-bullet: #61aeee;
+    --highlight-addition: #98c379;
+    --highlight-deletion: #e06c75;
   }
 }
 .light-mode {
@@ -234,24 +234,24 @@
 .dark-mode {
   --inline-code-foreground: #c9d1d9;
   --inline-code-background: #313131;
-  --highlight-background: #23241f;
-  --highlight-foreground: #f8f8f2;
-  --highlight-keyword: #f92672;
-  --highlight-link: #ae81ff;
-  --highlight-built-in: #e6db74;
-  --highlight-number: #ae81ff;
-  --highlight-string: #e6db74;
-  --highlight-regexp: #ae81ff;
-  --highlight-subst: #f8f8f2;
-  --highlight-comment: #75715e;
-  --highlight-doctag: #f92672;
-  --highlight-meta: #75715e;
-  --highlight-variable: #e6db74;
-  --highlight-attr: #f92672;
-  --highlight-section: #a6e22e;
-  --highlight-bullet: #ae81ff;
-  --highlight-addition: #e6db74;
-  --highlight-deletion: #75715e;
+  --highlight-background: #282c34;
+  --highlight-foreground: #abb2bf;
+  --highlight-keyword: #c678dd;
+  --highlight-link: #61aeee;
+  --highlight-built-in: #e6c07b;
+  --highlight-number: #d19a66;
+  --highlight-string: #98c379;
+  --highlight-regexp: #98c379;
+  --highlight-subst: #e06c75;
+  --highlight-comment: #5c6370;
+  --highlight-doctag: #c678dd;
+  --highlight-meta: #61aeee;
+  --highlight-variable: #d19a66;
+  --highlight-attr: #d19a66;
+  --highlight-section: #e06c75;
+  --highlight-bullet: #61aeee;
+  --highlight-addition: #98c379;
+  --highlight-deletion: #e06c75;
 }
 pre,
 .highlight {

@@ -617,7 +617,7 @@
     }
 
     .value {
-        min-width: 8ch;
+        min-width: 6ch; /* 顯示最多 4 個數字的寬度 (約6個字元寬度) */
         text-align: right;
     }
 
@@ -653,6 +653,38 @@
             background-color: #333333;
             color: #e0e0e0;
             border: 1px solid #444;
+        }
+    }
+
+    /* 針對手機螢幕調整 (最大寬度600px) */
+    @media (max-width: 600px) {
+        .result {
+            display: flex;
+            flex-wrap: wrap; /* 設置為換行 */
+            gap: 15px; /* 增加間距 */
+        }
+
+        .group {
+            width: 48%; /* 每個 group 佔 48% 寬度，保證兩個組件並排 */
+            margin-bottom: 15px; /* 每行的項目之間的垂直間距 */
+        }
+
+        .value {
+            text-align: right;
+        }
+    }
+
+    /* 針對較大螢幕的裝置，保留原來的格式 */
+    @media (min-width: 601px) {
+        .group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .group span, .value {
+            min-width: 6ch;
+            text-align: right;
         }
     }
     </style>
@@ -715,9 +747,9 @@
 
     function formatNumber(num) {
         if (num === 0) {
-        return '0';
+            return '0';
         }
-        return num.toString().replace(/^0+/, '');
+        return num.toString().replace(/^0+/, ''); // 移除多餘的前置零
     }
     window.onload = analyzeText;
 </script>

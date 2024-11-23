@@ -26,7 +26,7 @@
 <meta property="og:description" content="這個是用來測試的文章">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-08-31T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-11-23T04:19:24.228Z">
+<meta property="article:modified_time" content="2024-11-23T04:59:15.162Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="測試">
 <meta name="twitter:card" content="summary">
@@ -513,7 +513,7 @@
         <div class="label text-third-text-color text-sm">Categories</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">6</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
         <div class="label text-third-text-color text-sm">Posts</div>
     </a>
 </div>
@@ -562,8 +562,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-11-23 12:19:24</span>
-            <span class="mobile">2024-11-23 12:19:24</span>
+            <span class="desktop">2024-11-23 12:59:15</span>
+            <span class="mobile">2024-11-23 12:59:15</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -602,164 +602,10 @@
 
 		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
 			
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    body {
-        background-color: #f9f9f9;
-        color: #333;
-        font-family: Arial, sans-serif;
-        padding: 20px;
-    }
+  <div class="note p-4 mb-4 rounded-small icon-padding">
+    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有在測試任何東西 </p>
 
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
-    .result {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 10px;
-    }
-
-    .group {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap; /* 保證數字與文字在一行內顯示 */
-    }
-
-    .group span {
-        padding: 5px 10px;
-        text-align: right;
-    }
-
-    .value {
-        min-width: 6ch; /* 顯示最多 4 個數字的寬度 (約6個字元寬度) */
-        text-align: right;
-    }
-
-    textarea {
-        width: 100%;
-        min-height: 150px;
-        padding: 10px;
-        font-size: 16px;
-        border-radius: 4px;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
-        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-        background-color: #fff;
-        color: #333;
-    }
-
-    /* 深色模式 */
-    @media (prefers-color-scheme: dark) {
-        body {
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-
-        .result span {
-            color: #e0e0e0;
-        }
-
-        .value {
-            color: #e0e0e0;
-        }
-
-        textarea {
-            background-color: #333333;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-    }
-
-    /* 針對手機螢幕調整 */
-    @media (max-width: 600px) {
-        .group {
-            flex-wrap: wrap; /* 如果手機螢幕太小，允許換行 */
-            gap: 5px;
-        }
-        .value {
-            min-width: 4ch; /* 在手機上，縮小顯示寬度 */
-        }
-    }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
-    
-    <div class="result">
-        <div class="group">
-            <span>文章字數</span><span id="charCount" class="value">0</span> 
-            <span>總字元數</span><span id="weightedCharCount" class="value">0</span>
-        </div>
-        <div class="group">
-            <span>文字段落</span><span id="lineCount" class="value">0</span> 
-            <span>總單字數</span><span id="englishWordCount" class="value">0</span>
-        </div>
-        <div class="group">
-            <span>中文字數</span><span id="chineseCount" class="value">0</span> 
-            <span>英文字數</span><span id="englishCharCount" class="value">0</span> 
-            <span>標點符號</span><span id="punctCount" class="value">0</span>
-        </div>
-        <div class="group">
-            <span>空格數量</span><span id="spaceCount" class="value">0</span> 
-            <span>數字數量</span><span id="numberCount" class="value">0</span> 
-            <span>Emoji🙂</span><span id="emojiCount" class="value">0</span>
-        </div>
-    </div>
-</div>
-
-<script data-swup-reload-script type="text/javascript">
-    function analyzeText() {
-        const text = document.getElementById('textInput').value;
-
-        const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
-        const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
-        const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
-        const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
-        const numberCount = (text.match(/\d/g) || []).length;
-        const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
-        const emojiCount = Math.floor(emojiMatches.length / 2);
-        const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
-        const spaceCount = (text.match(/\s/g) || []).length;
-
-        const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
-        const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
-
-        document.getElementById('charCount').textContent = formatNumber(totalCharCount);
-        document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
-        document.getElementById('lineCount').textContent = formatNumber(lineCount);
-        document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
-        document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
-        document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
-        document.getElementById('punctCount').textContent = formatNumber(punctCount);
-        document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
-        document.getElementById('numberCount').textContent = formatNumber(numberCount);
-        document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
-    }
-
-    function formatNumber(num) {
-        if (num === 0) {
-            return '0';
-        }
-        return num.toString().replace(/^0+/, ''); // 移除多餘的前置零
-    }
-    window.onload = analyzeText;
-</script>
-
-</body>
-</html>
-
-
+  </div>
 		</div>
 
 		
@@ -780,9 +626,9 @@
     <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>推薦文章</span>
     </div>
-    <div class="recommended-article-group"><a class="recommended-article-item" href="/test2/" title="測試" rel="bookmark">
-  <img src="/images/wallhaven-wqery6-light.webp" alt="測試" class="!max-w-none">
-  <span class="title">測試</span>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/hello-world/" title="Hello World" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="Hello World" class="!max-w-none">
+  <span class="title">Hello World</span>
 </a><a class="recommended-article-item" href="/words/" title="文章字數統計" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="文章字數統計" class="!max-w-none">
   <span class="title">文章字數統計</span>
@@ -795,9 +641,9 @@
    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>推薦文章</span>
    </div>
-   <div class="recommended-article-group"><a class="recommended-article-item" href="/test2/" title="測試" rel="bookmark">
-  <img src="/images/wallhaven-wqery6-light.webp" alt="測試" class="!max-w-none">
-  <span class="title">測試</span>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/hello-world/" title="Hello World" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="Hello World" class="!max-w-none">
+  <span class="title">Hello World</span>
 </a><a class="recommended-article-item" href="/words/" title="文章字數統計" rel="bookmark">
   <img src="/images/wallhaven-wqery6-light.webp" alt="文章字數統計" class="!max-w-none">
   <span class="title">文章字數統計</span>
@@ -820,18 +666,6 @@
 				</a>
 			</div>
 			
-			
-			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-				<a class="next" rel="next" href="/test2/">
-					<span class="title flex justify-center items-center">
-						<span class="post-nav-title-item">測試</span>
-						<span class="post-nav-item">Next posts</span>
-					</span>
-					<span class="right arrow-icon flex justify-center items-center">
-						<i class="fa-solid fa-chevron-right"></i>
-					</span>
-				</a>
-			</div>
 			
 		</div>
 		
@@ -873,11 +707,11 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        6 posts in total
+                        5 posts in total
                     </span>
                     
                         <span>
-                            3.3k words in total
+                            2.4k words in total
                         </span>
                     
                 </p>

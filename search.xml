@@ -244,6 +244,183 @@
       </tags>
   </entry>
   <entry>
+    <title>測試</title>
+    <url>/doc5/</url>
+    <content><![CDATA[
+  <div class="note p-4 mb-4 rounded-small icon-padding">
+    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有任何東西正在測試 </p>
+
+  </div>
+]]></content>
+      <tags>
+        <tag>測試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文章字數統計</title>
+    <url>/words/</url>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {
+        background-color: #f9f9f9;
+        color: #333;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .group span {
+        padding: 5px 10px;
+        text-align: right;
+    }
+
+    .value {
+        min-width: 6ch;
+        text-align: right;
+    }
+
+    textarea {
+        width: 100%;
+        min-height: 150px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+        background-color: #fff;
+        color: #333;
+    }
+
+    /* 深色模式 */
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        .result span {
+            color: #e0e0e0;
+        }
+
+        .value {
+            color: #e0e0e0;
+        }
+
+        textarea {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+    }
+
+    /* 螢幕調整 */
+    @media (max-width: 600px) {
+        .group {
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .value {
+            min-width: 4ch;
+        }
+    }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
+    
+    <div class="result">
+        <div class="group">
+            <span>文章字數</span><span id="charCount" class="value">0</span> 
+            <span>總字元數</span><span id="weightedCharCount" class="value">0</span>
+        </div>
+        <div class="group">
+            <span>文字段落</span><span id="lineCount" class="value">0</span> 
+            <span>總單字數</span><span id="englishWordCount" class="value">0</span>
+        </div>
+        <div class="group">
+            <span>中文字數</span><span id="chineseCount" class="value">0</span> 
+            <span>英文字數</span><span id="englishCharCount" class="value">0</span> 
+            <span>標點符號</span><span id="punctCount" class="value">0</span>
+        </div>
+        <div class="group">
+            <span>空格數量</span><span id="spaceCount" class="value">0</span> 
+            <span>數字數量</span><span id="numberCount" class="value">0</span> 
+            <span>Emoji🙂</span><span id="emojiCount" class="value">0</span>
+        </div>
+    </div>
+</div>
+
+<script data-swup-reload-script type="text/javascript">
+    function analyzeText() {
+        const text = document.getElementById('textInput').value;
+
+        const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
+        const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+        const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
+        const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
+        const numberCount = (text.match(/\d/g) || []).length;
+        const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
+        const emojiCount = Math.floor(emojiMatches.length / 2);
+        const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
+        const spaceCount = (text.match(/\s/g) || []).length;
+
+        const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
+        const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
+
+        document.getElementById('charCount').textContent = formatNumber(totalCharCount);
+        document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
+        document.getElementById('lineCount').textContent = formatNumber(lineCount);
+        document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
+        document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
+        document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
+        document.getElementById('punctCount').textContent = formatNumber(punctCount);
+        document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
+        document.getElementById('numberCount').textContent = formatNumber(numberCount);
+        document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
+    }
+
+    function formatNumber(num) {
+        if (num === 0) {
+            return '0';
+        }
+        return num.toString().replace(/^0+/, ''); 
+    }
+    window.onload = analyzeText;
+</script>
+
+</body>
+</html>
+]]></content>
+      <categories>
+        <category>小工具</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Markdown Style</title>
     <url>/doc4/</url>
     <content><![CDATA[<p>This post is originated from <a class="link"   href="https://gist.github.com/apackeer/4159268" >here<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.</p>
@@ -475,187 +652,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"
       <tags>
         <tag>測試</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>測試</title>
-    <url>/doc5/</url>
-    <content><![CDATA[
-  <div class="note p-4 mb-4 rounded-small icon-padding">
-    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有任何東西正在測試，不過好像有關於 Flag 的提示 </p>
-
-  </div>
-
-
-    <script>
-    console.log("💀Broken Access Control💀");
-    </script>
-]]></content>
-      <tags>
-        <tag>測試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文章字數統計</title>
-    <url>/words/</url>
-    <content><![CDATA[
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    body {
-        background-color: #f9f9f9;
-        color: #333;
-        padding: 20px;
-    }
-
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
-    .result {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 10px;
-    }
-
-    .group {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-
-    .group span {
-        padding: 5px 10px;
-        text-align: right;
-    }
-
-    .value {
-        min-width: 6ch;
-        text-align: right;
-    }
-
-    textarea {
-        width: 100%;
-        min-height: 150px;
-        padding: 10px;
-        font-size: 16px;
-        border-radius: 4px;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
-        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-        background-color: #fff;
-        color: #333;
-    }
-
-    /* 深色模式 */
-    @media (prefers-color-scheme: dark) {
-        body {
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-
-        .result span {
-            color: #e0e0e0;
-        }
-
-        .value {
-            color: #e0e0e0;
-        }
-
-        textarea {
-            background-color: #333333;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-    }
-
-    /* 螢幕調整 */
-    @media (max-width: 600px) {
-        .group {
-            flex-wrap: wrap;
-            gap: 5px;
-        }
-        .value {
-            min-width: 4ch;
-        }
-    }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
-    
-    <div class="result">
-        <div class="group">
-            <span>文章字數</span><span id="charCount" class="value">0</span> 
-            <span>總字元數</span><span id="weightedCharCount" class="value">0</span>
-        </div>
-        <div class="group">
-            <span>文字段落</span><span id="lineCount" class="value">0</span> 
-            <span>總單字數</span><span id="englishWordCount" class="value">0</span>
-        </div>
-        <div class="group">
-            <span>中文字數</span><span id="chineseCount" class="value">0</span> 
-            <span>英文字數</span><span id="englishCharCount" class="value">0</span> 
-            <span>標點符號</span><span id="punctCount" class="value">0</span>
-        </div>
-        <div class="group">
-            <span>空格數量</span><span id="spaceCount" class="value">0</span> 
-            <span>數字數量</span><span id="numberCount" class="value">0</span> 
-            <span>Emoji🙂</span><span id="emojiCount" class="value">0</span>
-        </div>
-    </div>
-</div>
-
-<script data-swup-reload-script type="text/javascript">
-    function analyzeText() {
-        const text = document.getElementById('textInput').value;
-
-        const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
-        const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
-        const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
-        const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
-        const numberCount = (text.match(/\d/g) || []).length;
-        const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
-        const emojiCount = Math.floor(emojiMatches.length / 2);
-        const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
-        const spaceCount = (text.match(/\s/g) || []).length;
-
-        const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
-        const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
-
-        document.getElementById('charCount').textContent = formatNumber(totalCharCount);
-        document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
-        document.getElementById('lineCount').textContent = formatNumber(lineCount);
-        document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
-        document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
-        document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
-        document.getElementById('punctCount').textContent = formatNumber(punctCount);
-        document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
-        document.getElementById('numberCount').textContent = formatNumber(numberCount);
-        document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
-    }
-
-    function formatNumber(num) {
-        if (num === 0) {
-            return '0';
-        }
-        return num.toString().replace(/^0+/, ''); 
-    }
-    window.onload = analyzeText;
-</script>
-
-</body>
-</html>
-]]></content>
-      <categories>
-        <category>小工具</category>
-      </categories>
   </entry>
 </search>

@@ -479,14 +479,13 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"
       </tags>
   </entry>
   <entry>
-    <title>測試</title>
+    <title>TEST</title>
     <url>/doc5/</url>
     <content><![CDATA[
-  <div class="note p-4 mb-4 rounded-small icon-padding">
-    <i class="note-icon fa-solid fa-circle-info"></i><p>目前沒有任何東西正在測試 </p>
+  <div class="note p-4 mb-4 rounded-small red icon-padding">
+    <i class="note-icon fa-solid fa-bolt"></i><p>你有辦法透過 <a class="link"   href="https://zichun808.github.io/tags/" >這幾篇測試文章<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 找到網站裡的 Flag 嗎? </p>
 
-  </div>
-]]></content>
+  </div>]]></content>
       <tags>
         <tag>測試</tag>
       </tags>

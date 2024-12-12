@@ -315,6 +315,8 @@
     </style>
 </head>
 <body>
+    <h5>請將網頁重新整理後，再進行質因數分解。</h5>
+    <hr>
     <div class="container">
         <div class="input-group">
             <input type="number" id="number" placeholder="請輸入數字" min="2" max="1000000" required />

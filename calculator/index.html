@@ -30,7 +30,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/images/redefine-og.webp">
 <meta property="article:published_time" content="2024-11-11T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-07T05:42:38.352Z">
+<meta property="article:modified_time" content="2024-12-12T12:25:03.767Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
@@ -517,7 +517,7 @@
         <div class="label text-third-text-color text-sm">Tags</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">3</div>
         <div class="label text-third-text-color text-sm">Categories</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
@@ -574,8 +574,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-12-07 13:42:38</span>
-            <span class="mobile">2024-12-07 13:42:38</span>
+            <span class="desktop">2024-12-12 20:25:03</span>
+            <span class="mobile">2024-12-12 20:25:03</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -642,66 +642,67 @@
         input, button {
             padding: 12px;
             margin-bottom: 20px;
-            border-radius: 6px; 
+            border-radius: 6px;
             width: 100%;
             font-size: 16px;
             box-sizing: border-box;
-            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
-        }
-    
-        input::placeholder {
-            color: #888; 
+            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
         }
 
-        body {
-            background-color: #f9f9f9; 
-            color: #333; 
-            font-family: Arial, sans-serif;
-            padding: 20px;
+        input::placeholder {
+            color: #888;
         }
-    
+
         input {
-            background-color: #fff; 
+            background-color: #fff;
             color: #333;
-            border: 1px solid #ccc; 
+            border: 1px solid #ccc;
         }
-    
+
         button {
-            background-color: #888; 
+            background-color: #888;
             color: white;
             border: none;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             cursor: pointer;
         }
-    
+
         button:hover {
-            background-color: #818181; 
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
-            cursor: pointer;
+            background-color: #818181;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
         }
-    
-        /* 深色模式 */
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #1e1e1e;
-                color: #e0e0e0;
-            }
-            input {
-                background-color: #333333; 
-                color: #e0e0e0;
-                border: 1px solid #444;
-            }
-            button {
-                background-color: #555; 
-                color: white;
-                border: none;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                cursor: pointer;
-            }
-            button:hover {
-                background-color: #777; 
-                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
-                cursor: pointer;
+
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode input {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+
+        body.dark-mode input::placeholder {
+            color: #888;
+        }
+
+        body.dark-mode button {
+            background-color: #555;
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-mode button:hover {
+            background-color: #777;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            input, button {
+                font-size: 14px;
+                padding: 10px;
             }
         }
     </style>
@@ -880,7 +881,7 @@
                     </span>
                     
                         <span>
-                            3.9k words in total
+                            4k words in total
                         </span>
                     
                 </p>

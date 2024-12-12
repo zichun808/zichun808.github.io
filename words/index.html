@@ -30,7 +30,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/images/redefine-og.webp">
 <meta property="article:published_time" content="2024-11-18T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-11T16:55:53.448Z">
+<meta property="article:modified_time" content="2024-12-12T12:24:42.203Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
@@ -517,7 +517,7 @@
         <div class="label text-third-text-color text-sm">Tags</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">3</div>
         <div class="label text-third-text-color text-sm">Categories</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
@@ -574,8 +574,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-12-12 00:55:53</span>
-            <span class="mobile">2024-12-12 00:55:53</span>
+            <span class="desktop">2024-12-12 20:24:42</span>
+            <span class="mobile">2024-12-12 20:24:42</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -638,6 +638,7 @@
         body {
             background-color: #f9f9f9;
             color: #333;
+            font-family: Arial, sans-serif;
             padding: 20px;
         }
 
@@ -673,9 +674,9 @@
         textarea {
             width: 100%;
             min-height: 150px;
-            padding: 10px;
+            padding: 12px;
             font-size: 16px;
-            border-radius: 4px;
+            border-radius: 6px;
             border: 1px solid #ccc;
             box-sizing: border-box;
             transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
@@ -683,29 +684,33 @@
             color: #333;
         }
 
-        /* 深色模式 */
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #1e1e1e;
-                color: #e0e0e0;
-            }
-
-            .result span {
-                color: #e0e0e0;
-            }
-
-            .value {
-                color: #e0e0e0;
-            }
-
-            textarea {
-                background-color: #333333;
-                color: #e0e0e0;
-                border: 1px solid #444;
-            }
+        textarea::placeholder {
+            color: #888;
         }
 
-        /* 螢幕調整 */
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode textarea {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+
+        body.dark-mode textarea::placeholder {
+            color: #888;
+        }
+
+        .result span.dark-mode {
+            color: #e0e0e0;
+        }
+
+        .value.dark-mode {
+            color: #e0e0e0;
+        }
+
         @media (max-width: 600px) {
             .group {
                 flex-wrap: wrap;
@@ -797,12 +802,12 @@
 		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
 			
 			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-				<a class="prev" rel="prev" href="/math/">
+				<a class="prev" rel="prev" href="/test/">
 					<span class="left arrow-icon flex justify-center items-center">
 						<i class="fa-solid fa-chevron-left"></i>
 					</span>
 					<span class="title flex justify-center items-center">
-						<span class="post-nav-title-item">四則運算</span>
+						<span class="post-nav-title-item">測試</span>
 						<span class="post-nav-item">Prev posts</span>
 					</span>
 				</a>
@@ -865,7 +870,7 @@
                     </span>
                     
                         <span>
-                            3.9k words in total
+                            4k words in total
                         </span>
                     
                 </p>

@@ -322,16 +322,14 @@
             <input type="number" id="number" placeholder="請輸入數字" min="2" max="1000000" required />
             <button onclick="factorize()">分解</button>
         </div>
-        <div class="result" id="result">
-            <h4>質因數分解結果</h4>
-            <p id="resultText">NULL</p>
-        </div>
+        <h4>質因數分解結果</h4> 
+        <p id="result">NULL</p>
     </div>
 
     <script>
         function factorize() {
             const num = parseInt(document.getElementById('number').value);
-            const resultText = document.getElementById('resultText');
+            const resultText = document.getElementById('result');
 
             if (isNaN(num) || num < 2 || num > 100000000) {
                 alert("請輸入 2 到 100000000 之間的有效數字");
@@ -501,6 +499,7 @@
     </style>
 </head>
 <body>
+    <hr>
     <div class="container">
         <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
         

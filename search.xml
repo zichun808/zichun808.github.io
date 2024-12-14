@@ -309,6 +309,7 @@
     </style>
 </head>
 <body>
+    <hr>
     <div class="container">
         <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
         

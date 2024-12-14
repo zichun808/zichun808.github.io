@@ -183,7 +183,184 @@
   </entry>
   <entry>
     <title>文章字數統計</title>
-    <url>/test/</url>
+    <url>/words/</url>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .result {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+            width: 100%;
+            padding: 0;
+        }
+
+        .group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+            width: 100%;
+            padding: 0;
+        }
+
+        .group span {
+            padding: 5px 10px;
+            text-align: right;
+        }
+
+        .value {
+            min-width: 6ch;
+            text-align: right;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+        }
+
+        textarea::placeholder {
+            color: #888;
+        }
+
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode textarea {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+
+        body.dark-mode textarea::placeholder {
+            color: #888;
+        }
+
+        .result span.dark-mode {
+            color: #e0e0e0;
+        }
+
+        .value.dark-mode {
+            color: #e0e0e0;
+        }
+
+        @media (max-width: 600px) {
+            .group {
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+            .value {
+                min-width: 4ch;
+            }
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <div class="container">
+        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
+        
+        <div class="result">
+            <div class="group">
+                <span>文章字數</span><span id="charCount" class="value">0</span> 
+                <span>總字元數</span><span id="weightedCharCount" class="value">0</span>
+            </div>
+            <div class="group">
+                <span>文字段落</span><span id="lineCount" class="value">0</span> 
+                <span>總單字數</span><span id="englishWordCount" class="value">0</span>
+            </div>
+            <div class="group">
+                <span>中文字數</span><span id="chineseCount" class="value">0</span> 
+                <span>英文字數</span><span id="englishCharCount" class="value">0</span> 
+                <span>標點符號</span><span id="punctCount" class="value">0</span>
+            </div>
+            <div class="group">
+                <span>空格數量</span><span id="spaceCount" class="value">0</span> 
+                <span>數字數量</span><span id="numberCount" class="value">0</span> 
+                <span>Emoji🙂</span><span id="emojiCount" class="value">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script data-swup-reload-script type="text/javascript">
+        function analyzeText() {
+            const text = document.getElementById('textInput').value;
+
+            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
+            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
+            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
+            const numberCount = (text.match(/\d/g) || []).length;
+            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
+            const emojiCount = Math.floor(emojiMatches.length / 2);
+            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
+            const spaceCount = (text.match(/\s/g) || []).length;
+
+            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
+            const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
+
+            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
+            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
+            document.getElementById('lineCount').textContent = formatNumber(lineCount);
+            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
+            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
+            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
+            document.getElementById('punctCount').textContent = formatNumber(punctCount);
+            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
+            document.getElementById('numberCount').textContent = formatNumber(numberCount);
+            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
+        }
+
+        function formatNumber(num) {
+            if (num === 0) {
+                return '0';
+            }
+            return num.toString().replace(/^0+/, ''); 
+        }
+        window.onload = analyzeText;
+    </script>
+</body>
+</html>
+]]></content>
+      <categories>
+        <category>小工具</category>
+        <category>字數統計</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>AAA(電腦完成)</title>
+    <url>/testa/</url>
     <content><![CDATA[
 <!DOCTYPE html>
 <html lang="zh-TW">
@@ -380,14 +557,10 @@
 </body>
 </html>
 ]]></content>
-      <categories>
-        <category>小工具</category>
-        <category>字數統計</category>
-      </categories>
   </entry>
   <entry>
-    <title>文章字數統計</title>
-    <url>/words/</url>
+    <title>BBB(手機測試)</title>
+    <url>/testb/</url>
     <content><![CDATA[
 <!DOCTYPE html>
 <html lang="zh-TW">
@@ -413,29 +586,30 @@
         .result {
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            margin-top: 10px;
+            gap: 15px;
+            margin-top: 20px;
             width: 100%;
-            padding: 0;
+            padding: 0 20px;
         }
 
         .group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .metric-pair {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            flex-wrap: nowrap;
             width: 100%;
-            padding: 0;
-        }
-
-        .group span {
-            padding: 5px 10px;
-            text-align: right;
         }
 
         .value {
-            min-width: 6ch;
+            min-width: 4ch;
             text-align: right;
+            font-weight: bold;
         }
 
         textarea {
@@ -446,16 +620,52 @@
             border-radius: 6px;
             border: 1px solid #ccc;
             box-sizing: border-box;
-            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+            transition: all 0.3s ease;
             background-color: #fff;
             color: #333;
-            margin: 0;
+            margin-bottom: 20px;
         }
 
-        textarea::placeholder {
-            color: #888;
+        /* 電腦版 - 最後兩行三等分 */
+        @media (min-width: 601px) {
+            .group-triple {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
         }
 
+        /* 手機版新樣式 */
+        @media (max-width: 600px) {
+            .result {
+                padding: 0 10px;
+                gap: 10px;
+            }
+            
+            /* 所有 group 都保持兩列 */
+            .group, .group-triple {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+
+            /* 特別處理最後兩行的排序 */
+            .group-triple .metric-pair:nth-child(3) {
+                grid-column: auto; /* 重置網格列位置 */
+            }
+            
+            /* 將原本三等分的最後一個元素移到下一行 */
+            .group-triple:last-child {
+                display: grid;
+                grid-template-areas: 
+                    "space punct"
+                    "emoji emoji";
+            }
+
+            /* 調整間距 */
+            .metric-pair {
+                margin: 0;
+            }
+        }
+
+        /* Dark mode styles */
         body.dark-mode {
             background-color: #1e1e1e;
             color: #e0e0e0;
@@ -466,57 +676,70 @@
             color: #e0e0e0;
             border: 1px solid #444;
         }
-
-        body.dark-mode textarea::placeholder {
-            color: #888;
-        }
-
-        .result span.dark-mode {
-            color: #e0e0e0;
-        }
-
-        .value.dark-mode {
-            color: #e0e0e0;
-        }
-
-        @media (max-width: 600px) {
-            .group {
-                flex-wrap: wrap;
-                gap: 5px;
-            }
-            .value {
-                min-width: 4ch;
-            }
-        }
     </style>
 </head>
 <body>
-    <hr>
     <div class="container">
         <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
         
         <div class="result">
+            <!-- 第一行 -->
             <div class="group">
-                <span>文章字數</span><span id="charCount" class="value">0</span> 
-                <span>總字元數</span><span id="weightedCharCount" class="value">0</span>
+                <div class="metric-pair">
+                    <span>文章字數</span>
+                    <span id="charCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總字元數</span>
+                    <span id="weightedCharCount" class="value">0</span>
+                </div>
             </div>
+            
+            <!-- 第二行 -->
             <div class="group">
-                <span>文字段落</span><span id="lineCount" class="value">0</span> 
-                <span>總單字數</span><span id="englishWordCount" class="value">0</span>
+                <div class="metric-pair">
+                    <span>文字段落</span>
+                    <span id="lineCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總單字數</span>
+                    <span id="englishWordCount" class="value">0</span>
+                </div>
             </div>
-            <div class="group">
-                <span>中文字數</span><span id="chineseCount" class="value">0</span> 
-                <span>英文字數</span><span id="englishCharCount" class="value">0</span> 
-                <span>標點符號</span><span id="punctCount" class="value">0</span>
+            
+            <!-- 第三行 -->
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>中文字數</span>
+                    <span id="chineseCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>英文字數</span>
+                    <span id="englishCharCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>數字數量</span>
+                    <span id="numberCount" class="value">0</span>
+                </div>
             </div>
-            <div class="group">
-                <span>空格數量</span><span id="spaceCount" class="value">0</span> 
-                <span>數字數量</span><span id="numberCount" class="value">0</span> 
-                <span>Emoji🙂</span><span id="emojiCount" class="value">0</span>
+            
+            <!-- 第四行 -->
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>空格數量</span>
+                    <span id="spaceCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>標點符號</span>
+                    <span id="punctCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>Emoji🙂</span>
+                    <span id="emojiCount" class="value">0</span>
+                </div>
             </div>
         </div>
     </div>
-
     <script data-swup-reload-script type="text/javascript">
         function analyzeText() {
             const text = document.getElementById('textInput').value;
@@ -557,9 +780,5 @@
 </body>
 </html>
 ]]></content>
-      <categories>
-        <category>小工具</category>
-        <category>字數統計</category>
-      </categories>
   </entry>
 </search>

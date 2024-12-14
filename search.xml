@@ -359,7 +359,7 @@
       </categories>
   </entry>
   <entry>
-    <title>AAA(電腦完成)</title>
+    <title>AAA(最新測試)</title>
     <url>/testa/</url>
     <content><![CDATA[
 <!DOCTYPE html>
@@ -404,12 +404,25 @@
             justify-content: space-between;
             align-items: center;
             width: 100%;
+            position: relative;
+        }
+
+        .metric-pair::after {
+            content: "|";
+            position: absolute;
+            right: -10px;
+            color: #666;
+        }
+
+        .metric-pair:last-child::after {
+            content: none;
         }
 
         .value {
             min-width: 4ch;
             text-align: right;
             font-weight: bold;
+            margin-left: 10px;
         }
 
         textarea {
@@ -426,27 +439,45 @@
             margin-bottom: 20px;
         }
 
+        /* 電腦版 - 最後兩行三等分 */
         @media (min-width: 601px) {
             .group-triple {
                 grid-template-columns: 1fr 1fr 1fr;
             }
         }
 
+        /* 手機版新樣式 */
         @media (max-width: 600px) {
-            .group {
-                grid-template-columns: 1fr;
+            .result {
+                padding: 0 10px;
+                gap: 10px;
+            }
+            
+            /* 所有 group 都保持兩列 */
+            .group, .group-triple {
+                grid-template-columns: 1fr 1fr;
                 gap: 10px;
             }
 
-            .group-double {
-                grid-template-columns: 1fr 1fr;
+            /* 重新排序手機版的元素 */
+            #mobile-order {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
             }
 
-            .result {
-                padding: 0 10px;
+            .metric-pair {
+                padding-right: 20px;
+            }
+
+            /* 最後一個元素的分隔線處理 */
+            .group .metric-pair:nth-child(2)::after,
+            .group-triple .metric-pair:nth-child(2)::after {
+                content: none;
             }
         }
 
+        /* Dark mode styles */
         body.dark-mode {
             background-color: #1e1e1e;
             color: #e0e0e0;
@@ -464,6 +495,7 @@
         <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
         
         <div class="result">
+            <!-- 第一行 -->
             <div class="group">
                 <div class="metric-pair">
                     <span>文章字數</span>
@@ -475,6 +507,7 @@
                 </div>
             </div>
             
+            <!-- 第二行 -->
             <div class="group">
                 <div class="metric-pair">
                     <span>文字段落</span>
@@ -486,6 +519,7 @@
                 </div>
             </div>
             
+            <!-- 第三行 -->
             <div class="group group-triple">
                 <div class="metric-pair">
                     <span>中文字數</span>
@@ -501,6 +535,7 @@
                 </div>
             </div>
             
+            <!-- 第四行 -->
             <div class="group group-triple">
                 <div class="metric-pair">
                     <span>空格數量</span>
@@ -559,7 +594,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>BBB(手機測試)</title>
+    <title>BBB(手機不錯，但要修改)</title>
     <url>/testb/</url>
     <content><![CDATA[
 <!DOCTYPE html>

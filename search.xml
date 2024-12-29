@@ -156,7 +156,6 @@
             border-radius: 6px;
             border: 1px solid #ccc;
             box-sizing: border-box;
-            transition: all 0.3s ease;
             background-color: #fff;
             color: #333;
             margin-bottom: 20px;
@@ -345,7 +344,6 @@
             font-size: 16px;
             box-sizing: border-box;
             font-family: inherit;
-            transition: all 0.3s ease;
         }
 
         input::placeholder {

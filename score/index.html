@@ -30,7 +30,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://zichun808.github.io/images/redefine-og.webp">
 <meta property="article:published_time" content="2024-11-11T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-15T11:59:50.000Z">
+<meta property="article:modified_time" content="2024-12-29T10:02:19.724Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="小工具">
 <meta property="article:tag" content="成績計算">
@@ -576,8 +576,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-12-15 19:59:50</span>
-            <span class="mobile">2024-12-15 19:59:50</span>
+            <span class="desktop">2024-12-29 18:02:19</span>
+            <span class="mobile">2024-12-29 18:02:19</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -784,7 +784,7 @@
             const calculateRequiredBothSemesters = (currentTotal, weight) => roundToOneDecimal((120 - previousScore - currentTotal) / weight);
 
             if (isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
-                responseMessage = `總分(三段+平時)至少為 ${calculateRequiredScore(weightedScore1 + weightedScore2, 0.6)*2} 分。`;
+                responseMessage = `總分(三段+平時)至少為 ${calculateRequiredScore(weightedScore1 + weightedScore2, 0.3)} 分。`;
             } else if (!isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
                 const requiredScore4 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
                 responseMessage = `平時成績至少為 ${requiredScore4} 分。`;
@@ -840,7 +840,7 @@
         
             <li>
                 <strong>Updated at
-                    :</strong> 2024-12-15 19:59:50
+                    :</strong> 2024-12-29 18:02:19
             </li>
         
         <li>

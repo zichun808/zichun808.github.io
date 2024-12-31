@@ -520,7 +520,7 @@
         <div class="label text-third-text-color text-sm">Tags</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">7</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
         <div class="label text-third-text-color text-sm">Categories</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
@@ -599,16 +599,6 @@
                         
                         <li>
                             <a href="/categories/%E8%AA%B2%E7%A8%8B%E5%AD%B8%E7%BF%92/AIS3/">AIS3</a>&nbsp;
-                        </li>
-                    
-                    
-                
-                    
-                        
-                            <li>></li>
-                        
-                        <li>
-                            <a href="/categories/%E8%AA%B2%E7%A8%8B%E5%AD%B8%E7%BF%92/AIS3/writeup/">writeup</a>&nbsp;
                         </li>
                     
                     
@@ -718,7 +708,7 @@
 
   <div class="note p-4 mb-4 rounded-small info">
     <p>更改網址，看看沒擺出來的 <code>編號4商品</code><br>
-發現竟然是在賣 FLAG，而且還不用錢！ <img  
+結果竟然是在賣 FLAG，而且還不用錢！ <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://hackmd.io/_uploads/HJjb3r2cC.png"
@@ -854,15 +844,12 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small default">
-    <p>圖片網址為 <code>url/include.php?GetType=file_get_contents&amp;file=static/bitcoinCat.jpg</code> ，<br>
-可以發現這張圖片是透過 php 存取的</p>
+    <p>該圖片網址為 <code>url/include.php?GetType=file_get_contents&amp;file=static/bitcoinCat.jpg</code> ，可以判斷這張圖片是透過 php 存取的</p>
 
   </div>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>透過 php 偽協議 <code>php://filter/read=convert.base64-encode/resource=index.php</code><br>
-取得的 <code>index.php</code> 內容為一長串密文<br>
-推測是被 base64 編碼過的，解碼後得到完整的網頁原始碼</p>
+    <p>透過 php 偽協議 <code>php://filter/read=convert.base64-encode/resource=index.php</code>，可以將 <code>index.php</code> 的內容以 base64 編碼的方式讀取，解碼後即可還原出完整原始碼</p>
 
   </div>
 
@@ -918,8 +905,7 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small danger">
-    <p>使用 <code>&amp;cmd={command}</code>，而非  <code>?cmd={command}</code> 原因是前面已使用過 <code>.php?form=</code>，<br>
-而我們還需要再接上額外指令，所以將其它的指令用 <code>&amp;</code> 連接</p>
+    <p>使用 <code>&amp;cmd={command}</code>，而非  <code>?cmd={command}</code> 原因是前面已使用過 <code>.php?form=</code>，而我們還需要再接上額外指令，所以將其它的指令用 <code>&amp;</code> 連接</p>
 
   </div>
 
@@ -1182,9 +1168,9 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small success">
-    <p>`AIS3_Junior{ouo_hihi}</p>
+    <p><code>AIS3_Junior{ouo_hihi}</code></p>
 
-  </div>`
+  </div>
 <h2 id="06-SQL-Injection">06 - SQL Injection</h2>
 <h3 id="SQL-01">SQL 01</h3>
 
@@ -1571,7 +1557,7 @@
               <span>2024</span>
               -
             
-            2024&nbsp;&nbsp;<i class="fa-solid fa-circle-notch fa-spin"></i>&nbsp;&nbsp;<a href="/">zichun</a>
+            2025&nbsp;&nbsp;<i class="fa-solid fa-circle-notch fa-spin"></i>&nbsp;&nbsp;<a href="/">zichun</a>
             
                 
                 <p class="post-count space-x-0.5">

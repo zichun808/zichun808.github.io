@@ -4,7 +4,7 @@
   <url>
     <loc>https://zichun808.github.io/about/index.html</loc>
     
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2024-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -109,14 +109,14 @@
   </url>
   
   <url>
-    <loc>https://zichun808.github.io/tags/%E5%AD%97%E6%95%B8%E7%B5%B1%E8%A8%88/</loc>
+    <loc>https://zichun808.github.io/tags/%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97/</loc>
     <lastmod>2024-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zichun808.github.io/tags/%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97/</loc>
+    <loc>https://zichun808.github.io/tags/%E5%AD%97%E6%95%B8%E7%B5%B1%E8%A8%88/</loc>
     <lastmod>2024-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -139,20 +139,6 @@
   </url>
   
   <url>
-    <loc>https://zichun808.github.io/categories/%E8%AA%B2%E7%A8%8B%E5%AD%B8%E7%BF%92/AIS3/writeup/</loc>
-    <lastmod>2024-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zichun808.github.io/categories/%E8%AA%B2%E7%A8%8B%E5%AD%B8%E7%BF%92/AIS3/%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2024-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zichun808.github.io/categories/%E5%B0%8F%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-12-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -160,14 +146,14 @@
   </url>
   
   <url>
-    <loc>https://zichun808.github.io/categories/%E5%B0%8F%E5%B7%A5%E5%85%B7/%E5%AD%97%E6%95%B8%E7%B5%B1%E8%A8%88/</loc>
+    <loc>https://zichun808.github.io/categories/%E5%B0%8F%E5%B7%A5%E5%85%B7/%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97/</loc>
     <lastmod>2024-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zichun808.github.io/categories/%E5%B0%8F%E5%B7%A5%E5%85%B7/%E6%88%90%E7%B8%BE%E8%A8%88%E7%AE%97/</loc>
+    <loc>https://zichun808.github.io/categories/%E5%B0%8F%E5%B7%A5%E5%85%B7/%E5%AD%97%E6%95%B8%E7%B5%B1%E8%A8%88/</loc>
     <lastmod>2024-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

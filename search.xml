@@ -65,7 +65,7 @@
 
   <div class="note p-4 mb-4 rounded-small info">
     <p>更改網址，看看沒擺出來的 <code>編號4商品</code><br>
-發現竟然是在賣 FLAG，而且還不用錢！ <img  
+結果竟然是在賣 FLAG，而且還不用錢！ <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://hackmd.io/_uploads/HJjb3r2cC.png"
@@ -201,15 +201,12 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small default">
-    <p>圖片網址為 <code>url/include.php?GetType=file_get_contents&amp;file=static/bitcoinCat.jpg</code> ，<br>
-可以發現這張圖片是透過 php 存取的</p>
+    <p>該圖片網址為 <code>url/include.php?GetType=file_get_contents&amp;file=static/bitcoinCat.jpg</code> ，可以判斷這張圖片是透過 php 存取的</p>
 
   </div>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>透過 php 偽協議 <code>php://filter/read=convert.base64-encode/resource=index.php</code><br>
-取得的 <code>index.php</code> 內容為一長串密文<br>
-推測是被 base64 編碼過的，解碼後得到完整的網頁原始碼</p>
+    <p>透過 php 偽協議 <code>php://filter/read=convert.base64-encode/resource=index.php</code>，可以將 <code>index.php</code> 的內容以 base64 編碼的方式讀取，解碼後即可還原出完整原始碼</p>
 
   </div>
 
@@ -265,8 +262,7 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small danger">
-    <p>使用 <code>&amp;cmd={command}</code>，而非  <code>?cmd={command}</code> 原因是前面已使用過 <code>.php?form=</code>，<br>
-而我們還需要再接上額外指令，所以將其它的指令用 <code>&amp;</code> 連接</p>
+    <p>使用 <code>&amp;cmd={command}</code>，而非  <code>?cmd={command}</code> 原因是前面已使用過 <code>.php?form=</code>，而我們還需要再接上額外指令，所以將其它的指令用 <code>&amp;</code> 連接</p>
 
   </div>
 
@@ -529,9 +525,9 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small success">
-    <p>`AIS3_Junior{ouo_hihi}</p>
+    <p><code>AIS3_Junior{ouo_hihi}</code></p>
 
-  </div>`
+  </div>
 <h2 id="06-SQL-Injection">06 - SQL Injection</h2>
 <h3 id="SQL-01">SQL 01</h3>
 
@@ -786,7 +782,6 @@
       <categories>
         <category>課程學習</category>
         <category>AIS3</category>
-        <category>writeup</category>
       </categories>
       <tags>
         <tag>課程學習</tag>
@@ -799,7 +794,7 @@
     <url>/AIS3-Junior/</url>
     <content><![CDATA[<hr>
 <h3 id="前言">前言</h3>
-<p>今年的 AIS3 Junior 舉辦在國立中正大學，課程共五天，也一樣有提供住宿及車票補助。超讚ㄉ<br>
+<p>今年的 AIS3 Junior 舉辦在中正大學，課程共五天，也一樣有提供住宿及車票補助。超讚ㄉ<br>
 我去年也曾參加 AIS3 Junior，不過因為當時是初次接觸資安，雖然最終有順利取得合格證書，但許多技術細節仍有些不熟悉。考量時間許可的情況下，我再次報名並順利被甄選錄取了！</p>
 <hr>
 <h3 id="住宿">住宿</h3>
@@ -880,12 +875,204 @@
       <categories>
         <category>課程學習</category>
         <category>AIS3</category>
-        <category>心得</category>
       </categories>
       <tags>
         <tag>課程學習</tag>
         <tag>AIS3</tag>
         <tag>心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>學期成績計算</title>
+    <url>/score/</url>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, button {
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            width: 100%;
+            font-size: 16px;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+
+        input::placeholder {
+            color: #888;
+        }
+
+        input {
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #888;
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #818181;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode input {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+
+        body.dark-mode input::placeholder {
+            color: #888;
+        }
+
+        body.dark-mode button {
+            background-color: #555;
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-mode button:hover {
+            background-color: #777;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            input, button {
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h5>請輸入以下成績並按下按鈕，計算結果將顯示在按鈕下方。</h5>
+    <hr>
+    <form id="score-form">
+        <label for="score1">第一次段考成績:</label>
+        <input type="number" id="score1" name="score1" placeholder="必填" min="0" max="100" required>
+
+        <label for="score2">第二次段考成績:</label>
+        <input type="number" id="score2" name="score2" placeholder="必填" min="0" max="100" required>
+
+        <label for="score3">第三次段考成績:</label>
+        <input type="number" id="score3" name="score3" placeholder="選填" min="0" max="100">
+
+        <label for="score4">平時成績:</label>
+        <input type="number" id="score4" name="score4" placeholder="選填" min="0" max="100">
+
+        <label for="previous_score">上學期成績:</label>
+        <input type="number" id="previous_score" name="previous_score" placeholder="選填" min="0" max="100">
+
+        <button type="submit">計算</button>
+        
+        <h4>計算結果</h4>
+        <p id="result">計算結果僅供參考，祝段考順利！</p>
+    </form>
+
+    <script data-swup-reload-script type="text/javascript">
+        document.getElementById('score-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const getInputValue = (id) => parseFloat(document.getElementById(id).value);
+            const roundToOneDecimal = (num) => parseFloat(num.toFixed(1));
+
+            const score1 = getInputValue('score1');
+            const score2 = getInputValue('score2');
+            const score3 = getInputValue('score3');
+            const score4 = getInputValue('score4');
+            const previousScore = getInputValue('previous_score');
+
+            const weightedScore1 = roundToOneDecimal(score1 * 0.2);
+            const weightedScore2 = roundToOneDecimal(score2 * 0.2);
+            const weightedScore3 = isNaN(score3) ? 0 : roundToOneDecimal(score3 * 0.3);
+            const weightedScore4 = isNaN(score4) ? 0 : roundToOneDecimal(score4 * 0.3);
+            const totalScore = roundToOneDecimal(weightedScore1 + weightedScore2 + weightedScore3 + weightedScore4);
+
+            let responseMessage = "";
+
+            const calculateRequiredScore = (currentTotal, weight) => roundToOneDecimal((59.5 - currentTotal) / weight);
+            const calculateRequiredBothSemesters = (currentTotal, weight) => roundToOneDecimal((120 - previousScore - currentTotal) / weight);
+
+            if (isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
+                responseMessage = `總分(三段+平時)至少為 ${calculateRequiredScore(weightedScore1 + weightedScore2, 0.3)} 分。`;
+            } else if (!isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
+                const requiredScore4 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                responseMessage = `平時成績至少為 ${requiredScore4} 分。`;
+            } else if (isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
+                const requiredScore3 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                responseMessage = `第三次段考至少為 ${requiredScore3} 分。`;
+            } else if (isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
+                const requiredScoreThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2, 0.6);
+                const requiredScoreBothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2, 0.6);
+                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester*2} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters*2} 分。`;
+            } else if (!isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
+                responseMessage = totalScore >= 59.5 ? `恭喜本學期通過\n(本學期成績 ${totalScore} 分)` : `本學期未通過\n(本學期成績 ${totalScore} 分)`;
+            } else if (!isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
+                const requiredScore4ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                const requiredScore4BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                responseMessage = `本學期要通過，平時成績至少為 ${requiredScore4ThisSemester} 分。\n兩學期皆通過，平時成績至少為 ${requiredScore4BothSemesters} 分。`;
+            } else if (isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
+                const requiredScore3ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                const requiredScore3BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                responseMessage = `本學期要通過，第三次段考至少為 ${requiredScore3ThisSemester} 分。\n兩學期皆通過，第三次段考至少為 ${requiredScore3BothSemesters} 分。`;
+            } else if (!isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
+                if ((totalScore + previousScore) >= 119.5) {
+                    responseMessage = `恭喜兩學期皆通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else if (totalScore >= 59.5) {
+                    responseMessage = `僅有本學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else if (previousScore >= 60) {
+                    responseMessage = `僅有上學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else {
+                    responseMessage = `本學期及上學期皆未通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                }
+            }
+            document.getElementById('result').innerText = responseMessage;
+        });
+    </script>
+</body>
+</html>
+
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>成績計算方式及說明 </summary>
+              <div class='content'>
+              <p class='h4' id="成績計算方式">成績計算方式</h4><p class='h5' id="學期成績計算">學期成績計算</h5><ol><li>第一、二次段考：各佔 20%</li><li>三段、平時成績：各佔 30%</li><li>學期成績採四捨五入至整數位</li></ol><h5 id="學年成績計算">學年成績計算</h5><ol><li>上、下學期成績：各佔 50%</li><li>學年成績採四捨五入至十分位</li></ol><hr><h4 id="輸出內容說明">輸出內容說明</h4><h5 id="若僅輸入第一、二次段考成績">若僅輸入第一、二次段考成績</h5><ol><li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li></ol><h5 id="若輸入兩次段考成績及三段或平時成績其中一項">若輸入兩次段考成績及三段或平時成績其中一項</h5><ol><li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li></ol><h5 id="若輸入所有成績">若輸入所有成績</h5><ol><li>若無上學期成績：輸出本學期是否通過。</li><li>若有上學期成績：輸出兩學期通過情況。</li></ol>
+              </div>
+            </details>]]></content>
+      <categories>
+        <category>小工具</category>
+        <category>成績計算</category>
+      </categories>
+      <tags>
+        <tag>小工具</tag>
+        <tag>成績計算</tag>
       </tags>
   </entry>
   <entry>
@@ -1106,199 +1293,6 @@
       <tags>
         <tag>小工具</tag>
         <tag>字數統計</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>學期成績計算</title>
-    <url>/score/</url>
-    <content><![CDATA[
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        label {
-            font-weight: bold;
-        }
-
-        input, button {
-            padding: 12px;
-            margin-bottom: 20px;
-            border-radius: 6px;
-            width: 100%;
-            font-size: 16px;
-            box-sizing: border-box;
-            font-family: inherit;
-        }
-
-        input::placeholder {
-            color: #888;
-        }
-
-        input {
-            background-color: #fff;
-            color: #333;
-            border: 1px solid #ccc;
-        }
-
-        button {
-            background-color: #888;
-            color: white;
-            border: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            font-weight: bold;
-        }
-
-        button:hover {
-            background-color: #818181;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        }
-
-        body.dark-mode {
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-
-        body.dark-mode input {
-            background-color: #333333;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-
-        body.dark-mode input::placeholder {
-            color: #888;
-        }
-
-        body.dark-mode button {
-            background-color: #555;
-            color: white;
-            border: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        body.dark-mode button:hover {
-            background-color: #777;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        }
-
-        @media (max-width: 600px) {
-            input, button {
-                font-size: 14px;
-                padding: 10px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <h5>請輸入以下成績並按下按鈕，計算結果將顯示在按鈕下方。</h5>
-    <hr>
-    <form id="score-form">
-        <label for="score1">第一次段考成績:</label>
-        <input type="number" id="score1" name="score1" placeholder="必填" min="0" max="100" required>
-
-        <label for="score2">第二次段考成績:</label>
-        <input type="number" id="score2" name="score2" placeholder="必填" min="0" max="100" required>
-
-        <label for="score3">第三次段考成績:</label>
-        <input type="number" id="score3" name="score3" placeholder="選填" min="0" max="100">
-
-        <label for="score4">平時成績:</label>
-        <input type="number" id="score4" name="score4" placeholder="選填" min="0" max="100">
-
-        <label for="previous_score">上學期成績:</label>
-        <input type="number" id="previous_score" name="previous_score" placeholder="選填" min="0" max="100">
-
-        <button type="submit">計算</button>
-        
-        <h4>計算結果</h4>
-        <p id="result">計算結果僅供參考，祝段考順利！</p>
-    </form>
-
-    <script data-swup-reload-script type="text/javascript">
-        document.getElementById('score-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-
-            const getInputValue = (id) => parseFloat(document.getElementById(id).value);
-            const roundToOneDecimal = (num) => parseFloat(num.toFixed(1));
-
-            const score1 = getInputValue('score1');
-            const score2 = getInputValue('score2');
-            const score3 = getInputValue('score3');
-            const score4 = getInputValue('score4');
-            const previousScore = getInputValue('previous_score');
-
-            const weightedScore1 = roundToOneDecimal(score1 * 0.2);
-            const weightedScore2 = roundToOneDecimal(score2 * 0.2);
-            const weightedScore3 = isNaN(score3) ? 0 : roundToOneDecimal(score3 * 0.3);
-            const weightedScore4 = isNaN(score4) ? 0 : roundToOneDecimal(score4 * 0.3);
-            const totalScore = roundToOneDecimal(weightedScore1 + weightedScore2 + weightedScore3 + weightedScore4);
-
-            let responseMessage = "";
-
-            const calculateRequiredScore = (currentTotal, weight) => roundToOneDecimal((59.5 - currentTotal) / weight);
-            const calculateRequiredBothSemesters = (currentTotal, weight) => roundToOneDecimal((120 - previousScore - currentTotal) / weight);
-
-            if (isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
-                responseMessage = `總分(三段+平時)至少為 ${calculateRequiredScore(weightedScore1 + weightedScore2, 0.3)} 分。`;
-            } else if (!isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
-                const requiredScore4 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
-                responseMessage = `平時成績至少為 ${requiredScore4} 分。`;
-            } else if (isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
-                const requiredScore3 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
-                responseMessage = `第三次段考至少為 ${requiredScore3} 分。`;
-            } else if (isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
-                const requiredScoreThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2, 0.6);
-                const requiredScoreBothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2, 0.6);
-                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester*2} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters*2} 分。`;
-            } else if (!isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
-                responseMessage = totalScore >= 59.5 ? `恭喜本學期通過\n(本學期成績 ${totalScore} 分)` : `本學期未通過\n(本學期成績 ${totalScore} 分)`;
-            } else if (!isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
-                const requiredScore4ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
-                const requiredScore4BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
-                responseMessage = `本學期要通過，平時成績至少為 ${requiredScore4ThisSemester} 分。\n兩學期皆通過，平時成績至少為 ${requiredScore4BothSemesters} 分。`;
-            } else if (isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
-                const requiredScore3ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
-                const requiredScore3BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
-                responseMessage = `本學期要通過，第三次段考至少為 ${requiredScore3ThisSemester} 分。\n兩學期皆通過，第三次段考至少為 ${requiredScore3BothSemesters} 分。`;
-            } else if (!isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
-                if ((totalScore + previousScore) >= 119.5) {
-                    responseMessage = `恭喜兩學期皆通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
-                } else if (totalScore >= 59.5) {
-                    responseMessage = `僅有本學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
-                } else if (previousScore >= 60) {
-                    responseMessage = `僅有上學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
-                } else {
-                    responseMessage = `本學期及上學期皆未通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
-                }
-            }
-            document.getElementById('result').innerText = responseMessage;
-        });
-    </script>
-</body>
-</html>
-
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>成績計算方式及說明 </summary>
-              <div class='content'>
-              <p class='h4' id="成績計算方式">成績計算方式</h4><p class='h5' id="學期成績計算">學期成績計算</h5><ol><li>第一、二次段考：各佔 20%</li><li>三段、平時成績：各佔 30%</li><li>學期成績採四捨五入至整數位</li></ol><h5 id="學年成績計算">學年成績計算</h5><ol><li>上、下學期成績：各佔 50%</li><li>學年成績採四捨五入至十分位</li></ol><hr><h4 id="輸出內容說明">輸出內容說明</h4><h5 id="若僅輸入第一、二次段考成績">若僅輸入第一、二次段考成績</h5><ol><li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li></ol><h5 id="若輸入兩次段考成績及三段或平時成績其中一項">若輸入兩次段考成績及三段或平時成績其中一項</h5><ol><li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li></ol><h5 id="若輸入所有成績">若輸入所有成績</h5><ol><li>若無上學期成績：輸出本學期是否通過。</li><li>若有上學期成績：輸出兩學期通過情況。</li></ol>
-              </div>
-            </details>]]></content>
-      <categories>
-        <category>小工具</category>
-        <category>成績計算</category>
-      </categories>
-      <tags>
-        <tag>小工具</tag>
-        <tag>成績計算</tag>
       </tags>
   </entry>
 </search>

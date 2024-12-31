@@ -821,19 +821,18 @@
                      src="/images/loading.svg"
                      data-src="https://hackmd.io/_uploads/SkSUEkp9C.png"
                       alt="image"
-                ><br>
+                ></p>
+
+  </div>
+
+  <div class="note p-4 mb-4 rounded-small info">
+    <p>檔案上傳後，使用與前面一樣的方法，進入 <code>url/uploads/c3644_108.160.138.201.php</code>。結果發現前一層目錄中也有 FLAG 存在，將其印出即可得到答案<br>
 <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://hackmd.io/_uploads/Sy38B1acC.png"
                       alt="image"
                 ></p>
-
-  </div>
-
-  <div class="note p-4 mb-4 rounded-small info">
-    <p>使用與前面一樣的方法，進入 <code>url/uploads/c3644_108.160.138.201.php</code><br>
-結果發現前一層目錄中也有 FLAG 存在，將其印出即可得到答案</p>
 
   </div>
 
@@ -1271,8 +1270,7 @@
 
   <div class="note p-4 mb-4 rounded-small info">
     <p>確認表格後，我對 ApexPredators 資料庫中的 user 表格進行查詢，利用 WHERE table_name 篩選表格及查詢欄位名稱<br>
-<code>' UNION SELECT 1,group_concat(column_name),3,4 from information_schema.columns WHERE table_schema='ApexPredators' AND table_name='users' #</code><br>
-<img  
+<code>' UNION SELECT 1,group_concat(column_name),3,4 from information_schema.columns WHERE table_schema='ApexPredators' AND table_name='users' #</code> <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://hackmd.io/_uploads/S1c6sWp9C.png"

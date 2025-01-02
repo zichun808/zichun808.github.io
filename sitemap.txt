@@ -1,6 +1,6 @@
-https://zichun808.github.io/score/
-https://zichun808.github.io/about/index.html
 https://zichun808.github.io/STL/
+https://zichun808.github.io/about/index.html
+https://zichun808.github.io/score/
 https://zichun808.github.io/words/
 https://zichun808.github.io/tags/index.html
 https://zichun808.github.io/categories/index.html

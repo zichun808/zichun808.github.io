@@ -1,0 +1,42 @@
+.wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%;
+}
+@keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.lightline {
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    text-decoration-color: #ffe72a;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.highlightline {
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    text-decoration-color: #ffe72a;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.3s, color 0.3s;
+    text-shadow: 0 0 8px rgba(255, 231, 42, 0.6);
+}
+.highlightline:hover {
+    outline: none;
+    border: none;
+    text-decoration-color: #ff5733;
+    color: #ff5733;
+    text-shadow: 0 0 10px rgba(255, 87, 51, 0.8);
+}

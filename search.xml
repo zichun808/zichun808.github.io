@@ -102,13 +102,13 @@
 <h4 id="特性">特性</h4>
 <ul>
 <li>支援不同資料類型的組合</li>
-<li>可以進行比較（先比 first，若相同則比 second）</li>
+<li>可以進行比較（先比<code>first</code>，若相同則比<code>second</code>）</li>
 </ul>
 <h4 id="語法">語法</h4>
 <div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">pair&lt;<span class="type">int</span>, <span class="type">int</span>&gt; pos;     <span class="comment">// 儲存一對整數</span></span><br><span class="line">pair&lt;<span class="type">int</span>, string&gt; tmp;  <span class="comment">// 儲存整數與字串的組合</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 賦值方式</span></span><br><span class="line">pos = &#123;<span class="number">3</span>, <span class="number">4</span>&#125;;                        <span class="comment">// 使用初始化列表</span></span><br><span class="line">tmp = <span class="built_in">make_pair</span>(<span class="number">1</span>, <span class="string">&quot;hello, world&quot;</span>);  <span class="comment">// 使用 make_pair 函數</span></span><br><span class="line"><span class="function">pair&lt;<span class="type">int</span>, string&gt; <span class="title">p3</span><span class="params">(<span class="number">2</span>, <span class="string">&quot;test&quot;</span>)</span></span>;     <span class="comment">// 使用建構函式</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 取值與修改</span></span><br><span class="line"><span class="type">int</span> f = pos.first;       <span class="comment">// 取得 pos 的第一個值，結果為 3</span></span><br><span class="line">string s = tmp.second;   <span class="comment">// 取得 tmp 的第二個值，結果為 &quot;hello, world&quot;</span></span><br><span class="line">pos.first = <span class="number">0</span>;          <span class="comment">// 修改第一個值</span></span><br><span class="line">tmp.second = <span class="string">&quot;hello&quot;</span>;   <span class="comment">// 修改第二個值</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 輸出</span></span><br><span class="line">cout &lt;&lt; pos.first &lt;&lt; <span class="string">&quot;、&quot;</span> &lt;&lt; pos.second;  <span class="comment">// 輸出：0、4</span></span><br><span class="line">cout &lt;&lt; tmp.first &lt;&lt; <span class="string">&quot;、&quot;</span> &lt;&lt; tmp.second;  <span class="comment">// 輸出：1、hello</span></span><br></pre></td></tr></table></figure></div>
 <h2 id="Vector">Vector</h2>
 <h4 id="簡介-2">簡介</h4>
-<p>vector 實現了動態陣列的概念，可以在執行期間動態調整大小，並新增或刪除元素</p>
+<p>vector 是動態陣列，能夠在執行期間根據需求調整大小，並新增或刪除元素</p>
 <h4 id="特性-2">特性</h4>
 <ul>
 <li>支援隨機存取</li>
@@ -146,13 +146,13 @@
 <li>支援隨機存取</li>
 <li>在兩端插入/刪除的效率都很高</li>
 <li>記憶體使用比 vector 更有彈性</li>
-<li>雖然方便，但由於常數較大，可能導致程式超時</li>
+<li>雖然方便，但由於常數較大，可能導致運行時間較長</li>
 </ul>
 <h4 id="語法-5">語法</h4>
 <div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">deque&lt;<span class="type">int</span>&gt; dq;          <span class="comment">// 宣告整數雙向佇列</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">dq.<span class="built_in">push_back</span>(<span class="number">1</span>);        <span class="comment">// 在尾端加入元素 1</span></span><br><span class="line">dq.<span class="built_in">push_front</span>(<span class="number">2</span>);       <span class="comment">// 在前端加入元素 2</span></span><br><span class="line">dq.<span class="built_in">pop_back</span>();          <span class="comment">// 移除尾端元素</span></span><br><span class="line">dq.<span class="built_in">pop_front</span>();         <span class="comment">// 移除前端元素</span></span><br><span class="line"><span class="type">int</span> front = dq.<span class="built_in">front</span>(); <span class="comment">// 取得前端元素</span></span><br><span class="line"><span class="type">int</span> back = dq.<span class="built_in">back</span>();   <span class="comment">// 取得尾端元素</span></span><br><span class="line"><span class="type">int</span> size = dq.<span class="built_in">size</span>();   <span class="comment">// 取得元素數量</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 隨機存取</span></span><br><span class="line"><span class="type">int</span> value = dq[<span class="number">2</span>];      <span class="comment">// 取得索引 2 的元素</span></span><br><span class="line">dq[<span class="number">2</span>] = <span class="number">10</span>;             <span class="comment">// 修改索引 2 的元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 插入和刪除</span></span><br><span class="line">dq.<span class="built_in">insert</span>(dq.<span class="built_in">begin</span>() + <span class="number">2</span>, <span class="number">5</span>);  <span class="comment">// 在指定位置插入元素</span></span><br><span class="line">dq.<span class="built_in">erase</span>(dq.<span class="built_in">begin</span>() + <span class="number">2</span>);      <span class="comment">// 刪除指定位置的元素</span></span><br></pre></td></tr></table></figure></div>
 <h2 id="Priority-Queue">Priority Queue</h2>
 <h4 id="簡介-6">簡介</h4>
-<p>priority_queue 是一種特殊的佇列，會自動依照優先級排序元素</p>
+<p>priority queue 是一種特殊的佇列，會根據元素的優先級自動排序</p>
 <h4 id="語法-6">語法</h4>
 <div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line"><span class="comment">// 預設為最大堆（max heap）</span></span><br><span class="line">priority_queue&lt;<span class="type">int</span>&gt; pq;</span><br><span class="line"><span class="comment">// 宣告最小堆（min heap）</span></span><br><span class="line">priority_queue&lt;<span class="type">int</span>, vector&lt;<span class="type">int</span>&gt;, greater&lt;<span class="type">int</span>&gt;&gt; min_pq;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">10</span>);           <span class="comment">// 插入元素 10</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">5</span>);            <span class="comment">// 插入元素 5</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">20</span>);           <span class="comment">// 插入元素 20</span></span><br><span class="line">pq.<span class="built_in">emplace</span>(<span class="number">15</span>);        <span class="comment">// 直接構造元素 15</span></span><br><span class="line"><span class="type">int</span> top = pq.<span class="built_in">top</span>();    <span class="comment">// 取得最高優先級元素</span></span><br><span class="line">pq.<span class="built_in">pop</span>();              <span class="comment">// 移除最高優先級元素</span></span><br><span class="line"><span class="type">int</span> size = pq.<span class="built_in">size</span>();  <span class="comment">// 取得元素數量</span></span><br><span class="line"><span class="type">bool</span> empty = pq.<span class="built_in">empty</span>(); <span class="comment">// 檢查是否為空</span></span><br></pre></td></tr></table></figure></div>
 <h2 id="Set">Set</h2>
@@ -160,7 +160,7 @@
 <p>set 是一個有序且不含重複元素的集合</p>
 <h4 id="特性-6">特性</h4>
 <ul>
-<li>自動排序</li>
+<li>自動排序元素</li>
 <li>忽略重複元素</li>
 <li>操作效率極高</li>
 <li>可以用迭代器遍歷</li>
@@ -180,10 +180,9 @@
 <div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">map&lt;<span class="type">int</span>, string&gt; m;    <span class="comment">// 宣告以整數為鍵、字串為值的映射</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 插入元素</span></span><br><span class="line">m[<span class="number">1</span>] = <span class="string">&quot;apple&quot;</span>;        <span class="comment">// 使用 [] 運算子插入或更新</span></span><br><span class="line">m[<span class="number">2</span>] = <span class="string">&quot;banana&quot;</span>;       <span class="comment">// 插入或更新鍵值對</span></span><br><span class="line">m.<span class="built_in">insert</span>(&#123;<span class="number">3</span>, <span class="string">&quot;cherry&quot;</span>&#125;); <span class="comment">// 使用 insert 方法插入</span></span><br><span class="line">m.<span class="built_in">emplace</span>(<span class="number">4</span>, <span class="string">&quot;date&quot;</span>);   <span class="comment">// 直接構造並插入</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 存取元素</span></span><br><span class="line">string value = m[<span class="number">2</span>];    <span class="comment">// 使用 [] 運算子存取（如果鍵不存在會創建）</span></span><br><span class="line">string value2</span><br></pre></td></tr></table></figure></div>
 <h2 id="Bitset">Bitset</h2>
 <h4 id="簡介-9">簡介</h4>
-<p>bitset 是用於處理位元運算的容器</p>
+<p>bitset 是用於處理位元運算的容器，每個位元只使用 1 bit 的空間</p>
 <h4 id="特性-8">特性</h4>
 <ul>
-<li>每個位元只使用 1 bit 的空間</li>
 <li>位元索引從右至左，最右邊索引為 0</li>
 <li>可直接進行 AND、OR、XOR 等位元運算</li>
 </ul>

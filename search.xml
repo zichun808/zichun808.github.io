@@ -1,620 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>AIS3 Junior 心得</title>
-    <url>/AIS3-Junior/</url>
-    <content><![CDATA[<hr>
-<h3 id="前言">前言</h3>
-<p>今年的 AIS3 Junior 舉辦在中正大學，課程共五天，也一樣有提供住宿及車票補助。超讚ㄉ<br>
-我去年也曾參加 AIS3 Junior，不過因為當時是初次接觸資安，雖然最終有順利取得合格證書，但許多技術細節仍有些不熟悉。考量時間許可的情況下，我再次報名並順利被甄選錄取了！</p>
-<hr>
-<h3 id="住宿">住宿</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/dorm.png"
-                      alt="image"
-                ><br>
-課程期間都是住在中正大學的學生宿舍(四人房)，要記得帶自己的拖鞋、枕頭、棉被、睡墊(很重要.ᐟ.ᐟ.ᐟ)、盥洗用品及吹風機等。裡面雖然有點老舊但還算乾淨，廁所也看得出來有重新裝修過，而且有乾濕分離。不過因為床板超硬，所以沒帶睡墊的話，根本睡不著而且因為床板老舊，翻身時還會有奇怪聲響。宿舍附近有超商和早餐店，半夜肚子餓的話可以去超商買消夜吃。不過課程所在的資訊大樓附近基本上就沒甚麼吃的了，除了活動中心那棟裡面有超商、貴貴的義大利麵和幾間學生餐廳外，其他吃的幾乎都要走出正門大概10分鐘左右才能找到。這幾天基本上不是跟助教、組員們一起吃，就是等回宿舍再去超商買或投販賣機。</p>
-<hr>
-<h3 id="Day-0">Day 0</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/register.png"
-                      alt="image"
-                ><br>
-這天是課程中最輕鬆的一天，不過因為中正大學地理位置較偏僻，所以不論是搭高鐵或是臺鐵都要花上不少時間轉車。我是當天早上搭臺鐵到嘉義車站，在嘉義市區晃到下午再搭臺鐵到民雄車站，然後剛好在課程群組裡找到其他三人也要從民雄車站移動到中正大學，於是就四個人一起搭計程車去(跳表，車資220元)。抵達會場並報到後，安裝 Kali 環境、VPN 和認識助教及組員等。傍晚要從集合的圖書資訊大樓拖行李到宿舍，路途約15分鐘但半路突然突如其來的傾盆大雨讓我們的衣物、鞋子和行李都濕了。稍微整理後，我和助教及組員們一起吃附近的小火鍋。再次回到宿舍後，我和室友先解了幾題隔天上課的 Flag。</p>
-<blockquote>
-<p>本日睡眠時間： 01:30~07:00，約5.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-1">Day 1</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/CTF.png"
-                      alt="image"
-                ><br>
-早上和助教及組員們一起吃完早餐後，拖著疲憊的身體前往資訊大樓開始一天的課程。早上的活動是開幕式和資安倫理課程，讓我們瞭解學習資安技術應具備的道德與責任。下午則進行破冰遊戲，需要根據提示並運用基礎資安概念解題，完成一定題數還有餅乾。隨後的資安概論課程聚焦於 Linux 指令的實際操作，基本上只要熟悉 Linux 大部分的 Flag 都不難找到。</p>
-<blockquote>
-<p>本日睡眠時間： 02:30~07:00，約4.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-2">Day 2</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/lecture.png"
-                      alt="image"
-                ><br>
-今天主要的課程是由 <strong>徐牧遠(Red) 講師</strong> 帶來的網頁安全。我曾在去年的課程中學習過 Web Security，因此能跟上講師的節奏，也解出了不少進階題。晚上則安排了資安講座，邀請資安大佬 <strong>馬聖豪 前輩</strong>，分享自己從小透過撰寫遊戲外掛賺錢到參加第一屆 AIS3，最終在資安領域嶄露頭角的心路歷程。</p>
-<blockquote>
-<p>本日睡眠時間： 03:00~07:30，約4.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-3">Day 3</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/project.png"
-                      alt="image"
-                ><br>
-最後一門課程是由 <strong>周佑康(Slash) 講師</strong> 帶來的 AI 應用安全實務。我覺得 AI 應用安全是個全新的體驗。因為我從未想過利用這些攻擊方法來影響人工智慧，取得可能混進訓練資料中的敏感資訊或在圖片中加入雜訊使神經網路辨認錯誤。講師從 LLM 的訓練原理講起，並介紹常見的大型語言模型及講解 Prompt Injection 這個攻擊方法。課後作業則是從講師提供的 AI 服務中取得機密資訊。此外，我們在這堂課中也學習了 CNN 辨識影像的原理，並學習攻擊方法 - Adversarial Attack，透過演算法在圖片中加入許多極小的雜訊，使神經網路無法正確辨識圖片。因為隔天就要發表專題了，所以我們今晚熬夜將作業的 writeup 完成並將專題推到一定進度後才去睡覺。</p>
-<blockquote>
-<p>本日睡眠時間： 04:30~07:00，約2.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-4">Day 4</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/report.png"
-                      alt="image"
-                ><br>
-今天早上是最後的專題製作時間，我們這組的專題名稱是 「原來 log 也可以寫 webshell !? 」 主要是透過 php 的 strcmp 函式漏洞 bypass 登入頁面，接著利用系統中的 LFI 漏洞實現 RCE。下午則是各組上台發表專題，讓其他組別的學員聆聽與學習的時間。從選定主題、漏洞復現到最終完成專題、上台分享時，那成就感不言而喻。雖然在處理環境時，我們遇到了不少問題，但一次次克服問題後，我們都會有更多的收穫。能將學到的知識與經驗分享給大家，也是一次非常寶貴的學習機會。</p>
-<hr>
-<h3 id="心得">心得</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/ending.png"
-                      alt="image"
-                ><br>
-首先我要感謝 <strong>C組組員們</strong>、<strong>Kazma 助教</strong>和<strong>Sharon 助教</strong>，感謝你們在這幾天提供了我這麼多的幫助。雖然在專題中，我負責的是蒐集資料和尋找漏洞的防範方法，但對 php 不熟的我，光是搞懂基本語法就花了些時間。理解攻擊方法後尋找先例並思考有效的防範方法更是花了快一整晚。不過我們也順利在最後一天完成專題，並和組員們一起上台發表。參加這次課程，讓我認識了許多電神並對未來的學習有了明確方向，甚至有幸與 <strong>Kazma</strong>、<strong>Vincent</strong>、<strong>OsGa</strong> 等厲害的學長們同桌吃早餐真的是我沒有想到的。不過這也讓我意識到，自己在資安領域還有很多技術需要學習、探索。雖然目前的學習深度和廣度還不足以完全應對現實世界中的攻擊與威脅，但對未來繼續深入學習充滿了動力！沒意外的話，我未來應該也會往這方面升學吧！雖然很累，但學到新知識及技術的成就感，真的讓人有想要繼續研究下去的動力。<strong>To be a good hacker !</strong> 💪💪</p>
-]]></content>
-      <categories>
-        <category>課程學習</category>
-        <category>AIS3</category>
-      </categories>
-      <tags>
-        <tag>課程</tag>
-        <tag>AIS3</tag>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STL 筆記</title>
-    <url>/STL/</url>
-    <content><![CDATA[<h2 id="Pair">Pair</h2>
-<h4 id="簡介">簡介</h4>
-<p>pair 可以儲存一對不同類型的資料，由 <code>first</code> 與 <code>second</code> 兩個成員組成</p>
-<h4 id="特性">特性</h4>
-<ul>
-<li>支援不同資料類型的組合</li>
-<li>可以進行比較（先比<code>first</code>，若相同則比<code>second</code>）</li>
-</ul>
-<h4 id="語法">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">pair&lt;<span class="type">int</span>, <span class="type">int</span>&gt; pos;     <span class="comment">// 儲存一對整數</span></span><br><span class="line">pair&lt;<span class="type">int</span>, string&gt; tmp;  <span class="comment">// 儲存整數與字串的組合</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 賦值方式</span></span><br><span class="line">pos = &#123;<span class="number">3</span>, <span class="number">4</span>&#125;;                        <span class="comment">// 使用初始化列表</span></span><br><span class="line">tmp = <span class="built_in">make_pair</span>(<span class="number">1</span>, <span class="string">&quot;hello, world&quot;</span>);  <span class="comment">// 使用 make_pair 函數</span></span><br><span class="line"><span class="function">pair&lt;<span class="type">int</span>, string&gt; <span class="title">p3</span><span class="params">(<span class="number">2</span>, <span class="string">&quot;test&quot;</span>)</span></span>;     <span class="comment">// 使用建構函式</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 取值與修改</span></span><br><span class="line"><span class="type">int</span> f = pos.first;       <span class="comment">// 取得 pos 的第一個值，結果為 3</span></span><br><span class="line">string s = tmp.second;   <span class="comment">// 取得 tmp 的第二個值，結果為 &quot;hello, world&quot;</span></span><br><span class="line">pos.first = <span class="number">0</span>;          <span class="comment">// 修改第一個值</span></span><br><span class="line">tmp.second = <span class="string">&quot;hello&quot;</span>;   <span class="comment">// 修改第二個值</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 輸出</span></span><br><span class="line">cout &lt;&lt; pos.first &lt;&lt; <span class="string">&quot;、&quot;</span> &lt;&lt; pos.second;  <span class="comment">// 輸出：0、4</span></span><br><span class="line">cout &lt;&lt; tmp.first &lt;&lt; <span class="string">&quot;、&quot;</span> &lt;&lt; tmp.second;  <span class="comment">// 輸出：1、hello</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Vector">Vector</h2>
-<h4 id="簡介-2">簡介</h4>
-<p>vector 是動態陣列，能夠在執行期間根據需求調整大小，並新增或刪除元素</p>
-<h4 id="特性-2">特性</h4>
-<ul>
-<li>支援隨機存取</li>
-<li>在尾端新增/刪除元素效率較高</li>
-<li>在中間插入/刪除元素效率較低</li>
-<li>當空間不足時，會自動擴展容量</li>
-</ul>
-<h4 id="語法-2">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告方式</span></span><br><span class="line">vector&lt;<span class="type">int</span>&gt; v1;            <span class="comment">// 宣告空的整數向量</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">v2</span><span class="params">(<span class="number">5</span>)</span></span>;         <span class="comment">// 宣告大小為 5 的整數向量（預設值為 0）</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">v3</span><span class="params">(n, <span class="number">0</span>)</span></span>;      <span class="comment">// 宣告大小為 n 的整數向量，所有元素初始化為 0</span></span><br><span class="line">vector&lt;<span class="type">int</span>&gt; v4 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;  <span class="comment">// 使用初始值列表宣告向量</span></span><br><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt; <span class="built_in">v5</span>(n, <span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(m, <span class="number">2</span>));  <span class="comment">// 宣告 n×m 的二維向量，所有元素初始化為 2</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 容量相關操作</span></span><br><span class="line"><span class="type">int</span> len = v<span class="number">4.</span><span class="built_in">size</span>();      <span class="comment">// 取得目前的元素數量</span></span><br><span class="line"><span class="type">int</span> cap = v<span class="number">4.</span><span class="built_in">capacity</span>();  <span class="comment">// 取得目前分配的空間大小</span></span><br><span class="line"><span class="type">bool</span> empty = v<span class="number">4.</span><span class="built_in">empty</span>();  <span class="comment">// 檢查向量是否為空</span></span><br><span class="line">v<span class="number">4.</span><span class="built_in">resize</span>(<span class="number">5</span>, <span class="number">0</span>);         <span class="comment">// 調整大小為 5，新增的元素初始化為 0</span></span><br><span class="line">v<span class="number">4.</span><span class="built_in">reserve</span>(<span class="number">10</span>);          <span class="comment">// 預先配置可容納 10 個元素的空間</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 存取元素</span></span><br><span class="line"><span class="type">int</span> value = v4[<span class="number">1</span>];        <span class="comment">// 使用 [] 運算子存取（不會檢查範圍）</span></span><br><span class="line"><span class="type">int</span> value2 = v<span class="number">4.</span><span class="built_in">at</span>(<span class="number">1</span>);    <span class="comment">// 使用 at() 方法存取（會檢查範圍）</span></span><br><span class="line"><span class="type">int</span> front = v<span class="number">4.f</span>ront();   <span class="comment">// 取得第一個元素</span></span><br><span class="line"><span class="type">int</span> back = v<span class="number">4.</span><span class="built_in">back</span>();     <span class="comment">// 取得最後一個元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 新增與刪除</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">push_back</span>(<span class="number">1</span>);         <span class="comment">// 在尾端加入元素 1</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">emplace_back</span>(<span class="number">2</span>);      <span class="comment">// 在尾端直接構造元素 2（較有效率）</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">pop_back</span>();           <span class="comment">// 移除尾端元素</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">clear</span>();              <span class="comment">// 清空所有元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍歷方式</span></span><br><span class="line"><span class="comment">// 1. 使用索引（建議用於需要修改索引值的情況）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; v<span class="number">1.</span><span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">    cout &lt;&lt; v1[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 使用範圍式 for 迴圈（較簡潔）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">const</span> <span class="type">int</span>&amp; num : v4) &#123;  <span class="comment">// 使用參考避免複製</span></span><br><span class="line">    cout &lt;&lt; num &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 使用迭代器（可以使用 STL 演算法）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">auto</span> it = v<span class="number">4.</span><span class="built_in">begin</span>(); it != v<span class="number">4.</span><span class="built_in">end</span>(); ++it) &#123;</span><br><span class="line">    cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h2 id="Stack">Stack</h2>
-<h4 id="簡介-3">簡介</h4>
-<p>stack 是一種後進先出的容器，就像疊盤子一樣，只能從頂端操作元素</p>
-<h4 id="特性-3">特性</h4>
-<ul>
-<li>無法遍歷</li>
-<li>只能從頂端新增或移除元素</li>
-</ul>
-<h4 id="語法-3">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">stack&lt;<span class="type">int</span>&gt; s;          <span class="comment">// 宣告整數堆疊</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">s.<span class="built_in">push</span>(<span class="number">1</span>);              <span class="comment">// 將元素 1 推入堆疊</span></span><br><span class="line">s.<span class="built_in">push</span>(<span class="number">2</span>);              <span class="comment">// 將元素 2 推入堆疊</span></span><br><span class="line">s.<span class="built_in">emplace</span>(<span class="number">3</span>);           <span class="comment">// 直接在堆疊頂端構造元素 3</span></span><br><span class="line">s.<span class="built_in">pop</span>();                <span class="comment">// 移除頂端元素</span></span><br><span class="line"><span class="type">int</span> top = s.<span class="built_in">top</span>();      <span class="comment">// 取得頂端元素</span></span><br><span class="line"><span class="type">bool</span> empty = s.<span class="built_in">empty</span>(); <span class="comment">// 檢查堆疊是否為空</span></span><br><span class="line"><span class="type">int</span> size = s.<span class="built_in">size</span>();    <span class="comment">// 取得堆疊中的元素數量</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Queue">Queue</h2>
-<h4 id="簡介-4">簡介</h4>
-<p>queue 是一種先進先出的容器，就像排隊一樣，依照進入順序處理元素</p>
-<h4 id="特性-4">特性</h4>
-<ul>
-<li>無法遍歷</li>
-<li>只能從尾端加入元素，從前端移除元素</li>
-</ul>
-<h4 id="語法-4">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">queue&lt;<span class="type">int</span>&gt; q;           <span class="comment">// 宣告整數佇列</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">1</span>);              <span class="comment">// 將元素 1 加入佇列尾端</span></span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">2</span>);              <span class="comment">// 將元素 2 加入佇列尾端</span></span><br><span class="line">q.<span class="built_in">emplace</span>(<span class="number">3</span>);           <span class="comment">// 直接在佇列尾端構造元素 3</span></span><br><span class="line">q.<span class="built_in">pop</span>();                <span class="comment">// 移除前端元素</span></span><br><span class="line"><span class="type">int</span> front = q.<span class="built_in">front</span>();  <span class="comment">// 取得前端元素</span></span><br><span class="line"><span class="type">int</span> back = q.<span class="built_in">back</span>();    <span class="comment">// 取得尾端元素</span></span><br><span class="line"><span class="type">bool</span> empty = q.<span class="built_in">empty</span>(); <span class="comment">// 檢查佇列是否為空</span></span><br><span class="line"><span class="type">int</span> size = q.<span class="built_in">size</span>();    <span class="comment">// 取得佇列中的元素數量</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Dequeue">Dequeue</h2>
-<h4 id="簡介-5">簡介</h4>
-<p>deque 提供了在兩端快速插入和刪除的功能，同時支援隨機存取</p>
-<h4 id="特性-5">特性</h4>
-<ul>
-<li>支援隨機存取</li>
-<li>在兩端插入/刪除的效率都很高</li>
-<li>記憶體使用比 vector 更有彈性</li>
-<li>雖然方便，但由於常數較大，可能導致運行時間較長</li>
-</ul>
-<h4 id="語法-5">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">deque&lt;<span class="type">int</span>&gt; dq;          <span class="comment">// 宣告整數雙向佇列</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">dq.<span class="built_in">push_back</span>(<span class="number">1</span>);        <span class="comment">// 在尾端加入元素 1</span></span><br><span class="line">dq.<span class="built_in">push_front</span>(<span class="number">2</span>);       <span class="comment">// 在前端加入元素 2</span></span><br><span class="line">dq.<span class="built_in">pop_back</span>();          <span class="comment">// 移除尾端元素</span></span><br><span class="line">dq.<span class="built_in">pop_front</span>();         <span class="comment">// 移除前端元素</span></span><br><span class="line"><span class="type">int</span> front = dq.<span class="built_in">front</span>(); <span class="comment">// 取得前端元素</span></span><br><span class="line"><span class="type">int</span> back = dq.<span class="built_in">back</span>();   <span class="comment">// 取得尾端元素</span></span><br><span class="line"><span class="type">int</span> size = dq.<span class="built_in">size</span>();   <span class="comment">// 取得元素數量</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 隨機存取</span></span><br><span class="line"><span class="type">int</span> value = dq[<span class="number">2</span>];      <span class="comment">// 取得索引 2 的元素</span></span><br><span class="line">dq[<span class="number">2</span>] = <span class="number">10</span>;             <span class="comment">// 修改索引 2 的元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 插入和刪除</span></span><br><span class="line">dq.<span class="built_in">insert</span>(dq.<span class="built_in">begin</span>() + <span class="number">2</span>, <span class="number">5</span>);  <span class="comment">// 在指定位置插入元素</span></span><br><span class="line">dq.<span class="built_in">erase</span>(dq.<span class="built_in">begin</span>() + <span class="number">2</span>);      <span class="comment">// 刪除指定位置的元素</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Priority-Queue">Priority Queue</h2>
-<h4 id="簡介-6">簡介</h4>
-<p>priority queue 是一種特殊的佇列，會根據元素的優先級自動排序</p>
-<h4 id="語法-6">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line"><span class="comment">// 預設為最大堆（max heap）</span></span><br><span class="line">priority_queue&lt;<span class="type">int</span>&gt; pq;</span><br><span class="line"><span class="comment">// 宣告最小堆（min heap）</span></span><br><span class="line">priority_queue&lt;<span class="type">int</span>, vector&lt;<span class="type">int</span>&gt;, greater&lt;<span class="type">int</span>&gt;&gt; min_pq;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">10</span>);           <span class="comment">// 插入元素 10</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">5</span>);            <span class="comment">// 插入元素 5</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">20</span>);           <span class="comment">// 插入元素 20</span></span><br><span class="line">pq.<span class="built_in">emplace</span>(<span class="number">15</span>);        <span class="comment">// 直接構造元素 15</span></span><br><span class="line"><span class="type">int</span> top = pq.<span class="built_in">top</span>();    <span class="comment">// 取得最高優先級元素</span></span><br><span class="line">pq.<span class="built_in">pop</span>();              <span class="comment">// 移除最高優先級元素</span></span><br><span class="line"><span class="type">int</span> size = pq.<span class="built_in">size</span>();  <span class="comment">// 取得元素數量</span></span><br><span class="line"><span class="type">bool</span> empty = pq.<span class="built_in">empty</span>(); <span class="comment">// 檢查是否為空</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Set">Set</h2>
-<h4 id="簡介-7">簡介</h4>
-<p>set 是一個有序且不含重複元素的集合</p>
-<h4 id="特性-6">特性</h4>
-<ul>
-<li>自動排序元素</li>
-<li>忽略重複元素</li>
-<li>操作效率極高</li>
-<li>可以用迭代器遍歷</li>
-</ul>
-<h4 id="語法-7">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">set&lt;<span class="type">int</span>&gt; s;            <span class="comment">// 宣告整數集合</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">s.<span class="built_in">insert</span>(<span class="number">1</span>);           <span class="comment">// 插入元素 1</span></span><br><span class="line">s.<span class="built_in">insert</span>(<span class="number">2</span>);           <span class="comment">// 插入元素 2</span></span><br><span class="line">s.<span class="built_in">emplace</span>(<span class="number">3</span>);          <span class="comment">// 直接構造並插入元素 3</span></span><br><span class="line">s.<span class="built_in">erase</span>(<span class="number">1</span>);            <span class="comment">// 刪除元素 1</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 查找操作</span></span><br><span class="line"><span class="type">bool</span> exists = s.<span class="built_in">find</span>(<span class="number">2</span>) != s.<span class="built_in">end</span>();  <span class="comment">// 檢查元素 2 是否存在</span></span><br><span class="line"><span class="keyword">auto</span> it = s.<span class="built_in">lower_bound</span>(<span class="number">2</span>);  <span class="comment">// 找到大於等於 2 的第一個元素</span></span><br><span class="line"><span class="keyword">auto</span> it2 = s.<span class="built_in">upper_bound</span>(<span class="number">2</span>); <span class="comment">// 找到大於 2 的第一個元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 容量操作</span></span><br><span class="line"><span class="type">int</span> size = s.<span class="built_in">size</span>();   <span class="comment">// 取得元素數量</span></span><br><span class="line"><span class="type">bool</span> empty = s.<span class="built_in">empty</span>(); <span class="comment">// 檢查是否為空</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍歷（依序遞增）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">const</span> <span class="type">int</span>&amp; num : s) &#123;</span><br><span class="line">    cout &lt;&lt; num &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h2 id="Map">Map</h2>
-<h4 id="簡介-8">簡介</h4>
-<p>map 是一種關聯式容器，可將鍵（key）對應到值（value）</p>
-<h4 id="特性-7">特性</h4>
-<ul>
-<li>鍵值必須唯一</li>
-<li>支援隨機存取</li>
-<li>自動依鍵值排序</li>
-</ul>
-<h4 id="語法-8">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">map&lt;<span class="type">int</span>, string&gt; m;    <span class="comment">// 宣告以整數為鍵、字串為值的映射</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 插入元素</span></span><br><span class="line">m[<span class="number">1</span>] = <span class="string">&quot;apple&quot;</span>;        <span class="comment">// 使用 [] 運算子插入或更新</span></span><br><span class="line">m[<span class="number">2</span>] = <span class="string">&quot;banana&quot;</span>;       <span class="comment">// 插入或更新鍵值對</span></span><br><span class="line">m.<span class="built_in">insert</span>(&#123;<span class="number">3</span>, <span class="string">&quot;cherry&quot;</span>&#125;); <span class="comment">// 使用 insert 方法插入</span></span><br><span class="line">m.<span class="built_in">emplace</span>(<span class="number">4</span>, <span class="string">&quot;date&quot;</span>);   <span class="comment">// 直接構造並插入</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 存取元素</span></span><br><span class="line">string value = m[<span class="number">2</span>];    <span class="comment">// 使用 [] 運算子存取（如果鍵不存在會創建）</span></span><br><span class="line">string value2</span><br></pre></td></tr></table></figure></div>
-<h2 id="Bitset">Bitset</h2>
-<h4 id="簡介-9">簡介</h4>
-<p>bitset 是用於處理位元運算的容器，每個位元只使用 1 bit 的空間</p>
-<h4 id="特性-8">特性</h4>
-<ul>
-<li>位元索引從右至左，最右邊索引為 0</li>
-<li>可直接進行 AND、OR、XOR 等位元運算</li>
-</ul>
-<h4 id="語法-9">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">bitset&lt;5&gt; b;           <span class="comment">// 宣告長度為 5 的位元集合，預設為 00000</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">b.<span class="built_in">set</span>();               <span class="comment">// 將所有位元設為 1（11111）</span></span><br><span class="line">b.<span class="built_in">reset</span>();             <span class="comment">// 將所有位元設為 0（00000）</span></span><br><span class="line"><span class="type">int</span> ones = b.<span class="built_in">count</span>();  <span class="comment">// 計算值為 1 的位元數量</span></span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>學習筆記</category>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>C++</tag>
-        <tag>STL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>學期成績計算</title>
-    <url>/score/</url>
-    <content><![CDATA[
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        label {
-            font-weight: bold;
-        }
-
-        input, button {
-            padding: 12px;
-            margin-bottom: 20px;
-            border-radius: 6px;
-            width: 100%;
-            font-size: 16px;
-            box-sizing: border-box;
-            font-family: inherit;
-        }
-
-        input::placeholder {
-            color: #888;
-        }
-
-        input {
-            background-color: #fff;
-            color: #333;
-            border: 1px solid #ccc;
-        }
-
-        button {
-            background-color: #888;
-            color: white;
-            border: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            font-weight: bold;
-        }
-
-        button:hover {
-            background-color: #818181;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        }
-
-        body.dark-mode {
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-
-        body.dark-mode input {
-            background-color: #333333;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-
-        body.dark-mode input::placeholder {
-            color: #888;
-        }
-
-        body.dark-mode button {
-            background-color: #555;
-            color: white;
-            border: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        body.dark-mode button:hover {
-            background-color: #777;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        }
-
-        @media (max-width: 600px) {
-            input, button {
-                font-size: 14px;
-                padding: 10px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <h5>請輸入以下成績並按下按鈕，計算結果將顯示在按鈕下方。</h5>
-    <hr>
-    <form id="score-form">
-        <label for="score1">第一次段考成績:</label>
-        <input type="number" id="score1" name="score1" placeholder="必填" min="0" max="100" required>
-
-        <label for="score2">第二次段考成績:</label>
-        <input type="number" id="score2" name="score2" placeholder="必填" min="0" max="100" required>
-
-        <label for="score3">第三次段考成績:</label>
-        <input type="number" id="score3" name="score3" placeholder="選填" min="0" max="100">
-
-        <label for="score4">平時成績:</label>
-        <input type="number" id="score4" name="score4" placeholder="選填" min="0" max="100">
-
-        <label for="previous_score">上學期成績:</label>
-        <input type="number" id="previous_score" name="previous_score" placeholder="選填" min="0" max="100">
-
-        <button type="submit">計算</button>
-        
-        <h4>計算結果</h4>
-        <p id="result">計算結果僅供參考，祝段考順利！</p>
-    </form>
-
-    <script data-swup-reload-script type="text/javascript">
-        document.getElementById('score-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-
-            const getInputValue = (id) => parseFloat(document.getElementById(id).value);
-            const roundToOneDecimal = (num) => parseFloat(num.toFixed(1));
-
-            const score1 = getInputValue('score1');
-            const score2 = getInputValue('score2');
-            const score3 = getInputValue('score3');
-            const score4 = getInputValue('score4');
-            const previousScore = getInputValue('previous_score');
-
-            const weightedScore1 = roundToOneDecimal(score1 * 0.2);
-            const weightedScore2 = roundToOneDecimal(score2 * 0.2);
-            const weightedScore3 = isNaN(score3) ? 0 : roundToOneDecimal(score3 * 0.3);
-            const weightedScore4 = isNaN(score4) ? 0 : roundToOneDecimal(score4 * 0.3);
-            const totalScore = roundToOneDecimal(weightedScore1 + weightedScore2 + weightedScore3 + weightedScore4);
-
-            let responseMessage = "";
-
-            const calculateRequiredScore = (currentTotal, weight) => roundToOneDecimal((59.5 - currentTotal) / weight);
-            const calculateRequiredBothSemesters = (currentTotal, weight) => roundToOneDecimal((120 - previousScore - currentTotal) / weight);
-
-            if (isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
-                responseMessage = `總分(三段+平時)至少為 ${calculateRequiredScore(weightedScore1 + weightedScore2, 0.3)} 分。`;
-            } else if (!isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
-                const requiredScore4 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
-                responseMessage = `平時成績至少為 ${requiredScore4} 分。`;
-            } else if (isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
-                const requiredScore3 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
-                responseMessage = `第三次段考至少為 ${requiredScore3} 分。`;
-            } else if (isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
-                const requiredScoreThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2, 0.6);
-                const requiredScoreBothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2, 0.6);
-                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester*2} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters*2} 分。`;
-            } else if (!isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
-                responseMessage = totalScore >= 59.5 ? `恭喜本學期通過\n(本學期成績 ${totalScore} 分)` : `本學期未通過\n(本學期成績 ${totalScore} 分)`;
-            } else if (!isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
-                const requiredScore4ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
-                const requiredScore4BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
-                responseMessage = `本學期要通過，平時成績至少為 ${requiredScore4ThisSemester} 分。\n兩學期皆通過，平時成績至少為 ${requiredScore4BothSemesters} 分。`;
-            } else if (isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
-                const requiredScore3ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
-                const requiredScore3BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
-                responseMessage = `本學期要通過，第三次段考至少為 ${requiredScore3ThisSemester} 分。\n兩學期皆通過，第三次段考至少為 ${requiredScore3BothSemesters} 分。`;
-            } else if (!isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
-                if ((totalScore + previousScore) >= 119.5) {
-                    responseMessage = `恭喜兩學期皆通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
-                } else if (totalScore >= 59.5) {
-                    responseMessage = `僅有本學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
-                } else if (previousScore >= 60) {
-                    responseMessage = `僅有上學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
-                } else {
-                    responseMessage = `本學期及上學期皆未通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
-                }
-            }
-            document.getElementById('result').innerText = responseMessage;
-        });
-    </script>
-</body>
-</html>
-
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>成績計算方式及說明 </summary>
-              <div class='content'>
-              <p class='h4' id="成績計算方式">成績計算方式</h4><p class='h5' id="學期成績計算">學期成績計算</h5><ol><li>第一、二次段考：各佔 20%</li><li>三段、平時成績：各佔 30%</li><li><span class="lightline">學期成績採四捨五入至整數位</span></li></ol><h5 id="學年成績計算">學年成績計算</h5><ol><li>上、下學期成績：各佔 50%</li><li><span class="lightline">學年成績採四捨五入至十分位</span></li></ol><hr><h4 id="輸出內容說明">輸出內容說明</h4><h5 id="若僅輸入第一、二次段考成績">若僅輸入第一、二次段考成績</h5><ol><li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li></ol><h5 id="若輸入兩次段考成績及三段或平時成績其中一項">若輸入兩次段考成績及三段或平時成績其中一項</h5><ol><li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li></ol><h5 id="若輸入所有成績">若輸入所有成績</h5><ol><li>若無上學期成績：輸出本學期是否通過。</li><li>若有上學期成績：輸出兩學期通過情況。</li></ol>
-              </div>
-            </details>]]></content>
-      <categories>
-        <category>小工具</category>
-        <category>成績計算</category>
-      </categories>
-      <tags>
-        <tag>小工具</tag>
-        <tag>成績計算</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文章字數統計</title>
-    <url>/words/</url>
-    <content><![CDATA[
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .result {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-top: 20px;
-            width: 100%;
-            padding: 0 20px;
-        }
-
-        .group {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            width: 100%;
-        }
-
-        .metric-pair {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
-
-        .value {
-            min-width: 4ch;
-            text-align: right;
-            font-weight: bold;
-        }
-
-        textarea {
-            width: 100%;
-            min-height: 150px;
-            padding: 12px;
-            font-size: 16px;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            background-color: #fff;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        @media (min-width: 601px) {
-            .group-triple {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .result {
-                padding: 0 10px;
-                gap: 10px;
-            }
-
-            .group, .group-triple {
-                grid-template-columns: 1fr 1fr;
-                gap: 10px;
-            }
-
-            .group-triple .metric-pair:nth-child(3) {
-                grid-column: auto;
-            }
-
-            .group-triple:last-child {
-                display: grid;
-                grid-template-areas: 
-                    "space punct"
-                    "emoji emoji";
-            }
-
-            .metric-pair {
-                margin: 0;
-            }
-        }
-
-        body.dark-mode {
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-
-        body.dark-mode textarea {
-            background-color: #333333;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-    </style>
-</head>
-<body>
-    <hr>
-    <div class="container">
-        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
-        
-        <div class="result">
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文章字數</span>
-                    <span id="charCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總字元數</span>
-                    <span id="weightedCharCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文字段落</span>
-                    <span id="lineCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總單字數</span>
-                    <span id="englishWordCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>中文字數</span>
-                    <span id="chineseCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>英文字數</span>
-                    <span id="englishCharCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>數字數量</span>
-                    <span id="numberCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>空格數量</span>
-                    <span id="spaceCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>標點符號</span>
-                    <span id="punctCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>Emoji🙂</span>
-                    <span id="emojiCount" class="value">0</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script data-swup-reload-script type="text/javascript">
-        function analyzeText() {
-            const text = document.getElementById('textInput').value;
-
-            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
-            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
-            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
-            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
-            const numberCount = (text.match(/\d/g) || []).length;
-            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
-            const emojiCount = Math.floor(emojiMatches.length / 2);
-            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
-            const spaceCount = (text.match(/\s/g) || []).length;
-
-            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
-            const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
-
-            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
-            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
-            document.getElementById('lineCount').textContent = formatNumber(lineCount);
-            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
-            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
-            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
-            document.getElementById('punctCount').textContent = formatNumber(punctCount);
-            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
-            document.getElementById('numberCount').textContent = formatNumber(numberCount);
-            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
-        }
-
-        function formatNumber(num) {
-            if (num === 0) {
-                return '0';
-            }
-            return num.toString().replace(/^0+/, ''); 
-        }
-        window.onload = analyzeText;
-    </script>
-</body>
-</html>
-]]></content>
-      <categories>
-        <category>小工具</category>
-        <category>字數統計</category>
-      </categories>
-      <tags>
-        <tag>小工具</tag>
-        <tag>字數統計</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AIS3 Junior writeup</title>
     <url>/AIS3-Junior-writeup/</url>
-    <content><![CDATA[<h2 id="01-Broken-Access-Control">01 - Broken Access Control</h2>
+    <content><![CDATA[<hr>
+<h2 id="01-Broken-Access-Control">01 - Broken Access Control</h2>
 <h3 id="BAC-01">BAC 01</h3>
 
   <div class="note p-4 mb-4 rounded-small default">
@@ -1396,6 +786,946 @@
         <tag>課程</tag>
         <tag>AIS3</tag>
         <tag>writeup</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AIS3 Junior 心得</title>
+    <url>/AIS3-Junior/</url>
+    <content><![CDATA[<hr>
+<h3 id="前言">前言</h3>
+<p>今年的 AIS3 Junior 舉辦在中正大學，課程共五天，也一樣有提供住宿及車票補助。超讚ㄉ<br>
+我去年也曾參加 AIS3 Junior，不過因為當時是初次接觸資安，雖然最終有順利取得合格證書，但許多技術細節仍有些不熟悉。考量時間許可的情況下，我再次報名並順利被甄選錄取了！</p>
+<hr>
+<h3 id="住宿">住宿</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/dorm.png"
+                      alt="image"
+                ><br>
+課程期間都是住在中正大學的學生宿舍(四人房)，要記得帶自己的拖鞋、枕頭、棉被、睡墊(很重要.ᐟ.ᐟ.ᐟ)、盥洗用品及吹風機等。裡面雖然有點老舊但還算乾淨，廁所也看得出來有重新裝修過，而且有乾濕分離。不過因為床板超硬，所以沒帶睡墊的話，根本睡不著而且因為床板老舊，翻身時還會有奇怪聲響。宿舍附近有超商和早餐店，半夜肚子餓的話可以去超商買消夜吃。不過課程所在的資訊大樓附近基本上就沒甚麼吃的了，除了活動中心那棟裡面有超商、貴貴的義大利麵和幾間學生餐廳外，其他吃的幾乎都要走出正門大概10分鐘左右才能找到。這幾天基本上不是跟助教、組員們一起吃，就是等回宿舍再去超商買或投販賣機。</p>
+<hr>
+<h3 id="Day-0">Day 0</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/register.png"
+                      alt="image"
+                ><br>
+這天是課程中最輕鬆的一天，不過因為中正大學地理位置較偏僻，所以不論是搭高鐵或是臺鐵都要花上不少時間轉車。我是當天早上搭臺鐵到嘉義車站，在嘉義市區晃到下午再搭臺鐵到民雄車站，然後剛好在課程群組裡找到其他三人也要從民雄車站移動到中正大學，於是就四個人一起搭計程車去(跳表，車資220元)。抵達會場並報到後，安裝 Kali 環境、VPN 和認識助教及組員等。傍晚要從集合的圖書資訊大樓拖行李到宿舍，路途約15分鐘但半路突然突如其來的傾盆大雨讓我們的衣物、鞋子和行李都濕了。稍微整理後，我和助教及組員們一起吃附近的小火鍋。再次回到宿舍後，我和室友先解了幾題隔天上課的 Flag。</p>
+<blockquote>
+<p>本日睡眠時間： 01:30~07:00，約5.5小時。</p>
+</blockquote>
+<hr>
+<h3 id="Day-1">Day 1</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/CTF.png"
+                      alt="image"
+                ><br>
+早上和助教及組員們一起吃完早餐後，拖著疲憊的身體前往資訊大樓開始一天的課程。早上的活動是開幕式和資安倫理課程，讓我們瞭解學習資安技術應具備的道德與責任。下午則進行破冰遊戲，需要根據提示並運用基礎資安概念解題，完成一定題數還有餅乾。隨後的資安概論課程聚焦於 Linux 指令的實際操作，基本上只要熟悉 Linux 大部分的 Flag 都不難找到。</p>
+<blockquote>
+<p>本日睡眠時間： 02:30~07:00，約4.5小時。</p>
+</blockquote>
+<hr>
+<h3 id="Day-2">Day 2</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/lecture.png"
+                      alt="image"
+                ><br>
+今天主要的課程是由 <strong>徐牧遠(Red) 講師</strong> 帶來的網頁安全。我曾在去年的課程中學習過 Web Security，因此能跟上講師的節奏，也解出了不少進階題。晚上則安排了資安講座，邀請資安大佬 <strong>馬聖豪 前輩</strong>，分享自己從小透過撰寫遊戲外掛賺錢到參加第一屆 AIS3，最終在資安領域嶄露頭角的心路歷程。</p>
+<blockquote>
+<p>本日睡眠時間： 03:00~07:30，約4.5小時。</p>
+</blockquote>
+<hr>
+<h3 id="Day-3">Day 3</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/project.png"
+                      alt="image"
+                ><br>
+最後一門課程是由 <strong>周佑康(Slash) 講師</strong> 帶來的 AI 應用安全實務。我覺得 AI 應用安全是個全新的體驗。因為我從未想過利用這些攻擊方法來影響人工智慧，取得可能混進訓練資料中的敏感資訊或在圖片中加入雜訊使神經網路辨認錯誤。講師從 LLM 的訓練原理講起，並介紹常見的大型語言模型及講解 Prompt Injection 這個攻擊方法。課後作業則是從講師提供的 AI 服務中取得機密資訊。此外，我們在這堂課中也學習了 CNN 辨識影像的原理，並學習攻擊方法 - Adversarial Attack，透過演算法在圖片中加入許多極小的雜訊，使神經網路無法正確辨識圖片。因為隔天就要發表專題了，所以我們今晚熬夜將作業的 writeup 完成並將專題推到一定進度後才去睡覺。</p>
+<blockquote>
+<p>本日睡眠時間： 04:30~07:00，約2.5小時。</p>
+</blockquote>
+<hr>
+<h3 id="Day-4">Day 4</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/report.png"
+                      alt="image"
+                ><br>
+今天早上是最後的專題製作時間，我們這組的專題名稱是 「原來 log 也可以寫 webshell !? 」 主要是透過 php 的 strcmp 函式漏洞 bypass 登入頁面，接著利用系統中的 LFI 漏洞實現 RCE。下午則是各組上台發表專題，讓其他組別的學員聆聽與學習的時間。從選定主題、漏洞復現到最終完成專題、上台分享時，那成就感不言而喻。雖然在處理環境時，我們遇到了不少問題，但一次次克服問題後，我們都會有更多的收穫。能將學到的知識與經驗分享給大家，也是一次非常寶貴的學習機會。</p>
+<hr>
+<h3 id="心得">心得</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/ending.png"
+                      alt="image"
+                ><br>
+首先我要感謝 <strong>C組組員們</strong>、<strong>Kazma 助教</strong>和<strong>Sharon 助教</strong>，感謝你們在這幾天提供了我這麼多的幫助。雖然在專題中，我負責的是蒐集資料和尋找漏洞的防範方法，但對 php 不熟的我，光是搞懂基本語法就花了些時間。理解攻擊方法後尋找先例並思考有效的防範方法更是花了快一整晚。不過我們也順利在最後一天完成專題，並和組員們一起上台發表。參加這次課程，讓我認識了許多電神並對未來的學習有了明確方向，甚至有幸與 <strong>Kazma</strong>、<strong>Vincent</strong>、<strong>OsGa</strong> 等厲害的學長們同桌吃早餐真的是我沒有想到的。不過這也讓我意識到，自己在資安領域還有很多技術需要學習、探索。雖然目前的學習深度和廣度還不足以完全應對現實世界中的攻擊與威脅，但對未來繼續深入學習充滿了動力！沒意外的話，我未來應該也會往這方面升學吧！雖然很累，但學到新知識及技術的成就感，真的讓人有想要繼續研究下去的動力。<strong>To be a good hacker !</strong> 💪💪</p>
+]]></content>
+      <categories>
+        <category>課程學習</category>
+        <category>AIS3</category>
+      </categories>
+      <tags>
+        <tag>課程</tag>
+        <tag>AIS3</tag>
+        <tag>心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>國立嘉義大學</title>
+    <url>/NCYU/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數：(2+2)</li>
+<li>面試時長：(6+6) 分鐘</li>
+<li>報名人數：一般 27 / 資安 11</li>
+<li>招生名額：一般⠀3 / 資安⠀2</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，也因此順利回答完了所有題目。最終，我也順利正取啦🎉🎉</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li>教授：自我介紹<br>
+⠀ 我：（略）</li>
+<li>教授：你有甚麼特別的資安經歷<br>
+⠀ 我：（略）</li>
+<li>教授：擔任衛生股長期間，為班上做了哪些事？<br>
+⠀ 我：（略）</li>
+<li>教授：如果換成其他人擔任，能達到相同成果嗎？<br>
+⠀ 我：（略）</li>
+<li>教授：你在資訊領域學習得很廣泛，為什麼想接觸這麼多領域？<br>
+⠀ 我：因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極⠀⠀⠀⠀ 學習不同領域的知識，除了程式設計，還有資訊安全、人工智慧及機器學習等，來幫助我探索各領域的應用及挑戰，並⠀⠀⠀⠀ 進一步確立未來的方向。</li>
+<li>教授：你有參加過大學先修？<br>
+⠀ 我：我在去年參加了國立中興大學的機器學習先修，課程涵蓋許多常見的機器學習方式及方法，並介紹其中的原理及細節。⠀⠀⠀⠀ 不過主要著重在理論觀念的建立，程式實作部分較少。</li>
+<li>教授：你會甚麼程式語言<br>
+⠀ 我：比較擅長 C++，其次是 Python。</li>
+<li>教授：C++ / Python 分別學到哪裡?<br>
+⠀ 我： C++ 學到基礎演算法及 STL，Python 則會基礎語法，並能使用 Pycord 開發 DCbot 及撰寫 pwn 題型的解法。</li>
+<li>教授：為什麼想學 python<br>
+⠀ 我：在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python ⠀⠀⠀⠀ 來開發器人的念頭。</li>
+<li>教授：開發 Discord Bot 時遇到哪些困難？如何解決？<br>
+⠀ 我：在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關⠀⠀⠀⠀ 解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
+<li>教授：解釋 pass by value 和 pass by reference 的差異。<br>
+⠀ 我： pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 會直接修改記憶體位置，使⠀⠀⠀⠀ 主程式的變數同步改變。</li>
+<li>教授：你知道物件導向嗎？<br>
+⠀ 我：閱讀過 C++ 的物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
+<li>教授：你有參加過 AIS3 嗎？<br>
+⠀ 我：參加過 AIS3 Junior，期待未來可以進一步參加 AIS3 學習更進階的技術。</li>
+<li>教授：AIS3 的 pre-exam，你參加過嗎？<br>
+⠀ 我：我沒有參加過實體 CTF，比較常練習 picoCTF 和課程中的題目。</li>
+<li>教授：為什麼不參加實體 CTF 比賽？<br>
+⠀ 我：高中期間缺乏比賽經驗，主要是因為找不到實力相近的隊友，加上學校資源有限。希望未來能加入貴校駭客社，與同樣⠀⠀⠀⠀ 對資安有興趣的同學組隊參賽。</li>
+<li>教授：講一下你挖到的 XSS 漏洞。<br>
+⠀ 我：我是在一間燈具公司官網的搜尋欄位發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使惡意程式碼⠀⠀⠀⠀ 在使用者瀏覽器執行。</li>
+<li>教授：你知道 OWASP Top 10 嗎？有哪些常見漏洞？<br>
+⠀ 我：知道，包括 Broken Access Control、SQL Injection、Cross-Site Scripting、Server Side Template Injection 等。</li>
+<li>教授：你知道 OWASP 排行榜會變動嗎？<br>
+⠀ 我：知道，OWASP Top 10 每年會根據漏洞的嚴重性和影響程度調整內容。</li>
+<li>教授：哪些漏洞常年位居榜單？<br>
+⠀ 我：我覺得 Broken Access Control、SQL Injection 和 XSS 都式蠻常見的漏洞。</li>
+<li>教授：你學過密碼學，可以講講對稱與非對稱加密嗎？<br>
+⠀ 我：對稱式加密使用同一把密鑰進行加解密；非對稱加密使用公鑰加密，私鑰解密。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>心得</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>國立宜蘭大學</title>
+    <url>/NIU/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：5 分鐘</li>
+<li>報名人數：一般 48 / 資安 17</li>
+<li>招生名額：一般⠀3 / 資安⠀3</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li>教授：自我介紹<br>
+⠀ 我：（略）</li>
+<li>教授：你有甚麼特別的資安經歷<br>
+⠀ 我：（略）</li>
+<li>教授：在專案開發中遇到什麼困難？如何解決？<br>
+⠀ 我：在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關⠀⠀⠀⠀ 解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
+<li>教授：你的小論文是如何進行的？<br>
+⠀ 我：起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗⠀⠀⠀⠀ 與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
+<li>教授：那你們的發電效率比現行的風力發電機更好嗎？<br>
+⠀ 我：因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，但⠀⠀⠀⠀ 我們透過研究找出了最佳的效率配置情況。</li>
+<li>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？<br>
+⠀ 我：我認為可以透過機器學習訓練垃圾和釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低使用者點擊到惡意連結⠀⠀⠀⠀ 的風險。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>心得</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>國立高雄大學</title>
+    <url>/NUK/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 3</li>
+<li>面試時長：6 分鐘</li>
+<li>報名人數：一般 67 / 資安⠀0</li>
+<li>招生名額：一般⠀3 / 資安⠀0</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>高雄是我第二間面試的學校，雖然面試難免會緊張，但其實教授問的題目大多是考古題。再加上教授們也還算親切，整體來說，這次面試的氛圍相對輕鬆，壓力不像台南那麼大。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li>
+<p>白板：自我介紹</p>
+</li>
+<li>
+<p>白板：家庭背景</p>
+</li>
+<li>
+<p>白板：學業狀況</p>
+</li>
+<li>
+<p>白板：讀書計畫</p>
+</li>
+<li>
+<p>教授：你擅長的程式語言？<br>
+⠀ 我：比較擅長 C++，其次是 Python。</p>
+</li>
+<li>
+<p>教授：你知道 <code>a?b:c</code> 是什麼嗎？<br>
+⠀ 我：這是三元運算子，當 a 為 true 時回傳 b，反之回傳 c。</p>
+</li>
+<li>
+<p>教授：<code>using namespace std</code> 是什麼意思？<br>
+⠀ 我：表示使用 std 這個命名空間，這樣可以省略 <code>std::</code>。</p>
+</li>
+<li>
+<p>教授：你曾經使用過命名空間來寫程式嗎？<br>
+⠀ 我：目前還沒有使用過自定的命名空間。</p>
+</li>
+<li>
+<p>教授：你有學過密碼學嗎？能簡單說明密碼學的兩大類型嗎？<br>
+⠀ 我：我在去年參加資安暑訓營時學過密碼學，主要分為對稱式加密與非對稱式加密。</p>
+</li>
+<li>
+<p>教授：你考過英檢嗎？未來有打算考多益嗎？<br>
+⠀ 我：目前沒有考過英檢。不過因為我在準備特選的同時也有在準備學測，我在學測後有計畫報考多益，因為我認為那應該是⠀⠀⠀⠀ 我英文能力最好的時候。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>心得</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>國立台南大學</title>
+    <url>/NUTN/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：10 分鐘</li>
+<li>報名人數：一般 51 / 資安⠀1</li>
+<li>招生名額：一般⠀2 / 資安⠀1</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>台南是我第一間面試的學校，在之前也沒有任何面試經驗，所以沒有抱太大的希望，基本上是把這次面試當作練習，但還是有點緊張。教授問了幾個出乎我意料的問題，而且兩位教授的態度較為嚴肅，整體氛圍有點壓力。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li>教授：自我介紹<br>
+⠀ 我：（略）</li>
+<li>教授：你覺得自己有什麼特別之處？<br>
+⠀ 我：（略）</li>
+<li>教授：你是從北部來的，你還有報哪些學校?<br>
+⠀ 我：除了貴校外，我還有報宜蘭、嘉義、高雄及台北市立大學。</li>
+<li>教授：你應該會想留在北部吧，為什麼想來我們學校？<br>
+⠀ 我：我認為到外縣市讀大學也很不錯，可以接觸到不同的環境和文化。</li>
+<li>教授：你提到發現企業官網的XSS漏洞，那是什麼？<br>
+⠀ 我：我是在一間燈具公司官網的搜尋欄位發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使惡意程式碼⠀⠀⠀⠀ 在使用者瀏覽器執行。</li>
+<li>教授：你會哪些程式語言?<br>
+⠀ 我：比較擅長 C++，其次是 Python。</li>
+<li>教授：Python 和 C++ 之間有什麼差異？<br>
+⠀ 我：我覺得的 Python 整體語法較簡單、容易上手，但 C++ 有較快的運行速度並且可以進行較底層的處理。</li>
+<li>教授：你提到的底層處理指的是什麼？<br>
+⠀ 我：像是透過指標直接存取記憶體。我們學校最近在學 Arduino，其中的控制程式也可以使用 C++ 撰寫。</li>
+<li>教授：你只考過兩次 APCS？這期間有做什麼努力嗎？<br>
+⠀ 我：我在今年和去年六月都有參加 APCS，而觀念與實作題皆為三級分。我覺得很可惜的是，今年第三題我因為沒看清楚⠀⠀⠀⠀ 題目條件，所以僅取得了部份分數。</li>
+<li>教授：看起來你比較擅長實作，那觀念題有準備嗎？<br>
+⠀ 我：我平常會跟網友討論程式，所以都有在閱讀別人的程式碼，我覺得這對於 APCS 的觀念題也有很大的幫助。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>心得</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STL 筆記</title>
+    <url>/STL/</url>
+    <content><![CDATA[<hr>
+<h2 id="Pair">Pair</h2>
+<h4 id="簡介">簡介</h4>
+<p>pair 可以儲存一對不同類型的資料，由 <code>first</code> 與 <code>second</code> 兩個成員組成</p>
+<h4 id="特性">特性</h4>
+<ul>
+<li>支援不同資料類型的組合</li>
+<li>可以進行比較（先比<code>first</code>，若相同則比<code>second</code>）</li>
+</ul>
+<h4 id="語法">語法</h4>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">pair&lt;<span class="type">int</span>, <span class="type">int</span>&gt; pos;     <span class="comment">// 儲存一對整數</span></span><br><span class="line">pair&lt;<span class="type">int</span>, string&gt; tmp;  <span class="comment">// 儲存整數與字串的組合</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 賦值方式</span></span><br><span class="line">pos = &#123;<span class="number">3</span>, <span class="number">4</span>&#125;;                        <span class="comment">// 使用初始化列表</span></span><br><span class="line">tmp = <span class="built_in">make_pair</span>(<span class="number">1</span>, <span class="string">&quot;hello, world&quot;</span>);  <span class="comment">// 使用 make_pair 函數</span></span><br><span class="line"><span class="function">pair&lt;<span class="type">int</span>, string&gt; <span class="title">p3</span><span class="params">(<span class="number">2</span>, <span class="string">&quot;test&quot;</span>)</span></span>;     <span class="comment">// 使用建構函式</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 取值與修改</span></span><br><span class="line"><span class="type">int</span> f = pos.first;       <span class="comment">// 取得 pos 的第一個值，結果為 3</span></span><br><span class="line">string s = tmp.second;   <span class="comment">// 取得 tmp 的第二個值，結果為 &quot;hello, world&quot;</span></span><br><span class="line">pos.first = <span class="number">0</span>;          <span class="comment">// 修改第一個值</span></span><br><span class="line">tmp.second = <span class="string">&quot;hello&quot;</span>;   <span class="comment">// 修改第二個值</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 輸出</span></span><br><span class="line">cout &lt;&lt; pos.first &lt;&lt; <span class="string">&quot;、&quot;</span> &lt;&lt; pos.second;  <span class="comment">// 輸出：0、4</span></span><br><span class="line">cout &lt;&lt; tmp.first &lt;&lt; <span class="string">&quot;、&quot;</span> &lt;&lt; tmp.second;  <span class="comment">// 輸出：1、hello</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="Vector">Vector</h2>
+<h4 id="簡介-2">簡介</h4>
+<p>vector 是動態陣列，能夠在執行期間根據需求調整大小，並新增或刪除元素</p>
+<h4 id="特性-2">特性</h4>
+<ul>
+<li>支援隨機存取</li>
+<li>在尾端新增/刪除元素效率較高</li>
+<li>在中間插入/刪除元素效率較低</li>
+<li>當空間不足時，會自動擴展容量</li>
+</ul>
+<h4 id="語法-2">語法</h4>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告方式</span></span><br><span class="line">vector&lt;<span class="type">int</span>&gt; v1;            <span class="comment">// 宣告空的整數向量</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">v2</span><span class="params">(<span class="number">5</span>)</span></span>;         <span class="comment">// 宣告大小為 5 的整數向量（預設值為 0）</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">v3</span><span class="params">(n, <span class="number">0</span>)</span></span>;      <span class="comment">// 宣告大小為 n 的整數向量，所有元素初始化為 0</span></span><br><span class="line">vector&lt;<span class="type">int</span>&gt; v4 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;  <span class="comment">// 使用初始值列表宣告向量</span></span><br><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt; <span class="built_in">v5</span>(n, <span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(m, <span class="number">2</span>));  <span class="comment">// 宣告 n×m 的二維向量，所有元素初始化為 2</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 容量相關操作</span></span><br><span class="line"><span class="type">int</span> len = v<span class="number">4.</span><span class="built_in">size</span>();      <span class="comment">// 取得目前的元素數量</span></span><br><span class="line"><span class="type">int</span> cap = v<span class="number">4.</span><span class="built_in">capacity</span>();  <span class="comment">// 取得目前分配的空間大小</span></span><br><span class="line"><span class="type">bool</span> empty = v<span class="number">4.</span><span class="built_in">empty</span>();  <span class="comment">// 檢查向量是否為空</span></span><br><span class="line">v<span class="number">4.</span><span class="built_in">resize</span>(<span class="number">5</span>, <span class="number">0</span>);         <span class="comment">// 調整大小為 5，新增的元素初始化為 0</span></span><br><span class="line">v<span class="number">4.</span><span class="built_in">reserve</span>(<span class="number">10</span>);          <span class="comment">// 預先配置可容納 10 個元素的空間</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 存取元素</span></span><br><span class="line"><span class="type">int</span> value = v4[<span class="number">1</span>];        <span class="comment">// 使用 [] 運算子存取（不會檢查範圍）</span></span><br><span class="line"><span class="type">int</span> value2 = v<span class="number">4.</span><span class="built_in">at</span>(<span class="number">1</span>);    <span class="comment">// 使用 at() 方法存取（會檢查範圍）</span></span><br><span class="line"><span class="type">int</span> front = v<span class="number">4.f</span>ront();   <span class="comment">// 取得第一個元素</span></span><br><span class="line"><span class="type">int</span> back = v<span class="number">4.</span><span class="built_in">back</span>();     <span class="comment">// 取得最後一個元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 新增與刪除</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">push_back</span>(<span class="number">1</span>);         <span class="comment">// 在尾端加入元素 1</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">emplace_back</span>(<span class="number">2</span>);      <span class="comment">// 在尾端直接構造元素 2（較有效率）</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">pop_back</span>();           <span class="comment">// 移除尾端元素</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">clear</span>();              <span class="comment">// 清空所有元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍歷方式</span></span><br><span class="line"><span class="comment">// 1. 使用索引（建議用於需要修改索引值的情況）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; v<span class="number">1.</span><span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">    cout &lt;&lt; v1[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 使用範圍式 for 迴圈（較簡潔）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">const</span> <span class="type">int</span>&amp; num : v4) &#123;  <span class="comment">// 使用參考避免複製</span></span><br><span class="line">    cout &lt;&lt; num &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 使用迭代器（可以使用 STL 演算法）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">auto</span> it = v<span class="number">4.</span><span class="built_in">begin</span>(); it != v<span class="number">4.</span><span class="built_in">end</span>(); ++it) &#123;</span><br><span class="line">    cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h2 id="Stack">Stack</h2>
+<h4 id="簡介-3">簡介</h4>
+<p>stack 是一種後進先出的容器，就像疊盤子一樣，只能從頂端操作元素</p>
+<h4 id="特性-3">特性</h4>
+<ul>
+<li>無法遍歷</li>
+<li>只能從頂端新增或移除元素</li>
+</ul>
+<h4 id="語法-3">語法</h4>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">stack&lt;<span class="type">int</span>&gt; s;          <span class="comment">// 宣告整數堆疊</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">s.<span class="built_in">push</span>(<span class="number">1</span>);              <span class="comment">// 將元素 1 推入堆疊</span></span><br><span class="line">s.<span class="built_in">push</span>(<span class="number">2</span>);              <span class="comment">// 將元素 2 推入堆疊</span></span><br><span class="line">s.<span class="built_in">emplace</span>(<span class="number">3</span>);           <span class="comment">// 直接在堆疊頂端構造元素 3</span></span><br><span class="line">s.<span class="built_in">pop</span>();                <span class="comment">// 移除頂端元素</span></span><br><span class="line"><span class="type">int</span> top = s.<span class="built_in">top</span>();      <span class="comment">// 取得頂端元素</span></span><br><span class="line"><span class="type">bool</span> empty = s.<span class="built_in">empty</span>(); <span class="comment">// 檢查堆疊是否為空</span></span><br><span class="line"><span class="type">int</span> size = s.<span class="built_in">size</span>();    <span class="comment">// 取得堆疊中的元素數量</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="Queue">Queue</h2>
+<h4 id="簡介-4">簡介</h4>
+<p>queue 是一種先進先出的容器，就像排隊一樣，依照進入順序處理元素</p>
+<h4 id="特性-4">特性</h4>
+<ul>
+<li>無法遍歷</li>
+<li>只能從尾端加入元素，從前端移除元素</li>
+</ul>
+<h4 id="語法-4">語法</h4>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">queue&lt;<span class="type">int</span>&gt; q;           <span class="comment">// 宣告整數佇列</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">1</span>);              <span class="comment">// 將元素 1 加入佇列尾端</span></span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">2</span>);              <span class="comment">// 將元素 2 加入佇列尾端</span></span><br><span class="line">q.<span class="built_in">emplace</span>(<span class="number">3</span>);           <span class="comment">// 直接在佇列尾端構造元素 3</span></span><br><span class="line">q.<span class="built_in">pop</span>();                <span class="comment">// 移除前端元素</span></span><br><span class="line"><span class="type">int</span> front = q.<span class="built_in">front</span>();  <span class="comment">// 取得前端元素</span></span><br><span class="line"><span class="type">int</span> back = q.<span class="built_in">back</span>();    <span class="comment">// 取得尾端元素</span></span><br><span class="line"><span class="type">bool</span> empty = q.<span class="built_in">empty</span>(); <span class="comment">// 檢查佇列是否為空</span></span><br><span class="line"><span class="type">int</span> size = q.<span class="built_in">size</span>();    <span class="comment">// 取得佇列中的元素數量</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="Dequeue">Dequeue</h2>
+<h4 id="簡介-5">簡介</h4>
+<p>deque 提供了在兩端快速插入和刪除的功能，同時支援隨機存取</p>
+<h4 id="特性-5">特性</h4>
+<ul>
+<li>支援隨機存取</li>
+<li>在兩端插入/刪除的效率都很高</li>
+<li>記憶體使用比 vector 更有彈性</li>
+<li>雖然方便，但由於常數較大，可能導致運行時間較長</li>
+</ul>
+<h4 id="語法-5">語法</h4>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">deque&lt;<span class="type">int</span>&gt; dq;          <span class="comment">// 宣告整數雙向佇列</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">dq.<span class="built_in">push_back</span>(<span class="number">1</span>);        <span class="comment">// 在尾端加入元素 1</span></span><br><span class="line">dq.<span class="built_in">push_front</span>(<span class="number">2</span>);       <span class="comment">// 在前端加入元素 2</span></span><br><span class="line">dq.<span class="built_in">pop_back</span>();          <span class="comment">// 移除尾端元素</span></span><br><span class="line">dq.<span class="built_in">pop_front</span>();         <span class="comment">// 移除前端元素</span></span><br><span class="line"><span class="type">int</span> front = dq.<span class="built_in">front</span>(); <span class="comment">// 取得前端元素</span></span><br><span class="line"><span class="type">int</span> back = dq.<span class="built_in">back</span>();   <span class="comment">// 取得尾端元素</span></span><br><span class="line"><span class="type">int</span> size = dq.<span class="built_in">size</span>();   <span class="comment">// 取得元素數量</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 隨機存取</span></span><br><span class="line"><span class="type">int</span> value = dq[<span class="number">2</span>];      <span class="comment">// 取得索引 2 的元素</span></span><br><span class="line">dq[<span class="number">2</span>] = <span class="number">10</span>;             <span class="comment">// 修改索引 2 的元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 插入和刪除</span></span><br><span class="line">dq.<span class="built_in">insert</span>(dq.<span class="built_in">begin</span>() + <span class="number">2</span>, <span class="number">5</span>);  <span class="comment">// 在指定位置插入元素</span></span><br><span class="line">dq.<span class="built_in">erase</span>(dq.<span class="built_in">begin</span>() + <span class="number">2</span>);      <span class="comment">// 刪除指定位置的元素</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="Priority-Queue">Priority Queue</h2>
+<h4 id="簡介-6">簡介</h4>
+<p>priority queue 是一種特殊的佇列，會根據元素的優先級自動排序</p>
+<h4 id="語法-6">語法</h4>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line"><span class="comment">// 預設為最大堆（max heap）</span></span><br><span class="line">priority_queue&lt;<span class="type">int</span>&gt; pq;</span><br><span class="line"><span class="comment">// 宣告最小堆（min heap）</span></span><br><span class="line">priority_queue&lt;<span class="type">int</span>, vector&lt;<span class="type">int</span>&gt;, greater&lt;<span class="type">int</span>&gt;&gt; min_pq;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">10</span>);           <span class="comment">// 插入元素 10</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">5</span>);            <span class="comment">// 插入元素 5</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">20</span>);           <span class="comment">// 插入元素 20</span></span><br><span class="line">pq.<span class="built_in">emplace</span>(<span class="number">15</span>);        <span class="comment">// 直接構造元素 15</span></span><br><span class="line"><span class="type">int</span> top = pq.<span class="built_in">top</span>();    <span class="comment">// 取得最高優先級元素</span></span><br><span class="line">pq.<span class="built_in">pop</span>();              <span class="comment">// 移除最高優先級元素</span></span><br><span class="line"><span class="type">int</span> size = pq.<span class="built_in">size</span>();  <span class="comment">// 取得元素數量</span></span><br><span class="line"><span class="type">bool</span> empty = pq.<span class="built_in">empty</span>(); <span class="comment">// 檢查是否為空</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="Set">Set</h2>
+<h4 id="簡介-7">簡介</h4>
+<p>set 是一個有序且不含重複元素的集合</p>
+<h4 id="特性-6">特性</h4>
+<ul>
+<li>自動排序元素</li>
+<li>忽略重複元素</li>
+<li>操作效率極高</li>
+<li>可以用迭代器遍歷</li>
+</ul>
+<h4 id="語法-7">語法</h4>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">set&lt;<span class="type">int</span>&gt; s;            <span class="comment">// 宣告整數集合</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">s.<span class="built_in">insert</span>(<span class="number">1</span>);           <span class="comment">// 插入元素 1</span></span><br><span class="line">s.<span class="built_in">insert</span>(<span class="number">2</span>);           <span class="comment">// 插入元素 2</span></span><br><span class="line">s.<span class="built_in">emplace</span>(<span class="number">3</span>);          <span class="comment">// 直接構造並插入元素 3</span></span><br><span class="line">s.<span class="built_in">erase</span>(<span class="number">1</span>);            <span class="comment">// 刪除元素 1</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 查找操作</span></span><br><span class="line"><span class="type">bool</span> exists = s.<span class="built_in">find</span>(<span class="number">2</span>) != s.<span class="built_in">end</span>();  <span class="comment">// 檢查元素 2 是否存在</span></span><br><span class="line"><span class="keyword">auto</span> it = s.<span class="built_in">lower_bound</span>(<span class="number">2</span>);  <span class="comment">// 找到大於等於 2 的第一個元素</span></span><br><span class="line"><span class="keyword">auto</span> it2 = s.<span class="built_in">upper_bound</span>(<span class="number">2</span>); <span class="comment">// 找到大於 2 的第一個元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 容量操作</span></span><br><span class="line"><span class="type">int</span> size = s.<span class="built_in">size</span>();   <span class="comment">// 取得元素數量</span></span><br><span class="line"><span class="type">bool</span> empty = s.<span class="built_in">empty</span>(); <span class="comment">// 檢查是否為空</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍歷（依序遞增）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">const</span> <span class="type">int</span>&amp; num : s) &#123;</span><br><span class="line">    cout &lt;&lt; num &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h2 id="Map">Map</h2>
+<h4 id="簡介-8">簡介</h4>
+<p>map 是一種關聯式容器，可將鍵（key）對應到值（value）</p>
+<h4 id="特性-7">特性</h4>
+<ul>
+<li>鍵值必須唯一</li>
+<li>支援隨機存取</li>
+<li>自動依鍵值排序</li>
+</ul>
+<h4 id="語法-8">語法</h4>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">map&lt;<span class="type">int</span>, string&gt; m;    <span class="comment">// 宣告以整數為鍵、字串為值的映射</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 插入元素</span></span><br><span class="line">m[<span class="number">1</span>] = <span class="string">&quot;apple&quot;</span>;        <span class="comment">// 使用 [] 運算子插入或更新</span></span><br><span class="line">m[<span class="number">2</span>] = <span class="string">&quot;banana&quot;</span>;       <span class="comment">// 插入或更新鍵值對</span></span><br><span class="line">m.<span class="built_in">insert</span>(&#123;<span class="number">3</span>, <span class="string">&quot;cherry&quot;</span>&#125;); <span class="comment">// 使用 insert 方法插入</span></span><br><span class="line">m.<span class="built_in">emplace</span>(<span class="number">4</span>, <span class="string">&quot;date&quot;</span>);   <span class="comment">// 直接構造並插入</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 存取元素</span></span><br><span class="line">string value = m[<span class="number">2</span>];    <span class="comment">// 使用 [] 運算子存取（如果鍵不存在會創建）</span></span><br><span class="line">string value2</span><br></pre></td></tr></table></figure></div>
+<h2 id="Bitset">Bitset</h2>
+<h4 id="簡介-9">簡介</h4>
+<p>bitset 是用於處理位元運算的容器，每個位元只使用 1 bit 的空間</p>
+<h4 id="特性-8">特性</h4>
+<ul>
+<li>可與整數和字串互相轉換</li>
+<li>位元索引從右至左，最右邊索引為 0</li>
+<li>可直接進行 AND、OR、XOR 等位元運算</li>
+</ul>
+<h4 id="語法-9">語法</h4>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">bitset&lt;8&gt; b1;                    <span class="comment">// 宣告 8 位元的 bitset，預設值為 0</span></span><br><span class="line"><span class="function">bitset&lt;8&gt; <span class="title">b2</span><span class="params">(<span class="string">&quot;10101010&quot;</span>)</span></span>;       <span class="comment">// 使用字串初始化</span></span><br><span class="line"><span class="function">bitset&lt;8&gt; <span class="title">b3</span><span class="params">(<span class="number">42</span>)</span></span>;               <span class="comment">// 使用整數初始化（二進位：00101010）</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line"><span class="type">bool</span> bit = b1[<span class="number">2</span>];               <span class="comment">// 讀取索引 2 的位元</span></span><br><span class="line">b1[<span class="number">1</span>] = <span class="number">1</span>;                      <span class="comment">// 設定索引 1 的位元</span></span><br><span class="line"><span class="type">bool</span> any = b<span class="number">1.</span><span class="built_in">any</span>();            <span class="comment">// 檢查是否有任何位元為 1</span></span><br><span class="line"><span class="type">bool</span> none = b<span class="number">1.</span><span class="built_in">none</span>();          <span class="comment">// 檢查是否所有位元都為 0</span></span><br><span class="line"><span class="type">bool</span> all = b<span class="number">1.</span><span class="built_in">all</span>();            <span class="comment">// 檢查是否所有位元都為 1</span></span><br><span class="line"><span class="type">int</span> count = b<span class="number">1.</span><span class="built_in">count</span>();         <span class="comment">// 計算值為 1 的位元數量</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 位元運算</span></span><br><span class="line">bitset&lt;8&gt; result1 = b1 &amp; b2;    <span class="comment">// AND 運算</span></span><br><span class="line">bitset&lt;8&gt; result2 = b1 | b2;    <span class="comment">// OR 運算</span></span><br><span class="line">bitset&lt;8&gt; result3 = b1 ^ b2;    <span class="comment">// XOR 運算</span></span><br><span class="line">bitset&lt;8&gt; result4 = ~b1;        <span class="comment">// NOT 運算</span></span><br><span class="line">bitset&lt;8&gt; result5 = b1 &lt;&lt; <span class="number">2</span>;    <span class="comment">// 左移 2 位 (乘以2)</span></span><br><span class="line">bitset&lt;8&gt; result6 = b1 &gt;&gt; <span class="number">1</span>;    <span class="comment">// 右移 1 位 (除以2)</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 轉換操作</span></span><br><span class="line">string str = b<span class="number">1.</span><span class="built_in">to_string</span>();    <span class="comment">// 轉換為字串</span></span><br><span class="line"><span class="type">int</span> num = b<span class="number">1.</span><span class="built_in">to_int</span>();          <span class="comment">// 轉換為整數</span></span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>學習筆記</category>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>筆記</tag>
+        <tag>C++</tag>
+        <tag>STL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>學期成績計算</title>
+    <url>/score/</url>
+    <content><![CDATA[<hr>
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, button {
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            width: 100%;
+            font-size: 16px;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+
+        input::placeholder {
+            color: #888;
+        }
+
+        input {
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #888;
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #818181;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode input {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+
+        body.dark-mode input::placeholder {
+            color: #888;
+        }
+
+        body.dark-mode button {
+            background-color: #555;
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-mode button:hover {
+            background-color: #777;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            input, button {
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h5>請輸入以下成績並按下按鈕，計算結果將顯示在按鈕下方。</h5>
+    <hr>
+    <form id="score-form">
+        <label for="score1">第一次段考成績:</label>
+        <input type="number" id="score1" name="score1" placeholder="必填" min="0" max="100" required>
+
+        <label for="score2">第二次段考成績:</label>
+        <input type="number" id="score2" name="score2" placeholder="必填" min="0" max="100" required>
+
+        <label for="score3">第三次段考成績:</label>
+        <input type="number" id="score3" name="score3" placeholder="選填" min="0" max="100">
+
+        <label for="score4">平時成績:</label>
+        <input type="number" id="score4" name="score4" placeholder="選填" min="0" max="100">
+
+        <label for="previous_score">上學期成績:</label>
+        <input type="number" id="previous_score" name="previous_score" placeholder="選填" min="0" max="100">
+
+        <button type="submit">計算</button>
+        
+        <h4>計算結果</h4>
+        <p id="result">計算結果僅供參考，祝段考順利！</p>
+    </form>
+
+    <script data-swup-reload-script type="text/javascript">
+        document.getElementById('score-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const getInputValue = (id) => parseFloat(document.getElementById(id).value);
+            const roundToOneDecimal = (num) => parseFloat(num.toFixed(1));
+
+            const score1 = getInputValue('score1');
+            const score2 = getInputValue('score2');
+            const score3 = getInputValue('score3');
+            const score4 = getInputValue('score4');
+            const previousScore = getInputValue('previous_score');
+
+            const weightedScore1 = roundToOneDecimal(score1 * 0.2);
+            const weightedScore2 = roundToOneDecimal(score2 * 0.2);
+            const weightedScore3 = isNaN(score3) ? 0 : roundToOneDecimal(score3 * 0.3);
+            const weightedScore4 = isNaN(score4) ? 0 : roundToOneDecimal(score4 * 0.3);
+            const totalScore = roundToOneDecimal(weightedScore1 + weightedScore2 + weightedScore3 + weightedScore4);
+
+            let responseMessage = "";
+
+            const calculateRequiredScore = (currentTotal, weight) => roundToOneDecimal((59.5 - currentTotal) / weight);
+            const calculateRequiredBothSemesters = (currentTotal, weight) => roundToOneDecimal((120 - previousScore - currentTotal) / weight);
+
+            if (isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
+                responseMessage = `總分(三段+平時)至少為 ${calculateRequiredScore(weightedScore1 + weightedScore2, 0.3)} 分。`;
+            } else if (!isNaN(score3) && isNaN(score4) && isNaN(previousScore)) {
+                const requiredScore4 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                responseMessage = `平時成績至少為 ${requiredScore4} 分。`;
+            } else if (isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
+                const requiredScore3 = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                responseMessage = `第三次段考至少為 ${requiredScore3} 分。`;
+            } else if (isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
+                const requiredScoreThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2, 0.6);
+                const requiredScoreBothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2, 0.6);
+                responseMessage = `本學期要通過總分至少為 ${requiredScoreThisSemester*2} 分。\n兩學期皆通過總分至少為 ${requiredScoreBothSemesters*2} 分。`;
+            } else if (!isNaN(score3) && !isNaN(score4) && isNaN(previousScore)) {
+                responseMessage = totalScore >= 59.5 ? `恭喜本學期通過\n(本學期成績 ${totalScore} 分)` : `本學期未通過\n(本學期成績 ${totalScore} 分)`;
+            } else if (!isNaN(score3) && isNaN(score4) && !isNaN(previousScore)) {
+                const requiredScore4ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                const requiredScore4BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore3, 0.3);
+                responseMessage = `本學期要通過，平時成績至少為 ${requiredScore4ThisSemester} 分。\n兩學期皆通過，平時成績至少為 ${requiredScore4BothSemesters} 分。`;
+            } else if (isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
+                const requiredScore3ThisSemester = calculateRequiredScore(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                const requiredScore3BothSemesters = calculateRequiredBothSemesters(weightedScore1 + weightedScore2 + weightedScore4, 0.3);
+                responseMessage = `本學期要通過，第三次段考至少為 ${requiredScore3ThisSemester} 分。\n兩學期皆通過，第三次段考至少為 ${requiredScore3BothSemesters} 分。`;
+            } else if (!isNaN(score3) && !isNaN(score4) && !isNaN(previousScore)) {
+                if ((totalScore + previousScore) >= 119.5) {
+                    responseMessage = `恭喜兩學期皆通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else if (totalScore >= 59.5) {
+                    responseMessage = `僅有本學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else if (previousScore >= 60) {
+                    responseMessage = `僅有上學期通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                } else {
+                    responseMessage = `本學期及上學期皆未通過\n(本學期成績 ${totalScore} 分，上學期成績 ${previousScore} 分)`;
+                }
+            }
+            document.getElementById('result').innerText = responseMessage;
+        });
+    </script>
+</body>
+</html>
+
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>成績計算方式及說明 </summary>
+              <div class='content'>
+              <p class='h4' id="成績計算方式">成績計算方式</h4><p class='h5' id="學期成績計算">學期成績計算</h5><ol><li>第一、二次段考：各佔 20%</li><li>三段、平時成績：各佔 30%</li><li><span class="lightline">學期成績採四捨五入至整數位</span></li></ol><h5 id="學年成績計算">學年成績計算</h5><ol><li>上、下學期成績：各佔 50%</li><li><span class="lightline">學年成績採四捨五入至十分位</span></li></ol><hr><h4 id="輸出內容說明">輸出內容說明</h4><h5 id="若僅輸入第一、二次段考成績">若僅輸入第一、二次段考成績</h5><ol><li>若無上學期成績：輸出本學期通過 第三次段考和平時成績 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 第三次段考和平時成績 最低所需的分數。</li></ol><h5 id="若輸入兩次段考成績及三段或平時成績其中一項">若輸入兩次段考成績及三段或平時成績其中一項</h5><ol><li>若無上學期成績：輸出本學期通過 另一項 最低所需的分數。</li><li>若有上學期成績：額外輸出兩學期皆通過 另一項 最低所需的分數。</li></ol><h5 id="若輸入所有成績">若輸入所有成績</h5><ol><li>若無上學期成績：輸出本學期是否通過。</li><li>若有上學期成績：輸出兩學期通過情況。</li></ol>
+              </div>
+            </details>]]></content>
+      <categories>
+        <category>小工具</category>
+        <category>成績計算</category>
+      </categories>
+      <tags>
+        <tag>小工具</tag>
+        <tag>成績計算</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>特殊選才心得彙整</title>
+    <url>/srecruit/</url>
+    <content><![CDATA[<hr>
+<h3 id="前言">前言</h3>
+<p>嗨<span class="wave">👋</span>，我是 <code>zichun</code> ，在今年透過特選錄取了宜蘭及嘉義大學的資訊工程學系。</p>
+<p>其實我在高一時，就知道特殊選才這個升學管道了，但從未想過自己能透過這個方式升學。畢竟，<span class="lightline">特殊選才招收的名額僅有應屆學測生的 1% ~ 1.5% ，招生名額遠比其他管道少非常多，也有相當高的不確定性</span>。</p>
+<p>不過，因為我的國英實在太差了，若選擇個人申請可能面臨卡標的問題，如此低的國文分數也對分科非常不利。因此高二時有了參加特殊選才的念頭，也是從此時開始積極豐富自己的經歷並開始整理備審資料。</p>
+<p>雖然當時決定參加特選，但在放榜前，我還是有繼續準備學測。畢竟，我們無法得知教授希望錄取甚麼類型的學生，而這段時間能做的只有<span class="lightline">不斷豐富自己的經歷並增進專業知識，向教授展現自己的熱忱與潛力</span>。</p>
+<h3 id="準備過程">準備過程</h3>
+<h5 id="高一">高一</h5>
+<p><strong>上學期：</strong> 考前臨時抱佛腳，對未來沒甚麼想法<br>
+<strong>下學期：</strong> 發現自己對程式設計有較高的領悟力</p>
+<h5 id="高二">高二</h5>
+<p><strong>上學期：</strong> 決定嘗試特選，積極豐富自己的經歷<br>
+<strong>下學期：</strong> 開始投入大量時間學習資訊相關知識</p>
+<h5 id="高三">高三</h5>
+<p><strong>上學期：</strong> 熬夜準備各校備審資料，請公假面試<br>
+<strong>下學期：</strong> 有大學讀了好開心，等著領畢業證書</p>
+<h3 id="特選結果">特選結果</h3>
+<p>(依學系放榜日期排序，最終選擇就讀嘉義大學)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">學校名稱</th>
+<th style="text-align:center">招生名額</th>
+<th style="text-align:center">報名組別</th>
+<th style="text-align:center">書審成績</th>
+<th style="text-align:center">面試成績</th>
+<th style="text-align:center">最終成績</th>
+<th style="text-align:center">錄取狀態</th>
+<th style="text-align:center">面試心得</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">國立台南大學</td>
+<td style="text-align:center">2 / 1</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">81.81</td>
+<td style="text-align:center">81.00</td>
+<td style="text-align:center">81.41</td>
+<td style="text-align:center">備取 17</td>
+<td style="text-align:center"><a href="/NUTN">台南大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center">國立高雄大學</td>
+<td style="text-align:center">3 / 0</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">83.00</td>
+<td style="text-align:center">84.67</td>
+<td style="text-align:center">83.84</td>
+<td style="text-align:center">備取 20</td>
+<td style="text-align:center"><a href="/NUK">高雄大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center">台北市立大學</td>
+<td style="text-align:center">3 / 0</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">78.42</td>
+<td style="text-align:center">- -</td>
+<td style="text-align:center">78.42</td>
+<td style="text-align:center">備取 12</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">國立宜蘭大學</td>
+<td style="text-align:center">3 / 3</td>
+<td style="text-align:center">資安組</td>
+<td style="text-align:center">88.50</td>
+<td style="text-align:center">90.00</td>
+<td style="text-align:center">89.10</td>
+<td style="text-align:center">正取⠀3</td>
+<td style="text-align:center"><a href="/NIU">宜蘭大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="highlightline">國立嘉義大學</span></td>
+<td style="text-align:center">3 / 2</td>
+<td style="text-align:center"><span class="highlightline">資安組</span></td>
+<td style="text-align:center">- -</td>
+<td style="text-align:center">- -</td>
+<td style="text-align:center">- -</td>
+<td style="text-align:center"><span class="highlightline">正取⠀2</span></td>
+<td style="text-align:center"><a href="/NCYU">嘉義大學</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="特選心得">特選心得</h3>
+<p>雖然我報名的兩間資安組都順利正取，我認為這已經是相當不錯的成績。不過，如果我沒有被錄取，我也不會後悔，絕對不會。「 特選不是一種制度，而是一種態度 」⠀這句話一值深深烙印在我腦海裡，準備特選的這段時間，讓我的高中生活變得更加豐富。也正因為特殊選才，我才能夠認識這麼多厲害的人、認識不同地方的文化。透過特殊選才獲得的經驗，是別人絕對無法取代的。<span class="lightline">雖然結果固然重要，但我覺得在這段過程中所學到的各種東西才是這段旅程在人生中的真正意義</span>。</p>
+<h3 id="一些東西">一些東西</h3>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>備審資料 </summary>
+              <div class='content'>
+              <p><a class="link"   href="https://drive.google.com/file/d/1kMhcpIUILVo2vIYssYMAEsxptbyqIXvS/view?usp=sharing" >備審資料（嘉義大學）<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自我介紹講稿 </summary>
+              <div class='content'>
+              <div class="tabs" id="tab-tab"><ul class="nav-tabs"><li class="tab active"><a class="#tab-1">自我介紹 (一般組)</a></li><li class="tab"><a class="#tab-2">自我介紹 (資安組)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><ul><li>教授(們)好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我學習程式設計的時間約1年半，在這段期間也積極參與了許多資訊相關的課程及活動，探索資安與資訊領域的應用。</li><li>我參加了教育部的資安人才培育計畫、數位發展部的AIGO課程以及國立中興大學的機器學習先修課程，加強我的資安知識基礎，並拓展我在人工智慧及機器學習領域的理解。</li><li>在實務應用上，我曾利用Python開發出Discord機器人，結合靜態爬蟲和JSON資料庫，解決日常生活中許多繁雜的工作。</li><li>除此之外，我也曾發現企業官網存在XSS漏洞並向HITCON ZeroDay回報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。</li><li>為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li></ul></div><div class="tab-pane" id="tab-2"><ul><li>教授(們)好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我第一次接觸資安是在小時候看的科幻電影，電影中的駭客情節讓我對資訊安全產生了好奇。而國中參加的一門網頁安全課程，則讓我對資訊安全有了初步的認識。</li><li>升上高中後，為了更進一步提升自己的資安能力，我參加了教育部資安人才培育計畫的許多課程，包括資安暑訓營、AIS3 Junior和TAIWAN HolyYoung等。其中，我對網頁安全及密碼學特別感興趣。此外，我也曾發現企業官網存在XSS漏洞，並透過HITCON ZeroDay向該網站管理員通報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，像是程式設計、機器學習、人工智慧及資訊安全，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li><li>我對資訊領域充滿熱忱，並且認為自己適合繼續深耕。期待未來能在嘉義大學，接受兼具理論與實務的完整學習，拓展更深的專業知識與技能，並將資訊安全融入教育與生活中，實現成為資訊教師的夢想。</li></ul></div></div></div>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>資安經歷講稿 </summary>
+              <div class='content'>
+              <ul><li>我的資安經歷主要包括參加教育部資安人才培育計畫的資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 課程。</li><li>在這些課程中，我學習了程式安全、逆向工程、網頁安全及密碼學等主題，並曾接觸到真實世界中的攻擊案例。</li><li>此外，我曾發現企業官網存在反射型 XSS 漏洞，並透過 HITCON ZeroDay 平台向該網站管理員通報，協助修復漏洞，避免潛在的攻擊風險。</li><li>這些經歷不僅讓我對資訊安全有了更全面的認識，也激發了我持續深入學習的熱情。</li></ul>
+              </div>
+            </details>]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>封面</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文章字數統計</title>
+    <url>/words/</url>
+    <content><![CDATA[<hr>
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .result {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .metric-pair {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .value {
+            min-width: 4ch;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            background-color: #fff;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        @media (min-width: 601px) {
+            .group-triple {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .result {
+                padding: 0 10px;
+                gap: 10px;
+            }
+
+            .group, .group-triple {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+
+            .group-triple .metric-pair:nth-child(3) {
+                grid-column: auto;
+            }
+
+            .group-triple:last-child {
+                display: grid;
+                grid-template-areas: 
+                    "space punct"
+                    "emoji emoji";
+            }
+
+            .metric-pair {
+                margin: 0;
+            }
+        }
+
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode textarea {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
+        
+        <div class="result">
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文章字數</span>
+                    <span id="charCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總字元數</span>
+                    <span id="weightedCharCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文字段落</span>
+                    <span id="lineCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總單字數</span>
+                    <span id="englishWordCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>中文字數</span>
+                    <span id="chineseCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>英文字數</span>
+                    <span id="englishCharCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>數字數量</span>
+                    <span id="numberCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>空格數量</span>
+                    <span id="spaceCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>標點符號</span>
+                    <span id="punctCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>Emoji🙂</span>
+                    <span id="emojiCount" class="value">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script data-swup-reload-script type="text/javascript">
+        function analyzeText() {
+            const text = document.getElementById('textInput').value;
+
+            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
+            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
+            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
+            const numberCount = (text.match(/\d/g) || []).length;
+            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
+            const emojiCount = Math.floor(emojiMatches.length / 2);
+            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
+            const spaceCount = (text.match(/\s/g) || []).length;
+
+            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
+            const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
+
+            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
+            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
+            document.getElementById('lineCount').textContent = formatNumber(lineCount);
+            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
+            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
+            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
+            document.getElementById('punctCount').textContent = formatNumber(punctCount);
+            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
+            document.getElementById('numberCount').textContent = formatNumber(numberCount);
+            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
+        }
+
+        function formatNumber(num) {
+            if (num === 0) {
+                return '0';
+            }
+            return num.toString().replace(/^0+/, ''); 
+        }
+        window.onload = analyzeText;
+    </script>
+</body>
+</html>
+]]></content>
+      <categories>
+        <category>小工具</category>
+        <category>字數統計</category>
+      </categories>
+      <tags>
+        <tag>小工具</tag>
+        <tag>字數統計</tag>
       </tags>
   </entry>
 </search>

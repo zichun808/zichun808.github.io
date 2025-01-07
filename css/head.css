@@ -1,3 +1,4 @@
+/***********************************************************/
 .wave {
     display: inline-block;
     animation: wave-animation 2s infinite;
@@ -13,7 +14,7 @@
     60% { transform: rotate(0deg); }
     100% { transform: rotate(0deg); }
 }
-
+/***********************************************************/
 .lightline {
     outline: none;
     border: none;
@@ -22,7 +23,7 @@
     text-decoration-thickness: 2px;
     text-underline-offset: 3px;
 }
-
+/***********************************************************/
 .highlightline {
     outline: none;
     border: none;
@@ -40,3 +41,4 @@
     color: #ff5733;
     text-shadow: 0 0 10px rgba(255, 87, 51, 0.8);
 }
+/***********************************************************/

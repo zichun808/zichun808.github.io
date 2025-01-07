@@ -789,72 +789,6 @@
       </tags>
   </entry>
   <entry>
-    <title>國立嘉義大學</title>
-    <url>/NCYU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數：(2+2)</li>
-<li>面試時長：(6+6) 分鐘</li>
-<li>報名人數：一般 27 / 資安 11</li>
-<li>招生名額：一般⠀3 / 資安⠀2</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，也因此順利回答完了所有題目。最終，我也順利正取啦🎉🎉</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：擔任衛生股長期間，為班上做了哪些事？</strong><br>
-（略）</li>
-<li><strong>教授：如果換成其他人擔任，能達到相同成果嗎？</strong><br>
-（略）</li>
-<li><strong>教授：你在資訊領域學習得很廣泛，為什麼想接觸這麼多領域？</strong><br>
-因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，除了程式設計，還有資訊安全、人工智慧及機器學習等，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li>
-<li><strong>教授：你有參加過大學先修？</strong><br>
-我在去年參加了國立中興大學的機器學習先修，課程涵蓋許多常見的機器學習方式及方法，並介紹其中的原理及細節。不過主要著重在理論觀念的建立，程式實作部分較少。</li>
-<li><strong>教授：你會甚麼程式語言</strong><br>
-比較擅長 C++，其次是 Python。</li>
-<li><strong>教授：C++ / Python 分別學到哪裡？</strong><br>
-C++ 學到基礎演算法及 STL，Python 則會基礎語法，並能使用 Pycord 開發 DCbot 及撰寫 pwn 題型的解法。</li>
-<li><strong>教授：為什麼想學 python</strong><br>
-在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python 來開發器人的念頭。</li>
-<li><strong>教授：開發 Discord Bot 時遇到哪些困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
-<li><strong>教授：解釋 pass by value 和 pass by reference 的差異。</strong><br>
-pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 會直接修改記憶體位置，使主程式的變數同步改變。</li>
-<li><strong>教授：你知道物件導向嗎？</strong><br>
-閱讀過 C++ 的物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
-<li><strong>教授：你有參加過 AIS3 嗎？</strong><br>
-參加過 AIS3 Junior，期待未來可以進一步參加 AIS3 學習更進階的技術。</li>
-<li><strong>教授：AIS3 的 pre-exam，你參加過嗎？</strong><br>
-我沒有參加過實體 CTF，比較常練習 picoCTF 和課程中的題目。</li>
-<li><strong>教授：為什麼不參加實體 CTF 比賽？</strong><br>
-高中期間缺乏比賽經驗，主要是因為找不到實力相近的隊友，加上學校資源有限。希望未來能加入貴校駭客社，與同樣對資安有興趣的同學組隊參賽。</li>
-<li><strong>教授：講一下你挖到的 XSS 漏洞。</strong><br>
-我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
-<li><strong>教授：你知道 OWASP Top 10 嗎？有哪些常見漏洞？</strong><br>
-知道，包括 Broken Access Control、SQL Injection、Cross-Site Scripting、Server Side Template Injection 等。</li>
-<li><strong>教授：你知道 OWASP 排行榜會變動嗎？</strong><br>
-知道，OWASP Top 10 每年會根據漏洞的嚴重性和影響程度調整內容。</li>
-<li><strong>教授：哪些漏洞常年位居榜單？</strong><br>
-我覺得 Broken Access Control、SQL Injection 和 XSS 都式蠻常見的漏洞。</li>
-<li><strong>教授：你學過密碼學，可以講講對稱與非對稱加密嗎？</strong><br>
-對稱式加密使用同一把密鑰進行加解密；非對稱加密使用公鑰加密，私鑰解密。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>心得</category>
-      </categories>
-      <tags>
-        <tag>特殊選才</tag>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AIS3 Junior 心得</title>
     <url>/AIS3-Junior/</url>
     <content><![CDATA[<hr>
@@ -948,6 +882,72 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
       </tags>
   </entry>
   <entry>
+    <title>國立嘉義大學</title>
+    <url>/NCYU/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數：(2+2)</li>
+<li>面試時長：(6+6) 分鐘</li>
+<li>報名人數：一般 27 / 資安 11</li>
+<li>招生名額：一般⠀3 / 資安⠀2</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，也因此順利回答完了所有題目。最終，我也順利正取啦🎉🎉</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
+（略）</li>
+<li><strong>教授：擔任衛生股長期間，為班上做了哪些事？</strong><br>
+（略）</li>
+<li><strong>教授：如果換成其他人擔任，能達到相同成果嗎？</strong><br>
+（略）</li>
+<li><strong>教授：你在資訊領域學習得很廣泛，為什麼想接觸這麼多領域？</strong><br>
+因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，除了程式設計，還有資訊安全、人工智慧及機器學習等，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li>
+<li><strong>教授：你有參加過大學先修？</strong><br>
+我在去年參加了國立中興大學的機器學習先修，課程涵蓋許多常見的機器學習方式及方法，並介紹其中的原理及細節。不過主要著重在理論觀念的建立，程式實作部分較少。</li>
+<li><strong>教授：你會甚麼程式語言</strong><br>
+比較擅長 C++，其次是 Python。</li>
+<li><strong>教授：C++ / Python 分別學到哪裡？</strong><br>
+C++ 學到基礎演算法及 STL，Python 則會基礎語法，並能使用 Pycord 開發 DCbot 及撰寫 pwn 題型的解法。</li>
+<li><strong>教授：為什麼想學 python</strong><br>
+在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python 來開發器人的念頭。</li>
+<li><strong>教授：開發 Discord Bot 時遇到哪些困難？如何解決？</strong><br>
+在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
+<li><strong>教授：解釋 pass by value 和 pass by reference 的差異。</strong><br>
+pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 會直接修改記憶體位置，使主程式的變數同步改變。</li>
+<li><strong>教授：你知道物件導向嗎？</strong><br>
+閱讀過 C++ 的物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
+<li><strong>教授：你有參加過 AIS3 嗎？</strong><br>
+參加過 AIS3 Junior，期待未來可以進一步參加 AIS3 學習更進階的技術。</li>
+<li><strong>教授：AIS3 的 pre-exam，你參加過嗎？</strong><br>
+我沒有參加過實體 CTF，比較常練習 picoCTF 和課程中的題目。</li>
+<li><strong>教授：為什麼不參加實體 CTF 比賽？</strong><br>
+高中期間缺乏比賽經驗，主要是因為找不到實力相近的隊友，加上學校資源有限。希望未來能加入貴校駭客社，與同樣對資安有興趣的同學組隊參賽。</li>
+<li><strong>教授：講一下你挖到的 XSS 漏洞。</strong><br>
+我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
+<li><strong>教授：你知道 OWASP Top 10 嗎？有哪些常見漏洞？</strong><br>
+知道，包括 Broken Access Control、SQL Injection、Cross-Site Scripting、Server Side Template Injection 等。</li>
+<li><strong>教授：你知道 OWASP 排行榜會變動嗎？</strong><br>
+知道，OWASP Top 10 每年會根據漏洞的嚴重性和影響程度調整內容。</li>
+<li><strong>教授：哪些漏洞常年位居榜單？</strong><br>
+我覺得 Broken Access Control、SQL Injection 和 XSS 都式蠻常見的漏洞。</li>
+<li><strong>教授：你學過密碼學，可以講講對稱與非對稱加密嗎？</strong><br>
+對稱式加密使用同一把密鑰進行加解密；非對稱加密使用公鑰加密，私鑰解密。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>心得</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>國立高雄大學</title>
     <url>/NUK/</url>
     <content><![CDATA[<hr>
@@ -1005,8 +1005,8 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
         <category>心得</category>
       </categories>
       <tags>
-        <tag>特殊選才</tag>
         <tag>心得</tag>
+        <tag>特殊選才</tag>
       </tags>
   </entry>
   <entry>
@@ -1043,8 +1043,8 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
         <category>心得</category>
       </categories>
       <tags>
-        <tag>特殊選才</tag>
         <tag>心得</tag>
+        <tag>特殊選才</tag>
       </tags>
   </entry>
   <entry>
@@ -1089,8 +1089,8 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
         <category>心得</category>
       </categories>
       <tags>
-        <tag>特殊選才</tag>
         <tag>心得</tag>
+        <tag>特殊選才</tag>
       </tags>
   </entry>
   <entry>
@@ -1394,119 +1394,6 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
       </tags>
   </entry>
   <entry>
-    <title>特殊選才心得彙整</title>
-    <url>/srecruit/</url>
-    <content><![CDATA[<hr>
-<h3 id="前言">前言</h3>
-<p>其實我在高一時，就知道特殊選才這個升學管道了，但從未想過自己能透過這個方式升學。畢竟，<span class="lightline">特殊選才招收的名額僅有應屆學測生的 1% ~ 1.5% ，招生名額遠比其他管道少非常多，也有相當高的不確定性</span>。</p>
-<p>不過，因為我的國英實在太差了，若選擇個人申請可能面臨卡標的問題，如此低的國文分數也對分科非常不利。因此高二時有了參加特殊選才的念頭，也是從此時開始積極豐富自己的經歷並開始整理備審資料。</p>
-<p>雖然當時決定參加特選，但在放榜前，我還是有繼續準備學測。畢竟，我們無法得知教授希望錄取甚麼類型的學生，而這段時間能做的只有<span class="lightline">不斷豐富自己的經歷並增進專業知識，向教授展現自己的熱忱與潛力</span>。</p>
-<h3 id="準備過程">準備過程</h3>
-<h5 id="高一">高一</h5>
-<p><strong>上學期：</strong> 考前臨時抱佛腳，對未來沒甚麼想法<br>
-<strong>下學期：</strong> 發現自己對程式設計有較高的領悟力</p>
-<h5 id="高二">高二</h5>
-<p><strong>上學期：</strong> 決定嘗試特選，積極豐富自己的經歷<br>
-<strong>下學期：</strong> 開始投入大量時間學習資訊相關知識</p>
-<h5 id="高三">高三</h5>
-<p><strong>上學期：</strong> 熬夜準備各校備審資料，請公假面試<br>
-<strong>下學期：</strong> 有大學讀了好開心，等著領畢業證書</p>
-<h3 id="特選結果">特選結果</h3>
-<p>(依學系放榜日期排序，最終選擇就讀嘉義大學)</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">學校名稱</th>
-<th style="text-align:center">招生名額</th>
-<th style="text-align:center">報名組別</th>
-<th style="text-align:center">書審成績</th>
-<th style="text-align:center">面試成績</th>
-<th style="text-align:center">最終成績</th>
-<th style="text-align:center">錄取狀態</th>
-<th style="text-align:center">面試心得</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">國立台南大學</td>
-<td style="text-align:center">2 / 1</td>
-<td style="text-align:center">一般組</td>
-<td style="text-align:center">81.81</td>
-<td style="text-align:center">81.00</td>
-<td style="text-align:center">81.41</td>
-<td style="text-align:center">備取 17</td>
-<td style="text-align:center"><a href="/NUTN">台南大學</a></td>
-</tr>
-<tr>
-<td style="text-align:center">國立高雄大學</td>
-<td style="text-align:center">3 / 0</td>
-<td style="text-align:center">一般組</td>
-<td style="text-align:center">83.00</td>
-<td style="text-align:center">84.67</td>
-<td style="text-align:center">83.84</td>
-<td style="text-align:center">備取 20</td>
-<td style="text-align:center"><a href="/NUK">高雄大學</a></td>
-</tr>
-<tr>
-<td style="text-align:center">台北市立大學</td>
-<td style="text-align:center">3 / 0</td>
-<td style="text-align:center">一般組</td>
-<td style="text-align:center">78.42</td>
-<td style="text-align:center">- -</td>
-<td style="text-align:center">78.42</td>
-<td style="text-align:center">備取 12</td>
-<td style="text-align:center">X</td>
-</tr>
-<tr>
-<td style="text-align:center">國立宜蘭大學</td>
-<td style="text-align:center">3 / 3</td>
-<td style="text-align:center">資安組</td>
-<td style="text-align:center">88.50</td>
-<td style="text-align:center">90.00</td>
-<td style="text-align:center">89.10</td>
-<td style="text-align:center">正取⠀3</td>
-<td style="text-align:center"><a href="/NIU">宜蘭大學</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><span class="highlightline">國立嘉義大學</span></td>
-<td style="text-align:center">3 / 2</td>
-<td style="text-align:center"><span class="highlightline">資安組</span></td>
-<td style="text-align:center">88.10</td>
-<td style="text-align:center">90.50</td>
-<td style="text-align:center">89.30</td>
-<td style="text-align:center"><span class="highlightline">正取⠀2</span></td>
-<td style="text-align:center"><a href="/NCYU">嘉義大學</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="特選心得">特選心得</h3>
-<p>雖然我報名的兩間資安組都順利正取，我認為這已經是相當不錯的成績。不過，如果我沒有被錄取，我也不會後悔，絕對不會。「 特選不是一種制度，而是一種態度 」⠀這句話一值深深烙印在我腦海裡，準備特選的這段時間，讓我的高中生活變得更加豐富。也正因為特殊選才，我才能夠認識這麼多厲害的人、認識不同地方的文化。透過特殊選才獲得的經驗，是別人絕對無法取代的。<span class="lightline">雖然結果固然重要，但我覺得在這段過程中所學到的各種東西才是這段旅程在人生中的真正意義</span>。</p>
-<h3 id="一些東西">一些東西</h3>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>備審資料 </summary>
-              <div class='content'>
-              <p><a class="link"   href="https://drive.google.com/file/d/1kMhcpIUILVo2vIYssYMAEsxptbyqIXvS/view?usp=sharing" >備審資料（嘉義大學）<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自我介紹講稿 </summary>
-              <div class='content'>
-              <div class="tabs" id="tab-tab"><ul class="nav-tabs"><li class="tab active"><a class="#tab-1">自我介紹 (一般組)</a></li><li class="tab"><a class="#tab-2">自我介紹 (資安組)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我學習程式設計的時間約1年半，在這段期間也積極參與了許多資訊相關的課程及活動，探索資安與資訊領域的應用。</li><li>我參加了教育部的資安人才培育計畫、數位發展部的AIGO課程以及國立中興大學的機器學習先修課程，加強我的資安知識基礎，並拓展我在人工智慧及機器學習領域的理解。</li><li>在實務應用上，我曾利用Python開發出Discord機器人，結合靜態爬蟲和JSON資料庫，解決日常生活中許多繁雜的工作。</li><li>除此之外，我也曾發現企業官網存在XSS漏洞並向HITCON ZeroDay回報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。</li><li>為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li></ul></div><div class="tab-pane" id="tab-2"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我第一次接觸資安是在小時候看的科幻電影，電影中的駭客情節讓我對資訊安全產生了好奇。而國中參加的一門網頁安全課程，則讓我對資訊安全有了初步的認識。</li><li>升上高中後，為了更進一步提升自己的資安能力，我參加了教育部資安人才培育計畫的許多課程，包括資安暑訓營、AIS3 Junior和TAIWAN HolyYoung等。其中，我對網頁安全及密碼學特別感興趣。此外，我也曾發現企業官網存在XSS漏洞，並透過HITCON ZeroDay向該網站管理員通報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，像是程式設計、機器學習、人工智慧及資訊安全，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li><li>我對資訊領域充滿熱忱，並且認為自己適合繼續深耕。期待未來能在嘉義大學，接受兼具理論與實務的完整學習，拓展更深的專業知識與技能。</li></ul></div></div></div>
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>資安經歷講稿 </summary>
-              <div class='content'>
-              <ul><li>我的資安經歷主要包括參加教育部資安人才培育計畫的資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 課程。</li><li>在這些課程中，我學習了程式安全、逆向工程、網頁安全及密碼學等主題，並曾接觸到真實世界中的攻擊案例。</li><li>此外，我曾發現企業官網存在反射型 XSS 漏洞，並透過 HITCON ZeroDay 平台向該網站管理員通報，協助修復漏洞，避免潛在的攻擊風險。</li><li>這些經歷不僅讓我對資訊安全有了更全面的認識，也激發了我持續深入學習的熱情。</li></ul>
-              </div>
-            </details>]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>封面</category>
-      </categories>
-      <tags>
-        <tag>特殊選才</tag>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>文章字數統計</title>
     <url>/words/</url>
     <content><![CDATA[<hr>
@@ -1724,6 +1611,119 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
       <tags>
         <tag>小工具</tag>
         <tag>字數統計</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>特殊選才心得彙整</title>
+    <url>/srecruit/</url>
+    <content><![CDATA[<hr>
+<h3 id="前言">前言</h3>
+<p>其實我在高一時，就知道特殊選才這個升學管道了，但從未想過自己能透過這個方式升學。畢竟，<span class="lightline">特殊選才招收的名額僅有應屆學測生的 1% ~ 1.5% ，招生名額遠比其他管道少非常多，也有相當高的不確定性</span>。</p>
+<p>不過，因為我的國英實在太差了，若選擇個人申請可能面臨卡標的問題，如此低的國文分數也對分科非常不利。因此高二時有了參加特殊選才的念頭，也是從此時開始積極豐富自己的經歷並開始整理備審資料。</p>
+<p>雖然當時決定參加特選，但在放榜前，我還是有繼續準備學測。畢竟，我們無法得知教授希望錄取甚麼類型的學生，而這段時間能做的只有<span class="lightline">不斷豐富自己的經歷並增進專業知識，向教授展現自己的熱忱與潛力</span>。</p>
+<h3 id="準備過程">準備過程</h3>
+<h5 id="高一">高一</h5>
+<p><strong>上學期：</strong> 考前臨時抱佛腳，對未來沒甚麼想法<br>
+<strong>下學期：</strong> 發現自己對程式設計有較高的領悟力</p>
+<h5 id="高二">高二</h5>
+<p><strong>上學期：</strong> 決定嘗試特選，積極豐富自己的經歷<br>
+<strong>下學期：</strong> 開始投入大量時間學習資訊相關知識</p>
+<h5 id="高三">高三</h5>
+<p><strong>上學期：</strong> 熬夜準備各校備審資料，請公假面試<br>
+<strong>下學期：</strong> 有大學讀了好開心，等著領畢業證書</p>
+<h3 id="特選結果">特選結果</h3>
+<p>(依學系放榜日期排序，最終選擇就讀嘉義大學)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">學校名稱</th>
+<th style="text-align:center">招生名額</th>
+<th style="text-align:center">報名組別</th>
+<th style="text-align:center">書審成績</th>
+<th style="text-align:center">面試成績</th>
+<th style="text-align:center">最終成績</th>
+<th style="text-align:center">錄取狀態</th>
+<th style="text-align:center">面試心得</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">國立台南大學</td>
+<td style="text-align:center">2 / 1</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">81.81</td>
+<td style="text-align:center">81.00</td>
+<td style="text-align:center">81.41</td>
+<td style="text-align:center">備取 17</td>
+<td style="text-align:center"><a href="/NUTN">台南大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center">國立高雄大學</td>
+<td style="text-align:center">3 / 0</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">83.00</td>
+<td style="text-align:center">84.67</td>
+<td style="text-align:center">83.84</td>
+<td style="text-align:center">備取 20</td>
+<td style="text-align:center"><a href="/NUK">高雄大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center">台北市立大學</td>
+<td style="text-align:center">3 / 0</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">78.42</td>
+<td style="text-align:center">- -</td>
+<td style="text-align:center">78.42</td>
+<td style="text-align:center">備取 12</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">國立宜蘭大學</td>
+<td style="text-align:center">3 / 3</td>
+<td style="text-align:center">資安組</td>
+<td style="text-align:center">88.50</td>
+<td style="text-align:center">90.00</td>
+<td style="text-align:center">89.10</td>
+<td style="text-align:center">正取⠀3</td>
+<td style="text-align:center"><a href="/NIU">宜蘭大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="highlightline">國立嘉義大學</span></td>
+<td style="text-align:center">3 / 2</td>
+<td style="text-align:center"><span class="highlightline">資安組</span></td>
+<td style="text-align:center">88.10</td>
+<td style="text-align:center">90.50</td>
+<td style="text-align:center">89.30</td>
+<td style="text-align:center"><span class="highlightline">正取⠀2</span></td>
+<td style="text-align:center"><a href="/NCYU">嘉義大學</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="特選心得">特選心得</h3>
+<p>雖然我報名的兩間資安組都順利正取，我認為這已經是相當不錯的成績。不過，如果我沒有被錄取，我也不會後悔，絕對不會。「 特選不是一種制度，而是一種態度 」⠀這句話一值深深烙印在我腦海裡，準備特選的這段時間，讓我的高中生活變得更加豐富。也正因為特殊選才，我才能夠認識這麼多厲害的人、認識不同地方的文化。透過特殊選才獲得的經驗，是別人絕對無法取代的。<span class="lightline">雖然結果固然重要，但我覺得在這段過程中所學到的各種東西才是這段旅程在人生中的真正意義</span>。</p>
+<h3 id="一些東西">一些東西</h3>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>備審資料 </summary>
+              <div class='content'>
+              <p><a class="link"   href="https://drive.google.com/file/d/1kMhcpIUILVo2vIYssYMAEsxptbyqIXvS/view?usp=sharing" >備審資料（嘉義大學）<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自我介紹講稿 </summary>
+              <div class='content'>
+              <div class="tabs" id="tab-tab"><ul class="nav-tabs"><li class="tab active"><a class="#tab-1">自我介紹 (一般組)</a></li><li class="tab"><a class="#tab-2">自我介紹 (資安組)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我學習程式設計的時間約1年半，在這段期間也積極參與了許多資訊相關的課程及活動，探索資安與資訊領域的應用。</li><li>我參加了教育部的資安人才培育計畫、數位發展部的AIGO課程以及國立中興大學的機器學習先修課程，加強我的資安知識基礎，並拓展我在人工智慧及機器學習領域的理解。</li><li>在實務應用上，我曾利用Python開發出Discord機器人，結合靜態爬蟲和JSON資料庫，解決日常生活中許多繁雜的工作。</li><li>除此之外，我也曾發現企業官網存在XSS漏洞並向HITCON ZeroDay回報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。</li><li>為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li></ul></div><div class="tab-pane" id="tab-2"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我第一次接觸資安是在小時候看的科幻電影，電影中的駭客情節讓我對資訊安全產生了好奇。而國中參加的一門網頁安全課程，則讓我對資訊安全有了初步的認識。</li><li>升上高中後，為了更進一步提升自己的資安能力，我參加了教育部資安人才培育計畫的許多課程，包括資安暑訓營、AIS3 Junior和TAIWAN HolyYoung等。其中，我對網頁安全及密碼學特別感興趣。此外，我也曾發現企業官網存在XSS漏洞，並透過HITCON ZeroDay向該網站管理員通報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，像是程式設計、機器學習、人工智慧及資訊安全，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li><li>我對資訊領域充滿熱忱，並且認為自己適合繼續深耕。期待未來能在嘉義大學，接受兼具理論與實務的完整學習，拓展更深的專業知識與技能。</li></ul></div></div></div>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>資安經歷講稿 </summary>
+              <div class='content'>
+              <ul><li>我的資安經歷主要包括參加教育部資安人才培育計畫的資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 課程。</li><li>在這些課程中，我學習了程式安全、逆向工程、網頁安全及密碼學等主題，並曾接觸到真實世界中的攻擊案例。</li><li>此外，我曾發現企業官網存在反射型 XSS 漏洞，並透過 HITCON ZeroDay 平台向該網站管理員通報，協助修復漏洞，避免潛在的攻擊風險。</li><li>這些經歷不僅讓我對資訊安全有了更全面的認識，也激發了我持續深入學習的熱情。</li></ul>
+              </div>
+            </details>]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>封面</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
       </tags>
   </entry>
 </search>

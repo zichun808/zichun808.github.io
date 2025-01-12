@@ -882,7 +882,7 @@
       </tags>
   </entry>
   <entry>
-    <title>國立嘉義大學</title>
+    <title>國立嘉義大學 特殊選才面試</title>
     <url>/NCYU/</url>
     <content><![CDATA[<hr>
 <h3 id="面試資訊">面試資訊</h3>
@@ -940,15 +940,16 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 ]]></content>
       <categories>
         <category>特殊選才</category>
-        <category>心得</category>
+        <category>面試</category>
       </categories>
       <tags>
         <tag>心得</tag>
         <tag>特殊選才</tag>
+        <tag>面試</tag>
       </tags>
   </entry>
   <entry>
-    <title>國立高雄大學</title>
+    <title>國立高雄大學 特殊選才面試</title>
     <url>/NUK/</url>
     <content><![CDATA[<hr>
 <h3 id="面試資訊">面試資訊</h3>
@@ -1002,15 +1003,16 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 ]]></content>
       <categories>
         <category>特殊選才</category>
-        <category>心得</category>
+        <category>面試</category>
       </categories>
       <tags>
         <tag>心得</tag>
         <tag>特殊選才</tag>
+        <tag>面試</tag>
       </tags>
   </entry>
   <entry>
-    <title>國立宜蘭大學</title>
+    <title>國立宜蘭大學 特殊選才面試</title>
     <url>/NIU/</url>
     <content><![CDATA[<hr>
 <h3 id="面試資訊">面試資訊</h3>
@@ -1040,15 +1042,16 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 ]]></content>
       <categories>
         <category>特殊選才</category>
-        <category>心得</category>
+        <category>面試</category>
       </categories>
       <tags>
         <tag>心得</tag>
         <tag>特殊選才</tag>
+        <tag>面試</tag>
       </tags>
   </entry>
   <entry>
-    <title>國立台南大學</title>
+    <title>國立台南大學 特殊選才面試</title>
     <url>/NUTN/</url>
     <content><![CDATA[<hr>
 <h3 id="面試資訊">面試資訊</h3>
@@ -1086,11 +1089,12 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 ]]></content>
       <categories>
         <category>特殊選才</category>
-        <category>心得</category>
+        <category>面試</category>
       </categories>
       <tags>
         <tag>心得</tag>
         <tag>特殊選才</tag>
+        <tag>面試</tag>
       </tags>
   </entry>
   <entry>
@@ -1623,7 +1627,8 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
   <entry>
     <title>Code Highlight</title>
     <url>/doc2/</url>
-    <content><![CDATA[<p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of <a class="link"   href="https://highlightjs.org" >https://highlightjs.org<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+    <content><![CDATA[<hr>
+<p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of <a class="link"   href="https://highlightjs.org" >https://highlightjs.org<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 <!-- more -->
 <div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br></pre></td></tr></table></figure></div>
 <div class="code-container" data-rel="Rust"><figure class="iseeu highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="meta">#[derive(Debug)]</span></span><br><span class="line"><span class="keyword">pub</span> <span class="keyword">enum</span> <span class="title class_">State</span> &#123;</span><br><span class="line">    Start,</span><br><span class="line">    Transient,</span><br><span class="line">    Closed,</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">impl</span> <span class="title class_">From</span>&lt;&amp;<span class="symbol">&#x27;a</span> <span class="type">str</span>&gt; <span class="keyword">for</span> <span class="title class_">State</span> &#123;</span><br><span class="line">    <span class="keyword">fn</span> <span class="title function_">from</span>(s: &amp;<span class="symbol">&#x27;a</span> <span class="type">str</span>) <span class="punctuation">-&gt;</span> <span class="keyword">Self</span> &#123;</span><br><span class="line">        <span class="keyword">match</span> s &#123;</span><br><span class="line">            <span class="string">&quot;start&quot;</span> =&gt; State::Start,</span><br><span class="line">            <span class="string">&quot;closed&quot;</span> =&gt; State::Closed,</span><br><span class="line">            _ =&gt; <span class="built_in">unreachable!</span>(),</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
@@ -1650,7 +1655,8 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
   <entry>
     <title>Hello World</title>
     <url>/doc1/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
+    <content><![CDATA[<hr>
+<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
 <h2 id="Quick-Start">Quick Start</h2>
 <h3 id="Create-a-new-post">Create a new post</h3>
 <div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
@@ -1672,7 +1678,8 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
   <entry>
     <title>Markdown Style</title>
     <url>/doc3/</url>
-    <content><![CDATA[<p>This post is originated from <a class="link"   href="https://gist.github.com/apackeer/4159268" >here<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.</p>
+    <content><![CDATA[<hr>
+<p>This post is originated from <a class="link"   href="https://gist.github.com/apackeer/4159268" >here<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.</p>
 <!-- more -->
 <hr>
 <h2 id="Headers">Headers</h2>
@@ -1910,6 +1917,46 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"
 ]]></content>
       <tags>
         <tag>測試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>網路爬蟲</title>
+    <url>/web-crawler/</url>
+    <content><![CDATA[<hr>
+<h3 id="免責聲明">免責聲明</h3>
+<blockquote>
+<p>這支程式其實也不太能幹嘛，就是可以刷校網公告的瀏覽次數 ~</p>
+</blockquote>
+<ol>
+<li>以下程式僅供學習參考，<span class="lightline">請勿將程式用於任何不當用途</span>。</li>
+<li>請適當的調整執行次數與間隔時間，避免影響網站運作。</li>
+</ol>
+<h3 id="前置作業">前置作業</h3>
+<blockquote>
+<p>請先安裝 Python 環境，並在終端機貼上以下指令下載所需模組。</p>
+</blockquote>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests tqdm</span><br></pre></td></tr></table></figure></div>
+<h3 id="程式碼">程式碼</h3>
+<blockquote>
+<p>請在 <code>config</code> 設定以下參數，總共會送出 <code>'rounds' × 'requests'</code> 次請求。</p>
+</blockquote>
+<ol>
+<li>目標網站網址 (<code>'url': &quot;https://example.com&quot;</code>)</li>
+<li>執行的回合數 (<code>'rounds': 5</code>)</li>
+<li>每回合請求數 (<code>'requests': 20</code>)</li>
+<li>執行緒數量⠀⠀(<code>'workers': 10</code>)</li>
+<li>每次請求間隔 (<code>'delay': (1.0, 2.0)</code>)</li>
+<li>每回合的間隔 (<code>'DELAY': (5.0, 8.0)</code>)</li>
+</ol>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">from</span> tqdm.rich <span class="keyword">import</span> trange</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> concurrent.futures <span class="keyword">import</span> ThreadPoolExecutor, as_completed</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">visit</span>(<span class="params">url, delay</span>):</span><br><span class="line">    start_time = datetime.now()</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        response = requests.get(url, headers=headers)</span><br><span class="line">        min_delay, max_delay = delay</span><br><span class="line">        delay = random.uniform(min_delay, max_delay)</span><br><span class="line">        time.sleep(delay)</span><br><span class="line">        </span><br><span class="line">        result = &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: response.status_code,</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">True</span></span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        result = &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: <span class="literal">None</span>,</span><br><span class="line">            <span class="string">&#x27;error&#x27;</span>: <span class="built_in">str</span>(e),</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">False</span></span><br><span class="line">        &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">execute_round</span>(<span class="params">url, round_config, round_num, rounds, wait_time</span>):</span><br><span class="line">    times = round_config[<span class="string">&#x27;requests&#x27;</span>]</span><br><span class="line">    workers = round_config[<span class="string">&#x27;workers&#x27;</span>]</span><br><span class="line">    delay = round_config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">        <span class="keyword">if</span>(round_num == <span class="number">0</span>):</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line">    </span><br><span class="line">    results = []</span><br><span class="line">    <span class="keyword">with</span> ThreadPoolExecutor(max_workers=workers) <span class="keyword">as</span> executor:</span><br><span class="line">        futures = [executor.submit(visit, url, delay) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(times)]</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">with</span> trange(times, desc=<span class="string">&quot;進度&quot;</span>, ncols=<span class="number">100</span>, unit=<span class="string">&quot;次&quot;</span>, </span><br><span class="line">                   dynamic_ncols=<span class="literal">False</span>, </span><br><span class="line">                   bar_format=<span class="string">&quot;&#123;l_bar&#125;&#123;bar&#125;| &#123;n_fmt&#125;/&#123;total_fmt&#125; [&#123;elapsed&#125;&lt;&#123;remaining&#125;, &#123;rate_fmt&#125;]&quot;</span>) <span class="keyword">as</span> progress_bar:</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">for</span> future <span class="keyword">in</span> as_completed(futures):</span><br><span class="line">                result = future.result()</span><br><span class="line">                results.append(result)</span><br><span class="line">                progress_bar.update(<span class="number">1</span>)</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">if</span> progress_bar.n &lt; progress_bar.total:</span><br><span class="line">                progress_bar.update(progress_bar.total - progress_bar.n)</span><br><span class="line">    <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">config</span>):</span><br><span class="line">    url = config[<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    rounds = config[<span class="string">&#x27;rounds&#x27;</span>]</span><br><span class="line">    round_config = &#123;</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: config[<span class="string">&#x27;requests&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: config[<span class="string">&#x27;workers&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    all_results = []</span><br><span class="line">    total_start_time = time.time()</span><br><span class="line">    </span><br><span class="line">    min_interval, max_interval = config[<span class="string">&#x27;DELAY&#x27;</span>]</span><br><span class="line">    wait_times = [random.uniform(min_interval, max_interval) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(rounds - <span class="number">1</span>)] + [<span class="number">0</span>]</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> round_num <span class="keyword">in</span> <span class="built_in">range</span>(rounds):</span><br><span class="line">        round_results = execute_round(url, round_config, round_num, rounds, wait_times[round_num])</span><br><span class="line">        all_results.extend(round_results)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">            time.sleep(wait_times[round_num])</span><br><span class="line">    </span><br><span class="line">    total_time = time.time() - total_start_time</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;\n（總執行時間: <span class="subst">&#123;total_time:<span class="number">.2</span>f&#125;</span> 秒）&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    config = &#123;</span><br><span class="line">        <span class="string">&#x27;url&#x27;</span>: <span class="string">&quot;https://example.com&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;rounds&#x27;</span>: <span class="number">5</span>,</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: <span class="number">20</span>,</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: <span class="number">10</span>,</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: (<span class="number">1.0</span>, <span class="number">2.0</span>),</span><br><span class="line">        <span class="string">&#x27;DELAY&#x27;</span>: (<span class="number">5.0</span>, <span class="number">8.0</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    main(config)</span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>程式設計</category>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>程式設計</tag>
+        <tag>Python</tag>
+        <tag>網路爬蟲</tag>
       </tags>
   </entry>
 </search>

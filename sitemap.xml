@@ -155,6 +155,27 @@
 
   
   <url>
+    <loc>https://zichun808.me/tags/%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zichun808.me/tags/%E9%9D%A2%E8%A9%A6/</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zichun808.me/tags/%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zichun808.me/tags/%E8%AA%B2%E7%A8%8B/</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -176,14 +197,7 @@
   </url>
   
   <url>
-    <loc>https://zichun808.me/tags/%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2025-01-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zichun808.me/tags/%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/</loc>
+    <loc>https://zichun808.me/tags/%E6%B8%AC%E8%A9%A6/</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -211,20 +225,6 @@
   </url>
   
   <url>
-    <loc>https://zichun808.me/tags/%E6%B8%AC%E8%A9%A6/</loc>
-    <lastmod>2025-01-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zichun808.me/tags/%E9%9D%A2%E8%A9%A6/</loc>
-    <lastmod>2025-01-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zichun808.me/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -239,13 +239,20 @@
   </url>
   
   <url>
-    <loc>https://zichun808.me/tags/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2/</loc>
+    <loc>https://zichun808.me/tags/%E7%88%AC%E8%9F%B2/</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://zichun808.me/categories/%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://zichun808.me/categories/%E8%AA%B2%E7%A8%8B%E5%AD%B8%E7%BF%92/</loc>
@@ -255,7 +262,7 @@
   </url>
   
   <url>
-    <loc>https://zichun808.me/categories/%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/</loc>
+    <loc>https://zichun808.me/categories/%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/%E9%9D%A2%E8%A9%A6/</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -269,14 +276,14 @@
   </url>
   
   <url>
-    <loc>https://zichun808.me/categories/%E5%B0%8F%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://zichun808.me/categories/%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/%E5%B0%81%E9%9D%A2/</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zichun808.me/categories/%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/%E5%B0%81%E9%9D%A2/</loc>
+    <loc>https://zichun808.me/categories/%E5%B0%8F%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -291,13 +298,6 @@
   
   <url>
     <loc>https://zichun808.me/categories/%E5%B0%8F%E5%B7%A5%E5%85%B7/%E5%AD%97%E6%95%B8%E7%B5%B1%E8%A8%88/</loc>
-    <lastmod>2025-01-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zichun808.me/categories/%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/%E9%9D%A2%E8%A9%A6/</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

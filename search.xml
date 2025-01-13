@@ -1117,7 +1117,7 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 <p>請在 <code>config</code> 自行調整以下參數，總共會送出 <code>('rounds' × 'requests')</code> 次請求。</p>
 </blockquote>
 <ol>
-<li><strong>目標網站網址</strong> (<code>'url': &quot;https://example.com&quot;</code>)</li>
+<li><strong>校網公告網址</strong> (<code>'url': &quot;https://example.com&quot;</code>)</li>
 <li><strong>總共進行幾輪</strong> (<code>'rounds': 5</code>)</li>
 <li><strong>每輪請求數量</strong> (<code>'requests': 20</code>)</li>
 <li><strong>執行緒數量</strong>⠀⠀(<code>'workers': 10</code>)</li>

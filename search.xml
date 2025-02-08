@@ -789,112 +789,6 @@
       </tags>
   </entry>
   <entry>
-    <title>國立嘉義大學 特殊選才面試</title>
-    <url>/NCYU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數：(2+2)</li>
-<li>面試時長：(6+6) 分鐘</li>
-<li>報名人數：一般 27 / 資安 11</li>
-<li>招生名額：一般⠀3 / 資安⠀2</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，也因此順利回答完了所有題目。最終，我也順利正取啦🎉🎉</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：擔任衛生股長期間，為班上做了哪些事？</strong><br>
-（略）</li>
-<li><strong>教授：如果換成其他人擔任，能達到相同成果嗎？</strong><br>
-（略）</li>
-<li><strong>教授：你在資訊領域學習得很廣泛，為什麼想接觸這麼多領域？</strong><br>
-因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識。除了程式設計，還有資訊安全、人工智慧及機器學習等，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li>
-<li><strong>教授：你有參加過大學先修？</strong><br>
-我在去年參加了中興大學的機器學習先修，課程涵蓋許多常見的機器學習方式及演算法，並介紹其中的原理、細節。不過主要著重在理論觀念的建立，程式實作部分較少。</li>
-<li><strong>教授：你會甚麼程式語言</strong><br>
-比較擅長 C++，其次是 Python。</li>
-<li><strong>教授：C++ / Python 分別學到哪裡？</strong><br>
-C++ 學到基礎演算法及 STL；Python 則會基礎語法，並能使用 Pycord 開發 DCbot 及撰寫 pwn 題型的解法。</li>
-<li><strong>教授：為什麼想學 python</strong><br>
-在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python 來開發器人的念頭。</li>
-<li><strong>教授：開發 Discord Bot 時遇到哪些困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
-<li><strong>教授：解釋 pass by value 和 pass by reference 的差異。</strong><br>
-pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 會直接修改記憶體位置，使主程式的變數同步改變。</li>
-<li><strong>教授：你知道物件導向嗎？</strong><br>
-閱讀過 C++ 的物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
-<li><strong>教授：你有參加過 AIS3 嗎？</strong><br>
-參加過 AIS3 Junior，期待未來可以進一步參加 AIS3 學習更進階的技術。</li>
-<li><strong>教授：AIS3 的 pre-exam，你參加過嗎？</strong><br>
-我沒有參加過實體 CTF，比較常練習 picoCTF 和教育部培訓課程中的題目。</li>
-<li><strong>教授：為什麼不參加實體 CTF 比賽？</strong><br>
-高中期間缺乏比賽經驗，主要是因為我們學校對資訊領域有熱忱的同學比較少，加上學校資源有限，也沒有相關的培訓課程。希望能在大學期間與同樣對資訊領域有興趣的同學組隊參加演算法及資安競賽。</li>
-<li><strong>教授：講一下你挖到的 XSS 漏洞。</strong><br>
-我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
-<li><strong>教授：你知道 OWASP Top 10 嗎？有哪些常見漏洞？</strong><br>
-知道，包括 Broken Access Control、SQL Injection、Cross-Site Scripting、Server Side Template Injection 等。</li>
-<li><strong>教授：你知道 OWASP 排行榜會變動嗎？</strong><br>
-知道，OWASP Top 10 每年會根據漏洞的嚴重性和影響程度調整內容。</li>
-<li><strong>教授：哪些漏洞常年位居榜單？</strong><br>
-我覺得 Broken Access Control、SQL Injection 和 XSS 都式蠻常見的漏洞。</li>
-<li><strong>教授：你學過密碼學，可以講講對稱與非對稱加密嗎？</strong><br>
-對稱式加密使用同一把密鑰進行加解密；非對稱加密使用公鑰加密，私鑰解密。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立宜蘭大學 特殊選才面試</title>
-    <url>/NIU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：5 分鐘</li>
-<li>報名人數：一般 48 / 資安 17</li>
-<li>招生名額：一般⠀3 / 資安⠀3</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
-<li><strong>教授：你的小論文是如何進行的？</strong><br>
-起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
-<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
-因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
-<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
-我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AIS3 Junior 心得</title>
     <url>/AIS3-Junior/</url>
     <content><![CDATA[<hr>
@@ -988,6 +882,112 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
       </tags>
   </entry>
   <entry>
+    <title>國立嘉義大學 特殊選才面試</title>
+    <url>/NCYU/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數：(2+2)</li>
+<li>面試時長：(6+6) 分鐘</li>
+<li>報名人數：一般 27 / 資安 11</li>
+<li>招生名額：一般⠀3 / 資安⠀2</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，也因此順利回答完了所有題目。最終，我也順利正取啦🎉🎉</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
+（略）</li>
+<li><strong>教授：擔任衛生股長期間，為班上做了哪些事？</strong><br>
+（略）</li>
+<li><strong>教授：如果換成其他人擔任，能達到相同成果嗎？</strong><br>
+（略）</li>
+<li><strong>教授：你在資訊領域學習得很廣泛，為什麼想接觸這麼多領域？</strong><br>
+因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識。除了程式設計，還有資訊安全、人工智慧及機器學習等，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li>
+<li><strong>教授：你有參加過大學先修？</strong><br>
+我在去年參加了中興大學的機器學習先修，課程涵蓋許多常見的機器學習方式及演算法，並介紹其中的原理、細節。不過主要著重在理論觀念的建立，程式實作部分較少。</li>
+<li><strong>教授：你會甚麼程式語言</strong><br>
+比較擅長 C++，其次是 Python。</li>
+<li><strong>教授：C++ / Python 分別學到哪裡？</strong><br>
+C++ 學到基礎演算法及 STL；Python 則會基礎語法，並能使用 Pycord 開發 DCbot 及撰寫 pwn 題型的解法。</li>
+<li><strong>教授：為什麼想學 python</strong><br>
+在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python 來開發器人的念頭。</li>
+<li><strong>教授：開發 Discord Bot 時遇到哪些困難？如何解決？</strong><br>
+在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
+<li><strong>教授：解釋 pass by value 和 pass by reference 的差異。</strong><br>
+pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 會直接修改記憶體位置，使主程式的變數同步改變。</li>
+<li><strong>教授：你知道物件導向嗎？</strong><br>
+閱讀過 C++ 的物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
+<li><strong>教授：你有參加過 AIS3 嗎？</strong><br>
+參加過 AIS3 Junior，期待未來可以進一步參加 AIS3 學習更進階的技術。</li>
+<li><strong>教授：AIS3 的 pre-exam，你參加過嗎？</strong><br>
+我沒有參加過實體 CTF，比較常練習 picoCTF 和教育部培訓課程中的題目。</li>
+<li><strong>教授：為什麼不參加實體 CTF 比賽？</strong><br>
+高中期間缺乏比賽經驗，主要是因為我們學校對資訊領域有熱忱的同學比較少，加上學校資源有限，也沒有相關的培訓課程。希望能在大學期間與同樣對資訊領域有興趣的同學組隊參加演算法及資安競賽。</li>
+<li><strong>教授：講一下你挖到的 XSS 漏洞。</strong><br>
+我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
+<li><strong>教授：你知道 OWASP Top 10 嗎？有哪些常見漏洞？</strong><br>
+知道，包括 Broken Access Control、SQL Injection、Cross-Site Scripting、Server Side Template Injection 等。</li>
+<li><strong>教授：你知道 OWASP 排行榜會變動嗎？</strong><br>
+知道，OWASP Top 10 每年會根據漏洞的嚴重性和影響程度調整內容。</li>
+<li><strong>教授：哪些漏洞常年位居榜單？</strong><br>
+我覺得 Broken Access Control、SQL Injection 和 XSS 都式蠻常見的漏洞。</li>
+<li><strong>教授：你學過密碼學，可以講講對稱與非對稱加密嗎？</strong><br>
+對稱式加密使用同一把密鑰進行加解密；非對稱加密使用公鑰加密，私鑰解密。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>面試</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>國立宜蘭大學 特殊選才面試</title>
+    <url>/NIU/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：5 分鐘</li>
+<li>報名人數：一般 48 / 資安 17</li>
+<li>招生名額：一般⠀3 / 資安⠀3</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
+（略）</li>
+<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
+在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
+<li><strong>教授：你的小論文是如何進行的？</strong><br>
+起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
+<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
+因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
+<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
+我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>面試</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>國立高雄大學 特殊選才面試</title>
     <url>/NUK/</url>
     <content><![CDATA[<hr>
@@ -1045,9 +1045,9 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
         <category>面試</category>
       </categories>
       <tags>
+        <tag>心得</tag>
         <tag>特殊選才</tag>
         <tag>面試</tag>
-        <tag>心得</tag>
       </tags>
   </entry>
   <entry>
@@ -1092,155 +1092,9 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
         <category>面試</category>
       </categories>
       <tags>
+        <tag>心得</tag>
         <tag>特殊選才</tag>
         <tag>面試</tag>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STL 筆記</title>
-    <url>/STL/</url>
-    <content><![CDATA[<hr>
-<h2 id="Pair">Pair</h2>
-<h4 id="簡介">簡介</h4>
-<p>pair 可以儲存一對不同類型的資料，由 <code>first</code> 與 <code>second</code> 兩個成員組成</p>
-<h4 id="特性">特性</h4>
-<ul>
-<li>支援不同資料類型的組合</li>
-<li>可以進行比較（先比<code>first</code>，若相同則比<code>second</code>）</li>
-</ul>
-<h4 id="語法">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">pair&lt;<span class="type">int</span>, <span class="type">int</span>&gt; pos;     <span class="comment">// 儲存一對整數</span></span><br><span class="line">pair&lt;<span class="type">int</span>, string&gt; tmp;  <span class="comment">// 儲存整數與字串的組合</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 賦值方式</span></span><br><span class="line">pos = &#123;<span class="number">3</span>, <span class="number">4</span>&#125;;                        <span class="comment">// 使用初始化列表</span></span><br><span class="line">tmp = <span class="built_in">make_pair</span>(<span class="number">1</span>, <span class="string">&quot;hello, world&quot;</span>);  <span class="comment">// 使用 make_pair 函數</span></span><br><span class="line"><span class="function">pair&lt;<span class="type">int</span>, string&gt; <span class="title">p3</span><span class="params">(<span class="number">2</span>, <span class="string">&quot;test&quot;</span>)</span></span>;     <span class="comment">// 使用建構函式</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 取值與修改</span></span><br><span class="line"><span class="type">int</span> f = pos.first;       <span class="comment">// 取得 pos 的第一個值，結果為 3</span></span><br><span class="line">string s = tmp.second;   <span class="comment">// 取得 tmp 的第二個值，結果為 &quot;hello, world&quot;</span></span><br><span class="line">pos.first = <span class="number">0</span>;           <span class="comment">// 修改第一個值</span></span><br><span class="line">tmp.second = <span class="string">&quot;hello&quot;</span>;    <span class="comment">// 修改第二個值</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 輸出</span></span><br><span class="line">cout &lt;&lt; pos.first &lt;&lt; <span class="string">&quot;、&quot;</span> &lt;&lt; pos.second;  <span class="comment">// 輸出：0、4</span></span><br><span class="line">cout &lt;&lt; tmp.first &lt;&lt; <span class="string">&quot;、&quot;</span> &lt;&lt; tmp.second;  <span class="comment">// 輸出：1、hello</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Vector">Vector</h2>
-<h4 id="簡介-2">簡介</h4>
-<p>vector 是動態陣列，能夠在執行期間根據需求調整大小，並新增或刪除元素</p>
-<h4 id="特性-2">特性</h4>
-<ul>
-<li>支援隨機存取</li>
-<li>在尾端新增/刪除元素效率較高</li>
-<li>在中間插入/刪除元素效率較低</li>
-<li>當空間不足時，會自動擴展容量</li>
-</ul>
-<h4 id="語法-2">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告方式</span></span><br><span class="line">vector&lt;<span class="type">int</span>&gt; v1;            <span class="comment">// 宣告空的整數向量</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">v2</span><span class="params">(<span class="number">5</span>)</span></span>;         <span class="comment">// 宣告大小為 5 的整數向量（預設值為 0）</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">v3</span><span class="params">(n, <span class="number">0</span>)</span></span>;      <span class="comment">// 宣告大小為 n 的整數向量，所有元素初始化為 0</span></span><br><span class="line">vector&lt;<span class="type">int</span>&gt; v4 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;  <span class="comment">// 使用初始值列表宣告向量</span></span><br><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt; <span class="built_in">v5</span>(n, <span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(m, <span class="number">2</span>));  <span class="comment">// 宣告 n×m 的二維向量，所有元素初始化為 2</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 容量相關操作</span></span><br><span class="line"><span class="type">int</span> len = v<span class="number">4.</span><span class="built_in">size</span>();      <span class="comment">// 取得目前的元素數量</span></span><br><span class="line"><span class="type">int</span> cap = v<span class="number">4.</span><span class="built_in">capacity</span>();  <span class="comment">// 取得目前分配的空間大小</span></span><br><span class="line"><span class="type">bool</span> empty = v<span class="number">4.</span><span class="built_in">empty</span>();  <span class="comment">// 檢查向量是否為空</span></span><br><span class="line">v<span class="number">4.</span><span class="built_in">resize</span>(<span class="number">5</span>, <span class="number">0</span>);          <span class="comment">// 調整大小為 5，新增的元素初始化為 0</span></span><br><span class="line">v<span class="number">4.</span><span class="built_in">reserve</span>(<span class="number">10</span>);           <span class="comment">// 預先配置可容納 10 個元素的空間</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 存取元素</span></span><br><span class="line"><span class="type">int</span> value = v4[<span class="number">1</span>];        <span class="comment">// 使用 [] 運算子存取（不會檢查範圍）</span></span><br><span class="line"><span class="type">int</span> value2 = v<span class="number">4.</span><span class="built_in">at</span>(<span class="number">1</span>);    <span class="comment">// 使用 at() 方法存取（會檢查範圍）</span></span><br><span class="line"><span class="type">int</span> front = v<span class="number">4.f</span>ront();   <span class="comment">// 取得第一個元素</span></span><br><span class="line"><span class="type">int</span> back = v<span class="number">4.</span><span class="built_in">back</span>();     <span class="comment">// 取得最後一個元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 新增與刪除</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">push_back</span>(<span class="number">1</span>);         <span class="comment">// 在尾端加入元素 1</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">emplace_back</span>(<span class="number">2</span>);      <span class="comment">// 在尾端直接構造元素 2（較有效率）</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">pop_back</span>();           <span class="comment">// 移除尾端元素</span></span><br><span class="line">v<span class="number">1.</span><span class="built_in">clear</span>();              <span class="comment">// 清空所有元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍歷方式</span></span><br><span class="line"><span class="comment">// 1. 使用索引（建議用於需要修改索引值的情況）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; v<span class="number">1.</span><span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">    cout &lt;&lt; v1[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 使用範圍式 for 迴圈（較簡潔）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">const</span> <span class="type">int</span>&amp; num : v4) &#123;  <span class="comment">// 使用參考避免複製</span></span><br><span class="line">    cout &lt;&lt; num &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 使用迭代器（可以使用 STL 演算法）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">auto</span> it = v<span class="number">4.</span><span class="built_in">begin</span>(); it != v<span class="number">4.</span><span class="built_in">end</span>(); ++it) &#123;</span><br><span class="line">    cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h2 id="Stack">Stack</h2>
-<h4 id="簡介-3">簡介</h4>
-<p>stack 是一種後進先出的容器，就像疊盤子一樣，只能從頂端操作元素</p>
-<h4 id="特性-3">特性</h4>
-<ul>
-<li>無法遍歷</li>
-<li>只能從頂端新增或移除元素</li>
-</ul>
-<h4 id="語法-3">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">stack&lt;<span class="type">int</span>&gt; s;          <span class="comment">// 宣告整數堆疊</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">s.<span class="built_in">push</span>(<span class="number">1</span>);              <span class="comment">// 將元素 1 推入堆疊</span></span><br><span class="line">s.<span class="built_in">push</span>(<span class="number">2</span>);              <span class="comment">// 將元素 2 推入堆疊</span></span><br><span class="line">s.<span class="built_in">emplace</span>(<span class="number">3</span>);           <span class="comment">// 直接在堆疊頂端構造元素 3</span></span><br><span class="line">s.<span class="built_in">pop</span>();                <span class="comment">// 移除頂端元素</span></span><br><span class="line"><span class="type">int</span> top = s.<span class="built_in">top</span>();      <span class="comment">// 取得頂端元素</span></span><br><span class="line"><span class="type">bool</span> empty = s.<span class="built_in">empty</span>(); <span class="comment">// 檢查堆疊是否為空</span></span><br><span class="line"><span class="type">int</span> size = s.<span class="built_in">size</span>();    <span class="comment">// 取得堆疊中的元素數量</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Queue">Queue</h2>
-<h4 id="簡介-4">簡介</h4>
-<p>queue 是一種先進先出的容器，就像排隊一樣，依照進入順序處理元素</p>
-<h4 id="特性-4">特性</h4>
-<ul>
-<li>無法遍歷</li>
-<li>只能從尾端加入元素，從前端移除元素</li>
-</ul>
-<h4 id="語法-4">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">queue&lt;<span class="type">int</span>&gt; q;           <span class="comment">// 宣告整數佇列</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">1</span>);              <span class="comment">// 將元素 1 加入佇列尾端</span></span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">2</span>);              <span class="comment">// 將元素 2 加入佇列尾端</span></span><br><span class="line">q.<span class="built_in">emplace</span>(<span class="number">3</span>);           <span class="comment">// 直接在佇列尾端構造元素 3</span></span><br><span class="line">q.<span class="built_in">pop</span>();                <span class="comment">// 移除前端元素</span></span><br><span class="line"><span class="type">int</span> front = q.<span class="built_in">front</span>();  <span class="comment">// 取得前端元素</span></span><br><span class="line"><span class="type">int</span> back = q.<span class="built_in">back</span>();    <span class="comment">// 取得尾端元素</span></span><br><span class="line"><span class="type">bool</span> empty = q.<span class="built_in">empty</span>(); <span class="comment">// 檢查佇列是否為空</span></span><br><span class="line"><span class="type">int</span> size = q.<span class="built_in">size</span>();    <span class="comment">// 取得佇列中的元素數量</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Dequeue">Dequeue</h2>
-<h4 id="簡介-5">簡介</h4>
-<p>deque 提供了在兩端快速插入和刪除的功能，同時支援隨機存取</p>
-<h4 id="特性-5">特性</h4>
-<ul>
-<li>支援隨機存取</li>
-<li>在兩端插入/刪除的效率都很高</li>
-<li>記憶體使用比 vector 更有彈性</li>
-<li>雖然方便，但由於常數較大，可能導致運行時間較長</li>
-</ul>
-<h4 id="語法-5">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">deque&lt;<span class="type">int</span>&gt; dq;          <span class="comment">// 宣告整數雙向佇列</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">dq.<span class="built_in">push_back</span>(<span class="number">1</span>);        <span class="comment">// 在尾端加入元素 1</span></span><br><span class="line">dq.<span class="built_in">push_front</span>(<span class="number">2</span>);       <span class="comment">// 在前端加入元素 2</span></span><br><span class="line">dq.<span class="built_in">pop_back</span>();          <span class="comment">// 移除尾端元素</span></span><br><span class="line">dq.<span class="built_in">pop_front</span>();         <span class="comment">// 移除前端元素</span></span><br><span class="line"><span class="type">int</span> front = dq.<span class="built_in">front</span>(); <span class="comment">// 取得前端元素</span></span><br><span class="line"><span class="type">int</span> back = dq.<span class="built_in">back</span>();   <span class="comment">// 取得尾端元素</span></span><br><span class="line"><span class="type">int</span> size = dq.<span class="built_in">size</span>();   <span class="comment">// 取得元素數量</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 隨機存取</span></span><br><span class="line"><span class="type">int</span> value = dq[<span class="number">2</span>];      <span class="comment">// 取得索引 2 的元素</span></span><br><span class="line">dq[<span class="number">2</span>] = <span class="number">10</span>;             <span class="comment">// 修改索引 2 的元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 插入和刪除</span></span><br><span class="line">dq.<span class="built_in">insert</span>(dq.<span class="built_in">begin</span>() + <span class="number">2</span>, <span class="number">5</span>);  <span class="comment">// 在指定位置插入元素</span></span><br><span class="line">dq.<span class="built_in">erase</span>(dq.<span class="built_in">begin</span>() + <span class="number">2</span>);      <span class="comment">// 刪除指定位置的元素</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Priority-Queue">Priority Queue</h2>
-<h4 id="簡介-6">簡介</h4>
-<p>priority queue 是一種特殊的佇列，會根據元素的優先級自動排序</p>
-<h4 id="語法-6">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line"><span class="comment">// 預設為最大堆（max heap）</span></span><br><span class="line">priority_queue&lt;<span class="type">int</span>&gt; pq;</span><br><span class="line"><span class="comment">// 宣告最小堆（min heap）</span></span><br><span class="line">priority_queue&lt;<span class="type">int</span>, vector&lt;<span class="type">int</span>&gt;, greater&lt;<span class="type">int</span>&gt;&gt; min_pq;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">10</span>);             <span class="comment">// 插入元素 10</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">5</span>);              <span class="comment">// 插入元素 5</span></span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">20</span>);             <span class="comment">// 插入元素 20</span></span><br><span class="line">pq.<span class="built_in">emplace</span>(<span class="number">15</span>);          <span class="comment">// 直接構造元素 15</span></span><br><span class="line"><span class="type">int</span> top = pq.<span class="built_in">top</span>();      <span class="comment">// 取得最高優先級元素</span></span><br><span class="line">pq.<span class="built_in">pop</span>();                <span class="comment">// 移除最高優先級元素</span></span><br><span class="line"><span class="type">int</span> size = pq.<span class="built_in">size</span>();    <span class="comment">// 取得元素數量</span></span><br><span class="line"><span class="type">bool</span> empty = pq.<span class="built_in">empty</span>(); <span class="comment">// 檢查是否為空</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="Set">Set</h2>
-<h4 id="簡介-7">簡介</h4>
-<p>set 是一個有序且不含重複元素的集合</p>
-<h4 id="特性-6">特性</h4>
-<ul>
-<li>自動排序元素</li>
-<li>忽略重複元素</li>
-<li>操作效率極高</li>
-<li>可以用迭代器遍歷</li>
-</ul>
-<h4 id="語法-7">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">set&lt;<span class="type">int</span>&gt; s;            <span class="comment">// 宣告整數集合</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line">s.<span class="built_in">insert</span>(<span class="number">1</span>);           <span class="comment">// 插入元素 1</span></span><br><span class="line">s.<span class="built_in">insert</span>(<span class="number">2</span>);           <span class="comment">// 插入元素 2</span></span><br><span class="line">s.<span class="built_in">emplace</span>(<span class="number">3</span>);          <span class="comment">// 直接構造並插入元素 3</span></span><br><span class="line">s.<span class="built_in">erase</span>(<span class="number">1</span>);            <span class="comment">// 刪除元素 1</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 查找操作</span></span><br><span class="line"><span class="type">bool</span> exists = s.<span class="built_in">find</span>(<span class="number">2</span>) != s.<span class="built_in">end</span>();  <span class="comment">// 檢查元素 2 是否存在</span></span><br><span class="line"><span class="keyword">auto</span> it = s.<span class="built_in">lower_bound</span>(<span class="number">2</span>);  <span class="comment">// 找到大於等於 2 的第一個元素</span></span><br><span class="line"><span class="keyword">auto</span> it2 = s.<span class="built_in">upper_bound</span>(<span class="number">2</span>); <span class="comment">// 找到大於 2 的第一個元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 容量操作</span></span><br><span class="line"><span class="type">int</span> size = s.<span class="built_in">size</span>();    <span class="comment">// 取得元素數量</span></span><br><span class="line"><span class="type">bool</span> empty = s.<span class="built_in">empty</span>(); <span class="comment">// 檢查是否為空</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍歷（依序遞增）</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">const</span> <span class="type">int</span>&amp; num : s) &#123;</span><br><span class="line">    cout &lt;&lt; num &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h2 id="Map">Map</h2>
-<h4 id="簡介-8">簡介</h4>
-<p>map 是一種關聯式容器，可將鍵（key）對應到值（value）</p>
-<h4 id="特性-7">特性</h4>
-<ul>
-<li>鍵值必須唯一</li>
-<li>支援隨機存取</li>
-<li>自動依鍵值排序</li>
-</ul>
-<h4 id="語法-8">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">map&lt;<span class="type">int</span>, string&gt; m;    <span class="comment">// 宣告以整數為鍵、字串為值的映射</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 插入元素</span></span><br><span class="line">m[<span class="number">1</span>] = <span class="string">&quot;apple&quot;</span>;          <span class="comment">// 使用 [] 運算子插入或更新</span></span><br><span class="line">m[<span class="number">2</span>] = <span class="string">&quot;banana&quot;</span>;         <span class="comment">// 插入或更新鍵值對</span></span><br><span class="line">m.<span class="built_in">insert</span>(&#123;<span class="number">3</span>, <span class="string">&quot;cherry&quot;</span>&#125;); <span class="comment">// 使用 insert 方法插入</span></span><br><span class="line">m.<span class="built_in">emplace</span>(<span class="number">4</span>, <span class="string">&quot;date&quot;</span>);    <span class="comment">// 直接構造並插入</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 存取元素</span></span><br><span class="line">string value = m[<span class="number">2</span>];      <span class="comment">// 使用 [] 運算子存取（如果鍵不存在會創建）</span></span><br><span class="line">string value2 = m.<span class="built_in">at</span>(<span class="number">2</span>);  <span class="comment">// 使用 at 方法存取（如果 key 不存在會拋出例外）</span></span><br><span class="line"><span class="keyword">auto</span> it = m.<span class="built_in">find</span>(<span class="number">2</span>);      <span class="comment">// 使用 find 方法查找（不會創建新元素）</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 檢查是否存在</span></span><br><span class="line"><span class="type">bool</span> exists = m.<span class="built_in">count</span>(<span class="number">2</span>) &gt; <span class="number">0</span>;  <span class="comment">// 使用 count 檢查鍵是否存在</span></span><br><span class="line"><span class="type">bool</span> exists2 = m.<span class="built_in">find</span>(<span class="number">2</span>) != m.<span class="built_in">end</span>();  <span class="comment">// 使用 find 檢查鍵是否存在</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 刪除元素</span></span><br><span class="line">m.<span class="built_in">erase</span>(<span class="number">2</span>);              <span class="comment">// 刪除指定鍵的元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍歷</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">const</span> <span class="keyword">auto</span>&amp; pair : m) &#123;</span><br><span class="line">    cout &lt;&lt; pair.first &lt;&lt; <span class="string">&quot;: &quot;</span> &lt;&lt; pair.second &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<h2 id="Bitset">Bitset</h2>
-<h4 id="簡介-9">簡介</h4>
-<p>bitset 是用於處理位元運算的容器</p>
-<h4 id="特性-8">特性</h4>
-<ul>
-<li>每個位元僅使用 1 bit</li>
-<li>位元索引從右至左，最右邊索引為 0</li>
-<li>可直接進行 AND、OR、XOR 等位元運算</li>
-</ul>
-<h4 id="語法-9">語法</h4>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 宣告</span></span><br><span class="line">bitset&lt;8&gt; b1;                   <span class="comment">// 宣告 8 位元的 bitset，預設值為 0</span></span><br><span class="line"><span class="function">bitset&lt;8&gt; <span class="title">b2</span><span class="params">(<span class="string">&quot;10101010&quot;</span>)</span></span>;       <span class="comment">// 使用字串初始化</span></span><br><span class="line"><span class="function">bitset&lt;8&gt; <span class="title">b3</span><span class="params">(<span class="number">42</span>)</span></span>;               <span class="comment">// 使用整數初始化（二進位：00101010）</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 基本操作</span></span><br><span class="line"><span class="type">bool</span> bit = b1[<span class="number">2</span>];               <span class="comment">// 讀取索引 2 的位元</span></span><br><span class="line">b1[<span class="number">1</span>] = <span class="number">1</span>;                      <span class="comment">// 設定索引 1 的位元</span></span><br><span class="line"><span class="type">bool</span> any = b<span class="number">1.</span><span class="built_in">any</span>();            <span class="comment">// 檢查是否有任何位元為 1</span></span><br><span class="line"><span class="type">bool</span> none = b<span class="number">1.</span><span class="built_in">none</span>();          <span class="comment">// 檢查是否所有位元都為 0</span></span><br><span class="line"><span class="type">bool</span> all = b<span class="number">1.</span><span class="built_in">all</span>();            <span class="comment">// 檢查是否所有位元都為 1</span></span><br><span class="line"><span class="type">int</span> count = b<span class="number">1.</span><span class="built_in">count</span>();         <span class="comment">// 計算值為 1 的位元數量</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 位元運算</span></span><br><span class="line">bitset&lt;8&gt; result1 = b1 &amp; b2;    <span class="comment">// AND 運算</span></span><br><span class="line">bitset&lt;8&gt; result2 = b1 | b2;    <span class="comment">// OR 運算</span></span><br><span class="line">bitset&lt;8&gt; result3 = b1 ^ b2;    <span class="comment">// XOR 運算</span></span><br><span class="line">bitset&lt;8&gt; result4 = ~b1;        <span class="comment">// NOT 運算</span></span><br><span class="line">bitset&lt;8&gt; result5 = b1 &lt;&lt; <span class="number">2</span>;    <span class="comment">// 左移 2 位 (乘以4)</span></span><br><span class="line">bitset&lt;8&gt; result6 = b1 &gt;&gt; <span class="number">1</span>;    <span class="comment">// 右移 1 位 (除以2)</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 轉換操作</span></span><br><span class="line">string str = b<span class="number">1.</span><span class="built_in">to_string</span>();    <span class="comment">// 轉換為字串</span></span><br><span class="line"><span class="type">int</span> num = b<span class="number">1.</span><span class="built_in">to_int</span>();          <span class="comment">// 轉換為整數</span></span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>筆記</category>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>筆記</tag>
-        <tag>C++</tag>
-        <tag>STL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python 刷瀏覽次數</title>
-    <url>/doc1/</url>
-    <content><![CDATA[<hr>
-<h3 id="說明">說明</h3>
-<ul>
-<li>建議適當的調整執行次數與間隔時間，避免影響網站正常運作。</li>
-<li>怕送太多 request 會被鎖 IP 的話，可以在 Google Colab 運行。</li>
-</ul>
-<h3 id="環境設定">環境設定</h3>
-<ul>
-<li>請先安裝 Python 環境，並在終端機貼上以下指令下載所需模組。</li>
-<li>進度條是為了在運行時更直觀地看到進度，移除並不會影響功能。</li>
-</ul>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests tqdm</span><br></pre></td></tr></table></figure></div>
-<h3 id="參數調整">參數調整</h3>
-<blockquote>
-<p>請在 <code>config</code> 自行調整以下參數，總共會送出 <code>('rounds' × 'requests')</code> 次請求。</p>
-</blockquote>
-<ol>
-<li><strong>網　　　　址</strong> (<code>'url': &quot;https://example.com&quot;</code>)</li>
-<li><strong>總共進行幾輪</strong> (<code>'rounds': 5</code>)</li>
-<li><strong>每輪請求數量</strong> (<code>'requests': 20</code>)</li>
-<li><strong>執 行 緒 數 量</strong> (<code>'workers': 10</code>)</li>
-<li><strong>每次請求間隔</strong> (<code>'delay': (1.0, 2.0)</code>)</li>
-<li><strong>每輪請求間隔</strong> (<code>'DELAY': (5.0, 8.0)</code>)</li>
-</ol>
-<h3 id="程式碼">程式碼</h3>
-<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> warnings</span><br><span class="line"><span class="keyword">from</span> tqdm.rich <span class="keyword">import</span> trange</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> concurrent.futures <span class="keyword">import</span> ThreadPoolExecutor, as_completed</span><br><span class="line">warnings.filterwarnings(<span class="string">&quot;ignore&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">visit</span>(<span class="params">url, delay</span>):</span><br><span class="line">    start_time = datetime.now()</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        response = requests.get(url, headers=headers, timeout=<span class="number">10</span>)</span><br><span class="line">        min_delay, max_delay = delay</span><br><span class="line">        time.sleep(random.uniform(min_delay, max_delay))</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: response.status_code,</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">True</span></span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: <span class="literal">None</span>,</span><br><span class="line">            <span class="string">&#x27;error&#x27;</span>: <span class="built_in">str</span>(e),</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">False</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">execute_round</span>(<span class="params">url, round_config, round_num, rounds, wait_time</span>):</span><br><span class="line">    times = round_config[<span class="string">&#x27;requests&#x27;</span>]</span><br><span class="line">    workers = round_config[<span class="string">&#x27;workers&#x27;</span>]</span><br><span class="line">    delay = round_config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> round_num == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">if</span> rounds == <span class="number">1</span>: <span class="comment"># 只有一輪</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>: <span class="comment"># 最後一輪</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">with</span> ThreadPoolExecutor(max_workers=workers) <span class="keyword">as</span> executor:</span><br><span class="line">        futures = [executor.submit(visit, url, delay) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(times)]</span><br><span class="line">        <span class="keyword">with</span> trange(times, desc=<span class="string">&quot;進度&quot;</span>, ncols=<span class="number">100</span>, unit=<span class="string">&quot;次&quot;</span>,</span><br><span class="line">                   dynamic_ncols=<span class="literal">False</span>,</span><br><span class="line">                   bar_format=<span class="string">&quot;&#123;l_bar&#125;&#123;bar&#125;| &#123;n_fmt&#125;/&#123;total_fmt&#125; [&#123;elapsed&#125;&lt;&#123;remaining&#125;, &#123;rate_fmt&#125;]&quot;</span>) <span class="keyword">as</span> progress_bar:</span><br><span class="line">            <span class="keyword">for</span> future <span class="keyword">in</span> as_completed(futures):</span><br><span class="line">                future.result()</span><br><span class="line">                progress_bar.update(<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">if</span> progress_bar.n &lt; progress_bar.total:</span><br><span class="line">                progress_bar.update(progress_bar.total - progress_bar.n)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">config</span>):</span><br><span class="line">    url = config[<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    rounds = config[<span class="string">&#x27;rounds&#x27;</span>]</span><br><span class="line">    round_config = &#123;</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: config[<span class="string">&#x27;requests&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: config[<span class="string">&#x27;workers&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    total_start_time = time.time()</span><br><span class="line"></span><br><span class="line">    min_interval, max_interval = config[<span class="string">&#x27;DELAY&#x27;</span>]</span><br><span class="line">    wait_times = [random.uniform(min_interval, max_interval) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(rounds - <span class="number">1</span>)] + [<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> round_num <span class="keyword">in</span> <span class="built_in">range</span>(rounds):</span><br><span class="line">        execute_round(url, round_config, round_num, rounds, wait_times[round_num])</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">            time.sleep(wait_times[round_num])</span><br><span class="line"></span><br><span class="line">    total_time = time.time() - total_start_time</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;\n(執行時間: <span class="subst">&#123;total_time:<span class="number">.2</span>f&#125;</span> 秒)&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    config = &#123;</span><br><span class="line">        <span class="string">&#x27;url&#x27;</span>: <span class="string">&quot;https://example.com&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;rounds&#x27;</span>: <span class="number">5</span>,</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: <span class="number">20</span>,</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: <span class="number">10</span>,</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: (<span class="number">1.0</span>, <span class="number">2.0</span>),</span><br><span class="line">        <span class="string">&#x27;DELAY&#x27;</span>: (<span class="number">5.0</span>, <span class="number">8.0</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    main(config)</span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>程式設計</category>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>程式設計</tag>
-        <tag>Python</tag>
-        <tag>爬蟲</tag>
       </tags>
   </entry>
   <entry>
@@ -1438,6 +1292,45 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
       </tags>
   </entry>
   <entry>
+    <title>Python 刷瀏覽次數</title>
+    <url>/scraper/</url>
+    <content><![CDATA[<hr>
+<h3 id="說明">說明</h3>
+<ul>
+<li>建議適當的調整執行次數與間隔時間，避免影響網站正常運作。</li>
+<li>怕送太多 request 會被鎖 IP 的話，可以在 Google Colab 運行。</li>
+</ul>
+<h3 id="環境設定">環境設定</h3>
+<ul>
+<li>請先安裝 Python 環境，並在終端機貼上以下指令下載所需模組。</li>
+<li>進度條是為了在運行時更直觀地看到進度，移除並不會影響功能。</li>
+</ul>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests tqdm</span><br></pre></td></tr></table></figure></div>
+<h3 id="參數調整">參數調整</h3>
+<blockquote>
+<p>請在 <code>config</code> 自行調整以下參數，總共會送出 <code>('rounds' × 'requests')</code> 次請求。</p>
+</blockquote>
+<ol>
+<li><strong>網　　　　址</strong> (<code>'url': &quot;https://example.com&quot;</code>)</li>
+<li><strong>總共進行幾輪</strong> (<code>'rounds': 5</code>)</li>
+<li><strong>每輪請求數量</strong> (<code>'requests': 20</code>)</li>
+<li><strong>執 行 緒 數 量</strong> (<code>'workers': 10</code>)</li>
+<li><strong>每次請求間隔</strong> (<code>'delay': (1.0, 2.0)</code>)</li>
+<li><strong>每輪請求間隔</strong> (<code>'DELAY': (5.0, 8.0)</code>)</li>
+</ol>
+<h3 id="程式碼">程式碼</h3>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> warnings</span><br><span class="line"><span class="keyword">from</span> tqdm.rich <span class="keyword">import</span> trange</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> concurrent.futures <span class="keyword">import</span> ThreadPoolExecutor, as_completed</span><br><span class="line">warnings.filterwarnings(<span class="string">&quot;ignore&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">visit</span>(<span class="params">url, delay</span>):</span><br><span class="line">    start_time = datetime.now()</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        response = requests.get(url, headers=headers, timeout=<span class="number">10</span>)</span><br><span class="line">        min_delay, max_delay = delay</span><br><span class="line">        time.sleep(random.uniform(min_delay, max_delay))</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: response.status_code,</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">True</span></span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: <span class="literal">None</span>,</span><br><span class="line">            <span class="string">&#x27;error&#x27;</span>: <span class="built_in">str</span>(e),</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">False</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">execute_round</span>(<span class="params">url, round_config, round_num, rounds, wait_time</span>):</span><br><span class="line">    times = round_config[<span class="string">&#x27;requests&#x27;</span>]</span><br><span class="line">    workers = round_config[<span class="string">&#x27;workers&#x27;</span>]</span><br><span class="line">    delay = round_config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> round_num == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">if</span> rounds == <span class="number">1</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">with</span> ThreadPoolExecutor(max_workers=workers) <span class="keyword">as</span> executor:</span><br><span class="line">        futures = [executor.submit(visit, url, delay) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(times)]</span><br><span class="line">        <span class="keyword">with</span> trange(times, desc=<span class="string">&quot;進度&quot;</span>, ncols=<span class="number">100</span>, unit=<span class="string">&quot;次&quot;</span>,</span><br><span class="line">                   dynamic_ncols=<span class="literal">False</span>,</span><br><span class="line">                   bar_format=<span class="string">&quot;&#123;l_bar&#125;&#123;bar&#125;| &#123;n_fmt&#125;/&#123;total_fmt&#125; [&#123;elapsed&#125;&lt;&#123;remaining&#125;, &#123;rate_fmt&#125;]&quot;</span>) <span class="keyword">as</span> progress_bar:</span><br><span class="line">            <span class="keyword">for</span> future <span class="keyword">in</span> as_completed(futures):</span><br><span class="line">                future.result()</span><br><span class="line">                progress_bar.update(<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">if</span> progress_bar.n &lt; progress_bar.total:</span><br><span class="line">                progress_bar.update(progress_bar.total - progress_bar.n)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">config</span>):</span><br><span class="line">    url = config[<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    rounds = config[<span class="string">&#x27;rounds&#x27;</span>]</span><br><span class="line">    round_config = &#123;</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: config[<span class="string">&#x27;requests&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: config[<span class="string">&#x27;workers&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    total_start_time = time.time()</span><br><span class="line"></span><br><span class="line">    min_interval, max_interval = config[<span class="string">&#x27;DELAY&#x27;</span>]</span><br><span class="line">    wait_times = [random.uniform(min_interval, max_interval) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(rounds - <span class="number">1</span>)] + [<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> round_num <span class="keyword">in</span> <span class="built_in">range</span>(rounds):</span><br><span class="line">        execute_round(url, round_config, round_num, rounds, wait_times[round_num])</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">            time.sleep(wait_times[round_num])</span><br><span class="line"></span><br><span class="line">    total_time = time.time() - total_start_time</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;\n(執行時間: <span class="subst">&#123;total_time:<span class="number">.2</span>f&#125;</span> 秒)&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    config = &#123;</span><br><span class="line">        <span class="string">&#x27;url&#x27;</span>: <span class="string">&quot;https://example.com&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;rounds&#x27;</span>: <span class="number">5</span>,</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: <span class="number">20</span>,</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: <span class="number">10</span>,</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: (<span class="number">1.0</span>, <span class="number">2.0</span>),</span><br><span class="line">        <span class="string">&#x27;DELAY&#x27;</span>: (<span class="number">5.0</span>, <span class="number">8.0</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    main(config)</span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>程式設計</category>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>程式設計</tag>
+        <tag>Python</tag>
+        <tag>爬蟲</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>特殊選才心得彙整</title>
     <url>/srecruit/</url>
     <content><![CDATA[<hr>
@@ -1546,8 +1439,31 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
         <category>封面</category>
       </categories>
       <tags>
-        <tag>特殊選才</tag>
         <tag>心得</tag>
+        <tag>特殊選才</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/test1/</url>
+    <content><![CDATA[<hr>
+<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Run-server">Run server</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+]]></content>
+      <tags>
+        <tag>測試</tag>
       </tags>
   </entry>
   <entry>
@@ -1573,29 +1489,6 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 <div class="code-container" data-rel="Go"><figure class="iseeu highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    ch := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="type">float64</span>)</span><br><span class="line">    ch &lt;- <span class="number">1.0e10</span>    <span class="comment">// magic number</span></span><br><span class="line">    x, ok := &lt;- ch</span><br><span class="line">    <span class="keyword">defer</span> fmt.Println(<span class="string">`exitting now\`</span>)</span><br><span class="line">    <span class="keyword">go</span> <span class="built_in">println</span>(<span class="built_in">len</span>(<span class="string">&quot;hello world!&quot;</span>))</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 <div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###### CONFIG</span></span><br><span class="line">ACCEPTED_HOSTS=<span class="string">&quot;/root/.hag_accepted.conf&quot;</span></span><br><span class="line">BE_VERBOSE=<span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$UID</span>&quot;</span> -ne 0 ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;Superuser rights required&quot;</span></span><br><span class="line">  <span class="built_in">exit</span> 2</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">genApacheConf</span></span>()&#123;</span><br><span class="line">  <span class="built_in">echo</span> -e <span class="string">&quot;# Host <span class="variable">$&#123;HOME_DIR&#125;</span><span class="variable">$1</span>/<span class="variable">$2</span> :&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 <div class="code-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="comment">; boilerplate</span></span><br><span class="line"><span class="section">[package]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;some_name&quot;</span></span><br><span class="line"><span class="attr">authors</span> = [<span class="string">&quot;Author&quot;</span>]</span><br><span class="line"><span class="attr">description</span> = <span class="string">&quot;This is \</span></span><br><span class="line"><span class="string">a description&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="section">[[lib]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="variable">$&#123;NAME&#125;</span></span><br><span class="line"><span class="attr">default</span> = <span class="literal">True</span></span><br><span class="line"><span class="attr">auto</span> = <span class="literal">no</span></span><br><span class="line"><span class="attr">counter</span> = <span class="number">1_000</span></span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <tags>
-        <tag>測試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/test1/</url>
-    <content><![CDATA[<hr>
-<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Run-server">Run server</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 ]]></content>
       <tags>
         <tag>測試</tag>

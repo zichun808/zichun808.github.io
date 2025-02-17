@@ -1012,6 +1012,45 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
       </tags>
   </entry>
   <entry>
+    <title>國立宜蘭大學 特殊選才面試</title>
+    <url>/NIU/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：5 分鐘</li>
+<li>報名人數：一般 48 / 資安 17</li>
+<li>招生名額：一般⠀3 / 資安⠀3</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
+（略）</li>
+<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
+在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
+<li><strong>教授：你的小論文是如何進行的？</strong><br>
+起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
+<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
+因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
+<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
+我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>面試</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>國立台南大學 特殊選才面試</title>
     <url>/NUTN/</url>
     <content><![CDATA[<hr>
@@ -1046,45 +1085,6 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 我在今年和去年六月都有參加 APCS，觀念與實作題皆為三級分。我覺得很可惜的是，今年第三題我因為沒看清楚題目條件，所以僅取得了部份分數。</li>
 <li><strong>教授：看起來你比較擅長實作，那觀念題有準備嗎？</strong><br>
 我平常會跟網友討論程式，所以都有在閱讀別人的程式碼，我覺得這對於 APCS 的觀念題也有很大的幫助。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立宜蘭大學 特殊選才面試</title>
-    <url>/NIU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：5 分鐘</li>
-<li>報名人數：一般 48 / 資安 17</li>
-<li>招生名額：一般⠀3 / 資安⠀3</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
-<li><strong>教授：你的小論文是如何進行的？</strong><br>
-起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
-<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
-因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
-<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
-我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
 </ul>
 ]]></content>
       <categories>
@@ -1364,7 +1364,9 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 </tbody>
 </table>
 <h3 id="特選結果">特選結果</h3>
-<p>(依學系放榜日期排序，最終選擇就讀嘉義大學)</p>
+<blockquote>
+<p>依學系放榜日期排序，最終選擇就讀嘉義大學</p>
+</blockquote>
 <table>
 <thead>
 <tr>
@@ -1436,7 +1438,7 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 <h3 id="一些東西">一些東西</h3>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>備審資料 </summary>
               <div class='content'>
-              <p>暫時先不放上來。不過想參考的話，可以私訊我傳給你 ~</p><!-- [備審資料（嘉義大學）](https://drive.google.com/file/d/1kMhcpIUILVo2vIYssYMAEsxptbyqIXvS/view?usp=sharing) -->
+              <p>暫時先不放上來。不過想參考的話，可以<a class="link"   href="https://www.instagram.com/zichun808/" >私訊我<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>傳給你 ~</p><!-- [備審資料（嘉義大學）](https://drive.google.com/file/d/1kMhcpIUILVo2vIYssYMAEsxptbyqIXvS/view?usp=sharing) -->
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自我介紹講稿 </summary>
@@ -1507,226 +1509,6 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 ]]></content>
       <tags>
         <tag>測試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文章字數統計</title>
-    <url>/words/</url>
-    <content><![CDATA[<hr>
-
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .result {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-top: 20px;
-            width: 100%;
-            padding: 0 20px;
-        }
-
-        .group {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            width: 100%;
-        }
-
-        .metric-pair {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
-
-        .value {
-            min-width: 4ch;
-            text-align: right;
-            font-weight: bold;
-        }
-
-        textarea {
-            width: 100%;
-            min-height: 150px;
-            padding: 12px;
-            font-size: 16px;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            background-color: #fff;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        @media (min-width: 601px) {
-            .group-triple {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .result {
-                padding: 0 10px;
-                gap: 10px;
-            }
-
-            .group, .group-triple {
-                grid-template-columns: 1fr 1fr;
-                gap: 10px;
-            }
-
-            .group-triple .metric-pair:nth-child(3) {
-                grid-column: auto;
-            }
-
-            .group-triple:last-child {
-                display: grid;
-                grid-template-areas: 
-                    "space punct"
-                    "emoji emoji";
-            }
-
-            .metric-pair {
-                margin: 0;
-            }
-        }
-
-        body.dark-mode {
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-
-        body.dark-mode textarea {
-            background-color: #333333;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
-        
-        <div class="result">
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文章字數</span>
-                    <span id="charCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總字元數</span>
-                    <span id="weightedCharCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文字段落</span>
-                    <span id="lineCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總單字數</span>
-                    <span id="englishWordCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>中文字數</span>
-                    <span id="chineseCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>英文字數</span>
-                    <span id="englishCharCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>數字數量</span>
-                    <span id="numberCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>空格數量</span>
-                    <span id="spaceCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>標點符號</span>
-                    <span id="punctCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>Emoji🙂</span>
-                    <span id="emojiCount" class="value">0</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script data-swup-reload-script type="text/javascript">
-        function analyzeText() {
-            const text = document.getElementById('textInput').value;
-
-            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
-            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
-            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
-            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
-            const numberCount = (text.match(/\d/g) || []).length;
-            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
-            const emojiCount = Math.floor(emojiMatches.length / 2);
-            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
-            const spaceCount = (text.match(/\s/g) || []).length;
-
-            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
-            const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
-
-            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
-            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
-            document.getElementById('lineCount').textContent = formatNumber(lineCount);
-            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
-            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
-            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
-            document.getElementById('punctCount').textContent = formatNumber(punctCount);
-            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
-            document.getElementById('numberCount').textContent = formatNumber(numberCount);
-            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
-        }
-
-        function formatNumber(num) {
-            if (num === 0) {
-                return '0';
-            }
-            return num.toString().replace(/^0+/, ''); 
-        }
-        window.onload = analyzeText;
-    </script>
-</body>
-</html>
-]]></content>
-      <categories>
-        <category>小工具</category>
-        <category>字數統計</category>
-      </categories>
-      <tags>
-        <tag>小工具</tag>
-        <tag>字數統計</tag>
       </tags>
   </entry>
   <entry>
@@ -1971,6 +1753,226 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"
 ]]></content>
       <tags>
         <tag>測試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文章字數統計</title>
+    <url>/words/</url>
+    <content><![CDATA[<hr>
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .result {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .metric-pair {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .value {
+            min-width: 4ch;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            background-color: #fff;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        @media (min-width: 601px) {
+            .group-triple {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .result {
+                padding: 0 10px;
+                gap: 10px;
+            }
+
+            .group, .group-triple {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+
+            .group-triple .metric-pair:nth-child(3) {
+                grid-column: auto;
+            }
+
+            .group-triple:last-child {
+                display: grid;
+                grid-template-areas: 
+                    "space punct"
+                    "emoji emoji";
+            }
+
+            .metric-pair {
+                margin: 0;
+            }
+        }
+
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode textarea {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
+        
+        <div class="result">
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文章字數</span>
+                    <span id="charCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總字元數</span>
+                    <span id="weightedCharCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文字段落</span>
+                    <span id="lineCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總單字數</span>
+                    <span id="englishWordCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>中文字數</span>
+                    <span id="chineseCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>英文字數</span>
+                    <span id="englishCharCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>數字數量</span>
+                    <span id="numberCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>空格數量</span>
+                    <span id="spaceCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>標點符號</span>
+                    <span id="punctCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>Emoji🙂</span>
+                    <span id="emojiCount" class="value">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script data-swup-reload-script type="text/javascript">
+        function analyzeText() {
+            const text = document.getElementById('textInput').value;
+
+            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
+            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
+            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
+            const numberCount = (text.match(/\d/g) || []).length;
+            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
+            const emojiCount = Math.floor(emojiMatches.length / 2);
+            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
+            const spaceCount = (text.match(/\s/g) || []).length;
+
+            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
+            const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
+
+            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
+            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
+            document.getElementById('lineCount').textContent = formatNumber(lineCount);
+            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
+            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
+            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
+            document.getElementById('punctCount').textContent = formatNumber(punctCount);
+            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
+            document.getElementById('numberCount').textContent = formatNumber(numberCount);
+            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
+        }
+
+        function formatNumber(num) {
+            if (num === 0) {
+                return '0';
+            }
+            return num.toString().replace(/^0+/, ''); 
+        }
+        window.onload = analyzeText;
+    </script>
+</body>
+</html>
+]]></content>
+      <categories>
+        <category>小工具</category>
+        <category>字數統計</category>
+      </categories>
+      <tags>
+        <tag>小工具</tag>
+        <tag>字數統計</tag>
       </tags>
   </entry>
 </search>

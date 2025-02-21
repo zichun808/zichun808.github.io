@@ -767,9 +767,14 @@
               <blockquote><p>物件導向的核心概念包括 「 封裝 」 、 「 繼承 」 和 「 多型 」 。</p></blockquote><ul><li>封裝 (Encapsulation)<ul><li>封裝的概念是將資料和方法封裝在物件內部，並設置存取權限，避免外部直接訪問或竄改數據。</li><li>可用 public、private 和 protected 關鍵字來控制成員的存取範圍。</li></ul></li><li>繼承 (Inheritance)<ul><li>繼承讓子類別能從父類別繼承其屬性和方法，避免撰寫重複的程式碼，讓我們更好維護它的內容。</li></ul></li><li>多型 (Polymorphism)<ul><li>多型允許不同的物件使用相同的名稱並根據對象的實際型別執行不同的操作。</li><li>可分為多載與複寫</li><li>多載 (Overloading)<ul><li>在編譯時決定，可以宣告名稱相同但參數個數或型別不同的函式。編譯器會根據傳入的參數自動選擇對應的函式。</li></ul></li><li>複寫 (Overriding)<ul><li>在運行時決定，我覺得它更像繼承的延伸版，它允許子類別依需求修改繼承的內容。</li></ul></li></ul></li></ul>
               </div>
             </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>排序演算法 </summary>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>排序演算法-1 </summary>
               <div class='content'>
-              <p class='h3' id="Quick-sort-快速排序">Quick sort (快速排序)</h3><blockquote><p>快速排序以二元樹的前序走訪為基礎</p></blockquote><p>(1) 以陣列取出一個數字做為基準值。<br>(2) 將大於基準值的元素放到基準值後面，小於或等於的元素放到前面。<br>(3) 再對左右區間重複上述步驟，直到所有區間都只有一個數存在。</p><p><span class="lightline">時間複雜度<span></p><p>Quick sort 的基準值若選擇陣列中央，就能分割成一個較平衡二元樹，高度接近 log n。其中每層需進行n次比較與交換，所以複雜度接近 $O(nlogn)$。</p><p><span class="lightline">注意<span></p><p>若陣列中資料以排序或接近排序完成，則在分割時會產生歪斜的二元樹，使高度接近 n，因而使複雜度變為 $O(n^2)$。<br>可以利用隨機選擇基準值位置避免。</p><h3 id="Merge-sort-合併排序">Merge sort (合併排序)</h3><blockquote><p>合併排序是以分治法為基礎的演算法</p></blockquote><p>(1) 將一個大數列分割成兩個小數列。<br>(2) 將這些小數列再各切一半，直到每個數列只剩一個元素。<br>(3) 合併兩個大小相等的數列並排序，直到只剩一個大數列。</p><p><span class="lightline">時間複雜度<span></p><p>Merge sort 的每一層需要進行 n 次的比較與移動，且二元樹的高度為 log n。所以複雜度為 $O(nlogn)$</p><p><span class="lightline">缺點<span></p><p>除了要排序的資料外，還得另外準備一個陣列進行合併，需要花費較大的記憶體空間。</p>
+              <p class='h3' id="Quick-sort-快速排序">Quick sort (快速排序)</h3><blockquote><p>快速排序以二元樹的前序走訪為基礎</p></blockquote><p>(1) 以陣列取出一個數字做為基準值。<br>(2) 將大於基準值的元素放到基準值後面，小於或等於的元素放到前面。<br>(3) 再對左右區間重複上述步驟，直到所有區間都只有一個數存在。</p><p><span class="lightline">時間複雜度<span></p><p>Quick sort 的基準值若選擇陣列中央，就能分割成一個較平衡二元樹，高度接近 log n。其中每層需進行n次比較與交換，所以複雜度接近 $O(nlogn)$。</p><p><span class="lightline">注意<span></p><p>若陣列中資料以排序或接近排序完成，則在分割時會產生歪斜的二元樹，使高度接近 n，因而使複雜度變為 $O(n^2)$。<br>可以利用隨機選擇基準值位置避免。</p>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>排序演算法-2 </summary>
+              <div class='content'>
+              <p class='h3' id="Merge-sort-合併排序">Merge sort (合併排序)</h3><blockquote><p>合併排序是以分治法為基礎的演算法</p></blockquote><p>(1) 將一個大數列分割成兩個小數列。<br>(2) 將這些小數列再各切一半，直到每個數列只剩一個元素。<br>(3) 合併兩個大小相等的數列並排序，直到只剩一個大數列。</p><p><span class="lightline">時間複雜度<span></p><p>Merge sort 的每一層需要進行 n 次的比較與移動，且二元樹的高度為 log n。所以複雜度為 $O(nlogn)$</p><p><span class="lightline">缺點<span></p><p>除了要排序的資料外，還得另外準備一個陣列進行合併，需要花費較大的記憶體空間。</p>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>搜尋演算法 </summary>
@@ -948,7 +953,7 @@
               <p>臺灣好厲駭、AIS3</p>
               </div>
             </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>未來目標&讀書計畫 </summary>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>未來目標 & 讀書計畫 </summary>
               <div class='content'>
               <p>讀書計畫:</p><ul><li>高中<ul><li>利用大學先修課程平台先修基礎數學</li></ul></li><li>大學<ul><li>扎實學習重要的基礎課程</li><li>考取資安相關證照及參加競賽</li></ul></li><li>未來<ul><li>攻讀國內研究所</li><li>修習教育學程並參與教師檢定及甄試，成為合格教師</li></ul></li></ul>
               </div>
@@ -959,16 +964,25 @@
               </div>
             </details>
 <h2 id="注意事項">注意事項</h2>
-<ul>
-<li>自己的資料一定要讀熟。重點是要理解 然後能完整的講出來。</li>
-<li>教授在找未來適合讀他們科系的人，如：自學能力、創新能力…。</li>
-<li>我們學校可以給你什麼幫助？</li>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>一些提醒</p>
+
+    </div>
+    <div class="notel-content">
+      <ul>
+<li>理性、客觀的分析原因</li>
 <li>不斷學習新知識並獲得樂趣</li>
 <li>探索過程而非直接了解答案</li>
-<li>分析原因</li>
 <li>將現實的動作轉換成程式碼</li>
+<li>我們學校可以給你什麼幫助？</li>
+<li>自己的資料一定要讀熟。重點是要理解 然後能完整的講出來。</li>
+<li>教授在找未來適合讀他們科系的人，如：自學能力、創新能力…。</li>
 </ul>
 
+    </div>
+  </div>
 		</div>
 
 		
@@ -1094,7 +1108,7 @@
 	<div class="post-toc">
 		<div class="toc-title">On this page</div>
 		<div class="page-title">特殊選才 面試準備筆記</div>
-		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9"><span class="nav-text">自我介紹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%A7%E5%AD%B8%E5%95%8F%E9%A1%8C"><span class="nav-text">大學問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E7%B6%93%E6%AD%B7"><span class="nav-text">程式經歷</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E5%95%8F%E9%A1%8C"><span class="nav-text">程式問題</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Merge-sort-%E5%90%88%E4%BD%B5%E6%8E%92%E5%BA%8F"><span class="nav-text">Merge sort (合併排序)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%88%E6%A5%AD%E5%95%8F%E9%A1%8C"><span class="nav-text">專業問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%80%E5%BF%B5%E5%95%8F%E9%A1%8C"><span class="nav-text">觀念問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B3%87%E5%AE%89%E5%95%8F%E9%A1%8C"><span class="nav-text">資安問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92"><span class="nav-text">機器學習</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%B8%E7%BF%92%E6%8F%90%E5%95%8F"><span class="nav-text">學習提問</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AA%E4%BE%86%E5%B1%95%E6%9C%9B"><span class="nav-text">未來展望</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85"><span class="nav-text">注意事項</span></a></li></ol>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9"><span class="nav-text">自我介紹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%A7%E5%AD%B8%E5%95%8F%E9%A1%8C"><span class="nav-text">大學問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E7%B6%93%E6%AD%B7"><span class="nav-text">程式經歷</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E5%95%8F%E9%A1%8C"><span class="nav-text">程式問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%88%E6%A5%AD%E5%95%8F%E9%A1%8C"><span class="nav-text">專業問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%80%E5%BF%B5%E5%95%8F%E9%A1%8C"><span class="nav-text">觀念問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B3%87%E5%AE%89%E5%95%8F%E9%A1%8C"><span class="nav-text">資安問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92"><span class="nav-text">機器學習</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%B8%E7%BF%92%E6%8F%90%E5%95%8F"><span class="nav-text">學習提問</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AA%E4%BE%86%E5%B1%95%E6%9C%9B"><span class="nav-text">未來展望</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85"><span class="nav-text">注意事項</span></a></li></ol>
 
 	</div>
 </div>

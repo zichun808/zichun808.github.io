@@ -789,7 +789,7 @@
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>約瑟夫問題 </summary>
               <div class='content'>
-              <ul><li>在高一時，我和同學曾自主研究過約瑟夫問題。</li><li>當時我們發現網路上沒有人針對對留人數呈等、階差的情況進行研究。</li><li>於是，我決定自己寫一個程式，以 vector 模擬人群，並利用 erase 將該號碼被淘汰，這樣的時間複雜度會是 $O(n^2^)$</li><li>後來，我們找出了留人數固定時，存活號碼會存在規律並可利用遞迴關係式去解。</li><li>若利用遞迴解，時間複雜度會降為 $O(n)$</li><li>不過比較可惜的是，儘管我和同學將留人數為等、階差的情況及對應的存活號碼都整理出來了，但我們沒有發現其中的規律。</li></ul>
+              <ul><li>在高一時，我和同學曾自主研究過約瑟夫問題。</li><li>當時我們發現網路上沒有人針對對留人數呈等、階差的情況進行研究。於是決定自己寫一個程式，以 vector 模擬人群，並利用 erase 將該號碼被淘汰，這樣的時間複雜度會是 $O(n^2^)$</li><li>我們找出了留人數固定時，存活號碼會存在規律並可利用遞迴關係式去解，時間複雜度降為 $O(n)$</li><li>不過比較可惜的是，儘管我和同學將留人數為等、階差的情況及對應的存活號碼都整理出來了，但我們沒有發現其中的規律。</li></ul>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>四則運算 </summary>
@@ -800,12 +800,12 @@
 <h2 id="專業問題">專業問題</h2>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>動態規劃 </summary>
               <div class='content'>
-              <p>將問題拆解為子問題的解題方法，並透過儲存已計算的結果來避免重複計算。動態規劃通常用於解決有重複子問題的問題，透過陣列記錄每個子問題的解，從而提升運行效率。</p><p>常用於費氏數列與背包問題。</p>
+              <p>將問題拆解為子問題的解題方法，並透過儲存已計算的結果來避免重複計算。動態規劃通常用於解決有重複子問題的問題，透過陣列記錄每個子問題的解，從而提升運行效率。</p>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>遞迴 </summary>
               <div class='content'>
-              <p>遞迴在數學上是函數直接或間接以自己定義自己，在程式上則是函數直接或間接呼叫自己。<br>它可以將一個大問題劃分為多個相似的小問題，並透過答案間的關聯將這些小問題解決得到整體的答案。<br>經常運用在處理 階乘、費氏數列、河內塔及八皇后 等問題。</p><p><span class="lightline">注意<span></p><p>若沒有適當地控制終止條件或設計得太複雜，可能會導致運行時間過長，甚至造成stackoverflow。<br>為了優化運算時間，我通常會搭配動態規劃或剪枝來避免重複計算。</p>
+              <p>遞迴在數學上是函數直接或間接以自己定義自己，在程式上則是函數直接或間接呼叫自己。<br>它可以將一個大問題劃分為多個相似的小問題，並透過答案間的關聯將這些小問題解決得到整體的答案。<br>經常運用在處理 階乘、河內塔及八皇后 等問題。</p><p><span class="lightline">注意<span></p><p>若沒有適當地控制終止條件或設計得太複雜，可能會導致運行時間過長，甚至造成stackoverflow。<br>為了優化運算時間，我通常會搭配動態規劃或剪枝來避免重複計算。</p>
               </div>
             </details>
 <h2 id="觀念問題">觀念問題</h2>
@@ -821,15 +821,15 @@
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>標頭檔、命名空間、作用域 </summary>
               <div class='content'>
-              <p class='h4' id="1-標頭檔-Header-File-：">1. 標頭檔 (Header File) ：</h4><blockquote><p>簡單來說，是存放我們需要使用的功能的地方。</p></blockquote><p>可以透過#include這個指令引入對應的標頭檔。</p><h4 id="2-命名空間-Namespace-：">2. 命名空間 (Namespace) ：</h4><blockquote><p>命名空間可以避免我們搞混相同名稱的問題。</p></blockquote><p>若有兩個人同名，我們不知道要如何分辨時，我們可能會說：3年1班的ABC…<br>在這裡概念是類似的！using namespace std 就是跟程式說，我接下來叫的人，是在 std 這個班級裡，這樣就不用每次叫人都加上班級了！</p><h4 id="3-作用域-Scope-：">3. 作用域 (Scope) ：</h4><blockquote><p>作用域是指變數或函式在程式中的可見範圍</p></blockquote><ul><li>全域作用域</li><li>區域作用域</li></ul>
+              <p class='h4' id="1-標頭檔-Header-File-：">1. 標頭檔 (Header File) ：</h4><blockquote><p>簡單來說，是存放我們需要使用的功能的地方。</p></blockquote><p>可以透過 <code>#include</code> 這個指令引入對應的標頭檔。</p><h4 id="2-命名空間-Namespace-：">2. 命名空間 (Namespace) ：</h4><blockquote><p>命名空間可以避免我們搞混相同名稱的問題。</p></blockquote><p>若有兩個人同名，我們不知道要如何分辨時，我們可能會說：三年一班的 XXX<br>在這裡概念是類似的！<code>using namespace std</code> 就是跟程式說，我接下來叫的人，是在 std 這個班級裡，這樣就不用每次叫人都加上班級了！</p><h4 id="3-作用域-Scope-：">3. 作用域 (Scope) ：</h4><blockquote><p>作用域是指變數或函式在程式中的可見範圍</p></blockquote><ul><li>全域作用域</li><li>區域作用域</li></ul>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>參考是什麼? </summary>
               <div class='content'>
-              <blockquote><p>我們可以透過參考給變數分配多個別名，但這些別名實際上都指向同一個記憶體區塊。</p></blockquote><p class='h4' id="Pass-by-value-傳值">Pass by value (傳值)</h4><p>在傳值的時候，把一個數字傳過去，之後那邊再開一個記憶體空間來存它<br>所以當收到value的函式結束後，函式內的數值就會不見了</p><h4 id="Pass-by-address-傳址">Pass by address (傳址)</h4><p>我們傳的東西，並不是一個數值，而是一個指標<br>我們利用指標去找同一塊記憶體位置，去進行運算，所以會改變原本的數值，函式結束時，數值亦仍存在</p><h4 id="Pass-by-reference-傳參考">Pass by reference (傳參考)</h4><p>傳參考是一個更方便的傳遞方式，函式接收到變數的參考，這樣可以在函式內直接修改該變數的值。<br>它類似於傳址，但不需要添加指標。當一個變數以參考方式傳遞時，函式內部會有一個新的別名，這個別名只能在該函式內使用。</p>
+              <blockquote><p>我們可以透過參考給變數分配多個別名，但這些別名實際上都指向同一個記憶體區塊。</p></blockquote><p class='h4' id="Pass-by-value-傳值">Pass by value (傳值)</h4><p>在傳值的時候，把一個數字傳過去，之後那邊再開一個記憶體空間來存它<br>所以當收到 value 的函式結束後，函式內的數值就會不見了</p><h4 id="Pass-by-address-傳址">Pass by address (傳址)</h4><p>我們傳的東西，並不是一個數值，而是一個指標<br>我們利用指標去找同一塊記憶體位置，去進行運算，所以會改變原本的數值，函式結束時，數值亦仍存在</p><h4 id="Pass-by-reference-傳參考">Pass by reference (傳參考)</h4><p>傳參考是一個更方便的傳遞方式，函式接收到變數的參考，這樣可以在函式內直接修改該變數的值。<br>它類似於傳址，但不需要添加指標。當一個變數以參考方式傳遞時，函式內部會有一個新的別名，這個別名只能在該函式內使用。</p>
               </div>
             </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Stack、Queue差別 </summary>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Stack、Queue 差別 </summary>
               <div class='content'>
               <p class='h4' id="堆疊-Stack">堆疊 (Stack)</h4><p>Stack是一種後進先出的資料結構。可以用餐廳的盤子來理解。</p><h4 id="佇列-Queue">佇列 (Queue)</h4><p>Queue是一種先進先出的資料結構。可以用排隊來理解。</p>
               </div>
@@ -975,8 +975,6 @@
 <li>理性、客觀的分析原因</li>
 <li>不斷學習新知識並獲得樂趣</li>
 <li>探索過程而非直接了解答案</li>
-<li>將現實的動作轉換成程式碼</li>
-<li>我們學校可以給你什麼幫助？</li>
 <li>自己的資料一定要讀熟。重點是要理解 然後能完整的講出來。</li>
 <li>教授在找未來適合讀他們科系的人，如：自學能力、創新能力…。</li>
 </ul>
@@ -1139,7 +1137,7 @@
                     </span>
                     
                         <span>
-                            19.6k words in total
+                            19.5k words in total
                         </span>
                     
                 </p>

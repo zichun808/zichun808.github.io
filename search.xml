@@ -789,99 +789,6 @@
       </tags>
   </entry>
   <entry>
-    <title>AIS3 Junior 心得</title>
-    <url>/AIS3-Junior/</url>
-    <content><![CDATA[<hr>
-<h3 id="前言">前言</h3>
-<p>今年的 AIS3 Junior 舉辦在中正大學，課程共五天，也一樣有提供住宿及車票補助。超讚ㄉ<br>
-我去年也曾參加 AIS3 Junior，不過因為當時是初次接觸資安，雖然最終有順利取得合格證書，但許多技術細節仍有些不熟悉。考量時間許可的情況下，我再次報名並順利被甄選錄取了！</p>
-<hr>
-<h3 id="住宿">住宿</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/dorm.png"
-                      alt="image"
-                ><br>
-課程期間都是住在中正大學的學生宿舍(四人房)，要記得帶自己的拖鞋、枕頭、棉被、睡墊(很重要.ᐟ.ᐟ.ᐟ)、盥洗用品及吹風機等。裡面雖然有點老舊但還算乾淨，廁所也看得出來有重新裝修過，而且有乾濕分離。不過因為床板超硬，所以沒帶睡墊的話，根本睡不著而且因為床板老舊，翻身時還會有奇怪聲響。宿舍附近有超商和早餐店，半夜肚子餓的話可以去超商買消夜吃。不過課程所在的資訊大樓附近基本上就沒甚麼吃的了，除了活動中心那棟裡面有超商、貴貴的義大利麵和幾間學生餐廳外，其他吃的幾乎都要走出正門大概10分鐘左右才能找到。這幾天基本上不是跟助教、組員們一起吃，就是等回宿舍再去超商買或投販賣機。</p>
-<hr>
-<h3 id="Day-0">Day 0</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/register.png"
-                      alt="image"
-                ><br>
-這天是課程中最輕鬆的一天，不過因為中正大學地理位置較偏僻，所以不論是搭高鐵或是臺鐵都要花上不少時間轉車。我是當天早上搭臺鐵到嘉義車站，在嘉義市區晃到下午再搭臺鐵到民雄車站，然後剛好在課程群組裡找到其他三人也要從民雄車站移動到中正大學，於是就四個人一起搭計程車去(跳表，車資220元)。抵達會場並報到後，安裝 Kali 環境、VPN 和認識助教及組員等。傍晚要從集合的圖書資訊大樓拖行李到宿舍，路途約15分鐘但半路突然突如其來的傾盆大雨讓我們的衣物、鞋子和行李都濕了。稍微整理後，我和助教及組員們一起吃附近的小火鍋。再次回到宿舍後，我和室友先解了幾題隔天上課的 Flag。</p>
-<blockquote>
-<p>本日睡眠時間： 01:30~07:00，約5.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-1">Day 1</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/CTF.png"
-                      alt="image"
-                ><br>
-早上和助教及組員們一起吃完早餐後，拖著疲憊的身體前往資訊大樓開始一天的課程。早上的活動是開幕式和資安倫理課程，讓我們瞭解學習資安技術應具備的道德與責任。下午則進行破冰遊戲，需要根據提示並運用基礎資安概念解題，完成一定題數還有餅乾。隨後的資安概論課程聚焦於 Linux 指令的實際操作，基本上只要熟悉 Linux 大部分的 Flag 都不難找到。</p>
-<blockquote>
-<p>本日睡眠時間： 02:30~07:00，約4.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-2">Day 2</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/lecture.png"
-                      alt="image"
-                ><br>
-今天主要的課程是由 <strong>徐牧遠(Red) 講師</strong> 帶來的網頁安全。我曾在去年的課程中學習過 Web Security，因此能跟上講師的節奏，也解出了不少進階題。晚上則安排了資安講座，邀請資安大佬 <strong>馬聖豪 前輩</strong>，分享自己從小透過撰寫遊戲外掛賺錢到參加第一屆 AIS3，最終在資安領域嶄露頭角的心路歷程。</p>
-<blockquote>
-<p>本日睡眠時間： 03:00~07:30，約4.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-3">Day 3</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/project.png"
-                      alt="image"
-                ><br>
-最後一門課程是由 <strong>周佑康(Slash) 講師</strong> 帶來的 AI 應用安全實務。我覺得 AI 應用安全是個全新的體驗。因為我從未想過利用這些攻擊方法來影響人工智慧，取得可能混進訓練資料中的敏感資訊或在圖片中加入雜訊使神經網路辨認錯誤。講師從 LLM 的訓練原理講起，並介紹常見的大型語言模型及講解 Prompt Injection 這個攻擊方法。課後作業則是從講師提供的 AI 服務中取得機密資訊。此外，我們在這堂課中也學習了 CNN 辨識影像的原理，並學習攻擊方法 - Adversarial Attack，透過演算法在圖片中加入許多極小的雜訊，使神經網路無法正確辨識圖片。因為隔天就要發表專題了，所以我們今晚熬夜將作業的 writeup 完成並將專題推到一定進度後才去睡覺。</p>
-<blockquote>
-<p>本日睡眠時間： 04:30~07:00，約2.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-4">Day 4</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/report.png"
-                      alt="image"
-                ><br>
-今天早上是最後的專題製作時間，我們這組的專題名稱是 「 原來 log 也可以寫 webshell !? 」 主要是透過 php 的 strcmp 函式漏洞 bypass 登入頁面，接著利用系統中的 LFI 漏洞實現 RCE。下午則是各組上台發表專題，讓其他組別的學員聆聽與學習的時間。從選定主題、漏洞復現到最終完成專題、上台分享時，那成就感不言而喻。雖然在處理環境時，我們遇到了不少問題，但一次次克服問題後，我們都會有更多的收穫。能將學到的知識與經驗分享給大家，也是一次非常寶貴的學習機會。</p>
-<hr>
-<h3 id="心得">心得</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/ending.png"
-                      alt="image"
-                ><br>
-首先我要感謝 <strong>C組組員們</strong>、<strong>Kazma 助教</strong>和<strong>Sharon 助教</strong>，感謝你們在這幾天提供了我這麼多的幫助。雖然在專題中，我負責的是蒐集資料和尋找漏洞的防範方法，但對 php 不熟的我，光是搞懂基本語法就花了些時間。理解攻擊方法後尋找先例並思考有效的防範方法更是花了快一整晚。不過我們也順利在最後一天完成專題，並和組員們一起上台發表。參加這次課程，讓我認識了許多電神並對未來的學習有了明確方向，甚至有幸與 <strong>Kazma</strong>、<strong>Vincent</strong>、<strong>OsGa</strong> 等厲害的學長們同桌吃早餐真的是我沒有想到的。不過這也讓我意識到，自己在資安領域還有很多技術需要學習、探索。雖然目前的學習深度和廣度還不足以完全應對現實世界中的攻擊與威脅，但對未來繼續深入學習充滿了動力！沒意外的話，我未來應該也會往這方面升學吧！雖然很累，但學到新知識及技術的成就感，真的讓人有想要繼續研究下去的動力。<strong>To be a good hacker !</strong> 💪💪</p>
-]]></content>
-      <categories>
-        <category>課程學習</category>
-        <category>AIS3</category>
-      </categories>
-      <tags>
-        <tag>課程</tag>
-        <tag>AIS3</tag>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>國立嘉義大學 特殊選才面試</title>
     <url>/NCYU/</url>
     <content><![CDATA[<hr>
@@ -893,7 +800,7 @@
 <li>招生名額：一般⠀3 / 資安⠀2</li>
 </ul>
 <h3 id="面試心得">面試心得</h3>
-<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，也因此順利回答完了所有題目。最終，我也順利正取啦🎉🎉</p>
+<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，順利回答完了所有題目。</p>
 <h3 id="面試問題">面試問題</h3>
 <ul>
 <li><strong>教授：自我介紹</strong><br>
@@ -913,13 +820,13 @@
 <li><strong>教授：C++ / Python 分別學到哪裡？</strong><br>
 C++ 學到基礎演算法及 STL；Python 則會基礎語法，並能使用 Pycord 開發 DCbot 及撰寫 pwn 題型的解法。</li>
 <li><strong>教授：為什麼想學 python</strong><br>
-在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python 來開發器人的念頭。</li>
+在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python 並開發機器人的念頭。</li>
 <li><strong>教授：開發 Discord Bot 時遇到哪些困難？如何解決？</strong><br>
 在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
 <li><strong>教授：解釋 pass by value 和 pass by reference 的差異。</strong><br>
-pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 會直接修改記憶體位置，使主程式的變數同步改變。</li>
+pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 則直接修改記憶體位置，使主程式的變數同步改變。</li>
 <li><strong>教授：你知道物件導向嗎？</strong><br>
-閱讀過 C++ 的物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
+閱讀過物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
 <li><strong>教授：你有參加過 AIS3 嗎？</strong><br>
 參加過 AIS3 Junior，期待未來可以進一步參加 AIS3 學習更進階的技術。</li>
 <li><strong>教授：AIS3 的 pre-exam，你參加過嗎？</strong><br>
@@ -943,9 +850,9 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
         <category>面試</category>
       </categories>
       <tags>
-        <tag>心得</tag>
         <tag>特殊選才</tag>
         <tag>面試</tag>
+        <tag>心得</tag>
       </tags>
   </entry>
   <entry>
@@ -968,7 +875,7 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 <li><strong>教授：你有甚麼特別的資安經歷</strong><br>
 （略）</li>
 <li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
+在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 User-Agent 解決這個問題。</li>
 <li><strong>教授：你的小論文是如何進行的？</strong><br>
 起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
 <li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
@@ -982,9 +889,9 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
         <category>面試</category>
       </categories>
       <tags>
-        <tag>心得</tag>
         <tag>特殊選才</tag>
         <tag>面試</tag>
+        <tag>心得</tag>
       </tags>
   </entry>
   <entry>
@@ -1019,7 +926,7 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>資安學習經歷 </summary>
               <div class='content'>
-              <ul><li>我第一次接觸資安是在小時候看到的科幻電影，電影中的駭客情節讓我對資訊安全產生了好奇。</li><li>國中時，我參加了一個資安課程，學習基礎的網頁安全 (如: 個人隱私、釣魚連結及 HTTPS 協定) 。</li><li>升上高中後，透過教育部的資安人才培育課程來精進自己的知識及技術，包括前面提到的資安暑訓營和 AIS3 Junior。</li><li>我覺得比較新奇的經驗是在 AIS3 Junior 中，學到的攻擊人工智慧的方法。</li></ul>
+              <ul><li>我的資安經歷主要包括參加教育部資安人才培育計畫的資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 課程。</li><li>在這些課程中，我學習了程式安全、逆向工程、網頁安全及密碼學等主題，並曾接觸到真實世界中的攻擊案例。</li><li>此外，我曾發現企業官網存在反射型 XSS 漏洞，並透過 HITCON ZeroDay 平台向該網站管理員通報，協助修復漏洞，避免潛在的攻擊風險。</li><li>這些經歷不僅讓我對資訊安全有了更全面的認識，更激發了持續深入學習的熱情。</li></ul>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>機器學習經歷 </summary>
@@ -1320,50 +1227,96 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
       </tags>
   </entry>
   <entry>
-    <title>國立台南大學 特殊選才面試</title>
-    <url>/NUTN/</url>
+    <title>AIS3 Junior 心得</title>
+    <url>/AIS3-Junior/</url>
     <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：10 分鐘</li>
-<li>報名人數：一般 51 / 資安⠀1</li>
-<li>招生名額：一般⠀2 / 資安⠀1</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>台南是我第一間面試的學校，在這之前沒有任何面試經驗，所以沒有抱太大的希望。基本上是把這次面試當作練習，但還是有點緊張。教授問了幾個出乎我意料的問題，而且兩位教授的態度較為嚴肅，整體氛圍有點壓力。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你覺得自己有什麼特別之處？</strong><br>
-（略）</li>
-<li><strong>教授：你是從北部來的，你還有報哪些學校</strong>?<br>
-除了貴校外，我還有報宜蘭、嘉義、高雄及台北市立大學。</li>
-<li><strong>教授：你應該會想留在北部吧，為什麼想來我們學校？</strong><br>
-我認為到外縣市讀大學也很不錯，可以接觸到不同的環境和文化。</li>
-<li><strong>教授：你提到發現企業官網的XSS漏洞，那是什麼？</strong><br>
-我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
-<li><strong>教授：你會哪些程式語言?</strong><br>
-比較擅長 C++，其次是 Python。</li>
-<li><strong>教授：Python 和 C++ 之間有什麼差異？</strong><br>
-我覺得的 Python 整體語法較簡單、容易上手，但 C++ 有較快的運行速度並且可以進行較底層的處理。</li>
-<li><strong>教授：你提到的底層處理指的是什麼？</strong><br>
-像是透過指標直接存取記憶體。我們學校最近在學 Arduino，其中的控制程式也可以使用 C++ 撰寫。</li>
-<li><strong>教授：你只考過兩次 APCS？這期間有做什麼努力嗎？</strong><br>
-我在今年和去年六月都有參加 APCS，觀念與實作題皆為三級分。我覺得很可惜的是，今年第三題我因為沒看清楚題目條件，所以僅取得了部份分數。</li>
-<li><strong>教授：看起來你比較擅長實作，那觀念題有準備嗎？</strong><br>
-我平常會跟網友討論程式，所以都有在閱讀別人的程式碼，我覺得這對於 APCS 的觀念題也有很大的幫助。</li>
-</ul>
+<h3 id="前言">前言</h3>
+<p>今年的 AIS3 Junior 舉辦在中正大學，課程共五天，也一樣有提供住宿及車票補助。超讚ㄉ<br>
+我去年也曾參加 AIS3 Junior，不過因為當時是初次接觸資安，雖然最終有順利取得合格證書，但許多技術細節仍有些不熟悉。考量時間許可的情況下，我再次報名並順利被甄選錄取了！</p>
+<hr>
+<h3 id="住宿">住宿</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/dorm.png"
+                      alt="image"
+                ><br>
+課程期間都是住在中正大學的學生宿舍(四人房)，要記得帶自己的拖鞋、枕頭、棉被、睡墊(很重要.ᐟ.ᐟ.ᐟ)、盥洗用品及吹風機等。裡面雖然有點老舊但還算乾淨，廁所也看得出來有重新裝修過，而且有乾濕分離。不過因為床板超硬，所以沒帶睡墊的話，根本睡不著而且因為床板老舊，翻身時還會有奇怪聲響。宿舍附近有超商和早餐店，半夜肚子餓的話可以去超商買消夜吃。不過課程所在的資訊大樓附近基本上就沒甚麼吃的了，除了活動中心那棟裡面有超商、貴貴的義大利麵和幾間學生餐廳外，其他吃的幾乎都要走出正門大概10分鐘左右才能找到。這幾天基本上不是跟助教、組員們一起吃，就是等回宿舍再去超商買或投販賣機。</p>
+<hr>
+<h3 id="Day-0">Day 0</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/register.png"
+                      alt="image"
+                ><br>
+這天是課程中最輕鬆的一天，不過因為中正大學地理位置較偏僻，所以不論是搭高鐵或是臺鐵都要花上不少時間轉車。我是當天早上搭臺鐵到嘉義車站，在嘉義市區晃到下午再搭臺鐵到民雄車站，然後剛好在課程群組裡找到其他三人也要從民雄車站移動到中正大學，於是就四個人一起搭計程車去(跳表，車資220元)。抵達會場並報到後，安裝 Kali 環境、VPN 和認識助教及組員等。傍晚要從集合的圖書資訊大樓拖行李到宿舍，路途約15分鐘但半路突然突如其來的傾盆大雨讓我們的衣物、鞋子和行李都濕了。稍微整理後，我和助教及組員們一起吃附近的小火鍋。再次回到宿舍後，我和室友先解了幾題隔天上課的 Flag。</p>
+<blockquote>
+<p>本日睡眠時間： 01:30~07:00，約5.5小時。</p>
+</blockquote>
+<hr>
+<h3 id="Day-1">Day 1</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/CTF.png"
+                      alt="image"
+                ><br>
+早上和助教及組員們一起吃完早餐後，拖著疲憊的身體前往資訊大樓開始一天的課程。早上的活動是開幕式和資安倫理課程，讓我們瞭解學習資安技術應具備的道德與責任。下午則進行破冰遊戲，需要根據提示並運用基礎資安概念解題，完成一定題數還有餅乾。隨後的資安概論課程聚焦於 Linux 指令的實際操作，基本上只要熟悉 Linux 大部分的 Flag 都不難找到。</p>
+<blockquote>
+<p>本日睡眠時間： 02:30~07:00，約4.5小時。</p>
+</blockquote>
+<hr>
+<h3 id="Day-2">Day 2</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/lecture.png"
+                      alt="image"
+                ><br>
+今天主要的課程是由 <strong>徐牧遠(Red) 講師</strong> 帶來的網頁安全。我曾在去年的課程中學習過 Web Security，因此能跟上講師的節奏，也解出了不少進階題。晚上則安排了資安講座，邀請資安大佬 <strong>馬聖豪 前輩</strong>，分享自己從小透過撰寫遊戲外掛賺錢到參加第一屆 AIS3，最終在資安領域嶄露頭角的心路歷程。</p>
+<blockquote>
+<p>本日睡眠時間： 03:00~07:30，約4.5小時。</p>
+</blockquote>
+<hr>
+<h3 id="Day-3">Day 3</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/project.png"
+                      alt="image"
+                ><br>
+最後一門課程是由 <strong>周佑康(Slash) 講師</strong> 帶來的 AI 應用安全實務。我覺得 AI 應用安全是個全新的體驗。因為我從未想過利用這些攻擊方法來影響人工智慧，取得可能混進訓練資料中的敏感資訊或在圖片中加入雜訊使神經網路辨認錯誤。講師從 LLM 的訓練原理講起，並介紹常見的大型語言模型及講解 Prompt Injection 這個攻擊方法。課後作業則是從講師提供的 AI 服務中取得機密資訊。此外，我們在這堂課中也學習了 CNN 辨識影像的原理，並學習攻擊方法 - Adversarial Attack，透過演算法在圖片中加入許多極小的雜訊，使神經網路無法正確辨識圖片。因為隔天就要發表專題了，所以我們今晚熬夜將作業的 writeup 完成並將專題推到一定進度後才去睡覺。</p>
+<blockquote>
+<p>本日睡眠時間： 04:30~07:00，約2.5小時。</p>
+</blockquote>
+<hr>
+<h3 id="Day-4">Day 4</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/report.png"
+                      alt="image"
+                ><br>
+今天早上是最後的專題製作時間，我們這組的專題名稱是 「 原來 log 也可以寫 webshell !? 」 主要是透過 php 的 strcmp 函式漏洞 bypass 登入頁面，接著利用系統中的 LFI 漏洞實現 RCE。下午則是各組上台發表專題，讓其他組別的學員聆聽與學習的時間。從選定主題、漏洞復現到最終完成專題、上台分享時，那成就感不言而喻。雖然在處理環境時，我們遇到了不少問題，但一次次克服問題後，我們都會有更多的收穫。能將學到的知識與經驗分享給大家，也是一次非常寶貴的學習機會。</p>
+<hr>
+<h3 id="心得">心得</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/AIS3-Junior/ending.png"
+                      alt="image"
+                ><br>
+首先我要感謝 <strong>C組組員們</strong>、<strong>Kazma 助教</strong>和<strong>Sharon 助教</strong>，感謝你們在這幾天提供了我這麼多的幫助。雖然在專題中，我負責的是蒐集資料和尋找漏洞的防範方法，但對 php 不熟的我，光是搞懂基本語法就花了些時間。理解攻擊方法後尋找先例並思考有效的防範方法更是花了快一整晚。不過我們也順利在最後一天完成專題，並和組員們一起上台發表。參加這次課程，讓我認識了許多電神並對未來的學習有了明確方向，甚至有幸與 <strong>Kazma</strong>、<strong>Vincent</strong>、<strong>OsGa</strong> 等厲害的學長們同桌吃早餐真的是我沒有想到的。不過這也讓我意識到，自己在資安領域還有很多技術需要學習、探索。雖然目前的學習深度和廣度還不足以完全應對現實世界中的攻擊與威脅，但對未來繼續深入學習充滿了動力！沒意外的話，我未來應該也會往這方面升學吧！雖然很累，但學到新知識及技術的成就感，真的讓人有想要繼續研究下去的動力。<strong>To be a good hacker !</strong> 💪💪</p>
 ]]></content>
       <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
+        <category>課程學習</category>
+        <category>AIS3</category>
       </categories>
       <tags>
+        <tag>課程</tag>
+        <tag>AIS3</tag>
         <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
       </tags>
   </entry>
   <entry>
@@ -1424,9 +1377,186 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
         <category>面試</category>
       </categories>
       <tags>
-        <tag>心得</tag>
         <tag>特殊選才</tag>
         <tag>面試</tag>
+        <tag>心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>特殊選才心得彙整</title>
+    <url>/srecruit/</url>
+    <content><![CDATA[<hr>
+<h3 id="前言">前言</h3>
+<p>其實我在高一時，就知道特殊選才這個升學管道了，但從未想過自己能透過這個方式升學。畢竟，<span class="lightline">特殊選才招收的名額僅有應屆學測生的 1% ~ 1.5% ，招生名額遠比其他管道少非常多，也有相當高的不確定性</span>。</p>
+<p>不過，因為我的國英實在太差了，若選擇個人申請可能面臨卡標的問題，如此低的國文分數也對分科非常不利。因此高二時有了參加特殊選才的念頭，也是從此時開始積極豐富自己的經歷並開始整理備審資料。</p>
+<p>雖然當時決定參加特選，但在放榜前，我還是有繼續準備學測。畢竟，我們無法得知教授希望錄取甚麼類型的學生，而這段時間能做的只有<span class="lightline">不斷豐富自己的經歷並增進專業知識，向教授展現自己的熱忱與潛力</span>。</p>
+<h3 id="準備過程">準備過程</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">高一</th>
+<th style="text-align:center">高二</th>
+<th style="text-align:center">高三</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">上學期</td>
+<td style="text-align:center">考前臨時抱佛腳，對未來沒甚麼想法</td>
+<td style="text-align:center">投入大量時間學習資訊相關知識</td>
+<td style="text-align:center">熬夜準備各校備審、請公假面試</td>
+</tr>
+<tr>
+<td style="text-align:center">下學期</td>
+<td style="text-align:center">發現自己對程式設計有較高的領悟力</td>
+<td style="text-align:center">決定特選並積極豐富自己的經歷</td>
+<td style="text-align:center">N/A</td>
+</tr>
+</tbody>
+</table>
+<h3 id="特選結果">特選結果</h3>
+<blockquote>
+<p>依學系放榜日期排序，最終選擇就讀嘉義大學</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">學校名稱</th>
+<th style="text-align:center">招生名額</th>
+<th style="text-align:center">報名組別</th>
+<th style="text-align:center">書審成績</th>
+<th style="text-align:center">面試成績</th>
+<th style="text-align:center">最終成績</th>
+<th style="text-align:center">錄取狀態</th>
+<th style="text-align:center">面試心得</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">國立台南大學</td>
+<td style="text-align:center">2 / 1</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">81.81</td>
+<td style="text-align:center">81.00</td>
+<td style="text-align:center">81.41</td>
+<td style="text-align:center">備取 17</td>
+<td style="text-align:center"><a href="/NUTN">台南大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center">國立高雄大學</td>
+<td style="text-align:center">3 / 0</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">83.00</td>
+<td style="text-align:center">84.67</td>
+<td style="text-align:center">83.84</td>
+<td style="text-align:center">備取 20</td>
+<td style="text-align:center"><a href="/NUK">高雄大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center">台北市立大學</td>
+<td style="text-align:center">3 / 0</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">78.42</td>
+<td style="text-align:center">- -</td>
+<td style="text-align:center">78.42</td>
+<td style="text-align:center">備取 12</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center">國立宜蘭大學</td>
+<td style="text-align:center">3 / 3</td>
+<td style="text-align:center">資安組</td>
+<td style="text-align:center">88.50</td>
+<td style="text-align:center">90.00</td>
+<td style="text-align:center">89.10</td>
+<td style="text-align:center">正取⠀3</td>
+<td style="text-align:center"><a href="/NIU">宜蘭大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="highlightline">國立嘉義大學</span></td>
+<td style="text-align:center">3 / 2</td>
+<td style="text-align:center"><span class="highlightline">資安組</span></td>
+<td style="text-align:center">88.10</td>
+<td style="text-align:center">90.50</td>
+<td style="text-align:center">89.30</td>
+<td style="text-align:center"><span class="highlightline">正取⠀2</span></td>
+<td style="text-align:center"><a href="/NCYU">嘉義大學</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="特選心得">特選心得</h3>
+<p>雖然我報名的兩間資安組都順利錄取，我認為這已經是相當不錯的成績。不過，即便沒有被錄取，我也不會後悔參加特選，絕對不會。「 特選不是一種制度，而是一種態度 」⠀這句話一直烙印在我腦海裡，準備特選的這段時間，我的高中生活變得更加充實；也正因為特殊選才，我才能夠認識這麼多厲害的人，並了解來自不同地方的文化。這段經歷，無論如何，都無可取代。<span class="lightline">雖然結果固然重要，但我認為過程中所獲得的各種體會與成長才是這段旅程真正的價值所在</span>。</p>
+<h3 id="一些東西">一些東西</h3>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>備審資料 </summary>
+              <div class='content'>
+              <p>暫時先不放上來。不過想參考的話，可以<a class="link"   href="https://www.instagram.com/zichun808/" >私訊我<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>傳給你 ~</p><!-- [備審資料（嘉義大學）](https://drive.google.com/file/d/1kMhcpIUILVo2vIYssYMAEsxptbyqIXvS/view?usp=sharing) -->
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自我介紹講稿 </summary>
+              <div class='content'>
+              <div class="tabs" id="tab-tab"><ul class="nav-tabs"><li class="tab active"><a class="#tab-1">自我介紹 (一般組)</a></li><li class="tab"><a class="#tab-2">自我介紹 (資安組)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我學習程式設計的時間約一年半，在這段期間也積極參與了許多資訊相關的課程及活動，探索資安與資訊領域的應用。</li><li>我參加了教育部的資安人才培育計畫、數位發展部的 AIGO 課程及國立中興大學的機器學習先修課程，加強我的資安知識基礎，並拓展我在人工智慧及機器學習領域的理解。</li><li>在實務應用上，我曾利用 Python 開發出 Discord 機器人，結合靜態爬蟲和 JSON 資料庫，解決日常生活中許多繁雜的工作。</li><li>除此之外，我也曾發現企業官網存在 XSS 漏洞並向 HITCON ZeroDay 回報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。</li><li>為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li></ul></div><div class="tab-pane" id="tab-2"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我第一次接觸資安是在小時候看到的科幻電影，電影中的駭客情節讓我對資訊安全產生了好奇。而國中參加的一門網頁安全課程，則讓我對資訊安全有了初步的認識。</li><li>升上高中後，為了更進一步提升自己的資安能力，我參加了教育部資安人才培育計畫的許多課程，包括資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 等。其中，我對網頁安全及密碼學特別感興趣。此外，我也曾發現企業官網存在 XSS 漏洞，並透過 HITCON ZeroDay 向該網站管理員通報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，探索各領域的應用及挑戰，並進一步確立未來的方向。</li><li>我對資訊領域充滿熱忱，並且認為自己適合繼續深耕。期待未來能在嘉義大學，接受兼具理論與實務的完整學習，拓展更深的專業知識與技能。</li></ul></div></div></div>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>資安經歷講稿 </summary>
+              <div class='content'>
+              <ul><li>我的資安經歷主要包括參加教育部資安人才培育計畫的資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 課程。</li><li>在這些課程中，我學習了程式安全、逆向工程、網頁安全及密碼學等主題，並曾接觸到真實世界中的攻擊案例。</li><li>此外，我曾發現企業官網存在反射型 XSS 漏洞，並透過 HITCON ZeroDay 平台向該網站管理員通報，協助修復漏洞，避免潛在的攻擊風險。</li><li>這些經歷不僅讓我對資訊安全有了更全面的認識，更激發了持續深入學習的熱情。</li></ul>
+              </div>
+            </details>]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>封面</category>
+      </categories>
+      <tags>
+        <tag>特殊選才</tag>
+        <tag>心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>國立台南大學 特殊選才面試</title>
+    <url>/NUTN/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：10 分鐘</li>
+<li>報名人數：一般 51 / 資安⠀1</li>
+<li>招生名額：一般⠀2 / 資安⠀1</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>台南是我第一間面試的學校，在這之前沒有任何面試經驗，所以沒有抱太大的希望。基本上是把這次面試當作練習，但還是有點緊張。教授問了幾個出乎我意料的問題，而且兩位教授的態度較為嚴肅，整體氛圍有點壓力。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你覺得自己有什麼特別之處？</strong><br>
+（略）</li>
+<li><strong>教授：你是從北部來的，你還有報哪些學校</strong>?<br>
+除了貴校外，我還有報宜蘭、嘉義、高雄及台北市立大學。</li>
+<li><strong>教授：你應該會想留在北部吧，為什麼想來我們學校？</strong><br>
+我認為到外縣市讀大學也很不錯，可以接觸到不同的環境和文化。</li>
+<li><strong>教授：你提到發現企業官網的XSS漏洞，那是什麼？</strong><br>
+我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
+<li><strong>教授：你會哪些程式語言?</strong><br>
+比較擅長 C++，其次是 Python。</li>
+<li><strong>教授：Python 和 C++ 之間有什麼差異？</strong><br>
+我覺得的 Python 整體語法較簡單、容易上手，但 C++ 有較快的運行速度並且可以進行較底層的處理。</li>
+<li><strong>教授：你提到的底層處理指的是什麼？</strong><br>
+像是透過指標直接存取記憶體。我們學校最近在學 Arduino，其中的控制程式也可以使用 C++ 撰寫。</li>
+<li><strong>教授：你只考過兩次 APCS？這期間有做什麼努力嗎？</strong><br>
+我在今年和去年六月都有參加 APCS，觀念與實作題皆為三級分。我覺得很可惜的是，今年第三題我因為沒看清楚題目條件，所以僅取得了部份分數。</li>
+<li><strong>教授：看起來你比較擅長實作，那觀念題有準備嗎？</strong><br>
+我平常會跟網友討論程式，所以都有在閱讀別人的程式碼，我覺得這對於 APCS 的觀念題也有很大的幫助。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>面試</category>
+      </categories>
+      <tags>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
+        <tag>心得</tag>
       </tags>
   </entry>
   <entry>
@@ -1624,136 +1754,6 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
       </tags>
   </entry>
   <entry>
-    <title>特殊選才心得彙整</title>
-    <url>/srecruit/</url>
-    <content><![CDATA[<hr>
-<h3 id="前言">前言</h3>
-<p>其實我在高一時，就知道特殊選才這個升學管道了，但從未想過自己能透過這個方式升學。畢竟，<span class="lightline">特殊選才招收的名額僅有應屆學測生的 1% ~ 1.5% ，招生名額遠比其他管道少非常多，也有相當高的不確定性</span>。</p>
-<p>不過，因為我的國英實在太差了，若選擇個人申請可能面臨卡標的問題，如此低的國文分數也對分科非常不利。因此高二時有了參加特殊選才的念頭，也是從此時開始積極豐富自己的經歷並開始整理備審資料。</p>
-<p>雖然當時決定參加特選，但在放榜前，我還是有繼續準備學測。畢竟，我們無法得知教授希望錄取甚麼類型的學生，而這段時間能做的只有<span class="lightline">不斷豐富自己的經歷並增進專業知識，向教授展現自己的熱忱與潛力</span>。</p>
-<h3 id="準備過程">準備過程</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align:center"></th>
-<th style="text-align:center">高一</th>
-<th style="text-align:center">高二</th>
-<th style="text-align:center">高三</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">上學期</td>
-<td style="text-align:center">考前臨時抱佛腳，對未來沒甚麼想法</td>
-<td style="text-align:center">投入大量時間學習資訊相關知識</td>
-<td style="text-align:center">熬夜準備各校備審、請公假面試</td>
-</tr>
-<tr>
-<td style="text-align:center">下學期</td>
-<td style="text-align:center">發現自己對程式設計有較高的領悟力</td>
-<td style="text-align:center">決定特選並積極豐富自己的經歷</td>
-<td style="text-align:center">N/A</td>
-</tr>
-</tbody>
-</table>
-<h3 id="特選結果">特選結果</h3>
-<blockquote>
-<p>依學系放榜日期排序，最終選擇就讀嘉義大學</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">學校名稱</th>
-<th style="text-align:center">招生名額</th>
-<th style="text-align:center">報名組別</th>
-<th style="text-align:center">書審成績</th>
-<th style="text-align:center">面試成績</th>
-<th style="text-align:center">最終成績</th>
-<th style="text-align:center">錄取狀態</th>
-<th style="text-align:center">面試心得</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">國立台南大學</td>
-<td style="text-align:center">2 / 1</td>
-<td style="text-align:center">一般組</td>
-<td style="text-align:center">81.81</td>
-<td style="text-align:center">81.00</td>
-<td style="text-align:center">81.41</td>
-<td style="text-align:center">備取 17</td>
-<td style="text-align:center"><a href="/NUTN">台南大學</a></td>
-</tr>
-<tr>
-<td style="text-align:center">國立高雄大學</td>
-<td style="text-align:center">3 / 0</td>
-<td style="text-align:center">一般組</td>
-<td style="text-align:center">83.00</td>
-<td style="text-align:center">84.67</td>
-<td style="text-align:center">83.84</td>
-<td style="text-align:center">備取 20</td>
-<td style="text-align:center"><a href="/NUK">高雄大學</a></td>
-</tr>
-<tr>
-<td style="text-align:center">台北市立大學</td>
-<td style="text-align:center">3 / 0</td>
-<td style="text-align:center">一般組</td>
-<td style="text-align:center">78.42</td>
-<td style="text-align:center">- -</td>
-<td style="text-align:center">78.42</td>
-<td style="text-align:center">備取 12</td>
-<td style="text-align:center">X</td>
-</tr>
-<tr>
-<td style="text-align:center">國立宜蘭大學</td>
-<td style="text-align:center">3 / 3</td>
-<td style="text-align:center">資安組</td>
-<td style="text-align:center">88.50</td>
-<td style="text-align:center">90.00</td>
-<td style="text-align:center">89.10</td>
-<td style="text-align:center">正取⠀3</td>
-<td style="text-align:center"><a href="/NIU">宜蘭大學</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><span class="highlightline">國立嘉義大學</span></td>
-<td style="text-align:center">3 / 2</td>
-<td style="text-align:center"><span class="highlightline">資安組</span></td>
-<td style="text-align:center">88.10</td>
-<td style="text-align:center">90.50</td>
-<td style="text-align:center">89.30</td>
-<td style="text-align:center"><span class="highlightline">正取⠀2</span></td>
-<td style="text-align:center"><a href="/NCYU">嘉義大學</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="特選心得">特選心得</h3>
-<p>雖然我報名的兩間資安組都順利錄取，我認為這已經是相當不錯的成績。不過，即便沒有被錄取，我也不會後悔參加特選，絕對不會。「 特選不是一種制度，而是一種態度 」⠀這句話一直烙印在我腦海裡，準備特選的這段時間，我的高中生活變得更加充實；也正因為特殊選才，我才能夠認識這麼多厲害的人，並了解來自不同地方的文化。這段經歷，無論如何，都無可取代。<span class="lightline">雖然結果固然重要，但我認為過程中所獲得的各種體會與成長才是這段旅程真正的價值所在</span>。</p>
-<h3 id="一些東西">一些東西</h3>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>備審資料 </summary>
-              <div class='content'>
-              <p>暫時先不放上來。不過想參考的話，可以<a class="link"   href="https://www.instagram.com/zichun808/" >私訊我<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>傳給你 ~</p><!-- [備審資料（嘉義大學）](https://drive.google.com/file/d/1kMhcpIUILVo2vIYssYMAEsxptbyqIXvS/view?usp=sharing) -->
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自我介紹講稿 </summary>
-              <div class='content'>
-              <div class="tabs" id="tab-tab"><ul class="nav-tabs"><li class="tab active"><a class="#tab-1">自我介紹 (一般組)</a></li><li class="tab"><a class="#tab-2">自我介紹 (資安組)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我學習程式設計的時間約一年半，在這段期間也積極參與了許多資訊相關的課程及活動，探索資安與資訊領域的應用。</li><li>我參加了教育部的資安人才培育計畫、數位發展部的 AIGO 課程以及國立中興大學的機器學習先修課程，加強我的資安知識基礎，並拓展我在人工智慧及機器學習領域的理解。</li><li>在實務應用上，我曾利用 Python 開發出 Discord 機器人，結合靜態爬蟲和 JSON 資料庫，解決日常生活中許多繁雜的工作。</li><li>除此之外，我也曾發現企業官網存在 XSS 漏洞並向 HITCON ZeroDay 回報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。</li><li>為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li></ul></div><div class="tab-pane" id="tab-2"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我第一次接觸資安是在小時候看的科幻電影，電影中的駭客情節讓我對資訊安全產生了好奇。而國中參加的一門網頁安全課程，則讓我對資訊安全有了初步的認識。</li><li>升上高中後，為了更進一步提升自己的資安能力，我參加了教育部資安人才培育計畫的許多課程，包括資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 等。其中，我對網頁安全及密碼學特別感興趣。此外，我也曾發現企業官網存在 XSS 漏洞，並透過 HITCON ZeroDay 向該網站管理員通報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，像是程式設計、機器學習、人工智慧及資訊安全，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li><li>我對資訊領域充滿熱忱，並且認為自己適合繼續深耕。期待未來能在嘉義大學，接受兼具理論與實務的完整學習，拓展更深的專業知識與技能。</li></ul></div></div></div>
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>資安經歷講稿 </summary>
-              <div class='content'>
-              <ul><li>我的資安經歷主要包括參加教育部資安人才培育計畫的資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 課程。</li><li>在這些課程中，我學習了程式安全、逆向工程、網頁安全及密碼學等主題，並曾接觸到真實世界中的攻擊案例。</li><li>此外，我曾發現企業官網存在反射型 XSS 漏洞，並透過 HITCON ZeroDay 平台向該網站管理員通報，協助修復漏洞，避免潛在的攻擊風險。</li><li>這些經歷不僅讓我對資訊安全有了更全面的認識，更激發了持續深入學習的熱情。</li></ul>
-              </div>
-            </details>]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>封面</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python 刷瀏覽次數</title>
     <url>/scraper/</url>
     <content><![CDATA[<hr>
@@ -1793,6 +1793,34 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
       </tags>
   </entry>
   <entry>
+    <title>Code Highlight</title>
+    <url>/test2/</url>
+    <content><![CDATA[<hr>
+<p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of <a class="link"   href="https://highlightjs.org" >https://highlightjs.org<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<!-- more -->
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Rust"><figure class="iseeu highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="meta">#[derive(Debug)]</span></span><br><span class="line"><span class="keyword">pub</span> <span class="keyword">enum</span> <span class="title class_">State</span> &#123;</span><br><span class="line">    Start,</span><br><span class="line">    Transient,</span><br><span class="line">    Closed,</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">impl</span> <span class="title class_">From</span>&lt;&amp;<span class="symbol">&#x27;a</span> <span class="type">str</span>&gt; <span class="keyword">for</span> <span class="title class_">State</span> &#123;</span><br><span class="line">    <span class="keyword">fn</span> <span class="title function_">from</span>(s: &amp;<span class="symbol">&#x27;a</span> <span class="type">str</span>) <span class="punctuation">-&gt;</span> <span class="keyword">Self</span> &#123;</span><br><span class="line">        <span class="keyword">match</span> s &#123;</span><br><span class="line">            <span class="string">&quot;start&quot;</span> =&gt; State::Start,</span><br><span class="line">            <span class="string">&quot;closed&quot;</span> =&gt; State::Closed,</span><br><span class="line">            _ =&gt; <span class="built_in">unreachable!</span>(),</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">[</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;apples&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;count&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="number">12000</span><span class="punctuation">,</span> <span class="number">20000</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;...&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;sensitive&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;oranges&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;count&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="number">17500</span><span class="punctuation">,</span> <span class="literal"><span class="keyword">null</span></span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;...&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;sensitive&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">somefunc</span>(<span class="params">param1=<span class="string">&#x27;&#x27;</span>, param2=<span class="number">0</span></span>):</span><br><span class="line">    <span class="string">r&#x27;&#x27;&#x27;A docstring&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">&#x27;Gre\&#x27;ater&#x27;</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span> + <span class="number">0b10l</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SomeClass</span>:</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">&#x27;&#x27;&#x27;interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"><span class="selector-tag">body</span> &#123;<span class="attribute">width</span>: <span class="number">500px</span>;&#125;</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">function</span> <span class="title function_">$init</span>(<span class="params"></span>) &#123;<span class="keyword">return</span> <span class="literal">true</span>;&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">checked</span> <span class="attr">class</span>=<span class="string">&quot;title&quot;</span> <span class="attr">id</span>=<span class="string">&#x27;title&#x27;</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- here goes the rest of the page --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">$initHighlight</span>(<span class="params">block, cls</span>) &#123;</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (cls.<span class="title function_">search</span>(<span class="regexp">/\bno\-highlight\b/</span>) != -<span class="number">1</span>)</span><br><span class="line">      <span class="keyword">return</span> <span class="title function_">process</span>(block, <span class="literal">true</span>, <span class="number">0x0F</span>) +</span><br><span class="line">             <span class="string">` class=&quot;<span class="subst">$&#123;cls&#125;</span>&quot;`</span>;</span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="comment">/* handle exception */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span> / <span class="number">2</span>; i &lt; classes.<span class="property">length</span>; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="title function_">checkCondition</span>(classes[i]) === <span class="literal">undefined</span>)</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;undefined&#x27;</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> (</span><br><span class="line">    <span class="language-xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">      <span class="tag">&lt;<span class="name">web-component</span>&gt;</span>&#123;block&#125;<span class="tag">&lt;/<span class="name">web-component</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">  )</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> $initHighlight;</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> *argv[])</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* An annoying &quot;Hello World&quot; example */</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">auto</span> i = <span class="number">0</span>; i &lt; <span class="number">0xFFFF</span>; i++)</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, World!&quot;</span> &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">  <span class="type">char</span> c = <span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">  unordered_map &lt;string, vector&lt;string&gt; &gt; m;</span><br><span class="line">  m[<span class="string">&quot;key&quot;</span>] = <span class="string">&quot;\\\\&quot;</span>; <span class="comment">// this is an error</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="number">-2e3</span> + <span class="number">12l</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Sql"><figure class="iseeu highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE TABLE</span> &quot;topic&quot; (</span><br><span class="line">    &quot;id&quot; serial <span class="keyword">NOT NULL</span> <span class="keyword">PRIMARY KEY</span>,</span><br><span class="line">    &quot;forum_id&quot; <span class="type">integer</span> <span class="keyword">NOT NULL</span>,</span><br><span class="line">    &quot;subject&quot; <span class="type">varchar</span>(<span class="number">255</span>) <span class="keyword">NOT NULL</span></span><br><span class="line">);</span><br><span class="line"><span class="keyword">ALTER TABLE</span> &quot;topic&quot;</span><br><span class="line"><span class="keyword">ADD CONSTRAINT</span> forum_id <span class="keyword">FOREIGN KEY</span> (&quot;forum_id&quot;)</span><br><span class="line"><span class="keyword">REFERENCES</span> &quot;forum&quot; (&quot;id&quot;);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Initials</span></span><br><span class="line"><span class="keyword">insert into</span> &quot;topic&quot; (&quot;forum_id&quot;, &quot;subject&quot;)</span><br><span class="line"><span class="keyword">values</span> (<span class="number">2</span>, <span class="string">&#x27;D&#x27;&#x27;artagnian&#x27;</span>);</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Objectivec"><figure class="iseeu highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="meta">#import <span class="string">&lt;UIKit/UIKit.h&gt;</span></span></span><br><span class="line"><span class="meta">#import <span class="string">&quot;Dependency.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">@protocol</span> <span class="title">WorldDataSource</span></span></span><br><span class="line"><span class="keyword">@optional</span></span><br><span class="line">- (<span class="built_in">NSString</span>*)worldName;</span><br><span class="line"><span class="keyword">@required</span></span><br><span class="line">- (<span class="type">BOOL</span>)allowsToLive;</span><br><span class="line"><span class="keyword">@end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readonly</span>) <span class="built_in">NSString</span> *title;</span><br><span class="line">- (<span class="keyword">IBAction</span>) show;</span><br><span class="line"><span class="keyword">@end</span></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> John Smith &lt;john.smith@example.com&gt;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">package</span> l2f.gameserver.model;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class</span> <span class="title class_">L2Char</span> <span class="keyword">extends</span> <span class="title class_">L2Object</span> &#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">Short</span> <span class="variable">ERROR</span> <span class="operator">=</span> <span class="number">0x0001</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">moveTo</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> y, <span class="type">int</span> z)</span> &#123;</span><br><span class="line">    _ai = <span class="literal">null</span>;</span><br><span class="line">    log(<span class="string">&quot;Should not be called&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (<span class="number">1</span> &gt; <span class="number">5</span>) &#123; <span class="comment">// wtf!?</span></span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Swift"><figure class="iseeu highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"></span><br><span class="line"><span class="keyword">@objc</span> <span class="keyword">class</span> <span class="title class_">Person</span>: <span class="title class_ inherited__">Entity</span> &#123;</span><br><span class="line">  <span class="keyword">var</span> name: <span class="type">String</span>!</span><br><span class="line">  <span class="keyword">var</span> age:  <span class="type">Int</span>!</span><br><span class="line"></span><br><span class="line">  <span class="keyword">init</span>(<span class="params">name</span>: <span class="type">String</span>, <span class="params">age</span>: <span class="type">Int</span>) &#123;</span><br><span class="line">    <span class="comment">/* <span class="comment">/* ... */</span> */</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// Return a descriptive string for this person</span></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">description</span>(<span class="params">offset</span>: <span class="type">Int</span> <span class="operator">=</span> <span class="number">0</span>) -&gt; <span class="type">String</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;<span class="subst">\(name)</span> is <span class="subst">\(age <span class="operator">+</span> offset)</span> years old&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Css"><figure class="iseeu highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive; <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;Chunkfive.otf&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">body</span>, <span class="selector-class">.usertext</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#F0F0F0</span>; <span class="attribute">background</span>: <span class="number">#600</span>;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive, sans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@import</span> url(print.css);</span><br><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">  <span class="selector-tag">a</span><span class="selector-attr">[href^=http]</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="built_in">attr</span>(href)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Ruby"><figure class="iseeu highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="comment"># The Greeter class</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Greeter</span></span><br><span class="line">  <span class="keyword">def</span> <span class="title function_">initialize</span>(<span class="params">name</span>)</span><br><span class="line">    <span class="variable">@name</span> = name.capitalize</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">def</span> <span class="title function_">salute</span></span><br><span class="line">    puts <span class="string">&quot;Hello <span class="subst">#&#123;<span class="variable">@name</span>&#125;</span>!&quot;</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">g = <span class="title class_">Greeter</span>.new(<span class="string">&quot;world&quot;</span>)</span><br><span class="line">g.salute</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Makefile"><figure class="iseeu highlight makefile"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Makefile</span></span><br><span class="line"></span><br><span class="line">BUILDDIR      = _build</span><br><span class="line">EXTRAS       ?= <span class="variable">$(BUILDDIR)</span>/extras</span><br><span class="line"></span><br><span class="line"><span class="meta"><span class="keyword">.PHONY</span>: main clean</span></span><br><span class="line"></span><br><span class="line"><span class="section">main:</span></span><br><span class="line">	@echo <span class="string">&quot;Building main facility...&quot;</span></span><br><span class="line">	build_main <span class="variable">$(BUILDDIR)</span></span><br><span class="line"></span><br><span class="line"><span class="section">clean:</span></span><br><span class="line">	rm -rf <span class="variable">$(BUILDDIR)</span>/*</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Go"><figure class="iseeu highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    ch := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="type">float64</span>)</span><br><span class="line">    ch &lt;- <span class="number">1.0e10</span>    <span class="comment">// magic number</span></span><br><span class="line">    x, ok := &lt;- ch</span><br><span class="line">    <span class="keyword">defer</span> fmt.Println(<span class="string">`exitting now\`</span>)</span><br><span class="line">    <span class="keyword">go</span> <span class="built_in">println</span>(<span class="built_in">len</span>(<span class="string">&quot;hello world!&quot;</span>))</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###### CONFIG</span></span><br><span class="line">ACCEPTED_HOSTS=<span class="string">&quot;/root/.hag_accepted.conf&quot;</span></span><br><span class="line">BE_VERBOSE=<span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$UID</span>&quot;</span> -ne 0 ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;Superuser rights required&quot;</span></span><br><span class="line">  <span class="built_in">exit</span> 2</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">genApacheConf</span></span>()&#123;</span><br><span class="line">  <span class="built_in">echo</span> -e <span class="string">&quot;# Host <span class="variable">$&#123;HOME_DIR&#125;</span><span class="variable">$1</span>/<span class="variable">$2</span> :&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="comment">; boilerplate</span></span><br><span class="line"><span class="section">[package]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;some_name&quot;</span></span><br><span class="line"><span class="attr">authors</span> = [<span class="string">&quot;Author&quot;</span>]</span><br><span class="line"><span class="attr">description</span> = <span class="string">&quot;This is \</span></span><br><span class="line"><span class="string">a description&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="section">[[lib]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="variable">$&#123;NAME&#125;</span></span><br><span class="line"><span class="attr">default</span> = <span class="literal">True</span></span><br><span class="line"><span class="attr">auto</span> = <span class="literal">no</span></span><br><span class="line"><span class="attr">counter</span> = <span class="number">1_000</span></span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <tags>
+        <tag>測試</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/test1/</url>
     <content><![CDATA[<hr>
@@ -1813,6 +1841,226 @@ pass by value 會在函式中改變變數值，但不影響主程式中的變數
 ]]></content>
       <tags>
         <tag>測試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文章字數統計</title>
+    <url>/words/</url>
+    <content><![CDATA[<hr>
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .result {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .metric-pair {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .value {
+            min-width: 4ch;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            background-color: #fff;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        @media (min-width: 601px) {
+            .group-triple {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .result {
+                padding: 0 10px;
+                gap: 10px;
+            }
+
+            .group, .group-triple {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+
+            .group-triple .metric-pair:nth-child(3) {
+                grid-column: auto;
+            }
+
+            .group-triple:last-child {
+                display: grid;
+                grid-template-areas: 
+                    "space punct"
+                    "emoji emoji";
+            }
+
+            .metric-pair {
+                margin: 0;
+            }
+        }
+
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode textarea {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
+        
+        <div class="result">
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文章字數</span>
+                    <span id="charCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總字元數</span>
+                    <span id="weightedCharCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文字段落</span>
+                    <span id="lineCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總單字數</span>
+                    <span id="englishWordCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>中文字數</span>
+                    <span id="chineseCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>英文字數</span>
+                    <span id="englishCharCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>數字數量</span>
+                    <span id="numberCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>空格數量</span>
+                    <span id="spaceCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>標點符號</span>
+                    <span id="punctCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>Emoji🙂</span>
+                    <span id="emojiCount" class="value">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script data-swup-reload-script type="text/javascript">
+        function analyzeText() {
+            const text = document.getElementById('textInput').value;
+
+            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
+            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
+            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
+            const numberCount = (text.match(/\d/g) || []).length;
+            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
+            const emojiCount = Math.floor(emojiMatches.length / 2);
+            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
+            const spaceCount = (text.match(/\s/g) || []).length;
+
+            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
+            const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
+
+            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
+            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
+            document.getElementById('lineCount').textContent = formatNumber(lineCount);
+            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
+            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
+            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
+            document.getElementById('punctCount').textContent = formatNumber(punctCount);
+            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
+            document.getElementById('numberCount').textContent = formatNumber(numberCount);
+            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
+        }
+
+        function formatNumber(num) {
+            if (num === 0) {
+                return '0';
+            }
+            return num.toString().replace(/^0+/, ''); 
+        }
+        window.onload = analyzeText;
+    </script>
+</body>
+</html>
+]]></content>
+      <categories>
+        <category>小工具</category>
+        <category>字數統計</category>
+      </categories>
+      <tags>
+        <tag>小工具</tag>
+        <tag>字數統計</tag>
       </tags>
   </entry>
   <entry>
@@ -2057,254 +2305,6 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"
 ]]></content>
       <tags>
         <tag>測試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Code Highlight</title>
-    <url>/test2/</url>
-    <content><![CDATA[<hr>
-<p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of <a class="link"   href="https://highlightjs.org" >https://highlightjs.org<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<!-- more -->
-<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Rust"><figure class="iseeu highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="meta">#[derive(Debug)]</span></span><br><span class="line"><span class="keyword">pub</span> <span class="keyword">enum</span> <span class="title class_">State</span> &#123;</span><br><span class="line">    Start,</span><br><span class="line">    Transient,</span><br><span class="line">    Closed,</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">impl</span> <span class="title class_">From</span>&lt;&amp;<span class="symbol">&#x27;a</span> <span class="type">str</span>&gt; <span class="keyword">for</span> <span class="title class_">State</span> &#123;</span><br><span class="line">    <span class="keyword">fn</span> <span class="title function_">from</span>(s: &amp;<span class="symbol">&#x27;a</span> <span class="type">str</span>) <span class="punctuation">-&gt;</span> <span class="keyword">Self</span> &#123;</span><br><span class="line">        <span class="keyword">match</span> s &#123;</span><br><span class="line">            <span class="string">&quot;start&quot;</span> =&gt; State::Start,</span><br><span class="line">            <span class="string">&quot;closed&quot;</span> =&gt; State::Closed,</span><br><span class="line">            _ =&gt; <span class="built_in">unreachable!</span>(),</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">[</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;apples&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;count&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="number">12000</span><span class="punctuation">,</span> <span class="number">20000</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;...&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;sensitive&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;oranges&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;count&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="number">17500</span><span class="punctuation">,</span> <span class="literal"><span class="keyword">null</span></span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;text&quot;</span><span class="punctuation">:</span> <span class="string">&quot;...&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;sensitive&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">somefunc</span>(<span class="params">param1=<span class="string">&#x27;&#x27;</span>, param2=<span class="number">0</span></span>):</span><br><span class="line">    <span class="string">r&#x27;&#x27;&#x27;A docstring&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">&#x27;Gre\&#x27;ater&#x27;</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span> + <span class="number">0b10l</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SomeClass</span>:</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">&#x27;&#x27;&#x27;interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"><span class="selector-tag">body</span> &#123;<span class="attribute">width</span>: <span class="number">500px</span>;&#125;</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">function</span> <span class="title function_">$init</span>(<span class="params"></span>) &#123;<span class="keyword">return</span> <span class="literal">true</span>;&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">checked</span> <span class="attr">class</span>=<span class="string">&quot;title&quot;</span> <span class="attr">id</span>=<span class="string">&#x27;title&#x27;</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- here goes the rest of the page --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">$initHighlight</span>(<span class="params">block, cls</span>) &#123;</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (cls.<span class="title function_">search</span>(<span class="regexp">/\bno\-highlight\b/</span>) != -<span class="number">1</span>)</span><br><span class="line">      <span class="keyword">return</span> <span class="title function_">process</span>(block, <span class="literal">true</span>, <span class="number">0x0F</span>) +</span><br><span class="line">             <span class="string">` class=&quot;<span class="subst">$&#123;cls&#125;</span>&quot;`</span>;</span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="comment">/* handle exception */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span> / <span class="number">2</span>; i &lt; classes.<span class="property">length</span>; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="title function_">checkCondition</span>(classes[i]) === <span class="literal">undefined</span>)</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;undefined&#x27;</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> (</span><br><span class="line">    <span class="language-xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">      <span class="tag">&lt;<span class="name">web-component</span>&gt;</span>&#123;block&#125;<span class="tag">&lt;/<span class="name">web-component</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">  )</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> $initHighlight;</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> *argv[])</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* An annoying &quot;Hello World&quot; example */</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">auto</span> i = <span class="number">0</span>; i &lt; <span class="number">0xFFFF</span>; i++)</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, World!&quot;</span> &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">  <span class="type">char</span> c = <span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">  unordered_map &lt;string, vector&lt;string&gt; &gt; m;</span><br><span class="line">  m[<span class="string">&quot;key&quot;</span>] = <span class="string">&quot;\\\\&quot;</span>; <span class="comment">// this is an error</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="number">-2e3</span> + <span class="number">12l</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Sql"><figure class="iseeu highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE TABLE</span> &quot;topic&quot; (</span><br><span class="line">    &quot;id&quot; serial <span class="keyword">NOT NULL</span> <span class="keyword">PRIMARY KEY</span>,</span><br><span class="line">    &quot;forum_id&quot; <span class="type">integer</span> <span class="keyword">NOT NULL</span>,</span><br><span class="line">    &quot;subject&quot; <span class="type">varchar</span>(<span class="number">255</span>) <span class="keyword">NOT NULL</span></span><br><span class="line">);</span><br><span class="line"><span class="keyword">ALTER TABLE</span> &quot;topic&quot;</span><br><span class="line"><span class="keyword">ADD CONSTRAINT</span> forum_id <span class="keyword">FOREIGN KEY</span> (&quot;forum_id&quot;)</span><br><span class="line"><span class="keyword">REFERENCES</span> &quot;forum&quot; (&quot;id&quot;);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Initials</span></span><br><span class="line"><span class="keyword">insert into</span> &quot;topic&quot; (&quot;forum_id&quot;, &quot;subject&quot;)</span><br><span class="line"><span class="keyword">values</span> (<span class="number">2</span>, <span class="string">&#x27;D&#x27;&#x27;artagnian&#x27;</span>);</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Objectivec"><figure class="iseeu highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="meta">#import <span class="string">&lt;UIKit/UIKit.h&gt;</span></span></span><br><span class="line"><span class="meta">#import <span class="string">&quot;Dependency.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">@protocol</span> <span class="title">WorldDataSource</span></span></span><br><span class="line"><span class="keyword">@optional</span></span><br><span class="line">- (<span class="built_in">NSString</span>*)worldName;</span><br><span class="line"><span class="keyword">@required</span></span><br><span class="line">- (<span class="type">BOOL</span>)allowsToLive;</span><br><span class="line"><span class="keyword">@end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readonly</span>) <span class="built_in">NSString</span> *title;</span><br><span class="line">- (<span class="keyword">IBAction</span>) show;</span><br><span class="line"><span class="keyword">@end</span></span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> John Smith &lt;john.smith@example.com&gt;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">package</span> l2f.gameserver.model;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class</span> <span class="title class_">L2Char</span> <span class="keyword">extends</span> <span class="title class_">L2Object</span> &#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">Short</span> <span class="variable">ERROR</span> <span class="operator">=</span> <span class="number">0x0001</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">moveTo</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> y, <span class="type">int</span> z)</span> &#123;</span><br><span class="line">    _ai = <span class="literal">null</span>;</span><br><span class="line">    log(<span class="string">&quot;Should not be called&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (<span class="number">1</span> &gt; <span class="number">5</span>) &#123; <span class="comment">// wtf!?</span></span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Swift"><figure class="iseeu highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"></span><br><span class="line"><span class="keyword">@objc</span> <span class="keyword">class</span> <span class="title class_">Person</span>: <span class="title class_ inherited__">Entity</span> &#123;</span><br><span class="line">  <span class="keyword">var</span> name: <span class="type">String</span>!</span><br><span class="line">  <span class="keyword">var</span> age:  <span class="type">Int</span>!</span><br><span class="line"></span><br><span class="line">  <span class="keyword">init</span>(<span class="params">name</span>: <span class="type">String</span>, <span class="params">age</span>: <span class="type">Int</span>) &#123;</span><br><span class="line">    <span class="comment">/* <span class="comment">/* ... */</span> */</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// Return a descriptive string for this person</span></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">description</span>(<span class="params">offset</span>: <span class="type">Int</span> <span class="operator">=</span> <span class="number">0</span>) -&gt; <span class="type">String</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;<span class="subst">\(name)</span> is <span class="subst">\(age <span class="operator">+</span> offset)</span> years old&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Css"><figure class="iseeu highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive; <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;Chunkfive.otf&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">body</span>, <span class="selector-class">.usertext</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#F0F0F0</span>; <span class="attribute">background</span>: <span class="number">#600</span>;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive, sans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@import</span> url(print.css);</span><br><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">  <span class="selector-tag">a</span><span class="selector-attr">[href^=http]</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="built_in">attr</span>(href)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Ruby"><figure class="iseeu highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="comment"># The Greeter class</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Greeter</span></span><br><span class="line">  <span class="keyword">def</span> <span class="title function_">initialize</span>(<span class="params">name</span>)</span><br><span class="line">    <span class="variable">@name</span> = name.capitalize</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">def</span> <span class="title function_">salute</span></span><br><span class="line">    puts <span class="string">&quot;Hello <span class="subst">#&#123;<span class="variable">@name</span>&#125;</span>!&quot;</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">g = <span class="title class_">Greeter</span>.new(<span class="string">&quot;world&quot;</span>)</span><br><span class="line">g.salute</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Makefile"><figure class="iseeu highlight makefile"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Makefile</span></span><br><span class="line"></span><br><span class="line">BUILDDIR      = _build</span><br><span class="line">EXTRAS       ?= <span class="variable">$(BUILDDIR)</span>/extras</span><br><span class="line"></span><br><span class="line"><span class="meta"><span class="keyword">.PHONY</span>: main clean</span></span><br><span class="line"></span><br><span class="line"><span class="section">main:</span></span><br><span class="line">	@echo <span class="string">&quot;Building main facility...&quot;</span></span><br><span class="line">	build_main <span class="variable">$(BUILDDIR)</span></span><br><span class="line"></span><br><span class="line"><span class="section">clean:</span></span><br><span class="line">	rm -rf <span class="variable">$(BUILDDIR)</span>/*</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Go"><figure class="iseeu highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    ch := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="type">float64</span>)</span><br><span class="line">    ch &lt;- <span class="number">1.0e10</span>    <span class="comment">// magic number</span></span><br><span class="line">    x, ok := &lt;- ch</span><br><span class="line">    <span class="keyword">defer</span> fmt.Println(<span class="string">`exitting now\`</span>)</span><br><span class="line">    <span class="keyword">go</span> <span class="built_in">println</span>(<span class="built_in">len</span>(<span class="string">&quot;hello world!&quot;</span>))</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###### CONFIG</span></span><br><span class="line">ACCEPTED_HOSTS=<span class="string">&quot;/root/.hag_accepted.conf&quot;</span></span><br><span class="line">BE_VERBOSE=<span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$UID</span>&quot;</span> -ne 0 ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;Superuser rights required&quot;</span></span><br><span class="line">  <span class="built_in">exit</span> 2</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">genApacheConf</span></span>()&#123;</span><br><span class="line">  <span class="built_in">echo</span> -e <span class="string">&quot;# Host <span class="variable">$&#123;HOME_DIR&#125;</span><span class="variable">$1</span>/<span class="variable">$2</span> :&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="comment">; boilerplate</span></span><br><span class="line"><span class="section">[package]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;some_name&quot;</span></span><br><span class="line"><span class="attr">authors</span> = [<span class="string">&quot;Author&quot;</span>]</span><br><span class="line"><span class="attr">description</span> = <span class="string">&quot;This is \</span></span><br><span class="line"><span class="string">a description&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="section">[[lib]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="variable">$&#123;NAME&#125;</span></span><br><span class="line"><span class="attr">default</span> = <span class="literal">True</span></span><br><span class="line"><span class="attr">auto</span> = <span class="literal">no</span></span><br><span class="line"><span class="attr">counter</span> = <span class="number">1_000</span></span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <tags>
-        <tag>測試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文章字數統計</title>
-    <url>/words/</url>
-    <content><![CDATA[<hr>
-
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .result {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-top: 20px;
-            width: 100%;
-            padding: 0 20px;
-        }
-
-        .group {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            width: 100%;
-        }
-
-        .metric-pair {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
-
-        .value {
-            min-width: 4ch;
-            text-align: right;
-            font-weight: bold;
-        }
-
-        textarea {
-            width: 100%;
-            min-height: 150px;
-            padding: 12px;
-            font-size: 16px;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            background-color: #fff;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        @media (min-width: 601px) {
-            .group-triple {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .result {
-                padding: 0 10px;
-                gap: 10px;
-            }
-
-            .group, .group-triple {
-                grid-template-columns: 1fr 1fr;
-                gap: 10px;
-            }
-
-            .group-triple .metric-pair:nth-child(3) {
-                grid-column: auto;
-            }
-
-            .group-triple:last-child {
-                display: grid;
-                grid-template-areas: 
-                    "space punct"
-                    "emoji emoji";
-            }
-
-            .metric-pair {
-                margin: 0;
-            }
-        }
-
-        body.dark-mode {
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-
-        body.dark-mode textarea {
-            background-color: #333333;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
-        
-        <div class="result">
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文章字數</span>
-                    <span id="charCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總字元數</span>
-                    <span id="weightedCharCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文字段落</span>
-                    <span id="lineCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總單字數</span>
-                    <span id="englishWordCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>中文字數</span>
-                    <span id="chineseCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>英文字數</span>
-                    <span id="englishCharCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>數字數量</span>
-                    <span id="numberCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>空格數量</span>
-                    <span id="spaceCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>標點符號</span>
-                    <span id="punctCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>Emoji🙂</span>
-                    <span id="emojiCount" class="value">0</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script data-swup-reload-script type="text/javascript">
-        function analyzeText() {
-            const text = document.getElementById('textInput').value;
-
-            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
-            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
-            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
-            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
-            const numberCount = (text.match(/\d/g) || []).length;
-            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
-            const emojiCount = Math.floor(emojiMatches.length / 2);
-            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
-            const spaceCount = (text.match(/\s/g) || []).length;
-
-            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
-            const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
-
-            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
-            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
-            document.getElementById('lineCount').textContent = formatNumber(lineCount);
-            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
-            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
-            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
-            document.getElementById('punctCount').textContent = formatNumber(punctCount);
-            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
-            document.getElementById('numberCount').textContent = formatNumber(numberCount);
-            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
-        }
-
-        function formatNumber(num) {
-            if (num === 0) {
-                return '0';
-            }
-            return num.toString().replace(/^0+/, ''); 
-        }
-        window.onload = analyzeText;
-    </script>
-</body>
-</html>
-]]></content>
-      <categories>
-        <category>小工具</category>
-        <category>字數統計</category>
-      </categories>
-      <tags>
-        <tag>小工具</tag>
-        <tag>字數統計</tag>
       </tags>
   </entry>
 </search>

@@ -54,7 +54,7 @@
   </div>
 
   <div class="note p-4 mb-4 rounded-small default">
-    <p>將商品一一點開，發現他們都是在 <code>product</code> 目錄下，並依序為第 <code>1</code>、<code>2</code>、<code>3</code>、<code>5</code>、<code>6</code>項 <img  
+    <p>將四樣商品點開，發現他們都是在 <code>product</code> 目錄下，依序為第 <code>1</code>、<code>2</code>、<code>3</code>、<code>5</code>、<code>6</code>項 <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="/images/AIS3-Junior-writeup/BAC02-2.png"
@@ -935,46 +935,7 @@ OWASP Top 10 是針對 Web Security 的常見漏洞排行榜，例如 Broken Acc
 <li><strong>教授：哪些漏洞常年位居榜單？</strong><br>
 Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因為它們影響範圍廣，且攻擊方式多樣，使得許多系統仍容易受到這些攻擊的影響。</li>
 <li><strong>教授：你學過密碼學，可以講講對稱與非對稱加密嗎？</strong><br>
-對稱式加密使用同一把密鑰進行加解密，因此速度較快，適合大量數據的加密，常見演算法如 AES；非對稱加密使用公鑰加密，私鑰解密。常用於數位簽章與安全通信，其中 RSA 是比較常見的演算法。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立宜蘭大學 特殊選才面試</title>
-    <url>/NIU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：5 分鐘</li>
-<li>報名人數：一般 48 / 資安 17</li>
-<li>招生名額：一般⠀3 / 資安⠀3</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 User-Agent 解決這個問題。</li>
-<li><strong>教授：你的小論文是如何進行的？</strong><br>
-起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
-<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
-因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
-<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
-我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
+對稱式加密使用一把密鑰進行加、解密，運算速度較快，適合大量數據的加密；非對稱加密使用公鑰加密，私鑰解密，常用於數位簽章。</li>
 </ul>
 ]]></content>
       <categories>
@@ -1038,6 +999,92 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
 <p><strong>教授：你考過英檢嗎？未來有打算考多益嗎？</strong><br>
 目前沒有考過英檢。不過因為我在準備特選的同時也有在準備學測，我在學測後有計畫報考多益。</p>
 </li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>面試</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>國立宜蘭大學 特殊選才面試</title>
+    <url>/NIU/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：5 分鐘</li>
+<li>報名人數：一般 48 / 資安 17</li>
+<li>招生名額：一般⠀3 / 資安⠀3</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
+（略）</li>
+<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
+在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 User-Agent 解決這個問題。</li>
+<li><strong>教授：你的小論文是如何進行的？</strong><br>
+起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
+<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
+因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
+<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
+我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>面試</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>國立台南大學 特殊選才面試</title>
+    <url>/NUTN/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：10 分鐘</li>
+<li>報名人數：一般 51 / 資安⠀1</li>
+<li>招生名額：一般⠀2 / 資安⠀1</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>台南是我第一間面試的學校，在這之前沒有任何面試經驗，所以沒有抱太大的希望。基本上是把這次面試當作練習，但還是有點緊張。教授問了幾個出乎我意料的問題，而且兩位教授的態度較為嚴肅，整體氛圍有點壓力。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你覺得自己有什麼特別之處？</strong><br>
+（略）</li>
+<li><strong>教授：你是從北部來的，你還有報哪些學校</strong>?<br>
+除了貴校外，我還有報宜蘭、嘉義、高雄及台北市立大學。</li>
+<li><strong>教授：你應該會想留在北部吧，為什麼想來我們學校？</strong><br>
+我認為到外縣市讀大學也很不錯，可以接觸到不同的環境和文化。</li>
+<li><strong>教授：你提到發現企業官網的XSS漏洞，那是什麼？</strong><br>
+我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
+<li><strong>教授：你會哪些程式語言?</strong><br>
+比較擅長 C++，其次是 Python。</li>
+<li><strong>教授：Python 和 C++ 之間有什麼差異？</strong><br>
+我覺得的 Python 整體語法較簡單、容易上手，但 C++ 有較快的運行速度並且可以進行較底層的處理。</li>
+<li><strong>教授：你提到的底層處理指的是什麼？</strong><br>
+像是透過指標直接存取記憶體。我們學校最近在學 Arduino，其中的控制程式也可以使用 C++ 撰寫。</li>
+<li><strong>教授：你只考過兩次 APCS？這期間有做什麼努力嗎？</strong><br>
+我在今年和去年六月都有參加 APCS，觀念與實作題皆為三級分。我覺得很可惜的是，今年第三題我因為沒看清楚題目條件，所以僅取得了部份分數。</li>
+<li><strong>教授：看起來你比較擅長實作，那觀念題有準備嗎？</strong><br>
+我平常會跟網友討論程式，所以都有在閱讀別人的程式碼，我覺得這對於 APCS 的觀念題也有很大的幫助。</li>
 </ul>
 ]]></content>
       <categories>
@@ -1153,7 +1200,17 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
               </div>
             </details>
 <h2 id="程式問題">程式問題</h2>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>物件導向程式設計 </summary>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>動態規劃 </summary>
+              <div class='content'>
+              <p>將問題拆解為子問題的解題方法，並透過儲存已計算的結果來避免重複計算。動態規劃通常用於解決有重複子問題的問題，透過陣列記錄每個子問題的解，從而提升運行效率。</p>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>遞迴 </summary>
+              <div class='content'>
+              <p>遞迴在數學上是函數直接或間接以自己定義自己，在程式上則是函數直接或間接呼叫自己。<br>它可以將一個大問題劃分為多個相似的小問題，並透過答案間的關聯將這些小問題解決得到整體的答案。<br>經常運用在處理 階乘、河內塔及八皇后 等問題。</p><p><span class="lightline">注意</span></p><p>若沒有適當地控制終止條件或設計得太複雜，可能會導致運行時間過長，甚至造成stackoverflow。<br>為了優化運算時間，我通常會搭配動態規劃或剪枝來避免重複計算。</p>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>物件導向 </summary>
               <div class='content'>
               <blockquote><p>物件導向的核心概念包括 「 封裝 」 、 「 繼承 」 和 「 多型 」 。</p></blockquote><ul><li>封裝 (Encapsulation)<ul><li>封裝的概念是將資料和方法封裝在物件內部，並設置存取權限，避免外部直接訪問或竄改數據。</li><li>可用 public、private 和 protected 關鍵字來控制成員的存取範圍。</li></ul></li><li>繼承 (Inheritance)<ul><li>繼承讓子類別能從父類別繼承其屬性和方法，避免撰寫重複的程式碼，讓我們更好維護它的內容。</li></ul></li><li>多型 (Polymorphism)<ul><li>多型允許不同的物件使用相同的名稱並根據對象的實際型別執行不同的操作。</li><li>可分為多載與複寫</li><li>多載 (Overloading)<ul><li>在編譯時決定，可以宣告名稱相同但參數個數或型別不同的函式。編譯器會根據傳入的參數自動選擇對應的函式。</li></ul></li><li>複寫 (Overriding)<ul><li>在運行時決定，我覺得它更像繼承的延伸版，它允許子類別依需求修改繼承的內容。</li></ul></li></ul></li></ul>
               </div>
@@ -1188,36 +1245,25 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
               <blockquote><p>給一個運算式的字串</p></blockquote><p>怎麼分辨數字和符號？</p><blockquote><p>利用它們的 ascii 值來分辨。</p></blockquote><p>怎麼處理先乘除後加減？</p><blockquote><p>利用運算符的優先級，透過 map 定義加、減為 1，乘、除為 2。在放入運算符時，先檢查堆疊頂部是否有較高或相同優先級的運算符，若有則先執行計算。</p></blockquote><p>怎麼處理括號？</p><blockquote><p>當遇到左括號時，直接放入堆疊，直到遇到右括號才依序處理堆疊中的運算式，並在完成後將左括號彈出。<br>這樣可以獨立計算括號中的部分，然後繼續處理主運算式。</p></blockquote>
               </div>
             </details>
-<h2 id="專業問題">專業問題</h2>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>動態規劃 </summary>
-              <div class='content'>
-              <p>將問題拆解為子問題的解題方法，並透過儲存已計算的結果來避免重複計算。動態規劃通常用於解決有重複子問題的問題，透過陣列記錄每個子問題的解，從而提升運行效率。</p>
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>遞迴 </summary>
-              <div class='content'>
-              <p>遞迴在數學上是函數直接或間接以自己定義自己，在程式上則是函數直接或間接呼叫自己。<br>它可以將一個大問題劃分為多個相似的小問題，並透過答案間的關聯將這些小問題解決得到整體的答案。<br>經常運用在處理 階乘、河內塔及八皇后 等問題。</p><p><span class="lightline">注意</span></p><p>若沒有適當地控制終止條件或設計得太複雜，可能會導致運行時間過長，甚至造成stackoverflow。<br>為了優化運算時間，我通常會搭配動態規劃或剪枝來避免重複計算。</p>
-              </div>
-            </details>
 <h2 id="觀念問題">觀念問題</h2>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>甚麼是樹? </summary>
               <div class='content'>
-              <p>樹 (Tree) 由節點 (Node) 和邊 (Edge) 組成。樹中的每個節點都可以有子節點，且每個節點只能有一個父節點 (除了根節點) 。樹的結構是有層次的，最上層的節點稱為根節點 (Root) ，最下層的節點稱為葉節點 (Leaf) 。</p><ul><li>根節點：沒有父節點的節點。</li><li>子節點：某一節點的直接後續節點。</li><li>父節點：某一節點的直接前導節點。</li><li>葉節點：沒有子節點的節點。</li><li>深度 (Depth) ：節點到根節點的距離。</li><li>高度 (Height) ：節點到最遠葉節點的距離。</li></ul>
+              <p>樹 (Tree) 由節點 (Node) 和邊 (Edge) 組成。樹中的每個節點都可以有子節點，且每個節點只能有一個父節點 (除了根節點)。<br>樹的結構是有層次的，最上層的節點稱為根節點 (Root) ，最下層的節點稱為葉節點 (Leaf) 。</p><ul><li>根節點：沒有父節點的節點。</li><li>子節點：某一節點的直接後續節點。</li><li>父節點：某一節點的直接前導節點。</li><li>葉節點：沒有子節點的節點。</li><li>深度 (Depth) ：節點到根節點的距離。</li><li>高度 (Height) ：節點到最遠葉節點的距離。</li></ul>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>如何建構唯一樹? </summary>
               <div class='content'>
-              <p>怎麼用前序遍歷和中序遍歷序列建出一棵樹?</p><blockquote><p>前序序列的第一個就是根，在中序序列中找到他就可以分出左右子樹，然後把前序的開頭變成下一個，中序的左邊傳下去遞迴，回傳目前子樹的根再接上去就可以建出唯一一棵樹了。</p></blockquote><p><span class="lightline">注意</span></p><p>前序遍歷和中序遍歷建構出唯一樹的限制</p><blockquote><p>每個節點的值必須唯一，因為只有這樣我們才能確定根節點在中序遍歷中的位置。若節點不唯一，則無法保證建出的樹是唯一的。</p></blockquote>
+              <p class='h4' id="如何利用前序遍歷與中序遍歷建構一棵唯一的二元樹？">如何利用前序遍歷與中序遍歷建構一棵唯一的二元樹？</h4><ol><li>確定根節點：前序遍歷的第一個節點即為<strong>根節點</strong>。</li><li>劃分左右子樹：在<strong>中序遍歷序列</strong>中找到根節點，它的左側屬於左子樹，右側屬於右子樹。</li><li>遞迴構建子樹：<ul><li><strong>更新前序遍歷的開頭</strong>，移至下一個節點，作為新子樹的根。</li><li>根據切割後的中序遍歷範圍，對左、右子樹分別遞迴建構。</li><li>回傳當前子樹的根，並將其接回適當位置。</li></ul></li></ol><p><span class="lightline">注意</span></p><h4 id="前序遍歷與中序遍歷能唯一確定一棵樹的條件"><strong>前序遍歷與中序遍歷能唯一確定一棵樹的條件</strong></h4><blockquote><p><strong>每個節點的值必須唯一</strong>，因為我們需要依據根節點在<strong>中序遍歷序列</strong>中的位置來區分左右子樹。若節點值不唯一，則無法確定樹的結構，可能會產生多種不同的二元樹。</p></blockquote>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>標頭檔、命名空間、作用域 </summary>
               <div class='content'>
-              <p class='h4' id="1-標頭檔-Header-File-：">1. 標頭檔 (Header File) ：</h4><blockquote><p>簡單來說，是存放我們需要使用的功能的地方。</p></blockquote><p>可以透過 <code>#include</code> 這個指令引入對應的標頭檔。</p><h4 id="2-命名空間-Namespace-：">2. 命名空間 (Namespace) ：</h4><blockquote><p>命名空間可以避免我們搞混相同名稱的問題。</p></blockquote><p>若有兩個人同名，我們不知道要如何分辨時，我們可能會說：三年一班的 XXX<br>在這裡概念是類似的！<code>using namespace std</code> 就是跟程式說，我接下來叫的人，是在 std 這個班級裡，這樣就不用每次叫人都加上班級了！</p><h4 id="3-作用域-Scope-：">3. 作用域 (Scope) ：</h4><blockquote><p>作用域是指變數或函式在程式中的可見範圍</p></blockquote><ul><li>全域作用域</li><li>區域作用域</li></ul>
+              <p class='h4' id="1-標頭檔-Header-File-：">1. 標頭檔 (Header File) ：</h4><blockquote><p>用來存放程式所需的函式、類別或變數定義的檔案。</p></blockquote><p>可以透過 <code>#include</code> 這個指令引入對應的標頭檔。</p><h4 id="2-命名空間-Namespace-：">2. 命名空間 (Namespace) ：</h4><blockquote><p>命名空間可以避免我們搞混相同名稱的問題。</p></blockquote><p>若有兩個人同名，我們不知道要如何分辨時，我們可能會說：三年一班的 XXX<br>在這裡概念是類似的！<code>using namespace std</code> 就是跟程式說，我接下來叫的人，是在 std 這個班級裡，這樣就不用每次叫人都加上班級了！</p><h4 id="3-作用域-Scope-：">3. 作用域 (Scope) ：</h4><blockquote><p>作用域是指變數或函式在程式中的可見範圍</p></blockquote><ul><li>全域作用域</li><li>區域作用域</li></ul>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>參考是什麼? </summary>
               <div class='content'>
-              <blockquote><p>我們可以透過參考給變數分配多個別名，但這些別名實際上都指向同一個記憶體區塊。</p></blockquote><p class='h4' id="Pass-by-value-傳值">Pass by value (傳值)</h4><p>在傳值的時候，把一個數字傳過去，之後那邊再開一個記憶體空間來存它<br>所以當收到 value 的函式結束後，函式內的數值就會不見了</p><h4 id="Pass-by-address-傳址">Pass by address (傳址)</h4><p>我們傳的東西，並不是一個數值，而是一個指標<br>我們利用指標去找同一塊記憶體位置，去進行運算，所以會改變原本的數值，函式結束時，數值亦仍存在</p><h4 id="Pass-by-reference-傳參考">Pass by reference (傳參考)</h4><p>傳參考是一個更方便的傳遞方式，函式接收到變數的參考，這樣可以在函式內直接修改該變數的值。<br>它類似於傳址，但不需要添加指標。當一個變數以參考方式傳遞時，函式內部會有一個新的別名，這個別名只能在該函式內使用。</p>
+              <blockquote><p>我們可以透過參考給變數分配多個別名，但這些別名實際上都指向同一個記憶體區塊。</p></blockquote><p class='h4' id="Pass-by-value-傳值">Pass by value (傳值)</h4><p>在傳值的時候，把一個數字傳過去，之後那邊再開一個記憶體空間來存它，所以當收到 value 的函式結束後，函式內的數值就會不見了</p><h4 id="Pass-by-address-傳址">Pass by address (傳址)</h4><p>我們傳的東西，並不是一個數值，而是一個指標。我們利用指標去找同一塊記憶體位置進行運算，所以會改變原本的數值，函式結束時，數值亦仍存在</p><h4 id="Pass-by-reference-傳參考">Pass by reference (傳參考)</h4><p>傳參考是一個更方便的傳遞方式，函式接收到變數的參考，這樣可以在函式內直接修改該變數的值。<br>它類似於傳址，但不需要添加指標。當一個變數以參考方式傳遞時，函式內部會有一個新的別名，這個別名只能在該函式內使用。</p>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Stack、Queue 差別 </summary>
@@ -1294,7 +1340,7 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>深度學習與機器學習的差異 </summary>
               <div class='content'>
-              <blockquote><p>深度學習是機器學習的一個子領域，主要使用神經網絡來解決複雜問題。</p></blockquote><p>機器學習相對於深度學習通常使用較簡單的模型，如線性回歸、決策樹等。對於數據量的需求較少，也因此計算量會比深度學習更小。但機器學習需要手動提取特徵，而深度學習則會自動從數據中學習特徵。<br>使得深度學習在處理大數據和圖像辨識或自然語言處理上更具優勢，但也需要更多的計算和數據支持。</p>
+              <blockquote><p>深度學習是機器學習的一個子領域，主要使用神經網絡來解決複雜問題。</p></blockquote><p>機器學習相對於深度學習通常使用較簡單的模型，如線性回歸、決策樹等。對於數據量的需求較少，也因此計算量會比深度學習更小。但機器學習需要手動提取特徵，而深度學習則會自動從數據中學習特徵。使得深度學習在處理大數據和圖像辨識或自然語言處理上更具優勢，但也需要更多的計算和數據支持。</p>
               </div>
             </details>
 <h2 id="學習提問">學習提問</h2>
@@ -1380,53 +1426,6 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
         <tag>特殊選才</tag>
         <tag>面試</tag>
         <tag>準備</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立台南大學 特殊選才面試</title>
-    <url>/NUTN/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：10 分鐘</li>
-<li>報名人數：一般 51 / 資安⠀1</li>
-<li>招生名額：一般⠀2 / 資安⠀1</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>台南是我第一間面試的學校，在這之前沒有任何面試經驗，所以沒有抱太大的希望。基本上是把這次面試當作練習，但還是有點緊張。教授問了幾個出乎我意料的問題，而且兩位教授的態度較為嚴肅，整體氛圍有點壓力。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你覺得自己有什麼特別之處？</strong><br>
-（略）</li>
-<li><strong>教授：你是從北部來的，你還有報哪些學校</strong>?<br>
-除了貴校外，我還有報宜蘭、嘉義、高雄及台北市立大學。</li>
-<li><strong>教授：你應該會想留在北部吧，為什麼想來我們學校？</strong><br>
-我認為到外縣市讀大學也很不錯，可以接觸到不同的環境和文化。</li>
-<li><strong>教授：你提到發現企業官網的XSS漏洞，那是什麼？</strong><br>
-我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
-<li><strong>教授：你會哪些程式語言?</strong><br>
-比較擅長 C++，其次是 Python。</li>
-<li><strong>教授：Python 和 C++ 之間有什麼差異？</strong><br>
-我覺得的 Python 整體語法較簡單、容易上手，但 C++ 有較快的運行速度並且可以進行較底層的處理。</li>
-<li><strong>教授：你提到的底層處理指的是什麼？</strong><br>
-像是透過指標直接存取記憶體。我們學校最近在學 Arduino，其中的控制程式也可以使用 C++ 撰寫。</li>
-<li><strong>教授：你只考過兩次 APCS？這期間有做什麼努力嗎？</strong><br>
-我在今年和去年六月都有參加 APCS，觀念與實作題皆為三級分。我覺得很可惜的是，今年第三題我因為沒看清楚題目條件，所以僅取得了部份分數。</li>
-<li><strong>教授：看起來你比較擅長實作，那觀念題有準備嗎？</strong><br>
-我平常會跟網友討論程式，所以都有在閱讀別人的程式碼，我覺得這對於 APCS 的觀念題也有很大的幫助。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
       </tags>
   </entry>
   <entry>
@@ -1793,29 +1792,6 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/test1/</url>
-    <content><![CDATA[<hr>
-<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Run-server">Run server</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-]]></content>
-      <tags>
-        <tag>測試</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Code Highlight</title>
     <url>/test2/</url>
     <content><![CDATA[<hr>
@@ -1844,223 +1820,26 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
       </tags>
   </entry>
   <entry>
-    <title>文章字數統計</title>
-    <url>/words/</url>
+    <title>Hello World</title>
+    <url>/test1/</url>
     <content><![CDATA[<hr>
-
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .result {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-top: 20px;
-            width: 100%;
-            padding: 0 20px;
-        }
-
-        .group {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            width: 100%;
-        }
-
-        .metric-pair {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
-
-        .value {
-            min-width: 4ch;
-            text-align: right;
-            font-weight: bold;
-        }
-
-        textarea {
-            width: 100%;
-            min-height: 150px;
-            padding: 12px;
-            font-size: 16px;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            background-color: #fff;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        @media (min-width: 601px) {
-            .group-triple {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .result {
-                padding: 0 10px;
-                gap: 10px;
-            }
-
-            .group, .group-triple {
-                grid-template-columns: 1fr 1fr;
-                gap: 10px;
-            }
-
-            .group-triple .metric-pair:nth-child(3) {
-                grid-column: auto;
-            }
-
-            .group-triple:last-child {
-                display: grid;
-                grid-template-areas: 
-                    "space punct"
-                    "emoji emoji";
-            }
-
-            .metric-pair {
-                margin: 0;
-            }
-        }
-
-        body.dark-mode {
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-
-        body.dark-mode textarea {
-            background-color: #333333;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
-        
-        <div class="result">
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文章字數</span>
-                    <span id="charCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總字元數</span>
-                    <span id="weightedCharCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文字段落</span>
-                    <span id="lineCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總單字數</span>
-                    <span id="englishWordCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>中文字數</span>
-                    <span id="chineseCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>英文字數</span>
-                    <span id="englishCharCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>數字數量</span>
-                    <span id="numberCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>空格數量</span>
-                    <span id="spaceCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>標點符號</span>
-                    <span id="punctCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>Emoji🙂</span>
-                    <span id="emojiCount" class="value">0</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script data-swup-reload-script type="text/javascript">
-        function analyzeText() {
-            const text = document.getElementById('textInput').value;
-
-            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
-            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
-            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
-            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
-            const numberCount = (text.match(/\d/g) || []).length;
-            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
-            const emojiCount = Math.floor(emojiMatches.length / 2);
-            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
-            const spaceCount = (text.match(/\s/g) || []).length;
-
-            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
-            const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
-
-            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
-            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
-            document.getElementById('lineCount').textContent = formatNumber(lineCount);
-            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
-            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
-            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
-            document.getElementById('punctCount').textContent = formatNumber(punctCount);
-            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
-            document.getElementById('numberCount').textContent = formatNumber(numberCount);
-            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
-        }
-
-        function formatNumber(num) {
-            if (num === 0) {
-                return '0';
-            }
-            return num.toString().replace(/^0+/, ''); 
-        }
-        window.onload = analyzeText;
-    </script>
-</body>
-</html>
+<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Run-server">Run server</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 ]]></content>
-      <categories>
-        <category>小工具</category>
-        <category>字數統計</category>
-      </categories>
       <tags>
-        <tag>小工具</tag>
-        <tag>字數統計</tag>
+        <tag>測試</tag>
       </tags>
   </entry>
   <entry>
@@ -2305,6 +2084,226 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"
 ]]></content>
       <tags>
         <tag>測試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文章字數統計</title>
+    <url>/words/</url>
+    <content><![CDATA[<hr>
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .result {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .metric-pair {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .value {
+            min-width: 4ch;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            background-color: #fff;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        @media (min-width: 601px) {
+            .group-triple {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .result {
+                padding: 0 10px;
+                gap: 10px;
+            }
+
+            .group, .group-triple {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+
+            .group-triple .metric-pair:nth-child(3) {
+                grid-column: auto;
+            }
+
+            .group-triple:last-child {
+                display: grid;
+                grid-template-areas: 
+                    "space punct"
+                    "emoji emoji";
+            }
+
+            .metric-pair {
+                margin: 0;
+            }
+        }
+
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode textarea {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
+        
+        <div class="result">
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文章字數</span>
+                    <span id="charCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總字元數</span>
+                    <span id="weightedCharCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文字段落</span>
+                    <span id="lineCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總單字數</span>
+                    <span id="englishWordCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>中文字數</span>
+                    <span id="chineseCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>英文字數</span>
+                    <span id="englishCharCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>數字數量</span>
+                    <span id="numberCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>空格數量</span>
+                    <span id="spaceCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>標點符號</span>
+                    <span id="punctCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>Emoji🙂</span>
+                    <span id="emojiCount" class="value">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script data-swup-reload-script type="text/javascript">
+        function analyzeText() {
+            const text = document.getElementById('textInput').value;
+
+            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
+            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
+            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
+            const numberCount = (text.match(/\d/g) || []).length;
+            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
+            const emojiCount = Math.floor(emojiMatches.length / 2);
+            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
+            const spaceCount = (text.match(/\s/g) || []).length;
+
+            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
+            const weightedCharCount = (chineseCount * 3) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
+
+            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
+            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
+            document.getElementById('lineCount').textContent = formatNumber(lineCount);
+            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
+            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
+            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
+            document.getElementById('punctCount').textContent = formatNumber(punctCount);
+            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
+            document.getElementById('numberCount').textContent = formatNumber(numberCount);
+            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
+        }
+
+        function formatNumber(num) {
+            if (num === 0) {
+                return '0';
+            }
+            return num.toString().replace(/^0+/, ''); 
+        }
+        window.onload = analyzeText;
+    </script>
+</body>
+</html>
+]]></content>
+      <categories>
+        <category>小工具</category>
+        <category>字數統計</category>
+      </categories>
+      <tags>
+        <tag>小工具</tag>
+        <tag>字數統計</tag>
       </tags>
   </entry>
 </search>

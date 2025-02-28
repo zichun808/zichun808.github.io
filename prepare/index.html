@@ -762,7 +762,17 @@
               </div>
             </details>
 <h2 id="程式問題">程式問題</h2>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>物件導向程式設計 </summary>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>動態規劃 </summary>
+              <div class='content'>
+              <p>將問題拆解為子問題的解題方法，並透過儲存已計算的結果來避免重複計算。動態規劃通常用於解決有重複子問題的問題，透過陣列記錄每個子問題的解，從而提升運行效率。</p>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>遞迴 </summary>
+              <div class='content'>
+              <p>遞迴在數學上是函數直接或間接以自己定義自己，在程式上則是函數直接或間接呼叫自己。<br>它可以將一個大問題劃分為多個相似的小問題，並透過答案間的關聯將這些小問題解決得到整體的答案。<br>經常運用在處理 階乘、河內塔及八皇后 等問題。</p><p><span class="lightline">注意</span></p><p>若沒有適當地控制終止條件或設計得太複雜，可能會導致運行時間過長，甚至造成stackoverflow。<br>為了優化運算時間，我通常會搭配動態規劃或剪枝來避免重複計算。</p>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>物件導向 </summary>
               <div class='content'>
               <blockquote><p>物件導向的核心概念包括 「 封裝 」 、 「 繼承 」 和 「 多型 」 。</p></blockquote><ul><li>封裝 (Encapsulation)<ul><li>封裝的概念是將資料和方法封裝在物件內部，並設置存取權限，避免外部直接訪問或竄改數據。</li><li>可用 public、private 和 protected 關鍵字來控制成員的存取範圍。</li></ul></li><li>繼承 (Inheritance)<ul><li>繼承讓子類別能從父類別繼承其屬性和方法，避免撰寫重複的程式碼，讓我們更好維護它的內容。</li></ul></li><li>多型 (Polymorphism)<ul><li>多型允許不同的物件使用相同的名稱並根據對象的實際型別執行不同的操作。</li><li>可分為多載與複寫</li><li>多載 (Overloading)<ul><li>在編譯時決定，可以宣告名稱相同但參數個數或型別不同的函式。編譯器會根據傳入的參數自動選擇對應的函式。</li></ul></li><li>複寫 (Overriding)<ul><li>在運行時決定，我覺得它更像繼承的延伸版，它允許子類別依需求修改繼承的內容。</li></ul></li></ul></li></ul>
               </div>
@@ -797,36 +807,25 @@
               <blockquote><p>給一個運算式的字串</p></blockquote><p>怎麼分辨數字和符號？</p><blockquote><p>利用它們的 ascii 值來分辨。</p></blockquote><p>怎麼處理先乘除後加減？</p><blockquote><p>利用運算符的優先級，透過 map 定義加、減為 1，乘、除為 2。在放入運算符時，先檢查堆疊頂部是否有較高或相同優先級的運算符，若有則先執行計算。</p></blockquote><p>怎麼處理括號？</p><blockquote><p>當遇到左括號時，直接放入堆疊，直到遇到右括號才依序處理堆疊中的運算式，並在完成後將左括號彈出。<br>這樣可以獨立計算括號中的部分，然後繼續處理主運算式。</p></blockquote>
               </div>
             </details>
-<h2 id="專業問題">專業問題</h2>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>動態規劃 </summary>
-              <div class='content'>
-              <p>將問題拆解為子問題的解題方法，並透過儲存已計算的結果來避免重複計算。動態規劃通常用於解決有重複子問題的問題，透過陣列記錄每個子問題的解，從而提升運行效率。</p>
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>遞迴 </summary>
-              <div class='content'>
-              <p>遞迴在數學上是函數直接或間接以自己定義自己，在程式上則是函數直接或間接呼叫自己。<br>它可以將一個大問題劃分為多個相似的小問題，並透過答案間的關聯將這些小問題解決得到整體的答案。<br>經常運用在處理 階乘、河內塔及八皇后 等問題。</p><p><span class="lightline">注意</span></p><p>若沒有適當地控制終止條件或設計得太複雜，可能會導致運行時間過長，甚至造成stackoverflow。<br>為了優化運算時間，我通常會搭配動態規劃或剪枝來避免重複計算。</p>
-              </div>
-            </details>
 <h2 id="觀念問題">觀念問題</h2>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>甚麼是樹? </summary>
               <div class='content'>
-              <p>樹 (Tree) 由節點 (Node) 和邊 (Edge) 組成。樹中的每個節點都可以有子節點，且每個節點只能有一個父節點 (除了根節點) 。樹的結構是有層次的，最上層的節點稱為根節點 (Root) ，最下層的節點稱為葉節點 (Leaf) 。</p><ul><li>根節點：沒有父節點的節點。</li><li>子節點：某一節點的直接後續節點。</li><li>父節點：某一節點的直接前導節點。</li><li>葉節點：沒有子節點的節點。</li><li>深度 (Depth) ：節點到根節點的距離。</li><li>高度 (Height) ：節點到最遠葉節點的距離。</li></ul>
+              <p>樹 (Tree) 由節點 (Node) 和邊 (Edge) 組成。樹中的每個節點都可以有子節點，且每個節點只能有一個父節點 (除了根節點)。<br>樹的結構是有層次的，最上層的節點稱為根節點 (Root) ，最下層的節點稱為葉節點 (Leaf) 。</p><ul><li>根節點：沒有父節點的節點。</li><li>子節點：某一節點的直接後續節點。</li><li>父節點：某一節點的直接前導節點。</li><li>葉節點：沒有子節點的節點。</li><li>深度 (Depth) ：節點到根節點的距離。</li><li>高度 (Height) ：節點到最遠葉節點的距離。</li></ul>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>如何建構唯一樹? </summary>
               <div class='content'>
-              <p>怎麼用前序遍歷和中序遍歷序列建出一棵樹?</p><blockquote><p>前序序列的第一個就是根，在中序序列中找到他就可以分出左右子樹，然後把前序的開頭變成下一個，中序的左邊傳下去遞迴，回傳目前子樹的根再接上去就可以建出唯一一棵樹了。</p></blockquote><p><span class="lightline">注意</span></p><p>前序遍歷和中序遍歷建構出唯一樹的限制</p><blockquote><p>每個節點的值必須唯一，因為只有這樣我們才能確定根節點在中序遍歷中的位置。若節點不唯一，則無法保證建出的樹是唯一的。</p></blockquote>
+              <p class='h4' id="如何利用前序遍歷與中序遍歷建構一棵唯一的二元樹？">如何利用前序遍歷與中序遍歷建構一棵唯一的二元樹？</h4><ol><li>確定根節點：前序遍歷的第一個節點即為<strong>根節點</strong>。</li><li>劃分左右子樹：在<strong>中序遍歷序列</strong>中找到根節點，它的左側屬於左子樹，右側屬於右子樹。</li><li>遞迴構建子樹：<ul><li><strong>更新前序遍歷的開頭</strong>，移至下一個節點，作為新子樹的根。</li><li>根據切割後的中序遍歷範圍，對左、右子樹分別遞迴建構。</li><li>回傳當前子樹的根，並將其接回適當位置。</li></ul></li></ol><p><span class="lightline">注意</span></p><h4 id="前序遍歷與中序遍歷能唯一確定一棵樹的條件"><strong>前序遍歷與中序遍歷能唯一確定一棵樹的條件</strong></h4><blockquote><p><strong>每個節點的值必須唯一</strong>，因為我們需要依據根節點在<strong>中序遍歷序列</strong>中的位置來區分左右子樹。若節點值不唯一，則無法確定樹的結構，可能會產生多種不同的二元樹。</p></blockquote>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>標頭檔、命名空間、作用域 </summary>
               <div class='content'>
-              <p class='h4' id="1-標頭檔-Header-File-：">1. 標頭檔 (Header File) ：</h4><blockquote><p>簡單來說，是存放我們需要使用的功能的地方。</p></blockquote><p>可以透過 <code>#include</code> 這個指令引入對應的標頭檔。</p><h4 id="2-命名空間-Namespace-：">2. 命名空間 (Namespace) ：</h4><blockquote><p>命名空間可以避免我們搞混相同名稱的問題。</p></blockquote><p>若有兩個人同名，我們不知道要如何分辨時，我們可能會說：三年一班的 XXX<br>在這裡概念是類似的！<code>using namespace std</code> 就是跟程式說，我接下來叫的人，是在 std 這個班級裡，這樣就不用每次叫人都加上班級了！</p><h4 id="3-作用域-Scope-：">3. 作用域 (Scope) ：</h4><blockquote><p>作用域是指變數或函式在程式中的可見範圍</p></blockquote><ul><li>全域作用域</li><li>區域作用域</li></ul>
+              <p class='h4' id="1-標頭檔-Header-File-：">1. 標頭檔 (Header File) ：</h4><blockquote><p>用來存放程式所需的函式、類別或變數定義的檔案。</p></blockquote><p>可以透過 <code>#include</code> 這個指令引入對應的標頭檔。</p><h4 id="2-命名空間-Namespace-：">2. 命名空間 (Namespace) ：</h4><blockquote><p>命名空間可以避免我們搞混相同名稱的問題。</p></blockquote><p>若有兩個人同名，我們不知道要如何分辨時，我們可能會說：三年一班的 XXX<br>在這裡概念是類似的！<code>using namespace std</code> 就是跟程式說，我接下來叫的人，是在 std 這個班級裡，這樣就不用每次叫人都加上班級了！</p><h4 id="3-作用域-Scope-：">3. 作用域 (Scope) ：</h4><blockquote><p>作用域是指變數或函式在程式中的可見範圍</p></blockquote><ul><li>全域作用域</li><li>區域作用域</li></ul>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>參考是什麼? </summary>
               <div class='content'>
-              <blockquote><p>我們可以透過參考給變數分配多個別名，但這些別名實際上都指向同一個記憶體區塊。</p></blockquote><p class='h4' id="Pass-by-value-傳值">Pass by value (傳值)</h4><p>在傳值的時候，把一個數字傳過去，之後那邊再開一個記憶體空間來存它<br>所以當收到 value 的函式結束後，函式內的數值就會不見了</p><h4 id="Pass-by-address-傳址">Pass by address (傳址)</h4><p>我們傳的東西，並不是一個數值，而是一個指標<br>我們利用指標去找同一塊記憶體位置，去進行運算，所以會改變原本的數值，函式結束時，數值亦仍存在</p><h4 id="Pass-by-reference-傳參考">Pass by reference (傳參考)</h4><p>傳參考是一個更方便的傳遞方式，函式接收到變數的參考，這樣可以在函式內直接修改該變數的值。<br>它類似於傳址，但不需要添加指標。當一個變數以參考方式傳遞時，函式內部會有一個新的別名，這個別名只能在該函式內使用。</p>
+              <blockquote><p>我們可以透過參考給變數分配多個別名，但這些別名實際上都指向同一個記憶體區塊。</p></blockquote><p class='h4' id="Pass-by-value-傳值">Pass by value (傳值)</h4><p>在傳值的時候，把一個數字傳過去，之後那邊再開一個記憶體空間來存它，所以當收到 value 的函式結束後，函式內的數值就會不見了</p><h4 id="Pass-by-address-傳址">Pass by address (傳址)</h4><p>我們傳的東西，並不是一個數值，而是一個指標。我們利用指標去找同一塊記憶體位置進行運算，所以會改變原本的數值，函式結束時，數值亦仍存在</p><h4 id="Pass-by-reference-傳參考">Pass by reference (傳參考)</h4><p>傳參考是一個更方便的傳遞方式，函式接收到變數的參考，這樣可以在函式內直接修改該變數的值。<br>它類似於傳址，但不需要添加指標。當一個變數以參考方式傳遞時，函式內部會有一個新的別名，這個別名只能在該函式內使用。</p>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Stack、Queue 差別 </summary>
@@ -903,7 +902,7 @@
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>深度學習與機器學習的差異 </summary>
               <div class='content'>
-              <blockquote><p>深度學習是機器學習的一個子領域，主要使用神經網絡來解決複雜問題。</p></blockquote><p>機器學習相對於深度學習通常使用較簡單的模型，如線性回歸、決策樹等。對於數據量的需求較少，也因此計算量會比深度學習更小。但機器學習需要手動提取特徵，而深度學習則會自動從數據中學習特徵。<br>使得深度學習在處理大數據和圖像辨識或自然語言處理上更具優勢，但也需要更多的計算和數據支持。</p>
+              <blockquote><p>深度學習是機器學習的一個子領域，主要使用神經網絡來解決複雜問題。</p></blockquote><p>機器學習相對於深度學習通常使用較簡單的模型，如線性回歸、決策樹等。對於數據量的需求較少，也因此計算量會比深度學習更小。但機器學習需要手動提取特徵，而深度學習則會自動從數據中學習特徵。使得深度學習在處理大數據和圖像辨識或自然語言處理上更具優勢，但也需要更多的計算和數據支持。</p>
               </div>
             </details>
 <h2 id="學習提問">學習提問</h2>
@@ -1106,7 +1105,7 @@
 	<div class="post-toc">
 		<div class="toc-title">On this page</div>
 		<div class="page-title">特殊選才 面試準備筆記</div>
-		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9"><span class="nav-text">自我介紹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%A7%E5%AD%B8%E5%95%8F%E9%A1%8C"><span class="nav-text">大學問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E7%B6%93%E6%AD%B7"><span class="nav-text">程式經歷</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E5%95%8F%E9%A1%8C"><span class="nav-text">程式問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%88%E6%A5%AD%E5%95%8F%E9%A1%8C"><span class="nav-text">專業問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%80%E5%BF%B5%E5%95%8F%E9%A1%8C"><span class="nav-text">觀念問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B3%87%E5%AE%89%E5%95%8F%E9%A1%8C"><span class="nav-text">資安問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92"><span class="nav-text">機器學習</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%B8%E7%BF%92%E6%8F%90%E5%95%8F"><span class="nav-text">學習提問</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AA%E4%BE%86%E5%B1%95%E6%9C%9B"><span class="nav-text">未來展望</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85"><span class="nav-text">注意事項</span></a></li></ol>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9"><span class="nav-text">自我介紹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%A7%E5%AD%B8%E5%95%8F%E9%A1%8C"><span class="nav-text">大學問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E7%B6%93%E6%AD%B7"><span class="nav-text">程式經歷</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E5%95%8F%E9%A1%8C"><span class="nav-text">程式問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%80%E5%BF%B5%E5%95%8F%E9%A1%8C"><span class="nav-text">觀念問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B3%87%E5%AE%89%E5%95%8F%E9%A1%8C"><span class="nav-text">資安問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92"><span class="nav-text">機器學習</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%B8%E7%BF%92%E6%8F%90%E5%95%8F"><span class="nav-text">學習提問</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AA%E4%BE%86%E5%B1%95%E6%9C%9B"><span class="nav-text">未來展望</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85"><span class="nav-text">注意事項</span></a></li></ol>
 
 	</div>
 </div>

@@ -75,7 +75,7 @@
     
             
                 
-                    <link rel="stylesheet" href="/css/head.css">
+                    <link rel="stylesheet" href="/scripts/head.css">
                 
     
 
@@ -769,27 +769,27 @@
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>排序演算法-1 </summary>
               <div class='content'>
-              <p class='h3' id="Quick-sort-快速排序">Quick sort (快速排序)</h3><blockquote><p>快速排序以二元樹的前序走訪為基礎</p></blockquote><p>(1) 以陣列取出一個數字做為基準值。<br>(2) 將大於基準值的元素放到基準值後面，小於或等於的元素放到前面。<br>(3) 再對左右區間重複上述步驟，直到所有區間都只有一個數存在。</p><p><span class="lightline">時間複雜度<span></p><p>Quick sort 的基準值若選擇陣列中央，就能分割成一個較平衡二元樹，高度接近 log n。其中每層需進行n次比較與交換，所以複雜度接近 $O(nlogn)$。</p><p><span class="lightline">注意<span></p><p>若陣列中資料以排序或接近排序完成，則在分割時會產生歪斜的二元樹，使高度接近 n，因而使複雜度變為 $O(n^2)$。<br>可以利用隨機選擇基準值位置避免。</p>
+              <p class='h3' id="Quick-sort-快速排序">Quick sort (快速排序)</h3><blockquote><p>快速排序以二元樹的前序走訪為基礎</p></blockquote><p>(1) 以陣列取出一個數字做為基準值。<br>(2) 將大於基準值的元素放到基準值後面，小於或等於的元素放到前面。<br>(3) 再對左右區間重複上述步驟，直到所有區間都只有一個數存在。</p><p><span class="lightline">時間複雜度</span></p><p>Quick sort 的基準值若選擇陣列中央，就能分割成一個較平衡二元樹，高度接近 log n。其中每層需進行n次比較與交換，所以複雜度接近 $O(nlogn)$。</p><p><span class="lightline">注意</span></p><p>若陣列中資料以排序或接近排序完成，則在分割時會產生歪斜的二元樹，使高度接近 n，因而使複雜度變為 $O(n^2)$。<br>可以利用隨機選擇基準值位置避免。</p>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>排序演算法-2 </summary>
               <div class='content'>
-              <p class='h3' id="Merge-sort-合併排序">Merge sort (合併排序)</h3><blockquote><p>合併排序是以分治法為基礎的演算法</p></blockquote><p>(1) 將一個大數列分割成兩個小數列。<br>(2) 將這些小數列再各切一半，直到每個數列只剩一個元素。<br>(3) 合併兩個大小相等的數列並排序，直到只剩一個大數列。</p><p><span class="lightline">時間複雜度<span></p><p>Merge sort 的每一層需要進行 n 次的比較與移動，且二元樹的高度為 log n。所以複雜度為 $O(nlogn)$</p><p><span class="lightline">缺點<span></p><p>除了要排序的資料外，還得另外準備一個陣列進行合併，需要花費較大的記憶體空間。</p>
+              <p class='h3' id="Merge-sort-合併排序">Merge sort (合併排序)</h3><blockquote><p>合併排序是以分治法為基礎的演算法</p></blockquote><p>(1) 將一個大數列分割成兩個小數列。<br>(2) 將這些小數列再各切一半，直到每個數列只剩一個元素。<br>(3) 合併兩個大小相等的數列並排序，直到只剩一個大數列。</p><p><span class="lightline">時間複雜度</span></p><p>Merge sort 的每一層需要進行 n 次的比較與移動，且二元樹的高度為 log n。所以複雜度為 $O(nlogn)$</p><p><span class="lightline">缺點</span></p><p>除了要排序的資料外，還得另外準備一個陣列進行合併，需要花費較大的記憶體空間。</p>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>搜尋演算法 </summary>
               <div class='content'>
-              <p class='h3' id="Binary-search-二分搜">Binary search (二分搜)</h3><blockquote><p>二分搜是一種在已排序陣列中尋找元素的演算法</p></blockquote><p>(1) 先比較目標值與中間元素大小：若目標值小於中間元素，就繼續在左半部分搜尋；反之則在右半部分搜尋。<br>(2) 不斷縮小搜尋範圍，直到找到目標值或確認目標值不在陣列中。</p><p><span class="lightline">時間複雜度<span></p><p>每次搜尋都會將範圍減半，時間複雜度為 $O(logn)$</p><p><span class="lightline">注意<span></p><p>陣列需先排序</p>
+              <p class='h3' id="Binary-search-二分搜">Binary search (二分搜)</h3><blockquote><p>二分搜是一種在已排序陣列中尋找元素的演算法</p></blockquote><p>(1) 先比較目標值與中間元素大小：若目標值小於中間元素，就繼續在左半部分搜尋；反之則在右半部分搜尋。<br>(2) 不斷縮小搜尋範圍，直到找到目標值或確認目標值不在陣列中。</p><p><span class="lightline">時間複雜度</span></p><p>每次搜尋都會將範圍減半，時間複雜度為 $O(logn)$</p><p><span class="lightline">注意</span></p><p>陣列需先排序</p>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>埃氏篩法 </summary>
               <div class='content'>
-              <blockquote><p>埃氏篩法是一種用來尋找一定範圍內所有質數的演算法</p></blockquote><p>(1) 建立一張質數表，先假設所有數字都是質數。<br>(2) 從2開始，將2的倍數標記為合數，然後處理下一個未被標記的數字，一樣將其倍數標記為合數。<br>(3) 重複這個過程直到篩完為止。</p><p><span class="lightline">時間複雜度<span></p><p>埃氏篩法的時間複雜度為 $O(nloglogn)$</p><p><span class="lightline">注意<span></p><p>當要找出小於N的質數時，只要篩選 $2 \sim \sqrt{N}$ 的整數即可。</p><p class='h4' id="為什麼只需要篩到-sqrt-N">為什麼只需要篩到$\sqrt{N}$?</h4><p>假設N是一個合數，那麼它必定可以分解為兩個整數a和b的乘積，使得a×b=N。根據這個式子，我們可以推導出，a 和 b 中至少有一個數不大於 $\sqrt{N}$。那它我們必定可以找到兩個整數 a、b，滿足 $a \times b = N $。<br>透過這個式子，我們可以知道 a 和 b 中，至少有一數不大於 $\sqrt{N}$。</p><p>原因如下:<br>如果 a 大於 $\sqrt{N}$，那麼 b 必須小於 $\sqrt{N}$，才能使 $a \times b = N$ 成立。<br>反之，若 b 大於 $\sqrt{N}$，那麼 a 必須小於 $\sqrt{N}$，才能滿足乘積等於 N。<br>而當 N 為完全平方數時，a 與 b 會相等且等於 $\sqrt{N}$。<br>任何一組 a、b 必符合以上三者之一，也就是兩數中，至少有一數不小於 $\sqrt{N}$。</p>
+              <blockquote><p>埃氏篩法是一種用來尋找一定範圍內所有質數的演算法</p></blockquote><p>(1) 建立一張質數表，先假設所有數字都是質數。<br>(2) 從2開始，將2的倍數標記為合數，然後處理下一個未被標記的數字，一樣將其倍數標記為合數。<br>(3) 重複這個過程直到篩完為止。</p><p><span class="lightline">時間複雜度</span></p><p>埃氏篩法的時間複雜度為 $O(nloglogn)$</p><p><span class="lightline">注意</span></p><p>當要找出小於N的質數時，只要篩選 $2 \sim \sqrt{N}$ 的整數即可。</p><p class='h4' id="為什麼只需要篩到根號N">為什麼只需要篩到根號N?</h4><p>假設N是一個合數，那麼它必定可以分解為兩個整數a和b的乘積，使得a×b=N。根據這個式子，我們可以推導出，a 和 b 中至少有一個數不大於 $\sqrt{N}$。那它我們必定可以找到兩個整數 a、b，滿足 $a \times b = N$。<br>透過這個式子，我們可以知道 a 和 b 中，至少有一數不大於 $\sqrt{N}$。</p><p>原因如下:<br>如果 a 大於 $\sqrt{N}$，那麼 b 必須小於 $\sqrt{N}$，才能使 $a \times b = N$ 成立。<br>反之，若 b 大於 $\sqrt{N}$，那麼 a 必須小於 $\sqrt{N}$，才能滿足乘積等於 N。<br>而當 N 為完全平方數時，a 與 b 會相等且等於 $\sqrt{N}$。<br>任何一組 a、b 必符合以上三者之一，也就是兩數中，至少有一數不小於 $\sqrt{N}$。</p>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>約瑟夫問題 </summary>
               <div class='content'>
-              <ul><li>在高一時，我和同學曾自主研究過約瑟夫問題。</li><li>當時我們發現網路上沒有人針對對留人數呈等、階差的情況進行研究。於是決定自己寫一個程式，以 vector 模擬人群，並利用 erase 將該號碼被淘汰，這樣的時間複雜度會是 $O(n^2^)$</li><li>我們找出了留人數固定時，存活號碼會存在規律並可利用遞迴關係式去解，時間複雜度降為 $O(n)$</li><li>不過比較可惜的是，儘管我和同學將留人數為等、階差的情況及對應的存活號碼都整理出來了，但我們沒有發現其中的規律。</li></ul>
+              <ul><li>在高一時，我和同學曾自主研究過約瑟夫問題。</li><li>當時我們發現網路上沒有人針對對留人數呈等、階差的情況進行研究。於是決定自己寫一個程式，以 vector 模擬人群，並利用 erase 將該號碼被淘汰，這樣的時間複雜度會是 $O(n^2)$</li><li>我們找出了留人數固定時，存活號碼會存在規律並可利用遞迴關係式去解，時間複雜度降為 $O(n)$</li><li>不過比較可惜的是，儘管我和同學將留人數為等、階差的情況及對應的存活號碼都整理出來了，但我們沒有發現其中的規律。</li></ul>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>四則運算 </summary>
@@ -805,7 +805,7 @@
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>遞迴 </summary>
               <div class='content'>
-              <p>遞迴在數學上是函數直接或間接以自己定義自己，在程式上則是函數直接或間接呼叫自己。<br>它可以將一個大問題劃分為多個相似的小問題，並透過答案間的關聯將這些小問題解決得到整體的答案。<br>經常運用在處理 階乘、河內塔及八皇后 等問題。</p><p><span class="lightline">注意<span></p><p>若沒有適當地控制終止條件或設計得太複雜，可能會導致運行時間過長，甚至造成stackoverflow。<br>為了優化運算時間，我通常會搭配動態規劃或剪枝來避免重複計算。</p>
+              <p>遞迴在數學上是函數直接或間接以自己定義自己，在程式上則是函數直接或間接呼叫自己。<br>它可以將一個大問題劃分為多個相似的小問題，並透過答案間的關聯將這些小問題解決得到整體的答案。<br>經常運用在處理 階乘、河內塔及八皇后 等問題。</p><p><span class="lightline">注意</span></p><p>若沒有適當地控制終止條件或設計得太複雜，可能會導致運行時間過長，甚至造成stackoverflow。<br>為了優化運算時間，我通常會搭配動態規劃或剪枝來避免重複計算。</p>
               </div>
             </details>
 <h2 id="觀念問題">觀念問題</h2>
@@ -816,7 +816,7 @@
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>如何建構唯一樹? </summary>
               <div class='content'>
-              <p>怎麼用前序遍歷和中序遍歷序列建出一棵樹?</p><blockquote><p>前序序列的第一個就是根，在中序序列中找到他就可以分出左右子樹，然後把前序的開頭變成下一個，中序的左邊傳下去遞迴，回傳目前子樹的根再接上去就可以建出唯一一棵樹了。</p></blockquote><p><span class="lightline">注意<span></p><p>前序遍歷和中序遍歷建構出唯一樹的限制</p><blockquote><p>每個節點的值必須唯一，因為只有這樣我們才能確定根節點在中序遍歷中的位置。若節點不唯一，則無法保證建出的樹是唯一的。</p></blockquote>
+              <p>怎麼用前序遍歷和中序遍歷序列建出一棵樹?</p><blockquote><p>前序序列的第一個就是根，在中序序列中找到他就可以分出左右子樹，然後把前序的開頭變成下一個，中序的左邊傳下去遞迴，回傳目前子樹的根再接上去就可以建出唯一一棵樹了。</p></blockquote><p><span class="lightline">注意</span></p><p>前序遍歷和中序遍歷建構出唯一樹的限制</p><blockquote><p>每個節點的值必須唯一，因為只有這樣我們才能確定根節點在中序遍歷中的位置。若節點不唯一，則無法保證建出的樹是唯一的。</p></blockquote>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>標頭檔、命名空間、作用域 </summary>
@@ -836,12 +836,12 @@
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>機器學習演算法 </summary>
               <div class='content'>
-              <p class='h4' id="線性回歸">線性回歸</h4><p>通過建立輸入特徵與輸出之間的線性關係來預測連續數值。</p><p><span class="lightline">常用演算法:<span></p><p>最小平方法、梯度下降法</p><h4 id="支持向量機">支持向量機</h4><p>通過尋找最佳邊界來分隔不同類別的數據</p>
+              <p class='h4' id="線性回歸">線性回歸</h4><p>通過建立輸入特徵與輸出之間的線性關係來預測連續數值。</p><p><span class="lightline">常用演算法:</span></p><p>最小平方法、梯度下降法</p><h4 id="支持向量機">支持向量機</h4><p>通過尋找最佳邊界來分隔不同類別的數據</p>
               </div>
             </details>
 <details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>其他 </summary>
               <div class='content'>
-              <p class='h4' id="過擬合">過擬合</h4><blockquote><p>測試精確度小於訓練精確度</p></blockquote><p><span class="lightline">解決方法:<span></p><ul><li>簡化模型、增加訓練資料</li></ul><h4 id="欠擬合">欠擬合</h4><blockquote><p>訓練集精確度很低</p></blockquote><p><span class="lightline">解決方法:<span></p><ul><li>增加模型參數和有效的特徵</li></ul><h4 id="交叉驗證">交叉驗證</h4><ul><li>將訓練資料分成多個子集合</li><li>每個集合輪流當驗證資料，其他當訓練資料</li></ul><p><span class="lightline">優點:<span></p><blockquote><p>在訓練時就可以知道是否 overfitting 或 underfitting，並調整模型</p></blockquote>
+              <p class='h4' id="過擬合">過擬合</h4><blockquote><p>測試精確度小於訓練精確度</p></blockquote><p><span class="lightline">解決方法:</span></p><ul><li>簡化模型、增加訓練資料</li></ul><h4 id="欠擬合">欠擬合</h4><blockquote><p>訓練集精確度很低</p></blockquote><p><span class="lightline">解決方法:</span></p><ul><li>增加模型參數和有效的特徵</li></ul><h4 id="交叉驗證">交叉驗證</h4><ul><li>將訓練資料分成多個子集合</li><li>每個集合輪流當驗證資料，其他當訓練資料</li></ul><p><span class="lightline">優點:</span></p><blockquote><p>在訓練時就可以知道是否 overfitting 或 underfitting，並調整模型</p></blockquote>
               </div>
             </details>
 <h2 id="資安問題">資安問題</h2>

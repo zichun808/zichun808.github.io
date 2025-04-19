@@ -949,45 +949,6 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
       </tags>
   </entry>
   <entry>
-    <title>國立宜蘭大學 特殊選才面試</title>
-    <url>/NIU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：5 分鐘</li>
-<li>報名人數：一般 48 / 資安 17</li>
-<li>招生名額：一般⠀3 / 資安⠀3</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 User-Agent 解決這個問題。</li>
-<li><strong>教授：你的小論文是如何進行的？</strong><br>
-起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
-<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
-因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
-<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
-我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>國立高雄大學 特殊選才面試</title>
     <url>/NUK/</url>
     <content><![CDATA[<hr>
@@ -1048,6 +1009,122 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
         <tag>心得</tag>
         <tag>特殊選才</tag>
         <tag>面試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>國立宜蘭大學 特殊選才面試</title>
+    <url>/NIU/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：5 分鐘</li>
+<li>報名人數：一般 48 / 資安 17</li>
+<li>招生名額：一般⠀3 / 資安⠀3</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
+（略）</li>
+<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
+在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 User-Agent 解決這個問題。</li>
+<li><strong>教授：你的小論文是如何進行的？</strong><br>
+起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
+<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
+因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
+<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
+我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>面試</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2025 TOI 初選心得</title>
+    <url>/TOI/</url>
+    <content><![CDATA[<hr>
+<blockquote>
+<p>這是我第一次，也是最後一次參加 TOI。先前曾參加過 TOI 新手同好會及數次線上練習賽，整體感覺蠻新鮮的。</p>
+</blockquote>
+<h4 id="比賽當天">比賽當天</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/TOI/NTNU.png"
+                      alt="image"
+                ></p>
+<h4 id="第一題：二進制轉換與-1-連續次數排序">第一題：二進制轉換與 1 連續次數排序</h4>
+<p><strong>題目描述</strong>：</p>
+<ul>
+<li>給定一組數字，依照以下規則排序：
+<ol>
+<li>轉換為二進制</li>
+<li>計算連續 1 的最大長度</li>
+<li>若長度相同，數字較小者優先</li>
+</ol>
+</li>
+</ul>
+<h4 id="第二題：疊煎餅">第二題：疊煎餅</h4>
+<p><strong>題目描述</strong>：</p>
+<ul>
+<li>給定 n 堆數字，將相同的數字分到 n+1 堆，輸出移動過程</li>
+</ul>
+<h4 id="第三題：ACMAX">第三題：ACMAX</h4>
+<p><strong>題目描述</strong>：</p>
+<ul>
+<li>給定長度為 n 的數列，求所有長度為 k 的子數列。
+<ol>
+<li>對每個子數列，計算每個數字的「權重」：出現次數 × 該數值。</li>
+<li>找出權重最高的數作為該子數列的 AC 值，計算所有 AC 值的和並輸出。</li>
+</ol>
+</li>
+</ul>
+<h4 id="第四題：單色、雙色階梯統計">第四題：單色、雙色階梯統計</h4>
+<p><strong>題目描述</strong>：</p>
+<ul>
+<li>給定一個由大寫英文字母 (A-Z) 組成的矩陣，每個字母代表不同的顏色。
+<ol>
+<li>找出矩陣中符合條件的 單色階梯（所有格子都是相同字母）。</li>
+<li>找出符合條件的 雙色階梯（兩種字母交替出現，類似棋盤格）。</li>
+<li>統計這兩種階梯的總數並輸出。</li>
+</ol>
+</li>
+</ul>
+<h4 id="第五題：農夫的最短巡視路徑">第五題：農夫的最短巡視路徑</h4>
+<p><strong>題目描述</strong>：</p>
+<ul>
+<li>給定一張地圖，包含 N 個農場；一位農夫擁有其中 M 個農場並提供農夫家到所有農場的距離。
+<ol>
+<li>計算農夫巡視自己所有 M 個農場的最短路徑總長度，並輸出答案。</li>
+</ol>
+</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/TOI/cover.png"
+                      alt="image"
+                ></p>
+]]></content>
+      <categories>
+        <category>程式設計</category>
+        <category>競賽</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>程式設計</tag>
+        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
@@ -1411,83 +1488,6 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
       </tags>
   </entry>
   <entry>
-    <title>2025 TOI 初選心得</title>
-    <url>/TOI/</url>
-    <content><![CDATA[<hr>
-<blockquote>
-<p>這是我第一次，也是最後一次參加 TOI。先前曾參加過 TOI 新手同好會及數次線上練習賽，整體感覺蠻新鮮的。</p>
-</blockquote>
-<h4 id="比賽當天">比賽當天</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/TOI/NTNU.png"
-                      alt="image"
-                ></p>
-<h4 id="第一題：二進制轉換與-1-連續次數排序">第一題：二進制轉換與 1 連續次數排序</h4>
-<p><strong>題目描述</strong>：</p>
-<ul>
-<li>給定一組數字，依照以下規則排序：
-<ol>
-<li>轉換為二進制</li>
-<li>計算連續 1 的最大長度</li>
-<li>若長度相同，數字較小者優先</li>
-</ol>
-</li>
-</ul>
-<h4 id="第二題：疊煎餅">第二題：疊煎餅</h4>
-<p><strong>題目描述</strong>：</p>
-<ul>
-<li>給定 n 堆數字，將相同的數字分到 n+1 堆，輸出移動過程</li>
-</ul>
-<h4 id="第三題：ACMAX">第三題：ACMAX</h4>
-<p><strong>題目描述</strong>：</p>
-<ul>
-<li>給定長度為 n 的數列，求所有長度為 k 的子數列。
-<ol>
-<li>對每個子數列，計算每個數字的「權重」：出現次數 × 該數值。</li>
-<li>找出權重最高的數作為該子數列的 AC 值，計算所有 AC 值的和並輸出。</li>
-</ol>
-</li>
-</ul>
-<h4 id="第四題：單色、雙色階梯統計">第四題：單色、雙色階梯統計</h4>
-<p><strong>題目描述</strong>：</p>
-<ul>
-<li>給定一個由大寫英文字母 (A-Z) 組成的矩陣，每個字母代表不同的顏色。
-<ol>
-<li>找出矩陣中符合條件的 單色階梯（所有格子都是相同字母）。</li>
-<li>找出符合條件的 雙色階梯（兩種字母交替出現，類似棋盤格）。</li>
-<li>統計這兩種階梯的總數並輸出。</li>
-</ol>
-</li>
-</ul>
-<h4 id="第五題：農夫的最短巡視路徑">第五題：農夫的最短巡視路徑</h4>
-<p><strong>題目描述</strong>：</p>
-<ul>
-<li>給定一張地圖，包含 N 個農場；一位農夫擁有其中 M 個農場並提供農夫家到所有農場的距離。
-<ol>
-<li>計算農夫巡視自己所有 M 個農場的最短路徑總長度，並輸出答案。</li>
-</ol>
-</li>
-</ul>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/TOI/cover.png"
-                      alt="image"
-                ></p>
-]]></content>
-      <categories>
-        <category>程式設計</category>
-        <category>競賽</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>程式設計</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>學期成績計算</title>
     <url>/score/</url>
     <content><![CDATA[<hr>
@@ -1682,45 +1682,6 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
       </tags>
   </entry>
   <entry>
-    <title>Python 刷瀏覽次數</title>
-    <url>/scraper/</url>
-    <content><![CDATA[<hr>
-<h3 id="說明">說明</h3>
-<ul>
-<li>建議適當的調整執行次數與間隔時間，避免影響網站正常運作。</li>
-<li>怕送太多 request 會被鎖 IP 的話，可以在 Google Colab 運行。</li>
-</ul>
-<h3 id="環境設定">環境設定</h3>
-<ul>
-<li>請先安裝 Python 環境，並在終端機貼上以下指令下載所需模組。</li>
-<li>進度條是為了在運行時更直觀地看到進度，移除並不會影響功能。</li>
-</ul>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests tqdm</span><br></pre></td></tr></table></figure></div>
-<h3 id="參數調整">參數調整</h3>
-<blockquote>
-<p>請在 <code>config</code> 自行調整以下參數，總共會送出 <code>('rounds' × 'requests')</code> 次請求。</p>
-</blockquote>
-<ol>
-<li><strong>網　　　　址</strong> (<code>'url': &quot;https://example.com&quot;</code>)</li>
-<li><strong>總共進行幾輪</strong> (<code>'rounds': 5</code>)</li>
-<li><strong>每輪請求數量</strong> (<code>'requests': 20</code>)</li>
-<li><strong>執 行 緒 數 量</strong> (<code>'workers': 10</code>)</li>
-<li><strong>每次請求間隔</strong> (<code>'delay': (1.0, 2.0)</code>)</li>
-<li><strong>每輪請求間隔</strong> (<code>'DELAY': (5.0, 8.0)</code>)</li>
-</ol>
-<h3 id="程式碼">程式碼</h3>
-<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> warnings</span><br><span class="line"><span class="keyword">from</span> tqdm.rich <span class="keyword">import</span> trange</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> concurrent.futures <span class="keyword">import</span> ThreadPoolExecutor, as_completed</span><br><span class="line">warnings.filterwarnings(<span class="string">&quot;ignore&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">visit</span>(<span class="params">url, delay</span>):</span><br><span class="line">    start_time = datetime.now()</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        response = requests.get(url, headers=headers, timeout=<span class="number">10</span>)</span><br><span class="line">        min_delay, max_delay = delay</span><br><span class="line">        time.sleep(random.uniform(min_delay, max_delay))</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: response.status_code,</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">True</span></span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: <span class="literal">None</span>,</span><br><span class="line">            <span class="string">&#x27;error&#x27;</span>: <span class="built_in">str</span>(e),</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">False</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">execute_round</span>(<span class="params">url, round_config, round_num, rounds, wait_time</span>):</span><br><span class="line">    times = round_config[<span class="string">&#x27;requests&#x27;</span>]</span><br><span class="line">    workers = round_config[<span class="string">&#x27;workers&#x27;</span>]</span><br><span class="line">    delay = round_config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> round_num == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">if</span> rounds == <span class="number">1</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">with</span> ThreadPoolExecutor(max_workers=workers) <span class="keyword">as</span> executor:</span><br><span class="line">        futures = [executor.submit(visit, url, delay) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(times)]</span><br><span class="line">        <span class="keyword">with</span> trange(times, desc=<span class="string">&quot;進度&quot;</span>, ncols=<span class="number">100</span>, unit=<span class="string">&quot;次&quot;</span>,</span><br><span class="line">                   dynamic_ncols=<span class="literal">False</span>,</span><br><span class="line">                   bar_format=<span class="string">&quot;&#123;l_bar&#125;&#123;bar&#125;| &#123;n_fmt&#125;/&#123;total_fmt&#125; [&#123;elapsed&#125;&lt;&#123;remaining&#125;, &#123;rate_fmt&#125;]&quot;</span>) <span class="keyword">as</span> progress_bar:</span><br><span class="line">            <span class="keyword">for</span> future <span class="keyword">in</span> as_completed(futures):</span><br><span class="line">                future.result()</span><br><span class="line">                progress_bar.update(<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">if</span> progress_bar.n &lt; progress_bar.total:</span><br><span class="line">                progress_bar.update(progress_bar.total - progress_bar.n)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">config</span>):</span><br><span class="line">    url = config[<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    rounds = config[<span class="string">&#x27;rounds&#x27;</span>]</span><br><span class="line">    round_config = &#123;</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: config[<span class="string">&#x27;requests&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: config[<span class="string">&#x27;workers&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    total_start_time = time.time()</span><br><span class="line"></span><br><span class="line">    min_interval, max_interval = config[<span class="string">&#x27;DELAY&#x27;</span>]</span><br><span class="line">    wait_times = [random.uniform(min_interval, max_interval) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(rounds - <span class="number">1</span>)] + [<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> round_num <span class="keyword">in</span> <span class="built_in">range</span>(rounds):</span><br><span class="line">        execute_round(url, round_config, round_num, rounds, wait_times[round_num])</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">            time.sleep(wait_times[round_num])</span><br><span class="line"></span><br><span class="line">    total_time = time.time() - total_start_time</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;\n(執行時間: <span class="subst">&#123;total_time:<span class="number">.2</span>f&#125;</span> 秒)&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    config = &#123;</span><br><span class="line">        <span class="string">&#x27;url&#x27;</span>: <span class="string">&quot;https://example.com&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;rounds&#x27;</span>: <span class="number">5</span>,</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: <span class="number">20</span>,</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: <span class="number">10</span>,</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: (<span class="number">1.0</span>, <span class="number">2.0</span>),</span><br><span class="line">        <span class="string">&#x27;DELAY&#x27;</span>: (<span class="number">5.0</span>, <span class="number">8.0</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    main(config)</span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>程式設計</category>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>程式設計</tag>
-        <tag>Python</tag>
-        <tag>爬蟲</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>特殊選才心得彙整</title>
     <url>/srecruit/</url>
     <content><![CDATA[<hr>
@@ -1871,6 +1832,45 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
       <tags>
         <tag>心得</tag>
         <tag>特殊選才</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python 刷瀏覽次數</title>
+    <url>/scraper/</url>
+    <content><![CDATA[<hr>
+<h3 id="說明">說明</h3>
+<ul>
+<li>建議適當的調整執行次數與間隔時間，避免影響網站正常運作。</li>
+<li>怕送太多 request 會被鎖 IP 的話，可以在 Google Colab 運行。</li>
+</ul>
+<h3 id="環境設定">環境設定</h3>
+<ul>
+<li>請先安裝 Python 環境，並在終端機貼上以下指令下載所需模組。</li>
+<li>進度條是為了在運行時更直觀地看到進度，移除並不會影響功能。</li>
+</ul>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests tqdm</span><br></pre></td></tr></table></figure></div>
+<h3 id="參數調整">參數調整</h3>
+<blockquote>
+<p>請在 <code>config</code> 自行調整以下參數，總共會送出 <code>('rounds' × 'requests')</code> 次請求。</p>
+</blockquote>
+<ol>
+<li><strong>網　　　　址</strong> (<code>'url': &quot;https://example.com&quot;</code>)</li>
+<li><strong>總共進行幾輪</strong> (<code>'rounds': 5</code>)</li>
+<li><strong>每輪請求數量</strong> (<code>'requests': 20</code>)</li>
+<li><strong>執 行 緒 數 量</strong> (<code>'workers': 10</code>)</li>
+<li><strong>每次請求間隔</strong> (<code>'delay': (1.0, 2.0)</code>)</li>
+<li><strong>每輪請求間隔</strong> (<code>'DELAY': (5.0, 8.0)</code>)</li>
+</ol>
+<h3 id="程式碼">程式碼</h3>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> warnings</span><br><span class="line"><span class="keyword">from</span> tqdm.rich <span class="keyword">import</span> trange</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> concurrent.futures <span class="keyword">import</span> ThreadPoolExecutor, as_completed</span><br><span class="line">warnings.filterwarnings(<span class="string">&quot;ignore&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">visit</span>(<span class="params">url, delay</span>):</span><br><span class="line">    start_time = datetime.now()</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        response = requests.get(url, headers=headers, timeout=<span class="number">10</span>)</span><br><span class="line">        min_delay, max_delay = delay</span><br><span class="line">        time.sleep(random.uniform(min_delay, max_delay))</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: response.status_code,</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">True</span></span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: <span class="literal">None</span>,</span><br><span class="line">            <span class="string">&#x27;error&#x27;</span>: <span class="built_in">str</span>(e),</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">False</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">execute_round</span>(<span class="params">url, round_config, round_num, rounds, wait_time</span>):</span><br><span class="line">    times = round_config[<span class="string">&#x27;requests&#x27;</span>]</span><br><span class="line">    workers = round_config[<span class="string">&#x27;workers&#x27;</span>]</span><br><span class="line">    delay = round_config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> round_num == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">if</span> rounds == <span class="number">1</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">with</span> ThreadPoolExecutor(max_workers=workers) <span class="keyword">as</span> executor:</span><br><span class="line">        futures = [executor.submit(visit, url, delay) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(times)]</span><br><span class="line">        <span class="keyword">with</span> trange(times, desc=<span class="string">&quot;進度&quot;</span>, ncols=<span class="number">100</span>, unit=<span class="string">&quot;次&quot;</span>,</span><br><span class="line">                   dynamic_ncols=<span class="literal">False</span>,</span><br><span class="line">                   bar_format=<span class="string">&quot;&#123;l_bar&#125;&#123;bar&#125;| &#123;n_fmt&#125;/&#123;total_fmt&#125; [&#123;elapsed&#125;&lt;&#123;remaining&#125;, &#123;rate_fmt&#125;]&quot;</span>) <span class="keyword">as</span> progress_bar:</span><br><span class="line">            <span class="keyword">for</span> future <span class="keyword">in</span> as_completed(futures):</span><br><span class="line">                future.result()</span><br><span class="line">                progress_bar.update(<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">if</span> progress_bar.n &lt; progress_bar.total:</span><br><span class="line">                progress_bar.update(progress_bar.total - progress_bar.n)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">config</span>):</span><br><span class="line">    url = config[<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    rounds = config[<span class="string">&#x27;rounds&#x27;</span>]</span><br><span class="line">    round_config = &#123;</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: config[<span class="string">&#x27;requests&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: config[<span class="string">&#x27;workers&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    total_start_time = time.time()</span><br><span class="line"></span><br><span class="line">    min_interval, max_interval = config[<span class="string">&#x27;DELAY&#x27;</span>]</span><br><span class="line">    wait_times = [random.uniform(min_interval, max_interval) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(rounds - <span class="number">1</span>)] + [<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> round_num <span class="keyword">in</span> <span class="built_in">range</span>(rounds):</span><br><span class="line">        execute_round(url, round_config, round_num, rounds, wait_times[round_num])</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">            time.sleep(wait_times[round_num])</span><br><span class="line"></span><br><span class="line">    total_time = time.time() - total_start_time</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;\n(執行時間: <span class="subst">&#123;total_time:<span class="number">.2</span>f&#125;</span> 秒)&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    config = &#123;</span><br><span class="line">        <span class="string">&#x27;url&#x27;</span>: <span class="string">&quot;https://example.com&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;rounds&#x27;</span>: <span class="number">5</span>,</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: <span class="number">20</span>,</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: <span class="number">10</span>,</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: (<span class="number">1.0</span>, <span class="number">2.0</span>),</span><br><span class="line">        <span class="string">&#x27;DELAY&#x27;</span>: (<span class="number">5.0</span>, <span class="number">8.0</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    main(config)</span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>程式設計</category>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>程式設計</tag>
+        <tag>Python</tag>
+        <tag>爬蟲</tag>
       </tags>
   </entry>
   <entry>

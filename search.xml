@@ -94,6 +94,45 @@
       </tags>
   </entry>
   <entry>
+    <title>國立宜蘭大學 特殊選才面試</title>
+    <url>/NIU/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：5 分鐘</li>
+<li>報名人數：一般 48 / 資安 17</li>
+<li>招生名額：一般⠀3 / 資安⠀3</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
+（略）</li>
+<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
+在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 User-Agent 解決這個問題。</li>
+<li><strong>教授：你的小論文是如何進行的？</strong><br>
+起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
+<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
+因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
+<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
+我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>面試</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>AIS3 Junior writeup</title>
     <url>/AIS3-Junior-writeup/</url>
     <content><![CDATA[<hr>
@@ -882,73 +921,6 @@
       </tags>
   </entry>
   <entry>
-    <title>國立嘉義大學 特殊選才面試</title>
-    <url>/NCYU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數：(2+2)</li>
-<li>面試時長：(6+6) 分鐘</li>
-<li>報名人數：一般 27 / 資安 11</li>
-<li>招生名額：一般⠀3 / 資安⠀2</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，順利回答完了所有題目。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：擔任衛生股長期間，為班上做了哪些事？</strong><br>
-（略）</li>
-<li><strong>教授：如果換成其他人擔任，能達到相同成果嗎？</strong><br>
-（略）</li>
-<li><strong>教授：你在資訊領域學習得很廣泛，為什麼想接觸這麼多領域？</strong><br>
-因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識。除了程式設計，還有資訊安全、人工智慧及機器學習等，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li>
-<li><strong>教授：你有參加過大學先修？</strong><br>
-我在去年參加了中興大學的機器學習先修，課程涵蓋許多常見的機器學習方式及演算法，並介紹其中的原理、細節。不過主要著重在理論觀念的建立，程式實作部分較少。</li>
-<li><strong>教授：你會甚麼程式語言</strong><br>
-比較擅長 C++，其次是 Python。</li>
-<li><strong>教授：C++ / Python 分別學到哪裡？</strong><br>
-C++ 學到基礎演算法及 STL；Python 則會基礎語法，並能使用 Pycord 開發 DCbot 及撰寫 pwn 題型的解法。</li>
-<li><strong>教授：為什麼想學 python</strong><br>
-在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python 並開發機器人的念頭。</li>
-<li><strong>教授：開發 Discord Bot 時遇到哪些困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
-<li><strong>教授：解釋 pass by value 和 pass by reference 的差異。</strong><br>
-pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 則直接修改記憶體位置，使主程式的變數同步改變。</li>
-<li><strong>教授：你知道物件導向嗎？</strong><br>
-閱讀過物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
-<li><strong>教授：你有參加過 AIS3 嗎？</strong><br>
-參加過 AIS3 Junior，期待未來可以進一步參加 AIS3 學習更進階的技術。</li>
-<li><strong>教授：AIS3 的 pre-exam，你參加過嗎？</strong><br>
-我沒有參加過實體 CTF，比較常練習 picoCTF 和教育部培訓課程中的題目。</li>
-<li><strong>教授：為什麼不參加實體 CTF 比賽？</strong><br>
-高中期間缺乏比賽經驗，主要是因為我們學校對資訊領域有熱忱的同學比較少，加上學校資源有限，也沒有相關的培訓課程。希望能在大學期間與同樣對資訊領域有興趣的同學組隊參加演算法及資安競賽。</li>
-<li><strong>教授：講一下你挖到的 XSS 漏洞。</strong><br>
-我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
-<li><strong>教授：你知道 OWASP Top 10 嗎？有哪些常見漏洞？</strong><br>
-OWASP Top 10 是針對 Web Security 的常見漏洞排行榜，例如 Broken Access Control、SQL Injection、Cross-Site Scripting (XSS) 和 Server Side Template Injection (SSTI) 等，這些漏洞可能導致敏感資訊洩露或系統遭到入侵。</li>
-<li><strong>教授：你知道 OWASP 排行榜會變動嗎？</strong><br>
-知道，OWASP Top 10 會根據企業實際回報的漏洞數據、風險評估與攻擊趨勢，每隔幾年進行更新。例如 2021 年新增了 Insecure Design 這類與安全設計相關的項目，反映出現代網頁開發中面臨的新風險。</li>
-<li><strong>教授：哪些漏洞常年位居榜單？</strong><br>
-Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因為它們影響範圍廣，且攻擊方式多樣，使得許多系統仍容易受到這些攻擊的影響。</li>
-<li><strong>教授：你學過密碼學，可以講講對稱與非對稱加密嗎？</strong><br>
-對稱式加密使用一把密鑰進行加、解密，運算速度較快，適合大量數據的加密；非對稱加密使用公鑰加密，私鑰解密，常用於數位簽章。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2025 TOI 初選心得</title>
     <url>/TOI/</url>
     <content><![CDATA[<hr>
@@ -1026,6 +998,53 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
       </tags>
   </entry>
   <entry>
+    <title>國立台南大學 特殊選才面試</title>
+    <url>/NUTN/</url>
+    <content><![CDATA[<hr>
+<h3 id="面試資訊">面試資訊</h3>
+<ul>
+<li>教授人數： 2</li>
+<li>面試時長：10 分鐘</li>
+<li>報名人數：一般 51 / 資安⠀1</li>
+<li>招生名額：一般⠀2 / 資安⠀1</li>
+</ul>
+<h3 id="面試心得">面試心得</h3>
+<p>台南是我第一間面試的學校，在這之前沒有任何面試經驗，所以沒有抱太大的希望。基本上是把這次面試當作練習，但還是有點緊張。教授問了幾個出乎我意料的問題，而且兩位教授的態度較為嚴肅，整體氛圍有點壓力。</p>
+<h3 id="面試問題">面試問題</h3>
+<ul>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你覺得自己有什麼特別之處？</strong><br>
+（略）</li>
+<li><strong>教授：你是從北部來的，你還有報哪些學校</strong>?<br>
+除了貴校外，我還有報宜蘭、嘉義、高雄及台北市立大學。</li>
+<li><strong>教授：你應該會想留在北部吧，為什麼想來我們學校？</strong><br>
+我認為到外縣市讀大學也很不錯，可以接觸到不同的環境和文化。</li>
+<li><strong>教授：你提到發現企業官網的XSS漏洞，那是什麼？</strong><br>
+我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
+<li><strong>教授：你會哪些程式語言?</strong><br>
+比較擅長 C++，其次是 Python。</li>
+<li><strong>教授：Python 和 C++ 之間有什麼差異？</strong><br>
+我覺得的 Python 整體語法較簡單、容易上手，但 C++ 有較快的運行速度並且可以進行較底層的處理。</li>
+<li><strong>教授：你提到的底層處理指的是什麼？</strong><br>
+像是透過指標直接存取記憶體。我們學校最近在學 Arduino，其中的控制程式也可以使用 C++ 撰寫。</li>
+<li><strong>教授：你只考過兩次 APCS？這期間有做什麼努力嗎？</strong><br>
+我在今年和去年六月都有參加 APCS，觀念與實作題皆為三級分。我覺得很可惜的是，今年第三題我因為沒看清楚題目條件，所以僅取得了部份分數。</li>
+<li><strong>教授：看起來你比較擅長實作，那觀念題有準備嗎？</strong><br>
+我平常會跟網友討論程式，所以都有在閱讀別人的程式碼，我覺得這對於 APCS 的觀念題也有很大的幫助。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>面試</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>國立高雄大學 特殊選才面試</title>
     <url>/NUK/</url>
     <content><![CDATA[<hr>
@@ -1076,92 +1095,6 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
 <p><strong>教授：你考過英檢嗎？未來有打算考多益嗎？</strong><br>
 目前沒有考過英檢。不過因為我在準備特選的同時也有在準備學測，我在學測後有計畫報考多益。</p>
 </li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立台南大學 特殊選才面試</title>
-    <url>/NUTN/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：10 分鐘</li>
-<li>報名人數：一般 51 / 資安⠀1</li>
-<li>招生名額：一般⠀2 / 資安⠀1</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>台南是我第一間面試的學校，在這之前沒有任何面試經驗，所以沒有抱太大的希望。基本上是把這次面試當作練習，但還是有點緊張。教授問了幾個出乎我意料的問題，而且兩位教授的態度較為嚴肅，整體氛圍有點壓力。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你覺得自己有什麼特別之處？</strong><br>
-（略）</li>
-<li><strong>教授：你是從北部來的，你還有報哪些學校</strong>?<br>
-除了貴校外，我還有報宜蘭、嘉義、高雄及台北市立大學。</li>
-<li><strong>教授：你應該會想留在北部吧，為什麼想來我們學校？</strong><br>
-我認為到外縣市讀大學也很不錯，可以接觸到不同的環境和文化。</li>
-<li><strong>教授：你提到發現企業官網的XSS漏洞，那是什麼？</strong><br>
-我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
-<li><strong>教授：你會哪些程式語言?</strong><br>
-比較擅長 C++，其次是 Python。</li>
-<li><strong>教授：Python 和 C++ 之間有什麼差異？</strong><br>
-我覺得的 Python 整體語法較簡單、容易上手，但 C++ 有較快的運行速度並且可以進行較底層的處理。</li>
-<li><strong>教授：你提到的底層處理指的是什麼？</strong><br>
-像是透過指標直接存取記憶體。我們學校最近在學 Arduino，其中的控制程式也可以使用 C++ 撰寫。</li>
-<li><strong>教授：你只考過兩次 APCS？這期間有做什麼努力嗎？</strong><br>
-我在今年和去年六月都有參加 APCS，觀念與實作題皆為三級分。我覺得很可惜的是，今年第三題我因為沒看清楚題目條件，所以僅取得了部份分數。</li>
-<li><strong>教授：看起來你比較擅長實作，那觀念題有準備嗎？</strong><br>
-我平常會跟網友討論程式，所以都有在閱讀別人的程式碼，我覺得這對於 APCS 的觀念題也有很大的幫助。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立宜蘭大學 特殊選才面試</title>
-    <url>/NIU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：5 分鐘</li>
-<li>報名人數：一般 48 / 資安 17</li>
-<li>招生名額：一般⠀3 / 資安⠀3</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 User-Agent 解決這個問題。</li>
-<li><strong>教授：你的小論文是如何進行的？</strong><br>
-起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
-<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
-因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
-<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
-我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
 </ul>
 ]]></content>
       <categories>
@@ -1482,48 +1415,76 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
         <category>面試</category>
       </categories>
       <tags>
-        <tag>筆記</tag>
         <tag>特殊選才</tag>
         <tag>面試</tag>
+        <tag>筆記</tag>
       </tags>
   </entry>
   <entry>
-    <title>Python 刷瀏覽次數</title>
-    <url>/scraper/</url>
+    <title>國立嘉義大學 特殊選才面試</title>
+    <url>/NCYU/</url>
     <content><![CDATA[<hr>
-<h3 id="說明">說明</h3>
+<h3 id="面試資訊">面試資訊</h3>
 <ul>
-<li>建議適當的調整執行次數與間隔時間，避免影響網站正常運作。</li>
-<li>怕送太多 request 會被鎖 IP 的話，可以在 Google Colab 運行。</li>
+<li>教授人數：(2+2)</li>
+<li>面試時長：(6+6) 分鐘</li>
+<li>報名人數：一般 27 / 資安 11</li>
+<li>招生名額：一般⠀3 / 資安⠀2</li>
 </ul>
-<h3 id="環境設定">環境設定</h3>
+<h3 id="面試心得">面試心得</h3>
+<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，順利回答完了所有題目。</p>
+<h3 id="面試問題">面試問題</h3>
 <ul>
-<li>請先安裝 Python 環境，並在終端機貼上以下指令下載所需模組。</li>
-<li>進度條是為了在運行時更直觀地看到進度，移除並不會影響功能。</li>
+<li><strong>教授：自我介紹</strong><br>
+（略）</li>
+<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
+（略）</li>
+<li><strong>教授：擔任衛生股長期間，為班上做了哪些事？</strong><br>
+（略）</li>
+<li><strong>教授：如果換成其他人擔任，能達到相同成果嗎？</strong><br>
+（略）</li>
+<li><strong>教授：你在資訊領域學習得很廣泛，為什麼想接觸這麼多領域？</strong><br>
+因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識。除了程式設計，還有資訊安全、人工智慧及機器學習等，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li>
+<li><strong>教授：你有參加過大學先修？</strong><br>
+我在去年參加了中興大學的機器學習先修，課程涵蓋許多常見的機器學習方式及演算法，並介紹其中的原理、細節。不過主要著重在理論觀念的建立，程式實作部分較少。</li>
+<li><strong>教授：你會甚麼程式語言</strong><br>
+比較擅長 C++，其次是 Python。</li>
+<li><strong>教授：C++ / Python 分別學到哪裡？</strong><br>
+C++ 學到基礎演算法及 STL；Python 則會基礎語法，並能使用 Pycord 開發 DCbot 及撰寫 pwn 題型的解法。</li>
+<li><strong>教授：為什麼想學 python</strong><br>
+在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python 並開發機器人的念頭。</li>
+<li><strong>教授：開發 Discord Bot 時遇到哪些困難？如何解決？</strong><br>
+在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
+<li><strong>教授：解釋 pass by value 和 pass by reference 的差異。</strong><br>
+pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 則直接修改記憶體位置，使主程式的變數同步改變。</li>
+<li><strong>教授：你知道物件導向嗎？</strong><br>
+閱讀過物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
+<li><strong>教授：你有參加過 AIS3 嗎？</strong><br>
+參加過 AIS3 Junior，期待未來可以進一步參加 AIS3 學習更進階的技術。</li>
+<li><strong>教授：AIS3 的 pre-exam，你參加過嗎？</strong><br>
+我沒有參加過實體 CTF，比較常練習 picoCTF 和教育部培訓課程中的題目。</li>
+<li><strong>教授：為什麼不參加實體 CTF 比賽？</strong><br>
+高中期間缺乏比賽經驗，主要是因為我們學校對資訊領域有熱忱的同學比較少，加上學校資源有限，也沒有相關的培訓課程。希望能在大學期間與同樣對資訊領域有興趣的同學組隊參加演算法及資安競賽。</li>
+<li><strong>教授：講一下你挖到的 XSS 漏洞。</strong><br>
+我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
+<li><strong>教授：你知道 OWASP Top 10 嗎？有哪些常見漏洞？</strong><br>
+OWASP Top 10 是針對 Web Security 的常見漏洞排行榜，例如 Broken Access Control、SQL Injection、Cross-Site Scripting (XSS) 和 Server Side Template Injection (SSTI) 等，這些漏洞可能導致敏感資訊洩露或系統遭到入侵。</li>
+<li><strong>教授：你知道 OWASP 排行榜會變動嗎？</strong><br>
+知道，OWASP Top 10 會根據企業實際回報的漏洞數據、風險評估與攻擊趨勢，每隔幾年進行更新。例如 2021 年新增了 Insecure Design 這類與安全設計相關的項目，反映出現代網頁開發中面臨的新風險。</li>
+<li><strong>教授：哪些漏洞常年位居榜單？</strong><br>
+Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因為它們影響範圍廣，且攻擊方式多樣，使得許多系統仍容易受到這些攻擊的影響。</li>
+<li><strong>教授：你學過密碼學，可以講講對稱與非對稱加密嗎？</strong><br>
+對稱式加密使用一把密鑰進行加、解密，運算速度較快，適合大量數據的加密；非對稱加密使用公鑰加密，私鑰解密，常用於數位簽章。</li>
 </ul>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests tqdm</span><br></pre></td></tr></table></figure></div>
-<h3 id="參數調整">參數調整</h3>
-<blockquote>
-<p>請在 <code>config</code> 自行調整以下參數，總共會送出 <code>('rounds' × 'requests')</code> 次請求。</p>
-</blockquote>
-<ol>
-<li><strong>網　　　　址</strong> (<code>'url': &quot;https://example.com&quot;</code>)</li>
-<li><strong>總共進行幾輪</strong> (<code>'rounds': 5</code>)</li>
-<li><strong>每輪請求數量</strong> (<code>'requests': 20</code>)</li>
-<li><strong>執 行 緒 數 量</strong> (<code>'workers': 10</code>)</li>
-<li><strong>每次請求間隔</strong> (<code>'delay': (1.0, 2.0)</code>)</li>
-<li><strong>每輪請求間隔</strong> (<code>'DELAY': (5.0, 8.0)</code>)</li>
-</ol>
-<h3 id="程式碼">程式碼</h3>
-<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> warnings</span><br><span class="line"><span class="keyword">from</span> tqdm.rich <span class="keyword">import</span> trange</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> concurrent.futures <span class="keyword">import</span> ThreadPoolExecutor, as_completed</span><br><span class="line">warnings.filterwarnings(<span class="string">&quot;ignore&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">visit</span>(<span class="params">url, delay</span>):</span><br><span class="line">    start_time = datetime.now()</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        response = requests.get(url, headers=headers, timeout=<span class="number">10</span>)</span><br><span class="line">        min_delay, max_delay = delay</span><br><span class="line">        time.sleep(random.uniform(min_delay, max_delay))</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: response.status_code,</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">True</span></span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: <span class="literal">None</span>,</span><br><span class="line">            <span class="string">&#x27;error&#x27;</span>: <span class="built_in">str</span>(e),</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">False</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">execute_round</span>(<span class="params">url, round_config, round_num, rounds, wait_time</span>):</span><br><span class="line">    times = round_config[<span class="string">&#x27;requests&#x27;</span>]</span><br><span class="line">    workers = round_config[<span class="string">&#x27;workers&#x27;</span>]</span><br><span class="line">    delay = round_config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> round_num == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">if</span> rounds == <span class="number">1</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">with</span> ThreadPoolExecutor(max_workers=workers) <span class="keyword">as</span> executor:</span><br><span class="line">        futures = [executor.submit(visit, url, delay) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(times)]</span><br><span class="line">        <span class="keyword">with</span> trange(times, desc=<span class="string">&quot;進度&quot;</span>, ncols=<span class="number">100</span>, unit=<span class="string">&quot;次&quot;</span>,</span><br><span class="line">                   dynamic_ncols=<span class="literal">False</span>,</span><br><span class="line">                   bar_format=<span class="string">&quot;&#123;l_bar&#125;&#123;bar&#125;| &#123;n_fmt&#125;/&#123;total_fmt&#125; [&#123;elapsed&#125;&lt;&#123;remaining&#125;, &#123;rate_fmt&#125;]&quot;</span>) <span class="keyword">as</span> progress_bar:</span><br><span class="line">            <span class="keyword">for</span> future <span class="keyword">in</span> as_completed(futures):</span><br><span class="line">                future.result()</span><br><span class="line">                progress_bar.update(<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">if</span> progress_bar.n &lt; progress_bar.total:</span><br><span class="line">                progress_bar.update(progress_bar.total - progress_bar.n)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">config</span>):</span><br><span class="line">    url = config[<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    rounds = config[<span class="string">&#x27;rounds&#x27;</span>]</span><br><span class="line">    round_config = &#123;</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: config[<span class="string">&#x27;requests&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: config[<span class="string">&#x27;workers&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    total_start_time = time.time()</span><br><span class="line"></span><br><span class="line">    min_interval, max_interval = config[<span class="string">&#x27;DELAY&#x27;</span>]</span><br><span class="line">    wait_times = [random.uniform(min_interval, max_interval) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(rounds - <span class="number">1</span>)] + [<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> round_num <span class="keyword">in</span> <span class="built_in">range</span>(rounds):</span><br><span class="line">        execute_round(url, round_config, round_num, rounds, wait_times[round_num])</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">            time.sleep(wait_times[round_num])</span><br><span class="line"></span><br><span class="line">    total_time = time.time() - total_start_time</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;\n(執行時間: <span class="subst">&#123;total_time:<span class="number">.2</span>f&#125;</span> 秒)&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    config = &#123;</span><br><span class="line">        <span class="string">&#x27;url&#x27;</span>: <span class="string">&quot;https://example.com&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;rounds&#x27;</span>: <span class="number">5</span>,</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: <span class="number">20</span>,</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: <span class="number">10</span>,</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: (<span class="number">1.0</span>, <span class="number">2.0</span>),</span><br><span class="line">        <span class="string">&#x27;DELAY&#x27;</span>: (<span class="number">5.0</span>, <span class="number">8.0</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    main(config)</span><br></pre></td></tr></table></figure></div>]]></content>
+]]></content>
       <categories>
-        <category>程式設計</category>
-        <category>Python</category>
+        <category>特殊選才</category>
+        <category>面試</category>
       </categories>
       <tags>
-        <tag>程式設計</tag>
-        <tag>Python</tag>
-        <tag>爬蟲</tag>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+        <tag>面試</tag>
       </tags>
   </entry>
   <entry>
@@ -1721,223 +1682,218 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
       </tags>
   </entry>
   <entry>
-    <title>文章字數統計</title>
-    <url>/words/</url>
+    <title>Python 刷瀏覽次數</title>
+    <url>/scraper/</url>
     <content><![CDATA[<hr>
-
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .result {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-top: 20px;
-            width: 100%;
-            padding: 0 20px;
-        }
-
-        .group {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            width: 100%;
-        }
-
-        .metric-pair {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
-
-        .value {
-            min-width: 4ch;
-            text-align: right;
-            font-weight: bold;
-        }
-
-        textarea {
-            width: 100%;
-            min-height: 150px;
-            padding: 12px;
-            font-size: 16px;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            background-color: #fff;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        @media (min-width: 601px) {
-            .group-triple {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .result {
-                padding: 0 10px;
-                gap: 10px;
-            }
-
-            .group, .group-triple {
-                grid-template-columns: 1fr 1fr;
-                gap: 10px;
-            }
-
-            .group-triple .metric-pair:nth-child(3) {
-                grid-column: auto;
-            }
-
-            .group-triple:last-child {
-                display: grid;
-                grid-template-areas: 
-                    "space punct"
-                    "emoji emoji";
-            }
-
-            .metric-pair {
-                margin: 0;
-            }
-        }
-
-        body.dark-mode {
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-
-        body.dark-mode textarea {
-            background-color: #333333;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
-        
-        <div class="result">
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文章字數</span>
-                    <span id="charCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總字元數</span>
-                    <span id="weightedCharCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group">
-                <div class="metric-pair">
-                    <span>文字段落</span>
-                    <span id="lineCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>總單字數</span>
-                    <span id="englishWordCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>中文字數</span>
-                    <span id="chineseCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>英文字數</span>
-                    <span id="englishCharCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>數字數量</span>
-                    <span id="numberCount" class="value">0</span>
-                </div>
-            </div>
-            
-            <div class="group group-triple">
-                <div class="metric-pair">
-                    <span>空格數量</span>
-                    <span id="spaceCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>標點符號</span>
-                    <span id="punctCount" class="value">0</span>
-                </div>
-                <div class="metric-pair">
-                    <span>Emoji🙂</span>
-                    <span id="emojiCount" class="value">0</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script data-swup-reload-script type="text/javascript">
-        function analyzeText() {
-            const text = document.getElementById('textInput').value;
-
-            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
-            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
-            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
-            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
-            const numberCount = (text.match(/\d/g) || []).length;
-            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
-            const emojiCount = Math.floor(emojiMatches.length / 2);
-            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
-            const spaceCount = (text.match(/\s/g) || []).length;
-
-            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
-            const weightedCharCount = (chineseCount * 2) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
-
-            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
-            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
-            document.getElementById('lineCount').textContent = formatNumber(lineCount);
-            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
-            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
-            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
-            document.getElementById('punctCount').textContent = formatNumber(punctCount);
-            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
-            document.getElementById('numberCount').textContent = formatNumber(numberCount);
-            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
-        }
-
-        function formatNumber(num) {
-            if (num === 0) {
-                return '0';
-            }
-            return num.toString().replace(/^0+/, ''); 
-        }
-        window.onload = analyzeText;
-    </script>
-</body>
-</html>
-]]></content>
+<h3 id="說明">說明</h3>
+<ul>
+<li>建議適當的調整執行次數與間隔時間，避免影響網站正常運作。</li>
+<li>怕送太多 request 會被鎖 IP 的話，可以在 Google Colab 運行。</li>
+</ul>
+<h3 id="環境設定">環境設定</h3>
+<ul>
+<li>請先安裝 Python 環境，並在終端機貼上以下指令下載所需模組。</li>
+<li>進度條是為了在運行時更直觀地看到進度，移除並不會影響功能。</li>
+</ul>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests tqdm</span><br></pre></td></tr></table></figure></div>
+<h3 id="參數調整">參數調整</h3>
+<blockquote>
+<p>請在 <code>config</code> 自行調整以下參數，總共會送出 <code>('rounds' × 'requests')</code> 次請求。</p>
+</blockquote>
+<ol>
+<li><strong>網　　　　址</strong> (<code>'url': &quot;https://example.com&quot;</code>)</li>
+<li><strong>總共進行幾輪</strong> (<code>'rounds': 5</code>)</li>
+<li><strong>每輪請求數量</strong> (<code>'requests': 20</code>)</li>
+<li><strong>執 行 緒 數 量</strong> (<code>'workers': 10</code>)</li>
+<li><strong>每次請求間隔</strong> (<code>'delay': (1.0, 2.0)</code>)</li>
+<li><strong>每輪請求間隔</strong> (<code>'DELAY': (5.0, 8.0)</code>)</li>
+</ol>
+<h3 id="程式碼">程式碼</h3>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> warnings</span><br><span class="line"><span class="keyword">from</span> tqdm.rich <span class="keyword">import</span> trange</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> concurrent.futures <span class="keyword">import</span> ThreadPoolExecutor, as_completed</span><br><span class="line">warnings.filterwarnings(<span class="string">&quot;ignore&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">visit</span>(<span class="params">url, delay</span>):</span><br><span class="line">    start_time = datetime.now()</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;User-Agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        response = requests.get(url, headers=headers, timeout=<span class="number">10</span>)</span><br><span class="line">        min_delay, max_delay = delay</span><br><span class="line">        time.sleep(random.uniform(min_delay, max_delay))</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: response.status_code,</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">True</span></span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&#x27;status_code&#x27;</span>: <span class="literal">None</span>,</span><br><span class="line">            <span class="string">&#x27;error&#x27;</span>: <span class="built_in">str</span>(e),</span><br><span class="line">            <span class="string">&#x27;time&#x27;</span>: datetime.now() - start_time,</span><br><span class="line">            <span class="string">&#x27;success&#x27;</span>: <span class="literal">False</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">execute_round</span>(<span class="params">url, round_config, round_num, rounds, wait_time</span>):</span><br><span class="line">    times = round_config[<span class="string">&#x27;requests&#x27;</span>]</span><br><span class="line">    workers = round_config[<span class="string">&#x27;workers&#x27;</span>]</span><br><span class="line">    delay = round_config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> round_num == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">if</span> rounds == <span class="number">1</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;執行第 1/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">elif</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪，等待 <span class="subst">&#123;wait_time:<span class="number">.1</span>f&#125;</span> 秒&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;\n執行第 <span class="subst">&#123;round_num + <span class="number">1</span>&#125;</span>/<span class="subst">&#123;rounds&#125;</span> 輪&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">with</span> ThreadPoolExecutor(max_workers=workers) <span class="keyword">as</span> executor:</span><br><span class="line">        futures = [executor.submit(visit, url, delay) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(times)]</span><br><span class="line">        <span class="keyword">with</span> trange(times, desc=<span class="string">&quot;進度&quot;</span>, ncols=<span class="number">100</span>, unit=<span class="string">&quot;次&quot;</span>,</span><br><span class="line">                   dynamic_ncols=<span class="literal">False</span>,</span><br><span class="line">                   bar_format=<span class="string">&quot;&#123;l_bar&#125;&#123;bar&#125;| &#123;n_fmt&#125;/&#123;total_fmt&#125; [&#123;elapsed&#125;&lt;&#123;remaining&#125;, &#123;rate_fmt&#125;]&quot;</span>) <span class="keyword">as</span> progress_bar:</span><br><span class="line">            <span class="keyword">for</span> future <span class="keyword">in</span> as_completed(futures):</span><br><span class="line">                future.result()</span><br><span class="line">                progress_bar.update(<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">if</span> progress_bar.n &lt; progress_bar.total:</span><br><span class="line">                progress_bar.update(progress_bar.total - progress_bar.n)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">config</span>):</span><br><span class="line">    url = config[<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    rounds = config[<span class="string">&#x27;rounds&#x27;</span>]</span><br><span class="line">    round_config = &#123;</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: config[<span class="string">&#x27;requests&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: config[<span class="string">&#x27;workers&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: config[<span class="string">&#x27;delay&#x27;</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    total_start_time = time.time()</span><br><span class="line"></span><br><span class="line">    min_interval, max_interval = config[<span class="string">&#x27;DELAY&#x27;</span>]</span><br><span class="line">    wait_times = [random.uniform(min_interval, max_interval) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(rounds - <span class="number">1</span>)] + [<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> round_num <span class="keyword">in</span> <span class="built_in">range</span>(rounds):</span><br><span class="line">        execute_round(url, round_config, round_num, rounds, wait_times[round_num])</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> round_num &lt; rounds - <span class="number">1</span>:</span><br><span class="line">            time.sleep(wait_times[round_num])</span><br><span class="line"></span><br><span class="line">    total_time = time.time() - total_start_time</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;\n(執行時間: <span class="subst">&#123;total_time:<span class="number">.2</span>f&#125;</span> 秒)&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    config = &#123;</span><br><span class="line">        <span class="string">&#x27;url&#x27;</span>: <span class="string">&quot;https://example.com&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;rounds&#x27;</span>: <span class="number">5</span>,</span><br><span class="line">        <span class="string">&#x27;requests&#x27;</span>: <span class="number">20</span>,</span><br><span class="line">        <span class="string">&#x27;workers&#x27;</span>: <span class="number">10</span>,</span><br><span class="line">        <span class="string">&#x27;delay&#x27;</span>: (<span class="number">1.0</span>, <span class="number">2.0</span>),</span><br><span class="line">        <span class="string">&#x27;DELAY&#x27;</span>: (<span class="number">5.0</span>, <span class="number">8.0</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    main(config)</span><br></pre></td></tr></table></figure></div>]]></content>
       <categories>
-        <category>小工具</category>
-        <category>字數統計</category>
+        <category>程式設計</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>小工具</tag>
-        <tag>字數統計</tag>
+        <tag>程式設計</tag>
+        <tag>Python</tag>
+        <tag>爬蟲</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>特殊選才心得彙整</title>
+    <url>/srecruit/</url>
+    <content><![CDATA[<hr>
+<h3 id="前言">前言</h3>
+<p>其實我在高一時，就知道特殊選才這個升學管道了，但從未想過自己能透過這個方式升學。畢竟，<span class="lightline">特殊選才招收的名額僅有應屆學測生的 1% ~ 1.5% ，招生名額遠比其他管道少非常多，也有相當高的不確定性</span>。</p>
+<p>不過，因為我的國英實在太差了，若選擇個人申請可能面臨卡標的問題，如此低的國文分數也對分科非常不利。因此，我高二時開始思考是否要嘗試特殊選才，並從那時起積極豐富自身經歷、整理備審資料，讓自己具備更好的競爭力。</p>
+<p>雖然當時決定參加特選，但在放榜前，我還是有繼續準備學測。雖然我們無法得知教授希望錄取甚麼類型的學生，不過教授尋找的是未來適合就讀該科系的人，例如：具備自學能力、創新能力等特質。因此，在這段時間，我所能做的就是理性、客觀地分析自己的優勢與不足，不斷學習新知識並從中獲得樂趣，並將學習過程轉化為自己的經歷。</p>
+<p>對我而言，學習的重點不是直接得到答案，而是探索與理解的過程。因此，<span class="lightline">在準備備審資料時，不只是單純記錄經歷，而是確保每一項內容都能理解並完整表達，展現出自己的專業能力與學習熱忱，讓教授看到我真正適合該學系的潛力</span>。</p>
+<hr>
+<h3 id="準備過程">準備過程</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">高一</th>
+<th style="text-align:center">高二</th>
+<th style="text-align:center">高三</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">上學期</td>
+<td style="text-align:center">考前臨時抱佛腳，對未來沒甚麼想法</td>
+<td style="text-align:center">投入大量時間學習資訊相關知識</td>
+<td style="text-align:center">熬夜準備各校備審、請公假面試</td>
+</tr>
+<tr>
+<td style="text-align:center">下學期</td>
+<td style="text-align:center">發現自己對程式設計有較高的領悟力</td>
+<td style="text-align:center">決定特選並積極豐富自己的經歷</td>
+<td style="text-align:center">N/A</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="特選結果">特選結果</h3>
+<blockquote>
+<p>依學系放榜日期排序，最終選擇就讀嘉義大學</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">學校名稱</th>
+<th style="text-align:center">招生名額</th>
+<th style="text-align:center">報名組別</th>
+<th style="text-align:center">書審成績</th>
+<th style="text-align:center">面試成績</th>
+<th style="text-align:center">最終成績</th>
+<th style="text-align:center">錄取狀態</th>
+<th style="text-align:center">面試心得</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">國立台南大學</td>
+<td style="text-align:center">2 / 1</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">81.81</td>
+<td style="text-align:center">81.00</td>
+<td style="text-align:center">81.41</td>
+<td style="text-align:center">備取 17</td>
+<td style="text-align:center"><a href="/NUTN">台南大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center">國立高雄大學</td>
+<td style="text-align:center">3 / 0</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">83.00</td>
+<td style="text-align:center">84.67</td>
+<td style="text-align:center">83.84</td>
+<td style="text-align:center">備取 20</td>
+<td style="text-align:center"><a href="/NUK">高雄大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center">台北市立大學</td>
+<td style="text-align:center">3 / 0</td>
+<td style="text-align:center">一般組</td>
+<td style="text-align:center">78.42</td>
+<td style="text-align:center">- -</td>
+<td style="text-align:center">78.42</td>
+<td style="text-align:center">備取 12</td>
+<td style="text-align:center">X</td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="lightline">國立宜蘭大學</span></td>
+<td style="text-align:center">3 / 3</td>
+<td style="text-align:center"><span class="lightline">資安組</span></td>
+<td style="text-align:center">88.50</td>
+<td style="text-align:center">90.00</td>
+<td style="text-align:center">89.10</td>
+<td style="text-align:center"><span class="lightline">正取⠀3 </span></td>
+<td style="text-align:center"><a href="/NIU">宜蘭大學</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="highlightline">國立嘉義大學</span></td>
+<td style="text-align:center">3 / 2</td>
+<td style="text-align:center"><span class="highlightline">資安組</span></td>
+<td style="text-align:center">88.10</td>
+<td style="text-align:center">90.50</td>
+<td style="text-align:center">89.30</td>
+<td style="text-align:center"><span class="highlightline">正取⠀2</span></td>
+<td style="text-align:center"><a href="/NCYU">嘉義大學</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="特選心得">特選心得</h3>
+<p>雖然我報名的兩間資安組都順利錄取，我認為這已經是相當不錯的成績。不過，即便沒有被錄取，我也不會後悔參加特選，絕對不會。「 特選不是一種制度，而是一種態度 」⠀這句話一直烙印在我腦海裡，準備特選的這段時間，我的高中生活變得更加充實；也正因為特殊選才，我才能夠認識這麼多厲害的人，並了解來自不同地方的文化。這段經歷，無論如何，都無可取代。<span class="lightline">雖然結果固然重要，但我認為過程中所獲得的各種體會與成長才是這段旅程真正的價值所在</span>。</p>
+<hr>
+<h3 id="關於備審">關於備審</h3>
+<p>在準備備審資料時，內容的完整性與可讀性非常重要。以下是我整理的備審資料架構與撰寫建議</p>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自傳 </summary>
+              <div class='content'>
+              <blockquote><p>自傳的核心在於簡述個人成長經歷，建議以條列方式撰寫，並<span class="lightline">在後方附上簡短說明，使內容更清晰易讀</span>。</p></blockquote><p>主要內容包含：</p><ul><li>成長背景：個人成長經驗與影響</li><li>資安啟蒙：如何開始接觸資安、關鍵契機</li><li>學習歷程：學習資訊領域的過程、突破與挑戰</li><li>個人特質：具備哪些能力與特質，有助於未來學習</li></ul>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>申請計畫 </summary>
+              <div class='content'>
+              <blockquote><p>這部分主要分為 <strong>申請動機</strong> 和 <strong>讀書計畫</strong>，<span class="lightline">清楚說明為何選擇該校與該學系，並規劃未來的學習方向</span>。</p></blockquote><p class='h5' id="申請動機">申請動機</h5><ul><li>為何選擇 (XXX) 學系：結合自身興趣與經驗，說明適合該學系的原因。</li><li>為何想就讀 (XX) 大學：可以提及該校的特色、資源，或是與自身目標的契合點。</li></ul><h5 id="讀書計畫">讀書計畫</h5><ul><li>高中期間</li><li>大學期間</li><li>大學畢業</li></ul>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>其他有利審查資料 </summary>
+              <div class='content'>
+              <blockquote><p>這部分放入希望教授看到的內容，<span class="lightline">面試時也常會從這裡提問，務必熟記內容，理解重點，並能流暢表達</span>。</p></blockquote><ul><li>課程學習：參與的重要課程與收穫</li><li>競賽經歷：相關競賽的參與及成果</li><li>檢定證照：具有說服力的相關證照</li><li>專案開發：曾經開發的專案與學習心得</li><li>多元表現：其他能展現個人專長的經歷</li></ul>
+              </div>
+            </details>
+<hr>
+<h3 id="其他東西">其他東西</h3>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>備審資料 </summary>
+              <div class='content'>
+              <p>暫時先不放上來。不過想參考的話，可以<a class="link"   href="https://www.instagram.com/zichun808/" >私訊我<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>傳給你 ~</p><!-- [備審資料（嘉義大學）](https://drive.google.com/file/d/1kMhcpIUILVo2vIYssYMAEsxptbyqIXvS/view?usp=sharing) -->
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自我介紹講稿 </summary>
+              <div class='content'>
+              <div class="tabs" id="tab-tab"><ul class="nav-tabs"><li class="tab active"><a class="#tab-1">自我介紹 (一般組)</a></li><li class="tab"><a class="#tab-2">自我介紹 (資安組)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我學習程式設計的時間約一年半，在這段期間也積極參與了許多資訊相關的課程及活動，探索資安與資訊領域的應用。</li><li>我參加了教育部的資安人才培育計畫、數位發展部的 AIGO 課程及國立中興大學的機器學習先修課程，加強我的資安知識基礎，並拓展我在人工智慧及機器學習領域的理解。</li><li>在實務應用上，我曾利用 Python 開發出 Discord 機器人，結合靜態爬蟲和 JSON 資料庫，解決日常生活中許多繁雜的工作。</li><li>除此之外，我也曾發現企業官網存在 XSS 漏洞並向 HITCON ZeroDay 回報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。</li><li>為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li></ul></div><div class="tab-pane" id="tab-2"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我第一次接觸資安是在小時候看到的科幻電影，電影中的駭客情節讓我對資訊安全產生了好奇。而國中參加的一門網頁安全課程，則讓我對資訊安全有了初步的認識。</li><li>升上高中後，為了更進一步提升自己的資安能力，我參加了教育部資安人才培育計畫的許多課程，包括資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 等。其中，我對網頁安全及密碼學特別感興趣。此外，我也曾發現企業官網存在 XSS 漏洞，並透過 HITCON ZeroDay 向該網站管理員通報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，探索各領域的應用及挑戰，並進一步確立未來的方向。</li><li>我對資訊領域充滿熱忱，並且認為自己適合繼續深耕。期待未來能在嘉義大學，接受兼具理論與實務的完整學習，拓展更深的專業知識與技能。</li></ul></div></div></div>
+              </div>
+            </details>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>資安經歷講稿 </summary>
+              <div class='content'>
+              <ul><li>我的資安經歷主要包括參加教育部資安人才培育計畫的資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 課程。</li><li>在這些課程中，我學習了程式安全、逆向工程、網頁安全及密碼學等主題，並曾接觸到真實世界中的攻擊案例。</li><li>此外，我曾發現企業官網存在反射型 XSS 漏洞，並透過 HITCON ZeroDay 平台向該網站管理員通報，協助修復漏洞，避免潛在的攻擊風險。</li><li>這些經歷不僅讓我對資訊安全有了更全面的認識，更激發了持續深入學習的熱情。</li></ul>
+              </div>
+            </details>]]></content>
+      <categories>
+        <category>特殊選才</category>
+        <category>封面</category>
+      </categories>
+      <tags>
+        <tag>心得</tag>
+        <tag>特殊選才</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/test1/</url>
+    <content><![CDATA[<hr>
+<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Run-server">Run server</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+]]></content>
+      <tags>
+        <tag>測試</tag>
       </tags>
   </entry>
   <entry>
@@ -1963,29 +1919,6 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
 <div class="code-container" data-rel="Go"><figure class="iseeu highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    ch := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="type">float64</span>)</span><br><span class="line">    ch &lt;- <span class="number">1.0e10</span>    <span class="comment">// magic number</span></span><br><span class="line">    x, ok := &lt;- ch</span><br><span class="line">    <span class="keyword">defer</span> fmt.Println(<span class="string">`exitting now\`</span>)</span><br><span class="line">    <span class="keyword">go</span> <span class="built_in">println</span>(<span class="built_in">len</span>(<span class="string">&quot;hello world!&quot;</span>))</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 <div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###### CONFIG</span></span><br><span class="line">ACCEPTED_HOSTS=<span class="string">&quot;/root/.hag_accepted.conf&quot;</span></span><br><span class="line">BE_VERBOSE=<span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$UID</span>&quot;</span> -ne 0 ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;Superuser rights required&quot;</span></span><br><span class="line">  <span class="built_in">exit</span> 2</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">genApacheConf</span></span>()&#123;</span><br><span class="line">  <span class="built_in">echo</span> -e <span class="string">&quot;# Host <span class="variable">$&#123;HOME_DIR&#125;</span><span class="variable">$1</span>/<span class="variable">$2</span> :&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 <div class="code-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="comment">; boilerplate</span></span><br><span class="line"><span class="section">[package]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;some_name&quot;</span></span><br><span class="line"><span class="attr">authors</span> = [<span class="string">&quot;Author&quot;</span>]</span><br><span class="line"><span class="attr">description</span> = <span class="string">&quot;This is \</span></span><br><span class="line"><span class="string">a description&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="section">[[lib]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="variable">$&#123;NAME&#125;</span></span><br><span class="line"><span class="attr">default</span> = <span class="literal">True</span></span><br><span class="line"><span class="attr">auto</span> = <span class="literal">no</span></span><br><span class="line"><span class="attr">counter</span> = <span class="number">1_000</span></span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <tags>
-        <tag>測試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/test1/</url>
-    <content><![CDATA[<hr>
-<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Run-server">Run server</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 ]]></content>
       <tags>
         <tag>測試</tag>
@@ -2236,156 +2169,223 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"
       </tags>
   </entry>
   <entry>
-    <title>特殊選才心得彙整</title>
-    <url>/srecruit/</url>
+    <title>文章字數統計</title>
+    <url>/words/</url>
     <content><![CDATA[<hr>
-<h3 id="前言">前言</h3>
-<p>其實我在高一時，就知道特殊選才這個升學管道了，但從未想過自己能透過這個方式升學。畢竟，<span class="lightline">特殊選才招收的名額僅有應屆學測生的 1% ~ 1.5% ，招生名額遠比其他管道少非常多，也有相當高的不確定性</span>。</p>
-<p>不過，因為我的國英實在太差了，若選擇個人申請可能面臨卡標的問題，如此低的國文分數也對分科非常不利。因此，我高二時開始思考是否要嘗試特殊選才，並從那時起積極豐富自身經歷、整理備審資料，讓自己具備更好的競爭力。</p>
-<p>雖然當時決定參加特選，但在放榜前，我還是有繼續準備學測。雖然我們無法得知教授希望錄取甚麼類型的學生，不過教授尋找的是未來適合就讀該科系的人，例如：具備自學能力、創新能力等特質。因此，在這段時間，我所能做的就是理性、客觀地分析自己的優勢與不足，不斷學習新知識並從中獲得樂趣，並將學習過程轉化為自己的經歷。</p>
-<p>對我而言，學習的重點不是直接得到答案，而是探索與理解的過程。因此，<span class="lightline">在準備備審資料時，不只是單純記錄經歷，而是確保每一項內容都能理解並完整表達，展現出自己的專業能力與學習熱忱，讓教授看到我真正適合該學系的潛力</span>。</p>
-<hr>
-<h3 id="準備過程">準備過程</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align:center"></th>
-<th style="text-align:center">高一</th>
-<th style="text-align:center">高二</th>
-<th style="text-align:center">高三</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">上學期</td>
-<td style="text-align:center">考前臨時抱佛腳，對未來沒甚麼想法</td>
-<td style="text-align:center">投入大量時間學習資訊相關知識</td>
-<td style="text-align:center">熬夜準備各校備審、請公假面試</td>
-</tr>
-<tr>
-<td style="text-align:center">下學期</td>
-<td style="text-align:center">發現自己對程式設計有較高的領悟力</td>
-<td style="text-align:center">決定特選並積極豐富自己的經歷</td>
-<td style="text-align:center">N/A</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h3 id="特選結果">特選結果</h3>
-<blockquote>
-<p>依學系放榜日期排序，最終選擇就讀嘉義大學</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">學校名稱</th>
-<th style="text-align:center">招生名額</th>
-<th style="text-align:center">報名組別</th>
-<th style="text-align:center">書審成績</th>
-<th style="text-align:center">面試成績</th>
-<th style="text-align:center">最終成績</th>
-<th style="text-align:center">錄取狀態</th>
-<th style="text-align:center">面試心得</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">國立台南大學</td>
-<td style="text-align:center">2 / 1</td>
-<td style="text-align:center">一般組</td>
-<td style="text-align:center">81.81</td>
-<td style="text-align:center">81.00</td>
-<td style="text-align:center">81.41</td>
-<td style="text-align:center">備取 17</td>
-<td style="text-align:center"><a href="/NUTN">台南大學</a></td>
-</tr>
-<tr>
-<td style="text-align:center">國立高雄大學</td>
-<td style="text-align:center">3 / 0</td>
-<td style="text-align:center">一般組</td>
-<td style="text-align:center">83.00</td>
-<td style="text-align:center">84.67</td>
-<td style="text-align:center">83.84</td>
-<td style="text-align:center">備取 20</td>
-<td style="text-align:center"><a href="/NUK">高雄大學</a></td>
-</tr>
-<tr>
-<td style="text-align:center">台北市立大學</td>
-<td style="text-align:center">3 / 0</td>
-<td style="text-align:center">一般組</td>
-<td style="text-align:center">78.42</td>
-<td style="text-align:center">- -</td>
-<td style="text-align:center">78.42</td>
-<td style="text-align:center">備取 12</td>
-<td style="text-align:center">X</td>
-</tr>
-<tr>
-<td style="text-align:center"><span class="lightline">國立宜蘭大學</span></td>
-<td style="text-align:center">3 / 3</td>
-<td style="text-align:center"><span class="lightline">資安組</span></td>
-<td style="text-align:center">88.50</td>
-<td style="text-align:center">90.00</td>
-<td style="text-align:center">89.10</td>
-<td style="text-align:center"><span class="lightline">正取⠀3 </span></td>
-<td style="text-align:center"><a href="/NIU">宜蘭大學</a></td>
-</tr>
-<tr>
-<td style="text-align:center"><span class="highlightline">國立嘉義大學</span></td>
-<td style="text-align:center">3 / 2</td>
-<td style="text-align:center"><span class="highlightline">資安組</span></td>
-<td style="text-align:center">88.10</td>
-<td style="text-align:center">90.50</td>
-<td style="text-align:center">89.30</td>
-<td style="text-align:center"><span class="highlightline">正取⠀2</span></td>
-<td style="text-align:center"><a href="/NCYU">嘉義大學</a></td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h3 id="特選心得">特選心得</h3>
-<p>雖然我報名的兩間資安組都順利錄取，我認為這已經是相當不錯的成績。不過，即便沒有被錄取，我也不會後悔參加特選，絕對不會。「 特選不是一種制度，而是一種態度 」⠀這句話一直烙印在我腦海裡，準備特選的這段時間，我的高中生活變得更加充實；也正因為特殊選才，我才能夠認識這麼多厲害的人，並了解來自不同地方的文化。這段經歷，無論如何，都無可取代。<span class="lightline">雖然結果固然重要，但我認為過程中所獲得的各種體會與成長才是這段旅程真正的價值所在</span>。</p>
-<hr>
-<h3 id="關於備審">關於備審</h3>
-<p>在準備備審資料時，內容的完整性與可讀性非常重要。以下是我整理的備審資料架構與撰寫建議</p>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自傳 </summary>
-              <div class='content'>
-              <blockquote><p>自傳的核心在於簡述個人成長經歷，建議以條列方式撰寫，並<span class="lightline">在後方附上簡短說明，使內容更清晰易讀</span>。</p></blockquote><p>主要內容包含：</p><ul><li>成長背景：個人成長經驗與影響</li><li>資安啟蒙：如何開始接觸資安、關鍵契機</li><li>學習歷程：學習資訊領域的過程、突破與挑戰</li><li>個人特質：具備哪些能力與特質，有助於未來學習</li></ul>
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>申請計畫 </summary>
-              <div class='content'>
-              <blockquote><p>這部分主要分為 <strong>申請動機</strong> 和 <strong>讀書計畫</strong>，<span class="lightline">清楚說明為何選擇該校與該學系，並規劃未來的學習方向</span>。</p></blockquote><p class='h5' id="申請動機">申請動機</h5><ul><li>為何選擇 (XXX) 學系：結合自身興趣與經驗，說明適合該學系的原因。</li><li>為何想就讀 (XX) 大學：可以提及該校的特色、資源，或是與自身目標的契合點。</li></ul><h5 id="讀書計畫">讀書計畫</h5><ul><li>高中期間</li><li>大學期間</li><li>大學畢業</li></ul>
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>其他有利審查資料 </summary>
-              <div class='content'>
-              <blockquote><p>這部分放入希望教授看到的內容，<span class="lightline">面試時也常會從這裡提問，務必熟記內容，理解重點，並能流暢表達</span>。</p></blockquote><ul><li>課程學習：參與的重要課程與收穫</li><li>競賽經歷：相關競賽的參與及成果</li><li>檢定證照：具有說服力的相關證照</li><li>專案開發：曾經開發的專案與學習心得</li><li>多元表現：其他能展現個人專長的經歷</li></ul>
-              </div>
-            </details>
-<hr>
-<h3 id="其他東西">其他東西</h3>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>備審資料 </summary>
-              <div class='content'>
-              <p>暫時先不放上來。不過想參考的話，可以<a class="link"   href="https://www.instagram.com/zichun808/" >私訊我<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>傳給你 ~</p><!-- [備審資料（嘉義大學）](https://drive.google.com/file/d/1kMhcpIUILVo2vIYssYMAEsxptbyqIXvS/view?usp=sharing) -->
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>自我介紹講稿 </summary>
-              <div class='content'>
-              <div class="tabs" id="tab-tab"><ul class="nav-tabs"><li class="tab active"><a class="#tab-1">自我介紹 (一般組)</a></li><li class="tab"><a class="#tab-2">自我介紹 (資安組)</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我學習程式設計的時間約一年半，在這段期間也積極參與了許多資訊相關的課程及活動，探索資安與資訊領域的應用。</li><li>我參加了教育部的資安人才培育計畫、數位發展部的 AIGO 課程及國立中興大學的機器學習先修課程，加強我的資安知識基礎，並拓展我在人工智慧及機器學習領域的理解。</li><li>在實務應用上，我曾利用 Python 開發出 Discord 機器人，結合靜態爬蟲和 JSON 資料庫，解決日常生活中許多繁雜的工作。</li><li>除此之外，我也曾發現企業官網存在 XSS 漏洞並向 HITCON ZeroDay 回報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。</li><li>為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li></ul></div><div class="tab-pane" id="tab-2"><ul><li>教授(們) 好，我是傅梓淳，目前就讀桃園市立平鎮高中。</li><li>我第一次接觸資安是在小時候看到的科幻電影，電影中的駭客情節讓我對資訊安全產生了好奇。而國中參加的一門網頁安全課程，則讓我對資訊安全有了初步的認識。</li><li>升上高中後，為了更進一步提升自己的資安能力，我參加了教育部資安人才培育計畫的許多課程，包括資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 等。其中，我對網頁安全及密碼學特別感興趣。此外，我也曾發現企業官網存在 XSS 漏洞，並透過 HITCON ZeroDay 向該網站管理員通報。</li><li>我覺得自己在學習資訊領域的知識是比較廣泛的。因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識，探索各領域的應用及挑戰，並進一步確立未來的方向。</li><li>我對資訊領域充滿熱忱，並且認為自己適合繼續深耕。期待未來能在嘉義大學，接受兼具理論與實務的完整學習，拓展更深的專業知識與技能。</li></ul></div></div></div>
-              </div>
-            </details>
-<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>資安經歷講稿 </summary>
-              <div class='content'>
-              <ul><li>我的資安經歷主要包括參加教育部資安人才培育計畫的資安暑訓營、AIS3 Junior 和 TAIWAN HolyYoung 課程。</li><li>在這些課程中，我學習了程式安全、逆向工程、網頁安全及密碼學等主題，並曾接觸到真實世界中的攻擊案例。</li><li>此外，我曾發現企業官網存在反射型 XSS 漏洞，並透過 HITCON ZeroDay 平台向該網站管理員通報，協助修復漏洞，避免潛在的攻擊風險。</li><li>這些經歷不僅讓我對資訊安全有了更全面的認識，更激發了持續深入學習的熱情。</li></ul>
-              </div>
-            </details>]]></content>
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .result {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .metric-pair {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .value {
+            min-width: 4ch;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            background-color: #fff;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        @media (min-width: 601px) {
+            .group-triple {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .result {
+                padding: 0 10px;
+                gap: 10px;
+            }
+
+            .group, .group-triple {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+
+            .group-triple .metric-pair:nth-child(3) {
+                grid-column: auto;
+            }
+
+            .group-triple:last-child {
+                display: grid;
+                grid-template-areas: 
+                    "space punct"
+                    "emoji emoji";
+            }
+
+            .metric-pair {
+                margin: 0;
+            }
+        }
+
+        body.dark-mode {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode textarea {
+            background-color: #333333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea id="textInput" placeholder="請輸入內容..." oninput="analyzeText()"></textarea>
+        
+        <div class="result">
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文章字數</span>
+                    <span id="charCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總字元數</span>
+                    <span id="weightedCharCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group">
+                <div class="metric-pair">
+                    <span>文字段落</span>
+                    <span id="lineCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>總單字數</span>
+                    <span id="englishWordCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>中文字數</span>
+                    <span id="chineseCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>英文字數</span>
+                    <span id="englishCharCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>數字數量</span>
+                    <span id="numberCount" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="group group-triple">
+                <div class="metric-pair">
+                    <span>空格數量</span>
+                    <span id="spaceCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>標點符號</span>
+                    <span id="punctCount" class="value">0</span>
+                </div>
+                <div class="metric-pair">
+                    <span>Emoji🙂</span>
+                    <span id="emojiCount" class="value">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script data-swup-reload-script type="text/javascript">
+        function analyzeText() {
+            const text = document.getElementById('textInput').value;
+
+            const lineCount = text.split(/\r?\n/).filter(line => line.trim().length > 0).length;
+            const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+            const englishWordCount = (text.match(/[a-zA-Z]+(?:[-'][a-zA-Z]+)*/g) || []).length;
+            const englishCharCount = (text.match(/[a-zA-Z]/g) || []).length;
+            const numberCount = (text.match(/\d/g) || []).length;
+            const emojiMatches = (text.match(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g) || []);
+            const emojiCount = Math.floor(emojiMatches.length / 2);
+            const punctCount = (text.match(/[^\w\s\u4e00-\u9fff\d]/g) || []).filter(char => !/[\uD83C-\uDBFF\uDC00-\uDFFF]/.test(char)).length;
+            const spaceCount = (text.match(/\s/g) || []).length;
+
+            const totalCharCount = chineseCount + englishCharCount + numberCount + punctCount + emojiCount + spaceCount;
+            const weightedCharCount = (chineseCount * 2) + (englishCharCount * 1) + (numberCount * 1) + (punctCount * 1) + (emojiCount * 2) + (spaceCount * 1);
+
+            document.getElementById('charCount').textContent = formatNumber(totalCharCount);
+            document.getElementById('weightedCharCount').textContent = formatNumber(weightedCharCount);
+            document.getElementById('lineCount').textContent = formatNumber(lineCount);
+            document.getElementById('englishWordCount').textContent = formatNumber(englishWordCount);
+            document.getElementById('chineseCount').textContent = formatNumber(chineseCount);
+            document.getElementById('englishCharCount').textContent = formatNumber(englishCharCount);
+            document.getElementById('punctCount').textContent = formatNumber(punctCount);
+            document.getElementById('emojiCount').textContent = formatNumber(emojiCount);
+            document.getElementById('numberCount').textContent = formatNumber(numberCount);
+            document.getElementById('spaceCount').textContent = formatNumber(spaceCount);
+        }
+
+        function formatNumber(num) {
+            if (num === 0) {
+                return '0';
+            }
+            return num.toString().replace(/^0+/, ''); 
+        }
+        window.onload = analyzeText;
+    </script>
+</body>
+</html>
+]]></content>
       <categories>
-        <category>特殊選才</category>
-        <category>封面</category>
+        <category>小工具</category>
+        <category>字數統計</category>
       </categories>
       <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
+        <tag>小工具</tag>
+        <tag>字數統計</tag>
       </tags>
   </entry>
 </search>

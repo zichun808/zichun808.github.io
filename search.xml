@@ -1,138 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>AIS3 Junior 心得</title>
-    <url>/AIS3-Junior/</url>
-    <content><![CDATA[<hr>
-<h3 id="前言">前言</h3>
-<p>今年的 AIS3 Junior 舉辦在中正大學，課程共五天，也一樣有提供住宿及車票補助。超讚ㄉ<br>
-我去年也曾參加 AIS3 Junior，不過因為當時是初次接觸資安，雖然最終有順利取得合格證書，但許多技術細節仍有些不熟悉。考量時間許可的情況下，我再次報名並順利被甄選錄取了！</p>
-<hr>
-<h3 id="住宿">住宿</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/dorm.png"
-                      alt="image"
-                ><br>
-課程期間都是住在中正大學的學生宿舍(四人房)，要記得帶自己的拖鞋、枕頭、棉被、睡墊(很重要.ᐟ.ᐟ.ᐟ)、盥洗用品及吹風機等。裡面雖然有點老舊但還算乾淨，廁所也看得出來有重新裝修過，而且有乾濕分離。不過因為床板超硬，所以沒帶睡墊的話，根本睡不著而且因為床板老舊，翻身時還會有奇怪聲響。宿舍附近有超商和早餐店，半夜肚子餓的話可以去超商買消夜吃。不過課程所在的資訊大樓附近基本上就沒甚麼吃的了，除了活動中心那棟裡面有超商、貴貴的義大利麵和幾間學生餐廳外，其他吃的幾乎都要走出正門大概10分鐘左右才能找到。這幾天基本上不是跟助教、組員們一起吃，就是等回宿舍再去超商買或投販賣機。</p>
-<hr>
-<h3 id="Day-0">Day 0</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/register.png"
-                      alt="image"
-                ><br>
-這天是課程中最輕鬆的一天，不過因為中正大學地理位置較偏僻，所以不論是搭高鐵或是臺鐵都要花上不少時間轉車。我是當天早上搭臺鐵到嘉義車站，在嘉義市區晃到下午再搭臺鐵到民雄車站，然後剛好在課程群組裡找到其他三人也要從民雄車站移動到中正大學，於是就四個人一起搭計程車去(跳表，車資220元)。抵達會場並報到後，安裝 Kali 環境、VPN 和認識助教及組員等。傍晚要從集合的圖書資訊大樓拖行李到宿舍，路途約15分鐘但半路突然突如其來的傾盆大雨讓我們的衣物、鞋子和行李都濕了。稍微整理後，我和助教及組員們一起吃附近的小火鍋。再次回到宿舍後，我和室友先解了幾題隔天上課的 Flag。</p>
-<blockquote>
-<p>本日睡眠時間： 01:30~07:00，約5.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-1">Day 1</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/CTF.png"
-                      alt="image"
-                ><br>
-早上和助教及組員們一起吃完早餐後，拖著疲憊的身體前往資訊大樓開始一天的課程。早上的活動是開幕式和資安倫理課程，讓我們瞭解學習資安技術應具備的道德與責任。下午則進行破冰遊戲，需要根據提示並運用基礎資安概念解題，完成一定題數還有餅乾。隨後的資安概論課程聚焦於 Linux 指令的實際操作，基本上只要熟悉 Linux 大部分的 Flag 都不難找到。</p>
-<blockquote>
-<p>本日睡眠時間： 02:30~07:00，約4.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-2">Day 2</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/lecture.png"
-                      alt="image"
-                ><br>
-今天主要的課程是由 <strong>徐牧遠(Red) 講師</strong> 帶來的網頁安全。我曾在去年的課程中學習過 Web Security，因此能跟上講師的節奏，也解出了不少進階題。晚上則安排了資安講座，邀請資安大佬 <strong>馬聖豪 前輩</strong>，分享自己從小透過撰寫遊戲外掛賺錢到參加第一屆 AIS3，最終在資安領域嶄露頭角的心路歷程。</p>
-<blockquote>
-<p>本日睡眠時間： 03:00~07:30，約4.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-3">Day 3</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/project.png"
-                      alt="image"
-                ><br>
-最後一門課程是由 <strong>周佑康(Slash) 講師</strong> 帶來的 AI 應用安全實務。我覺得 AI 應用安全是個全新的體驗。因為我從未想過利用這些攻擊方法來影響人工智慧，取得可能混進訓練資料中的敏感資訊或在圖片中加入雜訊使神經網路辨認錯誤。講師從 LLM 的訓練原理講起，並介紹常見的大型語言模型及講解 Prompt Injection 這個攻擊方法。課後作業則是從講師提供的 AI 服務中取得機密資訊。此外，我們在這堂課中也學習了 CNN 辨識影像的原理，並學習攻擊方法 - Adversarial Attack，透過演算法在圖片中加入許多極小的雜訊，使神經網路無法正確辨識圖片。因為隔天就要發表專題了，所以我們今晚熬夜將作業的 writeup 完成並將專題推到一定進度後才去睡覺。</p>
-<blockquote>
-<p>本日睡眠時間： 04:30~07:00，約2.5小時。</p>
-</blockquote>
-<hr>
-<h3 id="Day-4">Day 4</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/report.png"
-                      alt="image"
-                ><br>
-今天早上是最後的專題製作時間，我們這組的專題名稱是 「 原來 log 也可以寫 webshell !? 」 主要是透過 php 的 strcmp 函式漏洞 bypass 登入頁面，接著利用系統中的 LFI 漏洞實現 RCE。下午則是各組上台發表專題，讓其他組別的學員聆聽與學習的時間。從選定主題、漏洞復現到最終完成專題、上台分享時，那成就感不言而喻。雖然在處理環境時，我們遇到了不少問題，但一次次克服問題後，我們都會有更多的收穫。能將學到的知識與經驗分享給大家，也是一次非常寶貴的學習機會。</p>
-<hr>
-<h3 id="心得">心得</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/AIS3-Junior/ending.png"
-                      alt="image"
-                ><br>
-首先我要感謝 <strong>C組組員們</strong>、<strong>Kazma 助教</strong>和<strong>Sharon 助教</strong>，感謝你們在這幾天提供了我這麼多的幫助。雖然在專題中，我負責的是蒐集資料和尋找漏洞的防範方法，但對 php 不熟的我，光是搞懂基本語法就花了些時間。理解攻擊方法後尋找先例並思考有效的防範方法更是花了快一整晚。不過我們也順利在最後一天完成專題，並和組員們一起上台發表。參加這次課程，讓我認識了許多電神並對未來的學習有了明確方向，甚至有幸與 <strong>Kazma</strong>、<strong>Vincent</strong>、<strong>OsGa</strong> 等厲害的學長們同桌吃早餐真的是我沒有想到的。不過這也讓我意識到，自己在資安領域還有很多技術需要學習、探索。雖然目前的學習深度和廣度還不足以完全應對現實世界中的攻擊與威脅，但對未來繼續深入學習充滿了動力！沒意外的話，我未來應該也會往這方面升學吧！雖然很累，但學到新知識及技術的成就感，真的讓人有想要繼續研究下去的動力。<strong>To be a good hacker !</strong> 💪💪</p>
-]]></content>
-      <categories>
-        <category>課程學習</category>
-        <category>AIS3</category>
-      </categories>
-      <tags>
-        <tag>課程</tag>
-        <tag>AIS3</tag>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立宜蘭大學 特殊選才面試</title>
-    <url>/NIU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：5 分鐘</li>
-<li>報名人數：一般 48 / 資安 17</li>
-<li>招生名額：一般⠀3 / 資安⠀3</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>宜蘭是我第三間面試的學校，到現在已經沒這麼緊張了。不過我原本以為資安組會針對資安知識或技術細節提問，沒想到教授們反而都在問我專案中和小論文遇到的困難與解決方式。整體來看，宜蘭的教授們似乎更重視實務經驗和未來的發展方向。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：在專案開發中遇到什麼困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 User-Agent 解決這個問題。</li>
-<li><strong>教授：你的小論文是如何進行的？</strong><br>
-起初我們與指導老師反覆討論題目，最終決定以風力發電為題。我們針對風速、葉片數目及攻角角度三個變因進行實驗與數據分析，最後找出了最佳的配置方式以提升發電效率。</li>
-<li><strong>教授：那你們的發電效率比現行的風力發電機更好嗎？</strong><br>
-因為我們使用的是實驗室中的現成風力發電機組，與現行大型風力發電機不同，因此能源轉換率無法超越實際情況，不過我們研究出了最佳的效率配置情況。</li>
-<li><strong>教授：你學過機器學習與人工智慧，也具備一定的資安能力。你認為可以如何結合兩者？</strong><br>
-我認為可以透過機器學習訓練垃圾、釣魚郵件的模型，讓系統能自動辨識並阻擋釣魚信件，降低點擊到惡意連結的風險。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AIS3 Junior writeup</title>
     <url>/AIS3-Junior-writeup/</url>
     <content><![CDATA[<hr>
@@ -921,7 +789,6 @@
       </tags>
   </entry>
   <entry>
-<<<<<<< HEAD
     <title>AIS3 Junior 心得</title>
     <url>/AIS3-Junior/</url>
     <content><![CDATA[<hr>
@@ -1231,8 +1098,6 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
       </tags>
   </entry>
   <entry>
-=======
->>>>>>> 44df68dab980bde633b8ced3e86cdc4b1b3a8365
     <title>2025 TOI 初選心得</title>
     <url>/TOI/</url>
     <content><![CDATA[<hr>
@@ -1307,116 +1172,6 @@ Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因
         <tag>心得</tag>
         <tag>程式設計</tag>
         <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立台南大學 特殊選才面試</title>
-    <url>/NUTN/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 2</li>
-<li>面試時長：10 分鐘</li>
-<li>報名人數：一般 51 / 資安⠀1</li>
-<li>招生名額：一般⠀2 / 資安⠀1</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>台南是我第一間面試的學校，在這之前沒有任何面試經驗，所以沒有抱太大的希望。基本上是把這次面試當作練習，但還是有點緊張。教授問了幾個出乎我意料的問題，而且兩位教授的態度較為嚴肅，整體氛圍有點壓力。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你覺得自己有什麼特別之處？</strong><br>
-（略）</li>
-<li><strong>教授：你是從北部來的，你還有報哪些學校</strong>?<br>
-除了貴校外，我還有報宜蘭、嘉義、高雄及台北市立大學。</li>
-<li><strong>教授：你應該會想留在北部吧，為什麼想來我們學校？</strong><br>
-我認為到外縣市讀大學也很不錯，可以接觸到不同的環境和文化。</li>
-<li><strong>教授：你提到發現企業官網的XSS漏洞，那是什麼？</strong><br>
-我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
-<li><strong>教授：你會哪些程式語言?</strong><br>
-比較擅長 C++，其次是 Python。</li>
-<li><strong>教授：Python 和 C++ 之間有什麼差異？</strong><br>
-我覺得的 Python 整體語法較簡單、容易上手，但 C++ 有較快的運行速度並且可以進行較底層的處理。</li>
-<li><strong>教授：你提到的底層處理指的是什麼？</strong><br>
-像是透過指標直接存取記憶體。我們學校最近在學 Arduino，其中的控制程式也可以使用 C++ 撰寫。</li>
-<li><strong>教授：你只考過兩次 APCS？這期間有做什麼努力嗎？</strong><br>
-我在今年和去年六月都有參加 APCS，觀念與實作題皆為三級分。我覺得很可惜的是，今年第三題我因為沒看清楚題目條件，所以僅取得了部份分數。</li>
-<li><strong>教授：看起來你比較擅長實作，那觀念題有準備嗎？</strong><br>
-我平常會跟網友討論程式，所以都有在閱讀別人的程式碼，我覺得這對於 APCS 的觀念題也有很大的幫助。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立高雄大學 特殊選才面試</title>
-    <url>/NUK/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數： 3</li>
-<li>面試時長：6 分鐘</li>
-<li>報名人數：一般 67 / 資安⠀0</li>
-<li>招生名額：一般⠀3 / 資安⠀0</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>高雄是我第二間面試的學校，雖然面試難免會緊張，但其實教授問的題目大多是考古題。再加上教授們也還算親切，整體來說，這次面試的氛圍相對輕鬆，壓力不像台南那麼大。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li>
-<p><strong>白板：自我介紹</strong></p>
-</li>
-<li>
-<p><strong>白板：家庭背景</strong></p>
-</li>
-<li>
-<p><strong>白板：學業狀況</strong></p>
-</li>
-<li>
-<p><strong>白板：讀書計畫</strong></p>
-</li>
-<li>
-<p><strong>教授：你擅長的程式語言？</strong><br>
-比較擅長 C++，其次是 Python。</p>
-</li>
-<li>
-<p><strong>教授：你知道 <code>a?b:c</code> 可以做什麼嗎？</strong><br>
-這是三元運算子，當 a 為 true 時回傳 b，反之回傳 c。</p>
-</li>
-<li>
-<p><strong>教授：<code>using namespace std</code> 是什麼意思？</strong><br>
-表示使用 std 這個命名空間，這樣可以省略 <code>std::</code>。</p>
-</li>
-<li>
-<p><strong>教授：你曾經使用過命名空間來寫程式嗎？</strong><br>
-目前還沒有使用過自定的命名空間。</p>
-</li>
-<li>
-<p><strong>教授：你有學過密碼學嗎？能簡單說明密碼學的兩大類型嗎？</strong><br>
-我在去年參加資安暑訓營時學過密碼學，主要分為對稱式加密與非對稱式加密。</p>
-</li>
-<li>
-<p><strong>教授：你考過英檢嗎？未來有打算考多益嗎？</strong><br>
-目前沒有考過英檢。不過因為我在準備特選的同時也有在準備學測，我在學測後有計畫報考多益。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
       </tags>
   </entry>
   <entry>
@@ -2213,74 +1968,7 @@ HTPPS 則會將所有數據加密，所以會更安全。使用憑證機制 (SSL
         <category>面試</category>
       </categories>
       <tags>
-        <tag>特殊選才</tag>
-        <tag>面試</tag>
         <tag>筆記</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>國立嘉義大學 特殊選才面試</title>
-    <url>/NCYU/</url>
-    <content><![CDATA[<hr>
-<h3 id="面試資訊">面試資訊</h3>
-<ul>
-<li>教授人數：(2+2)</li>
-<li>面試時長：(6+6) 分鐘</li>
-<li>報名人數：一般 27 / 資安 11</li>
-<li>招生名額：一般⠀3 / 資安⠀2</li>
-</ul>
-<h3 id="面試心得">面試心得</h3>
-<p>嘉義是我最後一間面試的學校，我已經不再對面試感到緊張，能夠從容地回答教授提出的問題。這次 12 分鐘的面試相當緊湊，幾乎把我所有在備審和自我介紹中提到的所有經歷與技術都問到了，也讓我感受到教授們在面試時的用心。教授們的問題都沒有過於刁鑽或深入，與我所了解的知識和技術相符，順利回答完了所有題目。</p>
-<h3 id="面試問題">面試問題</h3>
-<ul>
-<li><strong>教授：自我介紹</strong><br>
-（略）</li>
-<li><strong>教授：你有甚麼特別的資安經歷</strong><br>
-（略）</li>
-<li><strong>教授：擔任衛生股長期間，為班上做了哪些事？</strong><br>
-（略）</li>
-<li><strong>教授：如果換成其他人擔任，能達到相同成果嗎？</strong><br>
-（略）</li>
-<li><strong>教授：你在資訊領域學習得很廣泛，為什麼想接觸這麼多領域？</strong><br>
-因為從高一下學期開始，就漸漸有了就讀資工系的念頭。為了更清楚地瞭解自己在資訊領域中的興趣與強項，所以積極學習不同領域的知識。除了程式設計，還有資訊安全、人工智慧及機器學習等，來幫助我探索各領域的應用及挑戰，並進一步確立未來的方向。</li>
-<li><strong>教授：你有參加過大學先修？</strong><br>
-我在去年參加了中興大學的機器學習先修，課程涵蓋許多常見的機器學習方式及演算法，並介紹其中的原理、細節。不過主要著重在理論觀念的建立，程式實作部分較少。</li>
-<li><strong>教授：你會甚麼程式語言</strong><br>
-比較擅長 C++，其次是 Python。</li>
-<li><strong>教授：C++ / Python 分別學到哪裡？</strong><br>
-C++ 學到基礎演算法及 STL；Python 則會基礎語法，並能使用 Pycord 開發 DCbot 及撰寫 pwn 題型的解法。</li>
-<li><strong>教授：為什麼想學 python</strong><br>
-在學習 C++ 之後，我開始思考如何將所學應用於生活中，想起曾經接觸過 Discord 機器人，讓我萌生了學習 Python 並開發機器人的念頭。</li>
-<li><strong>教授：開發 Discord Bot 時遇到哪些困難？如何解決？</strong><br>
-在開發 Discord Bot 時，就有遇到爬蟲程式報錯，但我不清楚是哪個部份出了問題。後來在 Stack Overflow 找到相關解法，發現問題出在該網站設有防爬蟲機制。我透過添加 headers 成功繞過限制，解決了問題。</li>
-<li><strong>教授：解釋 pass by value 和 pass by reference 的差異。</strong><br>
-pass by value 會在函式中改變變數值，但不影響主程式中的變數；而 pass by reference 則直接修改記憶體位置，使主程式的變數同步改變。</li>
-<li><strong>教授：你知道物件導向嗎？</strong><br>
-閱讀過物件導向相關文章，知道封裝、繼承和多型的概念，但沒有實做過。</li>
-<li><strong>教授：你有參加過 AIS3 嗎？</strong><br>
-參加過 AIS3 Junior，期待未來可以進一步參加 AIS3 學習更進階的技術。</li>
-<li><strong>教授：AIS3 的 pre-exam，你參加過嗎？</strong><br>
-我沒有參加過實體 CTF，比較常練習 picoCTF 和教育部培訓課程中的題目。</li>
-<li><strong>教授：為什麼不參加實體 CTF 比賽？</strong><br>
-高中期間缺乏比賽經驗，主要是因為我們學校對資訊領域有熱忱的同學比較少，加上學校資源有限，也沒有相關的培訓課程。希望能在大學期間與同樣對資訊領域有興趣的同學組隊參加演算法及資安競賽。</li>
-<li><strong>教授：講一下你挖到的 XSS 漏洞。</strong><br>
-我是在一間燈具公司官網的搜尋欄位中發現漏洞，透過輸入 JavaScript 標籤，可以觸發 Reflected XSS，使得惡意程式碼在使用者瀏覽器中執行。</li>
-<li><strong>教授：你知道 OWASP Top 10 嗎？有哪些常見漏洞？</strong><br>
-OWASP Top 10 是針對 Web Security 的常見漏洞排行榜，例如 Broken Access Control、SQL Injection、Cross-Site Scripting (XSS) 和 Server Side Template Injection (SSTI) 等，這些漏洞可能導致敏感資訊洩露或系統遭到入侵。</li>
-<li><strong>教授：你知道 OWASP 排行榜會變動嗎？</strong><br>
-知道，OWASP Top 10 會根據企業實際回報的漏洞數據、風險評估與攻擊趨勢，每隔幾年進行更新。例如 2021 年新增了 Insecure Design 這類與安全設計相關的項目，反映出現代網頁開發中面臨的新風險。</li>
-<li><strong>教授：哪些漏洞常年位居榜單？</strong><br>
-Injection 及 Broken Access Control 是 OWASP Top 10 長期存在的問題，因為它們影響範圍廣，且攻擊方式多樣，使得許多系統仍容易受到這些攻擊的影響。</li>
-<li><strong>教授：你學過密碼學，可以講講對稱與非對稱加密嗎？</strong><br>
-對稱式加密使用一把密鑰進行加、解密，運算速度較快，適合大量數據的加密；非對稱加密使用公鑰加密，私鑰解密，常用於數位簽章。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>特殊選才</category>
-        <category>面試</category>
-      </categories>
-      <tags>
-        <tag>心得</tag>
         <tag>特殊選才</tag>
         <tag>面試</tag>
       </tags>
